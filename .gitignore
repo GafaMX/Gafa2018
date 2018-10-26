@@ -1,2 +1,4 @@
 
 dbupdate/
+wp-config.php
+.htaccess
