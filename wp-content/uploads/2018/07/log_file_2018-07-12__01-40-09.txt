@@ -1,0 +1,64 @@
+
+---Downloaded files---
+The import files for: Digital Agency were successfully downloaded!
+Initial max execution time = 30
+Files info:
+Site URL = http://gafanew.gafa.codes
+Data file = /www/gafanew.gafa.codes/wp-content/themes/norebro/demo/05/content.xml
+Widget file = /www/gafanew.gafa.codes/wp-content/themes/norebro/demo/05/widgets.json
+Customizer file = not defined!
+Redux files:
+not defined!
+
+---Importing widgets---
+Blog : 
+
+Search - No Title - Widget already exists
+Recent Posts - No Title - Widget already exists
+Recent Comments - No Title - Widget already exists
+Archives - No Title - Widget already exists
+Categories - No Title - Widget already exists
+Meta - No Title - Widget already exists
+Tag Cloud - Tags - Imported
+Categories - Categories - Imported
+Norebro: Recent Posts - No Title - Imported
+Recent Comments - Recent Comments - Imported
+Norebro: Subscribe - Subscribe - Imported
+Archives - No Title - Imported
+Norebro: Socialbar subscribe - Follow Us - Imported
+
+Pages : 
+
+Search - No Title - Imported
+Tag Cloud - Tags - Imported
+Categories - Categories - Imported
+Recent Posts - No Title - Imported
+Norebro: Subscribe - Subscribe - Imported
+Norebro: Socialbar subscribe - Social Networks - Imported
+Archives - No Title - Imported
+Recent Comments - Recent Comments - Imported
+Norebro: Contact block - Contacts - Imported
+Meta - No Title - Imported
+
+Footer column 1 : 
+
+Norebro: Subscribe - No Title - Widget already exists
+Text - No Title - Imported
+
+Footer column 2 : 
+
+Norebro: Contact block - København - Imported
+Norebro: Socialbar subscribe - No Title - Imported
+
+Footer column 3 : 
+
+Recent Comments - No Title - Widget already exists
+
+Footer column 4 : 
+
+Norebro: Recent Posts - Recent Posts - Widget already exists
+
+
+
+---pt-ocdi/after_import---
+
