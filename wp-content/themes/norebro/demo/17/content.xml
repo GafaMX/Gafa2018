@@ -16,20 +16,14 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-<!-- generator="WordPress/4.8.2" created="2017-10-28 09:47" -->
-<rss version="2.0"
-	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
-	xmlns:content="http://purl.org/rss/1.0/modules/content/"
-	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
-	xmlns:dc="http://purl.org/dc/elements/1.1/"
-	xmlns:wp="http://wordpress.org/export/1.2/"
->
+<!-- generator="WordPress/4.9.3" created="2018-04-05 13:10" -->
+<rss version="2.0" xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:wp="http://wordpress.org/export/1.2/">
 
 <channel>
-	<title>Waźowski</title>
+	<title>Wa&#x17A;owski</title>
 	<link>https://norebro.colabr.io/demo17</link>
 	<description>Demo17 - Personal Blog</description>
-	<pubDate>Sat, 28 Oct 2017 09:47:22 +0000</pubDate>
+	<pubDate>Thu, 05 Apr 2018 13:10:11 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>https://norebro.colabr.io/demo17</wp:base_site_url>
@@ -79,11 +73,11 @@
 	<wp:term><wp:term_id>21</wp:term_id><wp:term_taxonomy>nav_menu</wp:term_taxonomy><wp:term_slug><![CDATA[main]]></wp:term_slug><wp:term_name><![CDATA[Main]]></wp:term_name>
 </wp:term>
 
-	<generator>https://wordpress.org/?v=4.8.2</generator>
+	<generator>https://wordpress.org/?v=4.9.3</generator>
 
 <image>
 	<url>https://norebro.colabr.io/demo17/wp-content/uploads/2017/09/cropped-favicon-32x32.png</url>
-	<title>Waźowski</title>
+	<title>Wa&#x17A;owski</title>
 	<link>https://norebro.colabr.io/demo17</link>
 	<width>32</width>
 	<height>32</height>
@@ -95,10 +89,10 @@
 		<pubDate>Fri, 29 Sep 2017 14:17:58 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://norebro.colabr.io/demo17/wp-content/uploads/2017/09/favicon.png</guid>
-		<description></description>
+		<description/>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>10</wp:post_id>
+		<wp:post_id>5661000</wp:post_id>
 		<wp:post_date><![CDATA[2017-09-29 14:17:58]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-09-29 14:17:58]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
@@ -120,16 +114,18 @@
 			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:512;s:6:"height";i:512;s:4:"file";s:19:"2017/09/favicon.png";s:5:"sizes";a:5:{s:9:"thumbnail";a:4:{s:4:"file";s:19:"favicon-150x150.png";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:9:"image/png";}s:6:"medium";a:4:{s:4:"file";s:19:"favicon-300x300.png";s:5:"width";i:300;s:6:"height";i:300;s:9:"mime-type";s:9:"image/png";}s:14:"shop_thumbnail";a:4:{s:4:"file";s:19:"favicon-120x120.png";s:5:"width";i:120;s:6:"height";i:120;s:9:"mime-type";s:9:"image/png";}s:14:"post-thumbnail";a:4:{s:4:"file";s:19:"favicon-200x200.png";s:5:"width";i:200;s:6:"height";i:200;s:9:"mime-type";s:9:"image/png";}s:31:"norebro_thumbnail_next_and_prev";a:4:{s:4:"file";s:19:"favicon-200x140.png";s:5:"width";i:200;s:6:"height";i:140;s:9:"mime-type";s:9:"image/png";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
+	
+	
 	<item>
 		<title>cropped-favicon.png</title>
 		<link>https://norebro.colabr.io/demo17/cropped-favicon-png/</link>
 		<pubDate>Fri, 29 Sep 2017 14:18:03 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://norebro.colabr.io/demo17/wp-content/uploads/2017/09/cropped-favicon.png</guid>
-		<description></description>
-		<content:encoded><![CDATA[http://norebro.colabr.io/demo17/wp-content/uploads/2017/09/cropped-favicon.png]]></content:encoded>
+		<description/>
+		<content:encoded><![CDATA[{{this_domain}}/wp-content/uploads/2017/09/cropped-favicon.png]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>13</wp:post_id>
+		<wp:post_id>5661001</wp:post_id>
 		<wp:post_date><![CDATA[2017-09-29 14:18:03]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-09-29 14:18:03]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
@@ -154,6 +150,10 @@
 			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
 			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:512;s:6:"height";i:512;s:4:"file";s:27:"2017/09/cropped-favicon.png";s:5:"sizes";a:9:{s:9:"thumbnail";a:4:{s:4:"file";s:27:"cropped-favicon-150x150.png";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:9:"image/png";}s:6:"medium";a:4:{s:4:"file";s:27:"cropped-favicon-300x300.png";s:5:"width";i:300;s:6:"height";i:300;s:9:"mime-type";s:9:"image/png";}s:14:"shop_thumbnail";a:4:{s:4:"file";s:27:"cropped-favicon-120x120.png";s:5:"width";i:120;s:6:"height";i:120;s:9:"mime-type";s:9:"image/png";}s:14:"post-thumbnail";a:4:{s:4:"file";s:27:"cropped-favicon-200x200.png";s:5:"width";i:200;s:6:"height";i:200;s:9:"mime-type";s:9:"image/png";}s:31:"norebro_thumbnail_next_and_prev";a:4:{s:4:"file";s:27:"cropped-favicon-200x140.png";s:5:"width";i:200;s:6:"height";i:140;s:9:"mime-type";s:9:"image/png";}s:13:"site_icon-270";a:4:{s:4:"file";s:27:"cropped-favicon-270x270.png";s:5:"width";i:270;s:6:"height";i:270;s:9:"mime-type";s:9:"image/png";}s:13:"site_icon-192";a:4:{s:4:"file";s:27:"cropped-favicon-192x192.png";s:5:"width";i:192;s:6:"height";i:192;s:9:"mime-type";s:9:"image/png";}s:13:"site_icon-180";a:4:{s:4:"file";s:27:"cropped-favicon-180x180.png";s:5:"width";i:180;s:6:"height";i:180;s:9:"mime-type";s:9:"image/png";}s:12:"site_icon-32";a:4:{s:4:"file";s:25:"cropped-favicon-32x32.png";s:5:"width";i:32;s:6:"height";i:32;s:9:"mime-type";s:9:"image/png";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
 		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_oembed_729364094c640bc66c162144961aaa26]]></wp:meta_key>
+			<wp:meta_value><![CDATA[{{unknown}}]]></wp:meta_value>
+		</wp:postmeta>
 	</item>
 	<item>
 		<title>dm17__post_06-min</title>
@@ -161,10 +161,10 @@
 		<pubDate>Mon, 09 Oct 2017 14:23:11 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://norebro.colabr.io/demo17/wp-content/uploads/2017/08/dm17__post_06-min.jpg</guid>
-		<description></description>
+		<description/>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>16</wp:post_id>
+		<wp:post_id>5661002</wp:post_id>
 		<wp:post_date><![CDATA[2017-10-09 14:23:11]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-10-09 14:23:11]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
@@ -192,10 +192,10 @@
 		<pubDate>Mon, 09 Oct 2017 14:23:13 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://norebro.colabr.io/demo17/wp-content/uploads/2017/08/dm17__post_01-min.jpg</guid>
-		<description></description>
+		<description/>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>17</wp:post_id>
+		<wp:post_id>5661003</wp:post_id>
 		<wp:post_date><![CDATA[2017-10-09 14:23:13]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-10-09 14:23:13]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
@@ -223,10 +223,10 @@
 		<pubDate>Mon, 09 Oct 2017 14:23:15 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://norebro.colabr.io/demo17/wp-content/uploads/2017/08/dm17__post_02-min.jpg</guid>
-		<description></description>
+		<description/>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>18</wp:post_id>
+		<wp:post_id>5661004</wp:post_id>
 		<wp:post_date><![CDATA[2017-10-09 14:23:15]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-10-09 14:23:15]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
@@ -254,10 +254,10 @@
 		<pubDate>Mon, 09 Oct 2017 14:23:17 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://norebro.colabr.io/demo17/wp-content/uploads/2017/08/dm17__post_03-min.jpg</guid>
-		<description></description>
+		<description/>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>19</wp:post_id>
+		<wp:post_id>5661005</wp:post_id>
 		<wp:post_date><![CDATA[2017-10-09 14:23:17]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-10-09 14:23:17]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
@@ -285,10 +285,10 @@
 		<pubDate>Mon, 09 Oct 2017 14:23:20 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://norebro.colabr.io/demo17/wp-content/uploads/2017/08/dm17__post_04-min.jpg</guid>
-		<description></description>
+		<description/>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>20</wp:post_id>
+		<wp:post_id>5661006</wp:post_id>
 		<wp:post_date><![CDATA[2017-10-09 14:23:20]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-10-09 14:23:20]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
@@ -316,10 +316,10 @@
 		<pubDate>Mon, 09 Oct 2017 14:23:22 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://norebro.colabr.io/demo17/wp-content/uploads/2017/08/dm17__post_05-min.jpg</guid>
-		<description></description>
+		<description/>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>22</wp:post_id>
+		<wp:post_id>5661007</wp:post_id>
 		<wp:post_date><![CDATA[2017-10-09 14:23:22]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-10-09 14:23:22]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
@@ -341,16 +341,25 @@
 			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:1200;s:6:"height";i:792;s:4:"file";s:29:"2017/08/dm17__post_05-min.jpg";s:5:"sizes";a:9:{s:9:"thumbnail";a:4:{s:4:"file";s:29:"dm17__post_05-min-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:29:"dm17__post_05-min-300x198.jpg";s:5:"width";i:300;s:6:"height";i:198;s:9:"mime-type";s:10:"image/jpeg";}s:12:"medium_large";a:4:{s:4:"file";s:29:"dm17__post_05-min-768x507.jpg";s:5:"width";i:768;s:6:"height";i:507;s:9:"mime-type";s:10:"image/jpeg";}s:5:"large";a:4:{s:4:"file";s:30:"dm17__post_05-min-1024x676.jpg";s:5:"width";i:1024;s:6:"height";i:676;s:9:"mime-type";s:10:"image/jpeg";}s:14:"shop_thumbnail";a:4:{s:4:"file";s:28:"dm17__post_05-min-120x79.jpg";s:5:"width";i:120;s:6:"height";i:79;s:9:"mime-type";s:10:"image/jpeg";}s:12:"shop_catalog";a:4:{s:4:"file";s:29:"dm17__post_05-min-800x528.jpg";s:5:"width";i:800;s:6:"height";i:528;s:9:"mime-type";s:10:"image/jpeg";}s:11:"shop_single";a:4:{s:4:"file";s:29:"dm17__post_05-min-600x396.jpg";s:5:"width";i:600;s:6:"height";i:396;s:9:"mime-type";s:10:"image/jpeg";}s:14:"post-thumbnail";a:4:{s:4:"file";s:29:"dm17__post_05-min-200x200.jpg";s:5:"width";i:200;s:6:"height";i:200;s:9:"mime-type";s:10:"image/jpeg";}s:31:"norebro_thumbnail_next_and_prev";a:4:{s:4:"file";s:29:"dm17__post_05-min-200x140.jpg";s:5:"width";i:200;s:6:"height";i:140;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	<item>
 		<title>nor__banner__13__min</title>
 		<link>https://norebro.colabr.io/demo17/about/nor__banner__13__min/</link>
 		<pubDate>Wed, 18 Oct 2017 14:38:06 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://norebro.colabr.io/demo17/wp-content/uploads/2017/10/nor__banner__13__min.jpg</guid>
-		<description></description>
+		<description/>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>13183</wp:post_id>
+		<wp:post_id>5661008</wp:post_id>
 		<wp:post_date><![CDATA[2017-10-18 14:38:06]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-10-18 14:38:06]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
@@ -372,22 +381,202 @@
 			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:420;s:6:"height";i:581;s:4:"file";s:32:"2017/10/nor__banner__13__min.jpg";s:5:"sizes";a:5:{s:9:"thumbnail";a:4:{s:4:"file";s:32:"nor__banner__13__min-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:32:"nor__banner__13__min-217x300.jpg";s:5:"width";i:217;s:6:"height";i:300;s:9:"mime-type";s:10:"image/jpeg";}s:14:"shop_thumbnail";a:4:{s:4:"file";s:32:"nor__banner__13__min-120x166.jpg";s:5:"width";i:120;s:6:"height";i:166;s:9:"mime-type";s:10:"image/jpeg";}s:14:"post-thumbnail";a:4:{s:4:"file";s:32:"nor__banner__13__min-200x200.jpg";s:5:"width";i:200;s:6:"height";i:200;s:9:"mime-type";s:10:"image/jpeg";}s:31:"norebro_thumbnail_next_and_prev";a:4:{s:4:"file";s:32:"nor__banner__13__min-200x140.jpg";s:5:"width";i:200;s:6:"height";i:140;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	<item>
 		<title>New Art Venue Opens in Downtown CF</title>
 		<link>https://norebro.colabr.io/demo17/2017/08/15/new-art-venue-opens-in-downtown-cf/</link>
 		<pubDate>Tue, 15 Aug 2017 12:41:28 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://demo17/?p=1</guid>
-		<description></description>
+		<description/>
 		<content:encoded><![CDATA[[vc_row][vc_column][norebro_text]
 
-[/norebro_text][/vc_column][/vc_row][vc_row][vc_column][norebro_text]Actually whatever umami freegan master cleanse. Beard quinoa pinterest venmo slow-carb hoodie authentic hot chicken jean shorts raclette four loko yuccie tacos squid marfa. Portland cold-pressed roof party paleo, hoodie ennui poutine. blue bottle squid austin blog wayfarers photo booth plaid vexillologist. Vegan tofu lomo raw denim. Small batch kale chips forage pickled pork belly yuccie deep v tacos. Wayfarers +1 mumblecore unicorn, before they sold out banh mi subway tile church-key bicycle rights chambray. Pitchfork next level organic chillwave activated charcoal gochujang. Fingerstache palo santo cornhole kickstarter irony. Flexitarian craft beer kitsch tumeric tofu narwhal twee palo.[/norebro_text][vc_empty_space height="25px"][/vc_column][/vc_row][vc_row][vc_column][norebro_text]I feel that I never was a greater artist than now. When, while the lovely valley teems with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary, I throw myself down among the tall grass by the trickling stream.[/norebro_text][/vc_column][/vc_row][vc_row][vc_column][vc_empty_space height="40px"][vc_single_image image="16" img_size="full"][vc_empty_space height="40px"][/vc_column][/vc_row][vc_row][vc_column][norebro_heading module_type_layout="on_left" subtitle_type_layout="without_subtitle" title="T2glMkMlMjB3b3VsZCUyMEklMjBjb3VsZCUyMGRlc2NyaWJlJTIwdGhlc2UlMjBjb25jZXB0aW9ucw==" title_typo="font_size~26||weight~600"][vc_empty_space height="15px"][/vc_column][/vc_row][vc_row][vc_column css=".vc_custom_1507556657366{margin-bottom: 25px !important;}"][norebro_text]When, while the lovely valley teems with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary, I throw myself down among the tall grass by the trickling stream; and, as I lie close to the earth, a thousand unknown plants are noticed by me: when I hear the buzz.[/norebro_text][/vc_column][/vc_row][vc_row][vc_column css=".vc_custom_1507556662044{margin-bottom: 25px !important;}"][norebro_text]
+[/norebro_text][/vc_column][/vc_row][vc_row][vc_column][norebro_text]Actually whatever umami freegan master cleanse. Beard quinoa pinterest venmo slow-carb hoodie authentic hot chicken jean shorts raclette four loko yuccie tacos squid marfa. Portland cold-pressed roof party paleo, hoodie ennui poutine. blue bottle squid austin blog wayfarers photo booth plaid vexillologist. Vegan tofu lomo raw denim. Small batch kale chips forage pickled pork belly yuccie deep v tacos. Wayfarers +1 mumblecore unicorn, before they sold out banh mi subway tile church-key bicycle rights chambray. Pitchfork next level organic chillwave activated charcoal gochujang. Fingerstache palo santo cornhole kickstarter irony. Flexitarian craft beer kitsch tumeric tofu narwhal twee palo.[/norebro_text][vc_empty_space height="25px"][/vc_column][/vc_row][vc_row][vc_column][norebro_text]I feel that I never was a greater artist than now. When, while the lovely valley teems with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary, I throw myself down among the tall grass by the trickling stream.[/norebro_text][/vc_column][/vc_row][vc_row][vc_column][vc_empty_space height="40px"][vc_single_image image="5661002" img_size="full"][vc_empty_space height="40px"][/vc_column][/vc_row][vc_row][vc_column][norebro_heading module_type_layout="on_left" subtitle_type_layout="without_subtitle" title="T2glMkMlMjB3b3VsZCUyMEklMjBjb3VsZCUyMGRlc2NyaWJlJTIwdGhlc2UlMjBjb25jZXB0aW9ucw==" title_typo="font_size~26||weight~600"][vc_empty_space height="15px"][/vc_column][/vc_row][vc_row][vc_column css=".vc_custom_1507556657366{margin-bottom: 25px !important;}"][norebro_text]When, while the lovely valley teems with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary, I throw myself down among the tall grass by the trickling stream; and, as I lie close to the earth, a thousand unknown plants are noticed by me: when I hear the buzz.[/norebro_text][/vc_column][/vc_row][vc_row][vc_column css=".vc_custom_1507556662044{margin-bottom: 25px !important;}"][norebro_text]
 
 Oh, would I could describe these conceptions, could impress upon paper all that is living so full and warm within me, that it might be the mirror of my soul, as my soul is the mirror of the infinite God! My friend but it is too much for my strength. I sink under the weight of the splendour of these visions!
 
 [/norebro_text][/vc_column][/vc_row][vc_row][vc_column][norebro_text]A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents. I should be incapable of drawing.[/norebro_text][/vc_column][/vc_row]]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>1</wp:post_id>
+		<wp:post_id>5661009</wp:post_id>
 		<wp:post_date><![CDATA[2017-08-15 12:41:28]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-08-15 12:41:28]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
@@ -569,13 +758,13 @@ Oh, would I could describe these conceptions, could impress upon paper all that 
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
-			<wp:meta_value><![CDATA[16]]></wp:meta_value>
+			<wp:meta_value><![CDATA[5661002]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:comment>
 			<wp:comment_id>2</wp:comment_id>
 			<wp:comment_author><![CDATA[Sofia Helin]]></wp:comment_author>
 			<wp:comment_author_email><![CDATA[alexdremlyuga@gmail.com]]></wp:comment_author_email>
-			<wp:comment_author_url></wp:comment_author_url>
+			<wp:comment_author_url/>
 			<wp:comment_author_IP><![CDATA[195.24.146.10]]></wp:comment_author_IP>
 			<wp:comment_date><![CDATA[2017-10-09 14:27:28]]></wp:comment_date>
 			<wp:comment_date_gmt><![CDATA[2017-10-09 14:27:28]]></wp:comment_date_gmt>
@@ -589,7 +778,7 @@ Oh, would I could describe these conceptions, could impress upon paper all that 
 			<wp:comment_id>3</wp:comment_id>
 			<wp:comment_author><![CDATA[Sofia Helin]]></wp:comment_author>
 			<wp:comment_author_email><![CDATA[alexdremlyuga@gmail.com]]></wp:comment_author_email>
-			<wp:comment_author_url></wp:comment_author_url>
+			<wp:comment_author_url/>
 			<wp:comment_author_IP><![CDATA[195.24.146.10]]></wp:comment_author_IP>
 			<wp:comment_date><![CDATA[2017-10-09 14:27:34]]></wp:comment_date>
 			<wp:comment_date_gmt><![CDATA[2017-10-09 14:27:34]]></wp:comment_date_gmt>
@@ -603,7 +792,7 @@ Oh, would I could describe these conceptions, could impress upon paper all that 
 			<wp:comment_id>4</wp:comment_id>
 			<wp:comment_author><![CDATA[Sofia Helin]]></wp:comment_author>
 			<wp:comment_author_email><![CDATA[alexdremlyuga@gmail.com]]></wp:comment_author_email>
-			<wp:comment_author_url></wp:comment_author_url>
+			<wp:comment_author_url/>
 			<wp:comment_author_IP><![CDATA[195.24.146.10]]></wp:comment_author_IP>
 			<wp:comment_date><![CDATA[2017-10-09 14:27:39]]></wp:comment_date>
 			<wp:comment_date_gmt><![CDATA[2017-10-09 14:27:39]]></wp:comment_date_gmt>
@@ -615,143 +804,17 @@ Ut enim sed quia non numquam eius modi tempora incidunt ut labore et dolore magn
 			<wp:comment_user_id>1</wp:comment_user_id>
 		</wp:comment>
 	</item>
+	
 	<item>
-		<title>Contact Form</title>
-		<link>https://norebro.colabr.io/demo17/?post_type=wpcf7_contact_form&#038;p=4</link>
-		<pubDate>Tue, 15 Aug 2017 12:42:19 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">http://demo17/?post_type=wpcf7_contact_form&#038;p=4</guid>
-		<description></description>
-		<content:encoded><![CDATA[<div class="input-group">
-   <label class="col-4">[text* your-name placeholder"Your name*"]</label><label class="col-4">[email* your-email placeholder"Email address*"]</label><label class="col-4">[text your-phone placeholder"Your phone (optional)"]</label>
-</div>
-<label> [textarea your-message placeholder"Your message"] </label>
-
-[submit "Send Message"]
-1
-Norebro "[your-subject]"
-[your-name] <wordpress@demo17>
-test@mail.ua
-From: [your-name] <[your-email]>
-Subject: [your-subject]
-
-Message Body:
-[your-message]
-
--- 
-This e-mail was sent from a contact form on Norebro (http://demo17)
-Reply-To: [your-email]
-
-
-
-
-Norebro "[your-subject]"
-Norebro <wordpress@demo17>
-[your-email]
-Message Body:
-[your-message]
-
--- 
-This e-mail was sent from a contact form on Norebro (http://demo17)
-Reply-To: test@mail.ua
-
-
-
-Thank you for your message. It has been sent.
-There was an error trying to send your message. Please try again later.
-One or more fields have an error. Please check and try again.
-There was an error trying to send your message. Please try again later.
-You must accept the terms and conditions before sending your message.
-The field is required.
-The field is too long.
-The field is too short.
-The date format is incorrect.
-The date is before the earliest one allowed.
-The date is after the latest one allowed.
-There was an unknown error uploading the file.
-You are not allowed to upload files of this type.
-The file is too big.
-There was an error uploading the file.
-The number format is invalid.
-The number is smaller than the minimum allowed.
-The number is larger than the maximum allowed.
-The answer to the quiz is incorrect.
-Your entered code is incorrect.
-The e-mail address entered is invalid.
-The URL is invalid.
-The telephone number is invalid.]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>4</wp:post_id>
-		<wp:post_date><![CDATA[2017-08-15 12:42:19]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2017-08-15 12:42:19]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[contact-form-1]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[wpcf7_contact_form]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_form]]></wp:meta_key>
-			<wp:meta_value><![CDATA[<div class="input-group">
-   <label class="col-4">[text* your-name placeholder"Your name*"]</label><label class="col-4">[email* your-email placeholder"Email address*"]</label><label class="col-4">[text your-phone placeholder"Your phone (optional)"]</label>
-</div>
-<label> [textarea your-message placeholder"Your message"] </label>
-
-[submit "Send Message"]]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_mail]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:9:{s:6:"active";b:1;s:7:"subject";s:24:"Norebro "[your-subject]"";s:6:"sender";s:30:"[your-name] <wordpress@demo17>";s:9:"recipient";s:12:"test@mail.ua";s:4:"body";s:159:"From: [your-name] <[your-email]>
-Subject: [your-subject]
-
-Message Body:
-[your-message]
-
--- 
-This e-mail was sent from a contact form on Norebro (http://demo17)";s:18:"additional_headers";s:22:"Reply-To: [your-email]";s:11:"attachments";s:0:"";s:8:"use_html";b:0;s:13:"exclude_blank";b:0;}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_mail_2]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:9:{s:6:"active";b:0;s:7:"subject";s:24:"Norebro "[your-subject]"";s:6:"sender";s:26:"Norebro <wordpress@demo17>";s:9:"recipient";s:12:"[your-email]";s:4:"body";s:101:"Message Body:
-[your-message]
-
--- 
-This e-mail was sent from a contact form on Norebro (http://demo17)";s:18:"additional_headers";s:22:"Reply-To: test@mail.ua";s:11:"attachments";s:0:"";s:8:"use_html";b:0;s:13:"exclude_blank";b:0;}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_messages]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:23:{s:12:"mail_sent_ok";s:45:"Thank you for your message. It has been sent.";s:12:"mail_sent_ng";s:71:"There was an error trying to send your message. Please try again later.";s:16:"validation_error";s:61:"One or more fields have an error. Please check and try again.";s:4:"spam";s:71:"There was an error trying to send your message. Please try again later.";s:12:"accept_terms";s:69:"You must accept the terms and conditions before sending your message.";s:16:"invalid_required";s:22:"The field is required.";s:16:"invalid_too_long";s:22:"The field is too long.";s:17:"invalid_too_short";s:23:"The field is too short.";s:12:"invalid_date";s:29:"The date format is incorrect.";s:14:"date_too_early";s:44:"The date is before the earliest one allowed.";s:13:"date_too_late";s:41:"The date is after the latest one allowed.";s:13:"upload_failed";s:46:"There was an unknown error uploading the file.";s:24:"upload_file_type_invalid";s:49:"You are not allowed to upload files of this type.";s:21:"upload_file_too_large";s:20:"The file is too big.";s:23:"upload_failed_php_error";s:38:"There was an error uploading the file.";s:14:"invalid_number";s:29:"The number format is invalid.";s:16:"number_too_small";s:47:"The number is smaller than the minimum allowed.";s:16:"number_too_large";s:46:"The number is larger than the maximum allowed.";s:23:"quiz_answer_not_correct";s:36:"The answer to the quiz is incorrect.";s:17:"captcha_not_match";s:31:"Your entered code is incorrect.";s:13:"invalid_email";s:38:"The e-mail address entered is invalid.";s:11:"invalid_url";s:19:"The URL is invalid.";s:11:"invalid_tel";s:32:"The telephone number is invalid.";}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_additional_settings]]></wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_locale]]></wp:meta_key>
-			<wp:meta_value><![CDATA[en_US]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_vc_post_settings]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:1:{s:10:"vc_grid_id";a:0:{}}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_config_errors]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:1:{s:11:"mail.sender";a:1:{i:0;a:2:{s:4:"code";i:102;s:4:"args";a:3:{s:7:"message";s:0:"";s:6:"params";a:0:{}s:4:"link";s:68:"https://contactform7.com/configuration-errors/invalid-mailbox-syntax";}}}}]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>Personal Blog</title>
+		<title>Hey there! It&apos;s cool to see you here</title>
 		<link>https://norebro.colabr.io/demo17/</link>
 		<pubDate>Fri, 25 Aug 2017 14:49:12 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://demo17/?page_id=6</guid>
-		<description></description>
+		<description/>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>6</wp:post_id>
+		<wp:post_id>5661010</wp:post_id>
 		<wp:post_date><![CDATA[2017-08-25 14:49:12]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-08-25 14:49:12]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
@@ -977,7 +1040,7 @@ This e-mail was sent from a contact form on Norebro (http://demo17)";s:18:"addit
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[page_is_wrapped]]></wp:meta_key>
-			<wp:meta_value><![CDATA[inherit]]></wp:meta_value>
+			<wp:meta_value><![CDATA[yes]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_page_is_wrapped]]></wp:meta_key>
@@ -1117,7 +1180,7 @@ This e-mail was sent from a contact form on Norebro (http://demo17)";s:18:"addit
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[blog_posts_per_page]]></wp:meta_key>
-			<wp:meta_value><![CDATA[24]]></wp:meta_value>
+			<wp:meta_value><![CDATA[5]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_blog_posts_per_page]]></wp:meta_key>
@@ -1179,6 +1242,14 @@ This e-mail was sent from a contact form on Norebro (http://demo17)";s:18:"addit
 			<wp:meta_key><![CDATA[_blog_sidebar]]></wp:meta_key>
 			<wp:meta_value><![CDATA[field_593dd5f56c6ac]]></wp:meta_value>
 		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[hefo_before]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[hefo_after]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
 	</item>
 	<item>
 		<title>Goran Dragic Beats Halftime Buzzer</title>
@@ -1186,16 +1257,16 @@ This e-mail was sent from a contact form on Norebro (http://demo17)";s:18:"addit
 		<pubDate>Mon, 09 Oct 2017 14:42:27 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://norebro.colabr.io/demo17/?p=33</guid>
-		<description></description>
+		<description/>
 		<content:encoded><![CDATA[[vc_row][vc_column][norebro_text]
 
-[/norebro_text][/vc_column][/vc_row][vc_row][vc_column][norebro_text]Actually whatever umami freegan master cleanse. Beard quinoa pinterest venmo slow-carb hoodie authentic hot chicken jean shorts raclette four loko yuccie tacos squid marfa. Portland cold-pressed roof party paleo, hoodie ennui poutine. blue bottle squid austin blog wayfarers photo booth plaid vexillologist. Vegan tofu lomo raw denim. Small batch kale chips forage pickled pork belly yuccie deep v tacos. Wayfarers +1 mumblecore unicorn, before they sold out banh mi subway tile church-key bicycle rights chambray. Pitchfork next level organic chillwave activated charcoal gochujang. Fingerstache palo santo cornhole kickstarter irony. Flexitarian craft beer kitsch tumeric tofu narwhal twee palo.[/norebro_text][vc_empty_space height="25px"][/vc_column][/vc_row][vc_row][vc_column][norebro_text]I feel that I never was a greater artist than now. When, while the lovely valley teems with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary, I throw myself down among the tall grass by the trickling stream.[/norebro_text][/vc_column][/vc_row][vc_row][vc_column][vc_empty_space height="40px"][vc_single_image image="16" img_size="full"][vc_empty_space height="40px"][/vc_column][/vc_row][vc_row][vc_column][norebro_heading module_type_layout="on_left" subtitle_type_layout="without_subtitle" title="T2glMkMlMjB3b3VsZCUyMEklMjBjb3VsZCUyMGRlc2NyaWJlJTIwdGhlc2UlMjBjb25jZXB0aW9ucw==" title_typo="font_size~26||weight~600"][vc_empty_space height="15px"][/vc_column][/vc_row][vc_row][vc_column css=".vc_custom_1507556657366{margin-bottom: 25px !important;}"][norebro_text]When, while the lovely valley teems with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary, I throw myself down among the tall grass by the trickling stream; and, as I lie close to the earth, a thousand unknown plants are noticed by me: when I hear the buzz.[/norebro_text][/vc_column][/vc_row][vc_row][vc_column css=".vc_custom_1507556662044{margin-bottom: 25px !important;}"][norebro_text]
+[/norebro_text][/vc_column][/vc_row][vc_row][vc_column][norebro_text]Actually whatever umami freegan master cleanse. Beard quinoa pinterest venmo slow-carb hoodie authentic hot chicken jean shorts raclette four loko yuccie tacos squid marfa. Portland cold-pressed roof party paleo, hoodie ennui poutine. blue bottle squid austin blog wayfarers photo booth plaid vexillologist. Vegan tofu lomo raw denim. Small batch kale chips forage pickled pork belly yuccie deep v tacos. Wayfarers +1 mumblecore unicorn, before they sold out banh mi subway tile church-key bicycle rights chambray. Pitchfork next level organic chillwave activated charcoal gochujang. Fingerstache palo santo cornhole kickstarter irony. Flexitarian craft beer kitsch tumeric tofu narwhal twee palo.[/norebro_text][vc_empty_space height="25px"][/vc_column][/vc_row][vc_row][vc_column][norebro_text]I feel that I never was a greater artist than now. When, while the lovely valley teems with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary, I throw myself down among the tall grass by the trickling stream.[/norebro_text][/vc_column][/vc_row][vc_row][vc_column][vc_empty_space height="40px"][vc_single_image image="5661002" img_size="full"][vc_empty_space height="40px"][/vc_column][/vc_row][vc_row][vc_column][norebro_heading module_type_layout="on_left" subtitle_type_layout="without_subtitle" title="T2glMkMlMjB3b3VsZCUyMEklMjBjb3VsZCUyMGRlc2NyaWJlJTIwdGhlc2UlMjBjb25jZXB0aW9ucw==" title_typo="font_size~26||weight~600"][vc_empty_space height="15px"][/vc_column][/vc_row][vc_row][vc_column css=".vc_custom_1507556657366{margin-bottom: 25px !important;}"][norebro_text]When, while the lovely valley teems with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary, I throw myself down among the tall grass by the trickling stream; and, as I lie close to the earth, a thousand unknown plants are noticed by me: when I hear the buzz.[/norebro_text][/vc_column][/vc_row][vc_row][vc_column css=".vc_custom_1507556662044{margin-bottom: 25px !important;}"][norebro_text]
 
 Oh, would I could describe these conceptions, could impress upon paper all that is living so full and warm within me, that it might be the mirror of my soul, as my soul is the mirror of the infinite God! My friend but it is too much for my strength. I sink under the weight of the splendour of these visions!
 
 [/norebro_text][/vc_column][/vc_row][vc_row][vc_column][norebro_text]A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents. I should be incapable of drawing.[/norebro_text][/vc_column][/vc_row]]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>33</wp:post_id>
+		<wp:post_id>5661011</wp:post_id>
 		<wp:post_date><![CDATA[2017-10-09 14:42:27]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-10-09 14:42:27]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
@@ -1385,7 +1456,7 @@ Oh, would I could describe these conceptions, could impress upon paper all that 
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
-			<wp:meta_value><![CDATA[22]]></wp:meta_value>
+			<wp:meta_value><![CDATA[5661007]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_dp_original]]></wp:meta_key>
@@ -1403,7 +1474,7 @@ Oh, would I could describe these conceptions, could impress upon paper all that 
 			<wp:comment_id>5</wp:comment_id>
 			<wp:comment_author><![CDATA[Sofia Helin]]></wp:comment_author>
 			<wp:comment_author_email><![CDATA[alexdremlyuga@gmail.com]]></wp:comment_author_email>
-			<wp:comment_author_url></wp:comment_author_url>
+			<wp:comment_author_url/>
 			<wp:comment_author_IP><![CDATA[195.24.146.10]]></wp:comment_author_IP>
 			<wp:comment_date><![CDATA[2017-10-09 14:47:00]]></wp:comment_date>
 			<wp:comment_date_gmt><![CDATA[2017-10-09 14:47:00]]></wp:comment_date_gmt>
@@ -1417,7 +1488,7 @@ Oh, would I could describe these conceptions, could impress upon paper all that 
 			<wp:comment_id>14</wp:comment_id>
 			<wp:comment_author><![CDATA[Sofia Helin]]></wp:comment_author>
 			<wp:comment_author_email><![CDATA[alexdremlyuga@gmail.com]]></wp:comment_author_email>
-			<wp:comment_author_url></wp:comment_author_url>
+			<wp:comment_author_url/>
 			<wp:comment_author_IP><![CDATA[195.24.146.10]]></wp:comment_author_IP>
 			<wp:comment_date><![CDATA[2017-10-09 14:47:24]]></wp:comment_date>
 			<wp:comment_date_gmt><![CDATA[2017-10-09 14:47:24]]></wp:comment_date_gmt>
@@ -1431,7 +1502,7 @@ Oh, would I could describe these conceptions, could impress upon paper all that 
 			<wp:comment_id>19</wp:comment_id>
 			<wp:comment_author><![CDATA[Sofia Helin]]></wp:comment_author>
 			<wp:comment_author_email><![CDATA[alexdremlyuga@gmail.com]]></wp:comment_author_email>
-			<wp:comment_author_url></wp:comment_author_url>
+			<wp:comment_author_url/>
 			<wp:comment_author_IP><![CDATA[195.24.146.10]]></wp:comment_author_IP>
 			<wp:comment_date><![CDATA[2017-10-09 14:47:40]]></wp:comment_date>
 			<wp:comment_date_gmt><![CDATA[2017-10-09 14:47:40]]></wp:comment_date_gmt>
@@ -1449,16 +1520,16 @@ Ut enim sed quia non numquam eius modi tempora incidunt ut labore et dolore magn
 		<pubDate>Mon, 09 Oct 2017 14:42:28 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://norebro.colabr.io/demo17/?p=34</guid>
-		<description></description>
+		<description/>
 		<content:encoded><![CDATA[[vc_row][vc_column][norebro_text]
 
-[/norebro_text][/vc_column][/vc_row][vc_row][vc_column][norebro_text]Actually whatever umami freegan master cleanse. Beard quinoa pinterest venmo slow-carb hoodie authentic hot chicken jean shorts raclette four loko yuccie tacos squid marfa. Portland cold-pressed roof party paleo, hoodie ennui poutine. blue bottle squid austin blog wayfarers photo booth plaid vexillologist. Vegan tofu lomo raw denim. Small batch kale chips forage pickled pork belly yuccie deep v tacos. Wayfarers +1 mumblecore unicorn, before they sold out banh mi subway tile church-key bicycle rights chambray. Pitchfork next level organic chillwave activated charcoal gochujang. Fingerstache palo santo cornhole kickstarter irony. Flexitarian craft beer kitsch tumeric tofu narwhal twee palo.[/norebro_text][vc_empty_space height="25px"][/vc_column][/vc_row][vc_row][vc_column][norebro_text]I feel that I never was a greater artist than now. When, while the lovely valley teems with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary, I throw myself down among the tall grass by the trickling stream.[/norebro_text][/vc_column][/vc_row][vc_row][vc_column][vc_empty_space height="40px"][vc_single_image image="16" img_size="full"][vc_empty_space height="40px"][/vc_column][/vc_row][vc_row][vc_column][norebro_heading module_type_layout="on_left" subtitle_type_layout="without_subtitle" title="T2glMkMlMjB3b3VsZCUyMEklMjBjb3VsZCUyMGRlc2NyaWJlJTIwdGhlc2UlMjBjb25jZXB0aW9ucw==" title_typo="font_size~26||weight~600"][vc_empty_space height="15px"][/vc_column][/vc_row][vc_row][vc_column css=".vc_custom_1507556657366{margin-bottom: 25px !important;}"][norebro_text]When, while the lovely valley teems with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary, I throw myself down among the tall grass by the trickling stream; and, as I lie close to the earth, a thousand unknown plants are noticed by me: when I hear the buzz.[/norebro_text][/vc_column][/vc_row][vc_row][vc_column css=".vc_custom_1507556662044{margin-bottom: 25px !important;}"][norebro_text]
+[/norebro_text][/vc_column][/vc_row][vc_row][vc_column][norebro_text]Actually whatever umami freegan master cleanse. Beard quinoa pinterest venmo slow-carb hoodie authentic hot chicken jean shorts raclette four loko yuccie tacos squid marfa. Portland cold-pressed roof party paleo, hoodie ennui poutine. blue bottle squid austin blog wayfarers photo booth plaid vexillologist. Vegan tofu lomo raw denim. Small batch kale chips forage pickled pork belly yuccie deep v tacos. Wayfarers +1 mumblecore unicorn, before they sold out banh mi subway tile church-key bicycle rights chambray. Pitchfork next level organic chillwave activated charcoal gochujang. Fingerstache palo santo cornhole kickstarter irony. Flexitarian craft beer kitsch tumeric tofu narwhal twee palo.[/norebro_text][vc_empty_space height="25px"][/vc_column][/vc_row][vc_row][vc_column][norebro_text]I feel that I never was a greater artist than now. When, while the lovely valley teems with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary, I throw myself down among the tall grass by the trickling stream.[/norebro_text][/vc_column][/vc_row][vc_row][vc_column][vc_empty_space height="40px"][vc_single_image image="5661002" img_size="full"][vc_empty_space height="40px"][/vc_column][/vc_row][vc_row][vc_column][norebro_heading module_type_layout="on_left" subtitle_type_layout="without_subtitle" title="T2glMkMlMjB3b3VsZCUyMEklMjBjb3VsZCUyMGRlc2NyaWJlJTIwdGhlc2UlMjBjb25jZXB0aW9ucw==" title_typo="font_size~26||weight~600"][vc_empty_space height="15px"][/vc_column][/vc_row][vc_row][vc_column css=".vc_custom_1507556657366{margin-bottom: 25px !important;}"][norebro_text]When, while the lovely valley teems with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary, I throw myself down among the tall grass by the trickling stream; and, as I lie close to the earth, a thousand unknown plants are noticed by me: when I hear the buzz.[/norebro_text][/vc_column][/vc_row][vc_row][vc_column css=".vc_custom_1507556662044{margin-bottom: 25px !important;}"][norebro_text]
 
 Oh, would I could describe these conceptions, could impress upon paper all that is living so full and warm within me, that it might be the mirror of my soul, as my soul is the mirror of the infinite God! My friend but it is too much for my strength. I sink under the weight of the splendour of these visions!
 
 [/norebro_text][/vc_column][/vc_row][vc_row][vc_column][norebro_text]A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents. I should be incapable of drawing.[/norebro_text][/vc_column][/vc_row]]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>34</wp:post_id>
+		<wp:post_id>5661012</wp:post_id>
 		<wp:post_date><![CDATA[2017-10-09 14:42:28]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-10-09 14:42:28]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
@@ -1648,7 +1719,7 @@ Oh, would I could describe these conceptions, could impress upon paper all that 
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
-			<wp:meta_value><![CDATA[20]]></wp:meta_value>
+			<wp:meta_value><![CDATA[5661006]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_dp_original]]></wp:meta_key>
@@ -1666,7 +1737,7 @@ Oh, would I could describe these conceptions, could impress upon paper all that 
 			<wp:comment_id>6</wp:comment_id>
 			<wp:comment_author><![CDATA[Sofia Helin]]></wp:comment_author>
 			<wp:comment_author_email><![CDATA[alexdremlyuga@gmail.com]]></wp:comment_author_email>
-			<wp:comment_author_url></wp:comment_author_url>
+			<wp:comment_author_url/>
 			<wp:comment_author_IP><![CDATA[195.24.146.10]]></wp:comment_author_IP>
 			<wp:comment_date><![CDATA[2017-10-09 14:47:02]]></wp:comment_date>
 			<wp:comment_date_gmt><![CDATA[2017-10-09 14:47:02]]></wp:comment_date_gmt>
@@ -1680,7 +1751,7 @@ Oh, would I could describe these conceptions, could impress upon paper all that 
 			<wp:comment_id>13</wp:comment_id>
 			<wp:comment_author><![CDATA[Sofia Helin]]></wp:comment_author>
 			<wp:comment_author_email><![CDATA[alexdremlyuga@gmail.com]]></wp:comment_author_email>
-			<wp:comment_author_url></wp:comment_author_url>
+			<wp:comment_author_url/>
 			<wp:comment_author_IP><![CDATA[195.24.146.10]]></wp:comment_author_IP>
 			<wp:comment_date><![CDATA[2017-10-09 14:47:21]]></wp:comment_date>
 			<wp:comment_date_gmt><![CDATA[2017-10-09 14:47:21]]></wp:comment_date_gmt>
@@ -1694,7 +1765,7 @@ Oh, would I could describe these conceptions, could impress upon paper all that 
 			<wp:comment_id>18</wp:comment_id>
 			<wp:comment_author><![CDATA[Sofia Helin]]></wp:comment_author>
 			<wp:comment_author_email><![CDATA[alexdremlyuga@gmail.com]]></wp:comment_author_email>
-			<wp:comment_author_url></wp:comment_author_url>
+			<wp:comment_author_url/>
 			<wp:comment_author_IP><![CDATA[195.24.146.10]]></wp:comment_author_IP>
 			<wp:comment_date><![CDATA[2017-10-09 14:47:38]]></wp:comment_date>
 			<wp:comment_date_gmt><![CDATA[2017-10-09 14:47:38]]></wp:comment_date_gmt>
@@ -1712,16 +1783,16 @@ Ut enim sed quia non numquam eius modi tempora incidunt ut labore et dolore magn
 		<pubDate>Mon, 09 Oct 2017 14:42:29 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://norebro.colabr.io/demo17/?p=35</guid>
-		<description></description>
+		<description/>
 		<content:encoded><![CDATA[[vc_row][vc_column][norebro_text]
 
-[/norebro_text][/vc_column][/vc_row][vc_row][vc_column][norebro_text]Actually whatever umami freegan master cleanse. Beard quinoa pinterest venmo slow-carb hoodie authentic hot chicken jean shorts raclette four loko yuccie tacos squid marfa. Portland cold-pressed roof party paleo, hoodie ennui poutine. blue bottle squid austin blog wayfarers photo booth plaid vexillologist. Vegan tofu lomo raw denim. Small batch kale chips forage pickled pork belly yuccie deep v tacos. Wayfarers +1 mumblecore unicorn, before they sold out banh mi subway tile church-key bicycle rights chambray. Pitchfork next level organic chillwave activated charcoal gochujang. Fingerstache palo santo cornhole kickstarter irony. Flexitarian craft beer kitsch tumeric tofu narwhal twee palo.[/norebro_text][vc_empty_space height="25px"][/vc_column][/vc_row][vc_row][vc_column][norebro_text]I feel that I never was a greater artist than now. When, while the lovely valley teems with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary, I throw myself down among the tall grass by the trickling stream.[/norebro_text][/vc_column][/vc_row][vc_row][vc_column][vc_empty_space height="40px"][vc_single_image image="16" img_size="full"][vc_empty_space height="40px"][/vc_column][/vc_row][vc_row][vc_column][norebro_heading module_type_layout="on_left" subtitle_type_layout="without_subtitle" title="T2glMkMlMjB3b3VsZCUyMEklMjBjb3VsZCUyMGRlc2NyaWJlJTIwdGhlc2UlMjBjb25jZXB0aW9ucw==" title_typo="font_size~26||weight~600"][vc_empty_space height="15px"][/vc_column][/vc_row][vc_row][vc_column css=".vc_custom_1507556657366{margin-bottom: 25px !important;}"][norebro_text]When, while the lovely valley teems with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary, I throw myself down among the tall grass by the trickling stream; and, as I lie close to the earth, a thousand unknown plants are noticed by me: when I hear the buzz.[/norebro_text][/vc_column][/vc_row][vc_row][vc_column css=".vc_custom_1507556662044{margin-bottom: 25px !important;}"][norebro_text]
+[/norebro_text][/vc_column][/vc_row][vc_row][vc_column][norebro_text]Actually whatever umami freegan master cleanse. Beard quinoa pinterest venmo slow-carb hoodie authentic hot chicken jean shorts raclette four loko yuccie tacos squid marfa. Portland cold-pressed roof party paleo, hoodie ennui poutine. blue bottle squid austin blog wayfarers photo booth plaid vexillologist. Vegan tofu lomo raw denim. Small batch kale chips forage pickled pork belly yuccie deep v tacos. Wayfarers +1 mumblecore unicorn, before they sold out banh mi subway tile church-key bicycle rights chambray. Pitchfork next level organic chillwave activated charcoal gochujang. Fingerstache palo santo cornhole kickstarter irony. Flexitarian craft beer kitsch tumeric tofu narwhal twee palo.[/norebro_text][vc_empty_space height="25px"][/vc_column][/vc_row][vc_row][vc_column][norebro_text]I feel that I never was a greater artist than now. When, while the lovely valley teems with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary, I throw myself down among the tall grass by the trickling stream.[/norebro_text][/vc_column][/vc_row][vc_row][vc_column][vc_empty_space height="40px"][vc_single_image image="5661002" img_size="full"][vc_empty_space height="40px"][/vc_column][/vc_row][vc_row][vc_column][norebro_heading module_type_layout="on_left" subtitle_type_layout="without_subtitle" title="T2glMkMlMjB3b3VsZCUyMEklMjBjb3VsZCUyMGRlc2NyaWJlJTIwdGhlc2UlMjBjb25jZXB0aW9ucw==" title_typo="font_size~26||weight~600"][vc_empty_space height="15px"][/vc_column][/vc_row][vc_row][vc_column css=".vc_custom_1507556657366{margin-bottom: 25px !important;}"][norebro_text]When, while the lovely valley teems with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary, I throw myself down among the tall grass by the trickling stream; and, as I lie close to the earth, a thousand unknown plants are noticed by me: when I hear the buzz.[/norebro_text][/vc_column][/vc_row][vc_row][vc_column css=".vc_custom_1507556662044{margin-bottom: 25px !important;}"][norebro_text]
 
 Oh, would I could describe these conceptions, could impress upon paper all that is living so full and warm within me, that it might be the mirror of my soul, as my soul is the mirror of the infinite God! My friend but it is too much for my strength. I sink under the weight of the splendour of these visions!
 
 [/norebro_text][/vc_column][/vc_row][vc_row][vc_column][norebro_text]A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents. I should be incapable of drawing.[/norebro_text][/vc_column][/vc_row]]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>35</wp:post_id>
+		<wp:post_id>5661013</wp:post_id>
 		<wp:post_date><![CDATA[2017-10-09 14:42:29]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-10-09 14:42:29]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
@@ -1911,7 +1982,7 @@ Oh, would I could describe these conceptions, could impress upon paper all that 
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
-			<wp:meta_value><![CDATA[19]]></wp:meta_value>
+			<wp:meta_value><![CDATA[5661005]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_dp_original]]></wp:meta_key>
@@ -1925,7 +1996,7 @@ Oh, would I could describe these conceptions, could impress upon paper all that 
 			<wp:comment_id>7</wp:comment_id>
 			<wp:comment_author><![CDATA[Sofia Helin]]></wp:comment_author>
 			<wp:comment_author_email><![CDATA[alexdremlyuga@gmail.com]]></wp:comment_author_email>
-			<wp:comment_author_url></wp:comment_author_url>
+			<wp:comment_author_url/>
 			<wp:comment_author_IP><![CDATA[195.24.146.10]]></wp:comment_author_IP>
 			<wp:comment_date><![CDATA[2017-10-09 14:47:03]]></wp:comment_date>
 			<wp:comment_date_gmt><![CDATA[2017-10-09 14:47:03]]></wp:comment_date_gmt>
@@ -1939,7 +2010,7 @@ Oh, would I could describe these conceptions, could impress upon paper all that 
 			<wp:comment_id>12</wp:comment_id>
 			<wp:comment_author><![CDATA[Sofia Helin]]></wp:comment_author>
 			<wp:comment_author_email><![CDATA[alexdremlyuga@gmail.com]]></wp:comment_author_email>
-			<wp:comment_author_url></wp:comment_author_url>
+			<wp:comment_author_url/>
 			<wp:comment_author_IP><![CDATA[195.24.146.10]]></wp:comment_author_IP>
 			<wp:comment_date><![CDATA[2017-10-09 14:47:19]]></wp:comment_date>
 			<wp:comment_date_gmt><![CDATA[2017-10-09 14:47:19]]></wp:comment_date_gmt>
@@ -1953,7 +2024,7 @@ Oh, would I could describe these conceptions, could impress upon paper all that 
 			<wp:comment_id>17</wp:comment_id>
 			<wp:comment_author><![CDATA[Sofia Helin]]></wp:comment_author>
 			<wp:comment_author_email><![CDATA[alexdremlyuga@gmail.com]]></wp:comment_author_email>
-			<wp:comment_author_url></wp:comment_author_url>
+			<wp:comment_author_url/>
 			<wp:comment_author_IP><![CDATA[195.24.146.10]]></wp:comment_author_IP>
 			<wp:comment_date><![CDATA[2017-10-09 14:47:35]]></wp:comment_date>
 			<wp:comment_date_gmt><![CDATA[2017-10-09 14:47:35]]></wp:comment_date_gmt>
@@ -1964,6 +2035,34 @@ Ut enim sed quia non numquam eius modi tempora incidunt ut labore et dolore magn
 			<wp:comment_parent>0</wp:comment_parent>
 			<wp:comment_user_id>1</wp:comment_user_id>
 		</wp:comment>
+		<wp:comment>
+			<wp:comment_id>20</wp:comment_id>
+			<wp:comment_author><![CDATA[Gitel]]></wp:comment_author>
+			<wp:comment_author_email><![CDATA[itulas@priest.com]]></wp:comment_author_email>
+			<wp:comment_author_url>http://priest.com</wp:comment_author_url>
+			<wp:comment_author_IP><![CDATA[79.119.99.32]]></wp:comment_author_IP>
+			<wp:comment_date><![CDATA[2018-02-19 21:27:36]]></wp:comment_date>
+			<wp:comment_date_gmt><![CDATA[2018-02-19 21:27:36]]></wp:comment_date_gmt>
+			<wp:comment_content><![CDATA[Please approve my comment!]]></wp:comment_content>
+			<wp:comment_approved><![CDATA[0]]></wp:comment_approved>
+			<wp:comment_type><![CDATA[]]></wp:comment_type>
+			<wp:comment_parent>0</wp:comment_parent>
+			<wp:comment_user_id>0</wp:comment_user_id>
+		</wp:comment>
+		<wp:comment>
+			<wp:comment_id>21</wp:comment_id>
+			<wp:comment_author><![CDATA[Gitel]]></wp:comment_author>
+			<wp:comment_author_email><![CDATA[itulas@priest.com]]></wp:comment_author_email>
+			<wp:comment_author_url>http://priest.com</wp:comment_author_url>
+			<wp:comment_author_IP><![CDATA[79.119.99.32]]></wp:comment_author_IP>
+			<wp:comment_date><![CDATA[2018-02-19 21:28:05]]></wp:comment_date>
+			<wp:comment_date_gmt><![CDATA[2018-02-19 21:28:05]]></wp:comment_date_gmt>
+			<wp:comment_content><![CDATA[Please]]></wp:comment_content>
+			<wp:comment_approved><![CDATA[0]]></wp:comment_approved>
+			<wp:comment_type><![CDATA[]]></wp:comment_type>
+			<wp:comment_parent>20</wp:comment_parent>
+			<wp:comment_user_id>0</wp:comment_user_id>
+		</wp:comment>
 	</item>
 	<item>
 		<title>New Art Venue Opens in Downtown CF</title>
@@ -1971,16 +2070,16 @@ Ut enim sed quia non numquam eius modi tempora incidunt ut labore et dolore magn
 		<pubDate>Mon, 09 Oct 2017 14:42:30 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://norebro.colabr.io/demo17/?p=36</guid>
-		<description></description>
+		<description/>
 		<content:encoded><![CDATA[[vc_row][vc_column][norebro_text]
 
-[/norebro_text][/vc_column][/vc_row][vc_row][vc_column][norebro_text]Actually whatever umami freegan master cleanse. Beard quinoa pinterest venmo slow-carb hoodie authentic hot chicken jean shorts raclette four loko yuccie tacos squid marfa. Portland cold-pressed roof party paleo, hoodie ennui poutine. blue bottle squid austin blog wayfarers photo booth plaid vexillologist. Vegan tofu lomo raw denim. Small batch kale chips forage pickled pork belly yuccie deep v tacos. Wayfarers +1 mumblecore unicorn, before they sold out banh mi subway tile church-key bicycle rights chambray. Pitchfork next level organic chillwave activated charcoal gochujang. Fingerstache palo santo cornhole kickstarter irony. Flexitarian craft beer kitsch tumeric tofu narwhal twee palo.[/norebro_text][vc_empty_space height="25px"][/vc_column][/vc_row][vc_row][vc_column][norebro_text]I feel that I never was a greater artist than now. When, while the lovely valley teems with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary, I throw myself down among the tall grass by the trickling stream.[/norebro_text][/vc_column][/vc_row][vc_row][vc_column][vc_empty_space height="40px"][vc_single_image image="16" img_size="full"][vc_empty_space height="40px"][/vc_column][/vc_row][vc_row][vc_column][norebro_heading module_type_layout="on_left" subtitle_type_layout="without_subtitle" title="T2glMkMlMjB3b3VsZCUyMEklMjBjb3VsZCUyMGRlc2NyaWJlJTIwdGhlc2UlMjBjb25jZXB0aW9ucw==" title_typo="font_size~26||weight~600"][vc_empty_space height="15px"][/vc_column][/vc_row][vc_row][vc_column css=".vc_custom_1507556657366{margin-bottom: 25px !important;}"][norebro_text]When, while the lovely valley teems with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary, I throw myself down among the tall grass by the trickling stream; and, as I lie close to the earth, a thousand unknown plants are noticed by me: when I hear the buzz.[/norebro_text][/vc_column][/vc_row][vc_row][vc_column css=".vc_custom_1507556662044{margin-bottom: 25px !important;}"][norebro_text]
+[/norebro_text][/vc_column][/vc_row][vc_row][vc_column][norebro_text]Actually whatever umami freegan master cleanse. Beard quinoa pinterest venmo slow-carb hoodie authentic hot chicken jean shorts raclette four loko yuccie tacos squid marfa. Portland cold-pressed roof party paleo, hoodie ennui poutine. blue bottle squid austin blog wayfarers photo booth plaid vexillologist. Vegan tofu lomo raw denim. Small batch kale chips forage pickled pork belly yuccie deep v tacos. Wayfarers +1 mumblecore unicorn, before they sold out banh mi subway tile church-key bicycle rights chambray. Pitchfork next level organic chillwave activated charcoal gochujang. Fingerstache palo santo cornhole kickstarter irony. Flexitarian craft beer kitsch tumeric tofu narwhal twee palo.[/norebro_text][vc_empty_space height="25px"][/vc_column][/vc_row][vc_row][vc_column][norebro_text]I feel that I never was a greater artist than now. When, while the lovely valley teems with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary, I throw myself down among the tall grass by the trickling stream.[/norebro_text][/vc_column][/vc_row][vc_row][vc_column][vc_empty_space height="40px"][vc_single_image image="5661002" img_size="full"][vc_empty_space height="40px"][/vc_column][/vc_row][vc_row][vc_column][norebro_heading module_type_layout="on_left" subtitle_type_layout="without_subtitle" title="T2glMkMlMjB3b3VsZCUyMEklMjBjb3VsZCUyMGRlc2NyaWJlJTIwdGhlc2UlMjBjb25jZXB0aW9ucw==" title_typo="font_size~26||weight~600"][vc_empty_space height="15px"][/vc_column][/vc_row][vc_row][vc_column css=".vc_custom_1507556657366{margin-bottom: 25px !important;}"][norebro_text]When, while the lovely valley teems with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary, I throw myself down among the tall grass by the trickling stream; and, as I lie close to the earth, a thousand unknown plants are noticed by me: when I hear the buzz.[/norebro_text][/vc_column][/vc_row][vc_row][vc_column css=".vc_custom_1507556662044{margin-bottom: 25px !important;}"][norebro_text]
 
 Oh, would I could describe these conceptions, could impress upon paper all that is living so full and warm within me, that it might be the mirror of my soul, as my soul is the mirror of the infinite God! My friend but it is too much for my strength. I sink under the weight of the splendour of these visions!
 
 [/norebro_text][/vc_column][/vc_row][vc_row][vc_column][norebro_text]A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents. I should be incapable of drawing.[/norebro_text][/vc_column][/vc_row]]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>36</wp:post_id>
+		<wp:post_id>5661014</wp:post_id>
 		<wp:post_date><![CDATA[2017-10-09 14:42:30]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-10-09 14:42:30]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
@@ -2170,7 +2269,7 @@ Oh, would I could describe these conceptions, could impress upon paper all that 
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
-			<wp:meta_value><![CDATA[18]]></wp:meta_value>
+			<wp:meta_value><![CDATA[5661004]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_dp_original]]></wp:meta_key>
@@ -2184,7 +2283,7 @@ Oh, would I could describe these conceptions, could impress upon paper all that 
 			<wp:comment_id>8</wp:comment_id>
 			<wp:comment_author><![CDATA[Sofia Helin]]></wp:comment_author>
 			<wp:comment_author_email><![CDATA[alexdremlyuga@gmail.com]]></wp:comment_author_email>
-			<wp:comment_author_url></wp:comment_author_url>
+			<wp:comment_author_url/>
 			<wp:comment_author_IP><![CDATA[195.24.146.10]]></wp:comment_author_IP>
 			<wp:comment_date><![CDATA[2017-10-09 14:47:05]]></wp:comment_date>
 			<wp:comment_date_gmt><![CDATA[2017-10-09 14:47:05]]></wp:comment_date_gmt>
@@ -2198,7 +2297,7 @@ Oh, would I could describe these conceptions, could impress upon paper all that 
 			<wp:comment_id>11</wp:comment_id>
 			<wp:comment_author><![CDATA[Sofia Helin]]></wp:comment_author>
 			<wp:comment_author_email><![CDATA[alexdremlyuga@gmail.com]]></wp:comment_author_email>
-			<wp:comment_author_url></wp:comment_author_url>
+			<wp:comment_author_url/>
 			<wp:comment_author_IP><![CDATA[195.24.146.10]]></wp:comment_author_IP>
 			<wp:comment_date><![CDATA[2017-10-09 14:47:16]]></wp:comment_date>
 			<wp:comment_date_gmt><![CDATA[2017-10-09 14:47:16]]></wp:comment_date_gmt>
@@ -2212,7 +2311,7 @@ Oh, would I could describe these conceptions, could impress upon paper all that 
 			<wp:comment_id>16</wp:comment_id>
 			<wp:comment_author><![CDATA[Sofia Helin]]></wp:comment_author>
 			<wp:comment_author_email><![CDATA[alexdremlyuga@gmail.com]]></wp:comment_author_email>
-			<wp:comment_author_url></wp:comment_author_url>
+			<wp:comment_author_url/>
 			<wp:comment_author_IP><![CDATA[195.24.146.10]]></wp:comment_author_IP>
 			<wp:comment_date><![CDATA[2017-10-09 14:47:33]]></wp:comment_date>
 			<wp:comment_date_gmt><![CDATA[2017-10-09 14:47:33]]></wp:comment_date_gmt>
@@ -2225,21 +2324,21 @@ Ut enim sed quia non numquam eius modi tempora incidunt ut labore et dolore magn
 		</wp:comment>
 	</item>
 	<item>
-		<title>Highlights from Hong  Kong&#039;s Art Central</title>
+		<title>Highlights from Hong  Kong&apos;s Art Central</title>
 		<link>https://norebro.colabr.io/demo17/2017/10/09/highlights-from-hong-kongs-art-central-2/</link>
 		<pubDate>Mon, 09 Oct 2017 14:42:31 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://norebro.colabr.io/demo17/?p=37</guid>
-		<description></description>
+		<description/>
 		<content:encoded><![CDATA[[vc_row][vc_column][norebro_text]
 
-[/norebro_text][/vc_column][/vc_row][vc_row][vc_column][norebro_text]Actually whatever umami freegan master cleanse. Beard quinoa pinterest venmo slow-carb hoodie authentic hot chicken jean shorts raclette four loko yuccie tacos squid marfa. Portland cold-pressed roof party paleo, hoodie ennui poutine. blue bottle squid austin blog wayfarers photo booth plaid vexillologist. Vegan tofu lomo raw denim. Small batch kale chips forage pickled pork belly yuccie deep v tacos. Wayfarers +1 mumblecore unicorn, before they sold out banh mi subway tile church-key bicycle rights chambray. Pitchfork next level organic chillwave activated charcoal gochujang. Fingerstache palo santo cornhole kickstarter irony. Flexitarian craft beer kitsch tumeric tofu narwhal twee palo.[/norebro_text][vc_empty_space height="25px"][/vc_column][/vc_row][vc_row][vc_column][norebro_text]I feel that I never was a greater artist than now. When, while the lovely valley teems with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary, I throw myself down among the tall grass by the trickling stream.[/norebro_text][/vc_column][/vc_row][vc_row][vc_column][vc_empty_space height="40px"][vc_single_image image="16" img_size="full"][vc_empty_space height="40px"][/vc_column][/vc_row][vc_row][vc_column][norebro_heading module_type_layout="on_left" subtitle_type_layout="without_subtitle" title="T2glMkMlMjB3b3VsZCUyMEklMjBjb3VsZCUyMGRlc2NyaWJlJTIwdGhlc2UlMjBjb25jZXB0aW9ucw==" title_typo="font_size~26||weight~600"][vc_empty_space height="15px"][/vc_column][/vc_row][vc_row][vc_column css=".vc_custom_1507556657366{margin-bottom: 25px !important;}"][norebro_text]When, while the lovely valley teems with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary, I throw myself down among the tall grass by the trickling stream; and, as I lie close to the earth, a thousand unknown plants are noticed by me: when I hear the buzz.[/norebro_text][/vc_column][/vc_row][vc_row][vc_column css=".vc_custom_1507556662044{margin-bottom: 25px !important;}"][norebro_text]
+[/norebro_text][/vc_column][/vc_row][vc_row][vc_column][norebro_text]Actually whatever umami freegan master cleanse. Beard quinoa pinterest venmo slow-carb hoodie authentic hot chicken jean shorts raclette four loko yuccie tacos squid marfa. Portland cold-pressed roof party paleo, hoodie ennui poutine. blue bottle squid austin blog wayfarers photo booth plaid vexillologist. Vegan tofu lomo raw denim. Small batch kale chips forage pickled pork belly yuccie deep v tacos. Wayfarers +1 mumblecore unicorn, before they sold out banh mi subway tile church-key bicycle rights chambray. Pitchfork next level organic chillwave activated charcoal gochujang. Fingerstache palo santo cornhole kickstarter irony. Flexitarian craft beer kitsch tumeric tofu narwhal twee palo.[/norebro_text][vc_empty_space height="25px"][/vc_column][/vc_row][vc_row][vc_column][norebro_text]I feel that I never was a greater artist than now. When, while the lovely valley teems with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary, I throw myself down among the tall grass by the trickling stream.[/norebro_text][/vc_column][/vc_row][vc_row][vc_column][vc_empty_space height="40px"][vc_single_image image="5661002" img_size="full"][vc_empty_space height="40px"][/vc_column][/vc_row][vc_row][vc_column][norebro_heading module_type_layout="on_left" subtitle_type_layout="without_subtitle" title="T2glMkMlMjB3b3VsZCUyMEklMjBjb3VsZCUyMGRlc2NyaWJlJTIwdGhlc2UlMjBjb25jZXB0aW9ucw==" title_typo="font_size~26||weight~600"][vc_empty_space height="15px"][/vc_column][/vc_row][vc_row][vc_column css=".vc_custom_1507556657366{margin-bottom: 25px !important;}"][norebro_text]When, while the lovely valley teems with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary, I throw myself down among the tall grass by the trickling stream; and, as I lie close to the earth, a thousand unknown plants are noticed by me: when I hear the buzz.[/norebro_text][/vc_column][/vc_row][vc_row][vc_column css=".vc_custom_1507556662044{margin-bottom: 25px !important;}"][norebro_text]
 
 Oh, would I could describe these conceptions, could impress upon paper all that is living so full and warm within me, that it might be the mirror of my soul, as my soul is the mirror of the infinite God! My friend but it is too much for my strength. I sink under the weight of the splendour of these visions!
 
 [/norebro_text][/vc_column][/vc_row][vc_row][vc_column][norebro_text]A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents. I should be incapable of drawing.[/norebro_text][/vc_column][/vc_row]]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>37</wp:post_id>
+		<wp:post_id>5661015</wp:post_id>
 		<wp:post_date><![CDATA[2017-10-09 14:42:31]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-10-09 14:42:31]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
@@ -2429,7 +2528,7 @@ Oh, would I could describe these conceptions, could impress upon paper all that 
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
-			<wp:meta_value><![CDATA[17]]></wp:meta_value>
+			<wp:meta_value><![CDATA[5661003]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_dp_original]]></wp:meta_key>
@@ -2443,7 +2542,7 @@ Oh, would I could describe these conceptions, could impress upon paper all that 
 			<wp:comment_id>9</wp:comment_id>
 			<wp:comment_author><![CDATA[Sofia Helin]]></wp:comment_author>
 			<wp:comment_author_email><![CDATA[alexdremlyuga@gmail.com]]></wp:comment_author_email>
-			<wp:comment_author_url></wp:comment_author_url>
+			<wp:comment_author_url/>
 			<wp:comment_author_IP><![CDATA[195.24.146.10]]></wp:comment_author_IP>
 			<wp:comment_date><![CDATA[2017-10-09 14:47:07]]></wp:comment_date>
 			<wp:comment_date_gmt><![CDATA[2017-10-09 14:47:07]]></wp:comment_date_gmt>
@@ -2457,7 +2556,7 @@ Oh, would I could describe these conceptions, could impress upon paper all that 
 			<wp:comment_id>10</wp:comment_id>
 			<wp:comment_author><![CDATA[Sofia Helin]]></wp:comment_author>
 			<wp:comment_author_email><![CDATA[alexdremlyuga@gmail.com]]></wp:comment_author_email>
-			<wp:comment_author_url></wp:comment_author_url>
+			<wp:comment_author_url/>
 			<wp:comment_author_IP><![CDATA[195.24.146.10]]></wp:comment_author_IP>
 			<wp:comment_date><![CDATA[2017-10-09 14:47:14]]></wp:comment_date>
 			<wp:comment_date_gmt><![CDATA[2017-10-09 14:47:14]]></wp:comment_date_gmt>
@@ -2471,7 +2570,7 @@ Oh, would I could describe these conceptions, could impress upon paper all that 
 			<wp:comment_id>15</wp:comment_id>
 			<wp:comment_author><![CDATA[Sofia Helin]]></wp:comment_author>
 			<wp:comment_author_email><![CDATA[alexdremlyuga@gmail.com]]></wp:comment_author_email>
-			<wp:comment_author_url></wp:comment_author_url>
+			<wp:comment_author_url/>
 			<wp:comment_author_IP><![CDATA[195.24.146.10]]></wp:comment_author_IP>
 			<wp:comment_date><![CDATA[2017-10-09 14:47:31]]></wp:comment_date>
 			<wp:comment_date_gmt><![CDATA[2017-10-09 14:47:31]]></wp:comment_date_gmt>
@@ -2483,16 +2582,17 @@ Ut enim sed quia non numquam eius modi tempora incidunt ut labore et dolore magn
 			<wp:comment_user_id>1</wp:comment_user_id>
 		</wp:comment>
 	</item>
+	
 	<item>
 		<title>About</title>
 		<link>https://norebro.colabr.io/demo17/about/</link>
 		<pubDate>Wed, 18 Oct 2017 14:22:08 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://norebro.colabr.io/demo19/?page_id=13175</guid>
-		<description></description>
-		<content:encoded><![CDATA[[vc_row full_width="stretch_row"][vc_column width="1/3"][norebro_heading module_type_layout="on_left" subtitle_type_layout="without_subtitle" title="SGklMjBUaGVyZSUyMSUyMEklRTIlODAlOTltJTIwU3RhY2V5JTIwJUUyJTgwJTk1JTNDYnIlMkYlM0UlMEFDcmVhdGl2ZSUyMERlc2lnbmVy" title_typo="font_size~22||line_height~30||weight~700"][vc_empty_space height="10px"][norebro_text text_typo="font_size~15||line_height~25||weight~300"]I can't tell where your back ends and your butt begins. Brr, it sure is cold in here. I wish <a href="#">some strong</a>, chivalrous man would lend <strong>me his jacket</strong>, or his pants. Just when I think I'm out, those cheeks pull me right back in.[/norebro_text][vc_empty_space height="10px"][norebro_text text_typo="font_size~15||line_height~25||weight~300"]Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from <strong>generation X</strong> is on the runway heading towards a streamlined cloud solution. Capitalize on low hanging fruit to identify a ballpark value added activity.[/norebro_text][vc_empty_space][norebro_heading module_type_layout="on_left" subtitle_type_layout="without_subtitle" title="Rm9sbG93JTIwTWU=" title_typo="font_size~22||line_height~30||weight~700"][vc_empty_space height="10px"][norebro_social_networks icon_layout="inline" alignment="left" type_links="custom" default_colors="0" twitter_link_custom="#" instagram_link_custom="#" dribbble_link_custom="#"][/vc_column][vc_column width="1/3" css=".vc_custom_1502460144933{padding-top: 0px !important;}"][norebro_heading module_type_layout="on_left" subtitle_type_layout="without_subtitle" title="TXklMjBFeHBlcmllbmNl" title_typo="font_size~22||line_height~30||weight~700"][vc_empty_space height="10px"][norebro_text text_typo="font_size~15||line_height~25||weight~300"]Bring to the table win-win <strong>survival strategies</strong> to ensure proactive domination. At the end of the day, going forward content in real-time will have <a href="#">multiple touchpoints</a>.[/norebro_text][vc_empty_space height="49px"][norebro_heading module_type_layout="on_left" subtitle_type_layout="bottom_subtitle" heading_type="h4" title="TWVkaWElMjBSZXNvdXJjZXMlMjBJbmMu" title_typo="font_size~15||line_height~15||weight~700" subtitle="SWxsdXN0cmF0aW9uJTJDJTIwRGVzaWduJTJDJTIwQW5pbWF0aW9u" subtitle_typo="font_size~15||line_height~15||weight~300"][vc_empty_space][norebro_heading module_type_layout="on_left" subtitle_type_layout="bottom_subtitle" heading_type="h4" title="TWFzaGFibGU=" title_typo="font_size~15||line_height~15||weight~700" subtitle="TW90aW9uJTJDJTIwRGVzaWduJTJDJTIwUGhvdG8=" subtitle_typo="font_size~15||line_height~15||weight~300"][vc_empty_space][norebro_heading module_type_layout="on_left" subtitle_type_layout="bottom_subtitle" heading_type="h4" title="VGhlJTIwTmV3JTIwWW9yayUyMFRpbWVz" title_typo="font_size~15||line_height~15||weight~700" subtitle="V2ViJTIwRGVzaWduJTJDJTIwRnJvbnQtRW5kJTIwRGV2ZWxvcGVy" subtitle_typo="font_size~15||line_height~15||weight~300"][/vc_column][vc_column width="1/3"][norebro_video layout="with_preview" button_layout="filled" link="https://www.youtube.com/embed/_GuOjXYl5ew" button_shadow="1" button_anim="1" preview_image="13183" button_color="rgba(51,51,51,0.9)"][/vc_column][/vc_row][vc_row full_width="stretch_row" use_through_lines="1"][vc_column][vc_empty_space height="90px" el_class="norebro-phone-space"][/vc_column][/vc_row][vc_row full_width="stretch_row" css=".vc_custom_1502803772618{padding-top: 0px !important;background-color: #505cfd !important;}"][vc_column][vc_empty_space height="90px" el_class="norebro-phone-space"][norebro_heading module_type_layout="on_left" subtitle_type_layout="top_subtitle" title="VGhleSUyMFNheQ==" title_typo="font_size~32||line_height~25||weight~700" subtitle="VGVzdGltb25pYWxz" subtitle_typo="font_size~16||weight~inherit" title_color="#ffffff" subtitle_color="rgba(255,255,255,0.6)"][vc_empty_space height="30px"][norebro_carousel item_desktop="3" pagination_show="1" navigation_buttons="1" autoplay_time="3" offset_nav_buttons="1" dots_each="1" dots_color="#ffffff"][norebro_carousel_inner title="Section 1" tab_id="1502803813064-aaa3879f-3e5f"][norebro_testimonial block_type_layout="default" block_type_alignment_default="left" quote="Oh, would I could describe these conceptions, could impress upon paper all that is living so full and warm within me, that it might." author="Marco Guerra" position="Tech leader / WEB dEveloper" quote_color="#ffffff" author_color="#ffffff" position_color="rgba(255,255,255,0.6)"][/norebro_carousel_inner][norebro_carousel_inner title="Section 1" tab_id="1502804082579-1044066c-189c"][norebro_testimonial block_type_layout="default" block_type_alignment_default="left" quote="Said Californ'y is the place you ought to be So they loaded up the truck and moved to Beverly. Hills that is. Swimmin' pools movie stars." author="Stacey Pickering" position="Product Manager" quote_color="#ffffff" author_color="#ffffff" position_color="rgba(255,255,255,0.6)"][/norebro_carousel_inner][norebro_carousel_inner title="Section 1" tab_id="1502804081754-cbe7833d-bef1"][norebro_testimonial block_type_layout="default" block_type_alignment_default="left" quote="Oh, would I could describe these conceptions, could impress upon paper all that is living so full and warm within me, that it might." author="Linda Cardellini" position="Creative Director / Designer" quote_color="#ffffff" author_color="#ffffff" position_color="rgba(255,255,255,0.6)"][/norebro_carousel_inner][/norebro_carousel][vc_empty_space height="90px" el_class="norebro-phone-space"][/vc_column][/vc_row]]]></content:encoded>
+		<description/>
+		<content:encoded><![CDATA[[vc_row full_width="stretch_row"][vc_column width="1/3"][norebro_heading module_type_layout="on_left" subtitle_type_layout="without_subtitle" title="SGklMjBUaGVyZSUyMSUyMEklRTIlODAlOTltJTIwU3RhY2V5JTIwJUUyJTgwJTk1JTNDYnIlMkYlM0UlMEFDcmVhdGl2ZSUyMERlc2lnbmVy" title_typo="font_size~22||line_height~30||weight~700"][vc_empty_space height="10px"][norebro_text text_typo="font_size~15||line_height~25||weight~300"]I can't tell where your back ends and your butt begins. Brr, it sure is cold in here. I wish <a href="#">some strong</a>, chivalrous man would lend <strong>me his jacket</strong>, or his pants. Just when I think I'm out, those cheeks pull me right back in.[/norebro_text][vc_empty_space height="10px"][norebro_text text_typo="font_size~15||line_height~25||weight~300"]Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from <strong>generation X</strong> is on the runway heading towards a streamlined cloud solution. Capitalize on low hanging fruit to identify a ballpark value added activity.[/norebro_text][vc_empty_space][norebro_heading module_type_layout="on_left" subtitle_type_layout="without_subtitle" title="Rm9sbG93JTIwTWU=" title_typo="font_size~22||line_height~30||weight~700"][vc_empty_space height="10px"][norebro_social_networks icon_layout="inline" alignment="left" type_links="custom" default_colors="0" twitter_link_custom="#" instagram_link_custom="#" dribbble_link_custom="#"][/vc_column][vc_column width="1/3" css=".vc_custom_1502460144933{padding-top: 0px !important;}"][norebro_heading module_type_layout="on_left" subtitle_type_layout="without_subtitle" title="TXklMjBFeHBlcmllbmNl" title_typo="font_size~22||line_height~30||weight~700"][vc_empty_space height="10px"][norebro_text text_typo="font_size~15||line_height~25||weight~300"]Bring to the table win-win <strong>survival strategies</strong> to ensure proactive domination. At the end of the day, going forward content in real-time will have <a href="#">multiple touchpoints</a>.[/norebro_text][vc_empty_space height="49px"][norebro_heading module_type_layout="on_left" subtitle_type_layout="bottom_subtitle" heading_type="h4" title="TWVkaWElMjBSZXNvdXJjZXMlMjBJbmMu" title_typo="font_size~15||line_height~15||weight~700" subtitle="SWxsdXN0cmF0aW9uJTJDJTIwRGVzaWduJTJDJTIwQW5pbWF0aW9u" subtitle_typo="font_size~15||line_height~15||weight~300"][vc_empty_space][norebro_heading module_type_layout="on_left" subtitle_type_layout="bottom_subtitle" heading_type="h4" title="TWFzaGFibGU=" title_typo="font_size~15||line_height~15||weight~700" subtitle="TW90aW9uJTJDJTIwRGVzaWduJTJDJTIwUGhvdG8=" subtitle_typo="font_size~15||line_height~15||weight~300"][vc_empty_space][norebro_heading module_type_layout="on_left" subtitle_type_layout="bottom_subtitle" heading_type="h4" title="VGhlJTIwTmV3JTIwWW9yayUyMFRpbWVz" title_typo="font_size~15||line_height~15||weight~700" subtitle="V2ViJTIwRGVzaWduJTJDJTIwRnJvbnQtRW5kJTIwRGV2ZWxvcGVy" subtitle_typo="font_size~15||line_height~15||weight~300"][/vc_column][vc_column width="1/3"][norebro_video layout="with_preview" button_layout="filled" link="https://www.youtube.com/embed/_GuOjXYl5ew" button_shadow="1" button_anim="1" preview_image="5661008" button_color="rgba(51,51,51,0.9)"][/vc_column][/vc_row][vc_row full_width="stretch_row" use_through_lines="1"][vc_column][vc_empty_space height="90px" el_class="norebro-phone-space"][/vc_column][/vc_row][vc_row full_width="stretch_row" css=".vc_custom_1502803772618{padding-top: 0px !important;background-color: #505cfd !important;}"][vc_column][vc_empty_space height="90px" el_class="norebro-phone-space"][norebro_heading module_type_layout="on_left" subtitle_type_layout="top_subtitle" title="VGhleSUyMFNheQ==" title_typo="font_size~32||line_height~25||weight~700" subtitle="VGVzdGltb25pYWxz" subtitle_typo="font_size~16||weight~inherit" title_color="#ffffff" subtitle_color="rgba(255,255,255,0.6)"][vc_empty_space height="30px"][norebro_carousel item_desktop="3" pagination_show="1" navigation_buttons="1" autoplay_time="3" offset_nav_buttons="1" dots_each="1" dots_color="#ffffff"][norebro_carousel_inner title="Section 1" tab_id="1502803813064-aaa3879f-3e5f"][norebro_testimonial block_type_layout="default" block_type_alignment_default="left" quote="Oh, would I could describe these conceptions, could impress upon paper all that is living so full and warm within me, that it might." author="Marco Guerra" position="Tech leader / WEB dEveloper" quote_color="#ffffff" author_color="#ffffff" position_color="rgba(255,255,255,0.6)"][/norebro_carousel_inner][norebro_carousel_inner title="Section 1" tab_id="1502804082579-1044066c-189c"][norebro_testimonial block_type_layout="default" block_type_alignment_default="left" quote="Said Californ'y is the place you ought to be So they loaded up the truck and moved to Beverly. Hills that is. Swimmin' pools movie stars." author="Stacey Pickering" position="Product Manager" quote_color="#ffffff" author_color="#ffffff" position_color="rgba(255,255,255,0.6)"][/norebro_carousel_inner][norebro_carousel_inner title="Section 1" tab_id="1502804081754-cbe7833d-bef1"][norebro_testimonial block_type_layout="default" block_type_alignment_default="left" quote="Oh, would I could describe these conceptions, could impress upon paper all that is living so full and warm within me, that it might." author="Linda Cardellini" position="Creative Director / Designer" quote_color="#ffffff" author_color="#ffffff" position_color="rgba(255,255,255,0.6)"][/norebro_carousel_inner][/norebro_carousel][vc_empty_space height="90px" el_class="norebro-phone-space"][/vc_column][/vc_row]]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>13175</wp:post_id>
+		<wp:post_id>5661016</wp:post_id>
 		<wp:post_date><![CDATA[2017-10-18 14:22:08]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-10-18 14:22:08]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
@@ -2939,10 +3039,10 @@ Ut enim sed quia non numquam eius modi tempora incidunt ut labore et dolore magn
 		<pubDate>Wed, 18 Oct 2017 14:24:53 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://norebro.colabr.io/demo19/?page_id=13180</guid>
-		<description></description>
+		<description/>
 		<content:encoded><![CDATA[[vc_row][vc_column css=".vc_custom_1502450761306{padding-top: 0px !important;}"][/vc_column][/vc_row][vc_row][vc_column width="1/3"][norebro_heading module_type_layout="on_left" subtitle_type_layout="top_subtitle" title="Q29udGFjdHM=" subtitle="R2V0JTIwaW4lMjB0b3VjaA==" title_typo="font_size~22||weight~700" subtitle_typo="font_size~14||line_height~1||weight~400||use_custom_font~1||custom_font~Poppins:300,400,500,700"][norebro_list_module list_layout="default" list_style="icon" list_value_type2="%5B%7B%22list_icon%22%3A%22linea-basic-geolocalize-01%22%2C%22list_title%22%3A%22Fensmarkgade%20832%2C%20K%C3%B8benhavn%2C%20Denmark%22%7D%2C%7B%22list_icon%22%3A%22linea-basic-smartphone%22%2C%22list_title%22%3A%22%2B1%20609%20905%206705%20-%20Main%20Office%22%7D%2C%7B%22list_icon%22%3A%22linea-basic-paperplane%22%2C%22list_title%22%3A%22sayhello%40norebro.com%22%7D%5D" icon_color="brand"][/vc_column][vc_column width="2/3"][norebro_heading module_type_layout="on_left" subtitle_type_layout="top_subtitle" title="U2F5JTIwSGVsbG8=" subtitle="R2V0JTIwaW4lMjB0b3VjaA==" title_typo="font_size~22||weight~700" subtitle_typo="font_size~14||line_height~1||weight~400||use_custom_font~1||custom_font~Poppins:300,400,500,700"][norebro_text]Bring to the table win-win survival <strong>strategies to ensure</strong> proactive domination. Climb leg rub face on everything give attitude nap all day for under the bed. Chase mice attack feet but rub face on everything hopped up on goofballs. heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.[/norebro_text][norebro_contact_form form_id="4" form_style="classic" fields_offset="30px" button="type=outline&amp;size=default&amp;color=#333333&amp;text-color=#333333"][/vc_column][/vc_row][vc_row][vc_column css=".vc_custom_1502450761306{padding-top: 0px !important;}"][vc_empty_space height="80px" el_class="norebro-phone-space"][/vc_column][/vc_row][vc_row full_width="stretch_row_content_no_spaces"][vc_column][norebro_google_maps map_zoom_enable="1" map_style="default" marker_locations="55.689718,12.5645143" map_height="500px"][/vc_column][/vc_row]]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>13180</wp:post_id>
+		<wp:post_id>5661017</wp:post_id>
 		<wp:post_date><![CDATA[2017-10-18 14:24:53]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-10-18 14:24:53]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>

@@ -9,6 +9,7 @@
 	    'options_global_page_custom_css' => '.portfolio-page.content-invert .content {, padding-top: 150px;, }',
 	    'options_global_logo_type' => 'sitename',
 	    'options_global_menu_type' => 'hamburger',
+	    'options_global_page_is_wrapped' => '1',
 	    'options_global_header_menu_use_wrapper' => '0',
 	    'options_global_header_menu_text_typo' => '{"color":"#ffffff"}',
 	    'options_global_header_menu_hide_border' => '0',

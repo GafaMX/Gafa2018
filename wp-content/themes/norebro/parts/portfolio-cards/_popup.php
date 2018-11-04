@@ -1,30 +1,44 @@
-<?php 
+<?php
 	$project = NorebroHelper::get_storage_item_data();
 	if ( is_array( $project['images_full'] ) && count( $project['images_full'] ) > 0 ) {
 		$project['images'] = $project['images_full'];
 	}
 
+	$hide_description = NorebroSettings::get( 'portfolio_gallery_description' );
+	if ( in_array( $hide_description, array( 'inherit', NULL ) ) ) {
+		$hide_description = ( bool ) NorebroSettings::get( 'portfolio_gallery_description', 'global' );
+	} else {
+		$hide_description = ( $hide_description == 'yes' );
+	}
+
+	$hide_details = NorebroSettings::get( 'portfolio_gallery_details' );
+	if ( in_array( $hide_details, array( 'inherit', NULL ) ) ) {
+		$hide_details = ( bool ) NorebroSettings::get( 'portfolio_gallery_details', 'global' );
+	} else {
+		$hide_details = ( $hide_details == 'yes' );
+	}
+
+	$view_text = NorebroSettings::get( 'portfolio_gallery_link_text', 'global' );
+	if ( ! $view_text ) {
+		$view_text = 'View Project';
+	}
+
 	$autoplay = false;
-	if ( isset( $project['popup_autoplay'] ) && $project['popup_autoplay'] ) { 
+	if ( isset( $project['popup_autoplay'] ) && $project['popup_autoplay'] ) {
 		$autoplay = ' data-autoplay="' . $project['popup_autoplay_time'] . '"';
-	}
-	$navigation = false;
-	if ( isset( $project['popup_navigation'] ) && $project['popup_navigation'] ) { 
-		$navigation = ' data-navigation="true"';
-	}
-	$mouse_scrolling = false;
-	if ( isset( $project['popup_mouse_scrolling'] ) && $project['popup_mouse_scrolling'] ) { 
-		$mouse_scrolling = ' data-mouse-scrolling="true"';
 	}
 
 	if ( $project ) :
+
+
+
 ?>
 
 	<div class="portfolio-gallery<?php if ( NorebroSettings::get( 'portfolio_gallery_light', 'global' ) != 'light' ) { echo ' gallery-dark'; } ?>" id="<?php echo esc_attr( $project['popup_id'] ); ?>" data-lazy-to-footer="true">
-		<div class="slider"<?php echo $autoplay . $navigation . $mouse_scrolling; ?>>
+		<div class="slider"<?php echo $autoplay; ?>>
 
 			<?php foreach ( $project['images'] as $i => $art ) : ?>
-			<img src="<?php echo esc_url( $art ); ?>" alt="">
+			<div class="portfolio-img" style="background-image: url(<?php echo esc_url( $art ); ?>);"></div>
 			<?php endforeach; ?>
 
 		</div>
@@ -42,9 +56,12 @@
 						<?php endif; ?>
 
 						<h2 class="title text-left"><?php echo esc_html( $project['title'] ); ?></h2>
+						<?php if ( !$hide_description ) : ?>
 						<div class="description">
 							<?php echo esc_attr( $project['short_description'] ); ?>
 						</div>
+						<?php endif; ?>
+						<?php if ( !$hide_details ) : ?>
 						<div class="info">
 							<ul class="info-list">
 								<?php if ( $project['date'] ) : ?>
@@ -85,9 +102,10 @@
 								<?php endif; ?>
 							</ul>
 						</div>
+						<?php endif; ?>
 						<?php if ( ! $project['hide_view_link_in_popup'] ) : ?>
-						<a href="<?php echo esc_url( $project['url'] ); ?>" class="view-project font-titles hover-underline">
-							<?php esc_html_e( 'View Project', 'norebro' ); ?>
+						<a href="<?php echo esc_url( $project['url'] ); ?>" class="view-project font-titles hover-underline"<?php echo $project['external'] ? ' target="_blank"' : ''?>>
+							<?php esc_html_e( $view_text, 'norebro' ); ?>
 						</a>
 						<?php endif; ?>
 					</div>

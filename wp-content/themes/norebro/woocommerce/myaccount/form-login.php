@@ -29,100 +29,106 @@ if ( ! defined( 'ABSPATH' ) ) {
 <?php if ( get_option( 'woocommerce_enable_myaccount_registration' ) === 'yes' ) : ?>
 
 <div class="u-columns col2-set" id="customer_login">
-
 	<div class="u-column1 col-1">
 
-<?php endif; ?>
+	<?php endif; ?>
 		<div class="vc_row">
 			<div class="vc_col-md-12 myaccount-login-form">
-			
-				<h2 class="second-title text-left"><?php esc_html_e( 'Login', 'norebro' ); ?></h2>
+				<div class="norebro-tabs-sc tab-box tabs-center" id="norebro-5b28a6d084e39" data-norebro-tab-box="true" data-options="{}">
+				<div class="buttons-wrap">
+					<div class="buttons <?php if ( get_option( 'woocommerce_enable_myaccount_registration' ) === 'no' ){ echo single;}?>" role="tablist">
+						<div class="line brand-bg-color" style="width: 60px; transform: translateX(0px);"></div>
 
-				<form method="post" class="login">
+						<h2 class="button active second-title text-left">
+							<?php esc_html_e( 'Sign in', 'norebro' ); ?>
+						</h2>
+						<?php if ( get_option( 'woocommerce_enable_myaccount_registration' ) === 'yes' ) { ?>
+							<h2 class="button title text-left">
+								<?php esc_html_e( 'Registration', 'norebro' ); ?>
+							</h2> 
+						<?php } ?>
+					</div>
+				</div>
 
-					<?php do_action( 'woocommerce_login_form_start' ); ?>
+				<div class="items" role="tabpanel">
+					<div class="item active" data-title="<?php esc_html_e( 'Sign In', 'norebro' ); ?>">
+						<form method="post" class="login">
 
-					<p class="woocommerce-FormRow woocommerce-FormRow--wide form-row form-row-wide">
-						<input type="text" placeholder="<?php esc_attr_e( 'Username or email address', 'norebro' ); ?>"  name="username" id="username" value="<?php if ( ! empty( $_POST['username'] ) ) echo esc_attr( $_POST['username'] ); ?>" />
-					</p>
-					<p class="woocommerce-FormRow woocommerce-FormRow--wide form-row form-row-wide">
-						<input placeholder="<?php esc_attr_e( 'Password', 'norebro' ); ?>" type="password" name="password" id="password" />
-					</p>
+							<?php do_action( 'woocommerce_login_form_start' ); ?>
 
-					<?php do_action( 'woocommerce_login_form' ); ?>
+							<p class="woocommerce-FormRow woocommerce-FormRow--wide form-row form-row-wide">
+								<input type="text" placeholder="<?php esc_attr_e( 'Username or email address', 'norebro' ); ?>"  name="username" id="username" value="<?php if ( ! empty( $_POST['username'] ) ) echo esc_attr( $_POST['username'] ); ?>" />
+							</p>
+							<p class="woocommerce-FormRow woocommerce-FormRow--wide form-row form-row-wide">
+								<input placeholder="<?php esc_attr_e( 'Password', 'norebro' ); ?>" type="password" name="password" id="password" />
+							</p>
 
-					<p class="form-row">
-						<?php wp_nonce_field( 'woocommerce-login', 'woocommerce-login-nonce' ); ?>
-						<input type="submit" class="woocommerce-Button btn" name="login" value="<?php esc_attr_e( 'Login', 'norebro' ); ?>" />
-						<span class="clear"></span>
-						<label for="rememberme" class="inline left">
-							<input class="woocommerce-Input woocommerce-Input--checkbox" name="rememberme" type="checkbox" id="rememberme" value="forever" /> <?php esc_html_e( 'Remember me', 'norebro' ); ?>
-						</label>
-						<a class="lost-link right" href="<?php echo esc_url( wp_lostpassword_url() ); ?>"><?php esc_html_e( 'Lost your password?', 'norebro' ); ?></a>
-						<span class="clear"></span>
-					</p>
+							<?php do_action( 'woocommerce_login_form' ); ?>
 
-					<?php do_action( 'woocommerce_login_form_end' ); ?>
+							<p class="form-row">
+								<?php wp_nonce_field( 'woocommerce-login', 'woocommerce-login-nonce' ); ?>
+								<input type="submit" class="woocommerce-Button btn" name="login" value="<?php esc_attr_e( 'Login', 'norebro' ); ?>" />
+								<span class="clear"></span>
+								<label for="rememberme" class="inline left">
+									<input class="woocommerce-Input woocommerce-Input--checkbox" name="rememberme" type="checkbox" id="rememberme" value="forever" /> <?php esc_html_e( 'Remember me', 'norebro' ); ?>
+								</label>
+								<a class="lost-link right" href="<?php echo esc_url( wp_lostpassword_url() ); ?>"><?php esc_html_e( 'Lost your password?', 'norebro' ); ?></a>
+								<span class="clear"></span>
+							</p>
 
-				</form>
-			</div>
-		</div>
+							<?php do_action( 'woocommerce_login_form_end' ); ?>
 
-<?php if ( get_option( 'woocommerce_enable_myaccount_registration' ) === 'yes' ) : ?>
-		</div>
-	</div>
-
-	<div class="u-column2 col-2">
-		<div class="vc_row">
-		
-			<div class="vc_col-md-12">
+						</form>
+					</div>
 				
-				<h2 class="title text-left"><?php esc_html_e( 'Register', 'norebro' ); ?></h2>
+					<?php if ( get_option( 'woocommerce_enable_myaccount_registration' ) === 'yes' ) : ?>
+						<div class="item" data-title="<?php esc_html_e( 'Registration', 'norebro' ); ?>">
+								<form method="post" class="register">
 
-				<form method="post" class="register">
+								<?php do_action( 'woocommerce_register_form_start' ); ?>
 
-					<?php do_action( 'woocommerce_register_form_start' ); ?>
+								<?php if ( 'no' === get_option( 'woocommerce_registration_generate_username' ) ) : ?>
 
-					<?php if ( 'no' === get_option( 'woocommerce_registration_generate_username' ) ) : ?>
+									<p class="woocommerce-FormRow woocommerce-FormRow--wide form-row form-row-wide">
+										<input type="text" placeholder="<?php esc_attr_e( 'Username', 'norebro' ); ?>" name="username" id="reg_username" value="<?php if ( ! empty( $_POST['username'] ) ) echo esc_attr( $_POST['username'] ); ?>" />
+									</p>
 
-						<p class="woocommerce-FormRow woocommerce-FormRow--wide form-row form-row-wide">
-							<input type="text" placeholder="<?php esc_attr_e( 'Username', 'norebro' ); ?>" name="username" id="reg_username" value="<?php if ( ! empty( $_POST['username'] ) ) echo esc_attr( $_POST['username'] ); ?>" />
-						</p>
+								<?php endif; ?>
 
-					<?php endif; ?>
+								<p class="woocommerce-FormRow woocommerce-FormRow--wide form-row form-row-wide">
+									<input type="email" placeholder="<?php esc_attr_e( 'Email address', 'norebro' ); ?>" name="email" id="reg_email" value="<?php if ( ! empty( $_POST['email'] ) ) echo esc_attr( $_POST['email'] ); ?>" />
+								</p>
 
-					<p class="woocommerce-FormRow woocommerce-FormRow--wide form-row form-row-wide">
-						<input type="email" placeholder="<?php esc_attr_e( 'Email address', 'norebro' ); ?>" name="email" id="reg_email" value="<?php if ( ! empty( $_POST['email'] ) ) echo esc_attr( $_POST['email'] ); ?>" />
-					</p>
+								<?php if ( 'no' === get_option( 'woocommerce_registration_generate_password' ) ) : ?>
 
-					<?php if ( 'no' === get_option( 'woocommerce_registration_generate_password' ) ) : ?>
+									<p class="woocommerce-FormRow woocommerce-FormRow--wide form-row form-row-wide">
+										<input type="password" placeholder="<?php esc_attr_e( 'Password', 'norebro' ); ?>" name="password" id="reg_password" />
+									</p>
 
-						<p class="woocommerce-FormRow woocommerce-FormRow--wide form-row form-row-wide">
-							<input type="password" placeholder="<?php esc_attr_e( 'Password', 'norebro' ); ?>" name="password" id="reg_password" />
-						</p>
+								<?php endif; ?>
 
-					<?php endif; ?>
+								<!-- Spam Trap -->
+								<div style="<?php echo ( ( is_rtl() ) ? 'right' : 'left' ); ?>: -999em; position: absolute;"><label for="trap"><?php esc_html_e( 'Anti-spam', 'norebro' ); ?></label><input type="text" name="email_2" id="trap" tabindex="-1" /></div>
 
-					<!-- Spam Trap -->
-					<div style="<?php echo ( ( is_rtl() ) ? 'right' : 'left' ); ?>: -999em; position: absolute;"><label for="trap"><?php esc_html_e( 'Anti-spam', 'norebro' ); ?></label><input type="text" name="email_2" id="trap" tabindex="-1" /></div>
+								<?php do_action( 'woocommerce_register_form' ); ?>
+								<?php do_action( 'register_form' ); ?>
 
-					<?php do_action( 'woocommerce_register_form' ); ?>
-					<?php do_action( 'register_form' ); ?>
+								<p class="woocomerce-FormRow form-row">
+									<?php wp_nonce_field( 'woocommerce-register', 'woocommerce-register-nonce' ); ?>
+									<input type="submit" class="woocommerce-Button btn" name="register" value="<?php esc_attr_e( 'Register', 'norebro' ); ?>" />
+								</p>
 
-					<p class="woocomerce-FormRow form-row">
-						<?php wp_nonce_field( 'woocommerce-register', 'woocommerce-register-nonce' ); ?>
-						<input type="submit" class="woocommerce-Button btn" name="register" value="<?php esc_attr_e( 'Register', 'norebro' ); ?>" />
-					</p>
+								<?php do_action( 'woocommerce_register_form_end' ); ?>
 
-					<?php do_action( 'woocommerce_register_form_end' ); ?>
+							</form>
+						</div>
 
-				</form>
-
+						<?php endif; ?>
+					</div>
+				</div>
 			</div>
 		</div>
-
 	</div>
 </div>
-<?php endif; ?>
 
 <?php do_action( 'woocommerce_after_customer_login_form' ); ?>

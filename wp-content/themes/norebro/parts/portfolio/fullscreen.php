@@ -48,7 +48,7 @@
 			<?php endif; ?>
 		</div>
 		<?php endif; ?>
-		
+
 	</div>
 	<div class="portfolio-page fullscreen">
 		<div class="portfolio-content">
@@ -107,6 +107,27 @@
 						</li>
 						<?php endif; ?>
 
+						<?php
+						$tags = wp_get_post_terms($post->ID, 'norebro_portfolio_tags');
+						if (!empty($tags)) {
+							?>
+							<li>
+								<div class="title"><?php esc_html_e( 'Tags', 'norebro' ); ?></div>
+								<p>
+									<?php $i = 0; foreach ($tags as $tag):
+										if ($i == 0):
+											echo $tag->name;
+										else:
+											echo ', ' . $tag->name;
+										endif;
+										$i++; endforeach; ?>
+								</p>
+							</li>
+							<?php
+						}
+						?>
+
+
 						<?php if ( $project['custom_fields'] ) : ?>
 						<?php foreach ( $project['custom_fields'] as $custom_field ) : ?>
 						<li>
@@ -141,7 +162,7 @@
 <?php endif; ?>
 
 <?php if ( comments_open() || get_comments_number() ) : ?>
-	<div class="portfolio-comments">	
+	<div class="portfolio-comments">
 		<?php comments_template(); ?>
 	</div>
 <?php endif; ?>

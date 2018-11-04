@@ -18,6 +18,7 @@
 	    'options_global_header_title_background_type' => 'image',
 	    'options_global_header_title_align' => 'left',
 	    'options_global_header_height' => '420px',
+	    'options_global_page_is_wrapped' => '1',
 	    'options_global_page_background_size' => 'auto',
 	    'options_global_page_background_repeat' => 'repeat',
 	    'options_global_page_text_typo' => '{"font_family":"Rubik","font_variants":["300","regular","500","700","900"],"font_subsets":["latin"]}',

@@ -18,6 +18,7 @@
         'options_global_footer_background_color' => '#ffffff',
         'options_global_footer_text_color' => '#3d4149',
         'options_global_footer_copyright_left' => '&copy; 2017, Norebro Theme by <a href="#" target="_blank">Colabr.io Team</a> | <a href="#">Privacy Policy</a> | <a href="#">Sitemap</a>',
+        'options_global_page_is_wrapped' => '1',
         'options_global_footer_copyright_right' => 'All Rights Reserved.',
         'options_global_footer_copyright_text_color' => '#6a7382',
         'options_global_footer_copyright_background_color' => '#ffffff',

@@ -30,35 +30,37 @@ $tabs = apply_filters( 'woocommerce_product_tabs', array() );
 global $post;
 global $product;
 
+$hide_sharing = NorebroSettings::get( 'woocommerce_sharing', 'global' );
+
 ?>
-
-		<?php if ( ! empty( $tabs ) ) : ?>
-		<div class="accordion-box outline" data-norebro-accordion="0">
-			<?php foreach ( $tabs as $key => $tab ) : ?>
-				<div class="item">
-					<div class="title"<?php if ( $tab['callback'] == 'comments_template' ) { echo ' id="accordion-reviews"'; } ?>>
-						<h4><?php echo apply_filters( 'woocommerce_product_' . $key . '_tab_title', $tab['title'], $key ); ?></h4>
-						<div class="control">
-							<span class="ion-plus"></span>
+						<?php if ( ! empty( $tabs ) ) : ?>
+						<div class="accordion-box outline" data-norebro-accordion="0">
+							<?php foreach ( $tabs as $key => $tab ) : ?>
+								<div class="item">
+									<div class="title"<?php if ( $tab['callback'] == 'comments_template' ) { echo ' id="accordion-reviews"'; } ?>>
+										<h4><?php echo apply_filters( 'woocommerce_product_' . $key . '_tab_title', $tab['title'], $key ); ?></h4>
+										<div class="control">
+											<span class="ion-plus"></span>
+										</div>
+									</div>
+									<div class="content">
+										<div class="wrap">
+											<?php call_user_func( $tab['callback'], $key, $tab ); ?>
+										</div>
+									</div>
+								</div>
+							<?php endforeach; ?>
 						</div>
-					</div>
+						<?php endif; ?>
+					</div><!--.site-container-->
+				</div><!--.wrap-->
+			</div><!--.woo-summary-content-->
 
-					<div class="content">
-						<div class="wrap">
-							<?php call_user_func( $tab['callback'], $key, $tab ); ?>
-						</div>
-					</div>
-				</div>
-			<?php endforeach; ?>
-		</div>
-		<?php endif; ?>
-
-	</div><!--.site-container-->
-	</div><!--.wrap-->
-	</div><!--.woo-summary-content-->
-
-	<?php do_shortcode( '[norebro_share_woo]' ); ?>
-
-</div><!--.summary-->
-<div class="clear"></div>
-</div><!--.woo-single-summary-wrap-->
+			<?php
+				if ( !$hide_sharing ) {
+					do_shortcode( '[norebro_share_woo]' );
+				}
+			?>
+		</div><!--.summary-->
+	</div><!--.woo-single-summary-wrap-->
+</div>

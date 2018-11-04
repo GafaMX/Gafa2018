@@ -22,6 +22,7 @@
 	    'options_global_header_menu_text_typo' => '{"color":"#ffffff"}',
 	    'options_global_header_menu_border_type' => 'solid',
 	    'options_global_header_menu_height' => '70',
+	    'options_global_page_is_wrapped' => '1',
 	    'options_global_header_menu_hide_contacts_bar' => '0',
 	    'options_global_header_menu_contacts_bar_phone_numbers' => '1',
 	    '_options_global_header_menu_contacts_bar_phone_numbers' => 'field_59229bda35af2',

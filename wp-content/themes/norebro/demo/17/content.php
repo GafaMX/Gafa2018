@@ -2,7 +2,7 @@
 
 	$ocdi_fields_to_change = array(
 	    'options_global_blog_columns_in_row' => '3col',
-	    'options_global_blog_item_layout_type' => 'default',
+	    'options_global_blog_item_layout_type' => 'classic',
 	    'options_global_blog_items_boxed_style' => '1',
 	    '_options_global_blog_items_boxed_style' => 'field_592d60af8b80c',
 	    'options_global_footer_copyright_left' => '&copy; 2017, Norebro Theme by <a href="#" target="_blank">Colabr.io Team</a> | <a href="#">Privacy Policy</a> | <a href="#">Sitemap</a>',
@@ -32,6 +32,7 @@
 	    'options_global_header_tilte_typo' => '{"size":"54px","color":"#333333","height":"60px","weight":"600"}',
 	    'options_global_header_title_align' => 'left',
 	    'options_global_header_title_background_type' => 'image',
+	    'options_global_page_is_wrapped' => '1',
 	    'options_global_page_background_repeat' => 'repeat',
 	    'options_global_page_background_size' => 'auto',
 	    'options_global_page_brand_color' => '#505cfd',

@@ -45,6 +45,7 @@
 	    'options_global_page_background_repeat' => 'repeat',
 	    'options_global_page_background_size' => 'auto',
 	    'options_global_page_brand_color' => '#374162',
+	    'options_global_page_is_wrapped' => '1',
 	    'options_global_page_headings_typo' => '{"weight":"600","font_family":"Playfair Display","font_variants":["900italic","900","700italic","700","italic","regular"],"font_subsets":["cyrillic","latin-ext","latin"]}',
 	    'options_global_page_show_breadcrumbs' => '0',
 	    'options_global_page_smooth_scroll' => '1',

@@ -7,6 +7,7 @@
 	    'options_global_fullscreen_menu_style' => 'centered',
 	    'options_global_header_logo_when_fixed' => 'dark_variant',
 	    'options_global_header_menu_border_type' => 'solid',
+	    'options_global_page_is_wrapped' => '1',
 	    'options_global_header_menu_contacts_bar_additional' => '',
 	    '_options_global_header_menu_contacts_bar_additional' => 'field_59229bda3630a',
 	    'options_global_header_menu_contacts_bar_emails' => '',

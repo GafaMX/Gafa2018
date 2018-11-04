@@ -36,31 +36,43 @@
 	if ( !$page_wrapped ) { 
 		$page_container_class .= ' full';
 	}
-	$page_content_class = '';
+
+	$sidebar_position = NorebroSettings::get_woocommerce_sidebar_position();
+	$sidebar_page_class = '';
 	if ( is_active_sidebar( 'wc_shop' ) ) {
-		$page_content_class .= ' with-right-sidebar';
+		if ( $sidebar_position == 'left' ) {
+			$sidebar_page_class = ' with-left-sidebar';
+		} elseif ( $sidebar_position == 'right' ) {
+			$sidebar_page_class = ' with-right-sidebar';
+		}
+	}
+	$sidebar_layout = NorebroSettings::page_sidebar_layout();
+	$sidebar_class = '';
+	if ( $sidebar_layout ) {
+		$sidebar_class .= ' sidebar-' . $sidebar_layout;
 	}
 
 	$products_in_row = NorebroSettings::get( 'woocommerce_products_in_row', 'global' );
-	$products_in_row_tablets = NorebroSettings::get( 'woocommerce_products_in_row_tablets', 'global' );
-	$products_in_row_mobiles = NorebroSettings::get( 'woocommerce_products_in_row_mobiles', 'global' );
+	if ( is_string( $products_in_row ) ) {
+		$products_in_row = (object) json_decode( $products_in_row );
+	}
 
-	if ( ! $products_in_row ) {
-		$products_in_row = '3';
-	}
-	if ( ! $products_in_row_tablets ) {
-		$products_in_row_tablets = '2';
-	}
-	if ( ! $products_in_row_mobiles ) {
-		$products_in_row_mobiles = '1';
+	if( $products_in_row == NULL ){
+		$products_in_row = (object) array(
+			"large" => "3",
+			"medium" => "2",
+			"small" => "1"
+		);
 	}
 
 	$product_now = 0;
 
-	$row_class = ' columns-' . $products_in_row;
-	$row_class .= ' columns-md-' . $products_in_row_tablets;
-	$row_class .= ' columns-sm-' . $products_in_row_mobiles;
-
+	$row_class = '';
+	if ( is_object( $products_in_row ) ) {
+		$row_class = ' columns-' . $products_in_row->large;
+		$row_class .= ' columns-md-' . $products_in_row->medium;
+		$row_class .= ' columns-sm-' . $products_in_row->small;
+	}
 
 	get_header( 'shop' );
 ?>
@@ -80,8 +92,14 @@
 ?>
 
 <div class="page-container<?php echo esc_attr( $page_container_class ); ?> woo-shop-container bottom-offset">
-
-	<div class="page-content<?php echo esc_attr( $page_content_class ); ?><?php echo $row_class; ?>">
+	<?php if ( is_active_sidebar( 'wc_shop' ) && $sidebar_position == 'left'  ) : ?>
+	<div class="page-sidebar sidebar-left woo-sidebar<?php echo $sidebar_class; ?>">
+		<ul class="sidebar-widgets">
+			<?php dynamic_sidebar( 'wc_shop' ); ?>
+		</ul>
+	</div>
+	<?php endif; ?>
+	<div class="page-content<?php echo esc_attr( $sidebar_page_class ); ?><?php echo $row_class; ?>">
 		<?php if ( have_posts() ) : ?>
 		<?php 
 			wc_print_notices();
@@ -96,6 +114,7 @@
 
 			while ( have_posts() ) {
 				the_post();
+
 				do_action( 'woocommerce_shop_loop' );
 				wc_get_template_part( 'content', 'product' );
 			}
@@ -107,17 +126,15 @@
 			<?php wc_get_template( 'loop/no-products-found.php' ); ?>
 		<?php endif; ?>
 	</div>
-	<?php if ( is_active_sidebar( 'wc_shop' ) ) : ?>
-	<div class="page-sidebar sidebar-right woo-sidebar">
+	<?php if ( is_active_sidebar( 'wc_shop' ) && $sidebar_position == 'right'  ) : ?>
+	<div class="page-sidebar sidebar-right woo-sidebar<?php echo $sidebar_class; ?>">
 		<ul class="sidebar-widgets">
 			<?php dynamic_sidebar( 'wc_shop' ); ?>
 		</ul>
 	</div>
 	<?php endif; ?>
 	<div class="clear"></div>
-
 </div><!--.page-container-->
-
 <?php
 	do_action( 'woocommerce_after_main_content' );
 ?>

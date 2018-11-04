@@ -46,26 +46,33 @@ if ( ! function_exists( 'norebro_return_entry_footer' ) ) {
 		// Hide category and tag text for pages.
 		if ( 'post' === get_post_type() ) {
 			global $post;
-			echo '<div class="left">';
-			/* translators: used between list items, there is a space after the comma */
-			/*$categories_list = get_the_category_list( ' ' );
-			if ( $categories_list && norebro_categorized_blog() ) {
-				$categories_list = preg_replace( '/(<a)(.+?>)/i', '$1 class="brand-color brand-border-color" $2 ', $categories_list );
-				printf( '<span class="category subtitle-font">%1$s</span>', $categories_list ); // WPCS: XSS OK.
-			}*/
-			/* translators: used between list items, there is a space after the comma */
-			$tags_list = get_the_tag_list( '', ', ' );
-			if ( $tags_list ) {
-				$tags = explode( ', ', $tags_list );
-				foreach( $tags as $tag ) {
-					printf( '<span class="tag-wrap">%1$s</span>', $tag ); // WPCS: XSS OK.
+			$hide_tags = NorebroSettings::get( 'post_hide_tags', 'global' );
+			$hide_social = NorebroSettings::get( 'post_hide_social', 'global' );
+
+			if ( !$hide_tags ) {
+				echo '<div class="left">';
+				/* translators: used between list items, there is a space after the comma */
+				/*$categories_list = get_the_category_list( ' ' );
+				if ( $categories_list && norebro_categorized_blog() ) {
+					$categories_list = preg_replace( '/(<a)(.+?>)/i', '$1 class="brand-color brand-border-color" $2 ', $categories_list );
+					printf( '<span class="category subtitle-font">%1$s</span>', $categories_list ); // WPCS: XSS OK.
+				}*/
+				/* translators: used between list items, there is a space after the comma */
+				$tags_list = get_the_tag_list( '', ', ' );
+				if ( $tags_list ) {
+					$tags = explode( ', ', $tags_list );
+					foreach( $tags as $tag ) {
+						printf( '<span class="tag-wrap">%1$s</span>', $tag ); // WPCS: XSS OK.
+					}
 				}
+				echo '</div>';
 			}
-			?>
-			</div><!--.left-->
-			<div class="right">
-				<?php do_shortcode( '[norebro_share_blog]' ); ?>
-			<?php echo '</div><div class="clear"></div>';
+
+			echo '<div class="right">';
+			if ( !$hide_social ) {
+				do_shortcode( '[norebro_share_blog]' );
+			}
+			echo '</div><div class="clear"></div>';
 		}
 
 		if ( ! is_single() && ! post_password_required() && ( comments_open() || get_comments_number() ) ) {

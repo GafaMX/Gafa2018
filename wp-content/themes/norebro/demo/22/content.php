@@ -16,6 +16,7 @@
         'options_global_header_menu_style' => 'style5',
         'options_global_logo_type' => 'sitename',
         'options_global_menu_type' => 'hamburger',
+        'options_global_page_is_wrapped' => '1',
         'options_global_header_menu_fixed' => '0',
         'options_global_header_menu_use_wrapper' => '0',
         'options_global_header_menu_hide_border' => '0',

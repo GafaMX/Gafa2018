@@ -9,9 +9,9 @@
 		}
 	}
 
-	$blog_grid_class = '';	
+	$blog_grid_class = '';
 	if ( in_array( 'sticky', get_post_class( '', $norebro_post['post_id'] ) ) ) {
-		$blog_grid_class .= ' sticky'; 
+		$blog_grid_class .= ' sticky';
 	}
 	if ( $norebro_post['media']['blockquote'] ) {
 		$blog_grid_class .= ' quote';
@@ -22,7 +22,7 @@
 
 ?>
 <div class="blog-grid grid-3<?php echo esc_attr( $blog_grid_class ); ?>" <?php echo esc_attr( $anim_attrs ); ?>>
-	
+
 
 	<?php if ( $norebro_post['media']['image'] ) : // simple link image ?>
 	<header data-norebro-bg-image="<?php echo esc_url( $norebro_post['media']['image'] ); ?>">
@@ -30,7 +30,7 @@
 	<header>
 	<?php endif; ?>
 
-		<?php if ( $norebro_post['media']['video'] ) : // video ?> 
+		<?php if ( $norebro_post['media']['video'] ) : // video ?>
 		<?php echo wp_kses( $norebro_post['media']['video'], 'post' ); ?>
 
 		<?php elseif ( $norebro_post['media']['audio'] ) : // audio ?>

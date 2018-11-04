@@ -17,6 +17,7 @@
         'options_global_page_subtitles_typo' => '{"font_family":"Rubik","font_variants":["900italic","900","700italic","700","500italic","500","italic","regular","300italic","300"],"font_subsets":["cyrillic","latin-ext","hebrew","latin"]}',
         'options_global_page_show_breadcrumbs' => '0',
         'options_global_page_smooth_scroll' => '1',
+        'options_global_page_is_wrapped' => '1',
         'options_global_header_menu_background_color' => '#333333',
         'options_global_header_menu_text_typo' => '{"color":"#888888"}',
         'options_global_side_panel_position' => 'hide',

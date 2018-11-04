@@ -1,8 +1,8 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Norebro 1.0.0\n"
-"POT-Creation-Date: 2017-11-08 10:32+0200\n"
+"Project-Id-Version: Norebro 2.0.0\n"
+"POT-Creation-Date: 2018-04-01 14:54+0300\n"
 "PO-Revision-Date: 2017-11-08 10:32+0200\n"
 "Last-Translator: \n"
 "Language-Team: colabrio <info@colabr.io>\n"
@@ -11,7 +11,13 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
-"X-Generator: Eazy Po 0.9.5.3\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,;_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: .git\n"
 
 #: 404.php:16
 msgid "404"
@@ -21,90 +27,151 @@ msgstr ""
 msgid "Oops! That page can't be found"
 msgstr ""
 
-#: 404.php:20 parts/elements/header-menu-optional-nav.php:108
+#: 404.php:20 parts/elements/header-menu-optional-nav.php:183
 msgid "Search"
 msgstr ""
 
-#: comments.php:11
+#: archive.php:166 archive.php:173 index.php:185 index.php:192
+#: page-templates/page_for-posts.php:243 page-templates/page_for-posts.php:250
+#: page-templates/page_for-projects.php:497
+#: page-templates/page_for-projects.php:504 woocommerce/loop/pagination.php:65
+#: woocommerce/loop/pagination.php:72
+msgid "Loading"
+msgstr ""
+
+#: archive.php:172 index.php:191 page-templates/page_for-posts.php:249
+#: page-templates/page_for-projects.php:503 woocommerce/loop/pagination.php:71
+msgid "Load More"
+msgstr ""
+
+#: comments.php:29 parts/elements/header-title.php:59
 #, php-format
 msgctxt "comments title"
-msgid "1 comment"
+msgid "%1$s comment"
 msgid_plural "%1$s comments"
 msgstr[0] ""
 msgstr[1] ""
 
-#: comments.php:18 comments.php:36
+#: comments.php:36 comments.php:54
 msgid "Comment navigation"
 msgstr ""
 
-#: comments.php:21 comments.php:39
+#: comments.php:39 comments.php:57
 msgid "Older Comments"
 msgstr ""
 
-#: comments.php:22 comments.php:40
+#: comments.php:40 comments.php:58
 msgid "Newer Comments"
 msgstr ""
 
-#: comments.php:52
+#: comments.php:75
 msgid "Post a Comment"
 msgstr ""
 
-#: comments.php:52 woocommerce/single-product-reviews.php:64
+#: comments.php:77
 #, php-format
-msgid "Leave a Reply to %s"
+msgid "Post a Reply to %s"
 msgstr ""
 
-#: comments.php:54
+#: comments.php:78
 msgid "Click here to cancel reply"
 msgstr ""
 
-#: comments.php:56
-msgid "Logged in as"
-msgstr ""
-
-#: comments.php:57
-msgid "Log out of this account"
-msgstr ""
-
-#: comments.php:57
-msgid "Log out"
-msgstr ""
-
-#: comments.php:61
-#, php-format
-msgid "You must be %s logged in %s to post a comment."
-msgstr ""
-
-#: comments.php:70
-msgid "Name"
-msgstr ""
-
-#: comments.php:73 woocommerce/share.php:52
-msgid "Email"
-msgstr ""
-
-#: comments.php:76
-msgid "Website"
-msgstr ""
-
-#: comments.php:81
-msgid "Comment"
-msgstr ""
-
-#: comments.php:88
+#: comments.php:79
 msgid "Submit Comment"
 msgstr ""
 
-#: header.php:36
+#: comments.php:80
+msgid "Comment"
+msgstr ""
+
+#: comments.php:82
+msgid "Name"
+msgstr ""
+
+#: comments.php:83
+msgid "E-mail"
+msgstr ""
+
+#: comments.php:84
+msgid "Website"
+msgstr ""
+
+#: header.php:22
 msgid "Skip to content"
 msgstr ""
 
-#: searchform.php:3
-msgid "Search for"
+#: inc/framework/Components/Helper.php:179
+msgid "Gallery slide"
 msgstr ""
 
-#: searchform.php:4
-msgid "Search..."
+#: inc/framework/Components/Layout.php:198
+msgid "Prev"
+msgstr ""
+
+#: inc/framework/Components/Layout.php:212 woocommerce/myaccount/orders.php:118
+msgid "Next"
+msgstr ""
+
+#: inc/framework/Components/ObjectParser.php:316 woocommerce/share.php:32
+msgid "Twitter"
+msgstr ""
+
+#: inc/framework/Components/ObjectParser.php:323 woocommerce/share.php:26
+msgid "Facebook"
+msgstr ""
+
+#: inc/framework/Components/ObjectParser.php:330
+msgid "Google"
+msgstr ""
+
+#: inc/framework/Components/ObjectParser.php:337
+msgid "LinkedIn"
+msgstr ""
+
+#: inc/framework/Components/ObjectParser.php:344 woocommerce/share.php:38
+msgid "Pinterest"
+msgstr ""
+
+#: inc/framework/Components/ObjectParser.php:351
+msgid "Vkontakte"
+msgstr ""
+
+#: inc/framework/Components/Settings.php:880
+msgid "Home"
+msgstr ""
+
+#: inc/framework/Components/Settings.php:900
+msgid "Portfolio"
+msgstr ""
+
+#: inc/init/theme.php:23
+msgid "Primary"
+msgstr ""
+
+#: inc/init/theme.php:61
+msgid "Hi! Are you ready to take the first step with Norebro?"
+msgstr ""
+
+#: inc/init/theme.php:62
+msgid ""
+"Before you get started, we recommend learn basics of working with this theme."
+msgstr ""
+
+#: inc/init/theme.php:65
+msgid "HowTo Videos"
+msgstr ""
+
+#: inc/init/theme.php:66
+msgid "FAQ"
+msgstr ""
+
+#: inc/init/theme.php:67
+msgid "Documentation"
+msgstr ""
+
+#: inc/init/theme.php:68
+msgid "Hide Message"
 msgstr ""
 
 #: inc/menu.php:5
@@ -116,144 +183,29 @@ msgstr ""
 msgid "Menus"
 msgstr ""
 
-#: inc/sidebars.php:5 parts/elements/header-title.php:28
-msgid "Blog"
-msgstr ""
-
-#: inc/sidebars.php:7 inc/sidebars.php:16
-msgid "Add widgets here."
-msgstr ""
-
-#: inc/sidebars.php:14 inc/tgmpa/acf_setup.php:31 parts/content-page.php:6
-#: parts/content.php:14
-msgid "Pages"
-msgstr ""
-
-#: inc/sidebars.php:24
-msgid "Footer column 1"
-msgstr ""
-
-#: inc/sidebars.php:30
-msgid "Footer column 2"
-msgstr ""
-
-#: inc/sidebars.php:36
-msgid "Footer column 3"
-msgstr ""
-
-#: inc/sidebars.php:42
-msgid "Footer column 4"
-msgstr ""
-
-#: inc/template-tags.php:27
-#, php-format
-msgctxt "post date"
-msgid "%s"
-msgstr ""
-
-#: inc/template-tags.php:67
-msgid "Share story"
-msgstr ""
-
-#: inc/template-tags.php:92
-#, php-format
-msgid "Leave a Comment %s on %s"
-msgstr ""
-
-#: inc/wp_overrides.php:24
-msgid "Your comment is awaiting moderation."
-msgstr ""
-
-#: inc/wp_overrides.php:31
-#, php-format
-msgid "%1$s at %2$s"
-msgstr ""
-
-#: inc/wp_overrides.php:31 woocommerce/myaccount/my-address.php:55
-msgid "Edit"
-msgstr ""
-
-#: inc/wp_overrides.php:34
-msgid "Leave reply"
-msgstr ""
-
-#: inc/wp_overrides.php:247
-msgid "Registration complete. Check your email."
-msgstr ""
-
-#: inc/framework/Components/Helper.php:186
-msgid "Gallery slide"
-msgstr ""
-
-#: inc/framework/Components/Layout.php:164
-msgid "Prev"
-msgstr ""
-
-#: inc/framework/Components/Layout.php:178
-#: woocommerce/myaccount/orders.php:116
-msgid "Next"
-msgstr ""
-
-#: inc/framework/Components/Settings.php:774
-msgid "Home"
-msgstr ""
-
-#: inc/framework/Components/Settings.php:784 inc/tgmpa/acf_setup.php:59
-msgid "Portfolio"
-msgstr ""
-
-#: inc/init/theme.php:16
-msgid "Primary"
-msgstr ""
-
-#: inc/init/theme.php:53
-msgid "Hi! Are you ready to take the first step with Norebro?"
-msgstr ""
-
-#: inc/init/theme.php:54
-msgid ""
-"Before you get started, we recommend learn basics of working with this theme."
-msgstr ""
-
-#: inc/init/theme.php:57
-msgid "HowTo Videos"
-msgstr ""
-
-#: inc/init/theme.php:58
-msgid "FAQ"
-msgstr ""
-
-#: inc/init/theme.php:59
-msgid "Documentation"
-msgstr ""
-
-#: inc/init/theme.php:60
-msgid "Hide Message"
-msgstr ""
-
-#: inc/menu/edit_mega_menu_walker.php:91
+#: inc/menu/edit_mega_menu_walker.php:87
 #, php-format
 msgid "%s (Invalid)"
 msgstr ""
 
-#: inc/menu/edit_mega_menu_walker.php:95
+#: inc/menu/edit_mega_menu_walker.php:91
 #, php-format
 msgid "%s (Pending)"
 msgstr ""
 
-#: inc/menu/edit_mega_menu_walker.php:107
+#: inc/menu/edit_mega_menu_walker.php:103
 msgid "sub item"
 msgstr ""
 
-#: inc/menu/edit_mega_menu_walker.php:122
+#: inc/menu/edit_mega_menu_walker.php:118
 msgid "Move up"
 msgstr ""
 
-#: inc/menu/edit_mega_menu_walker.php:135
+#: inc/menu/edit_mega_menu_walker.php:131
 msgid "Move down"
 msgstr ""
 
-#: inc/menu/edit_mega_menu_walker.php:137
+#: inc/menu/edit_mega_menu_walker.php:133
 #: inc/menu/edit_mega_menu_walker.php:139
 msgid "Edit Menu Item"
 msgstr ""
@@ -316,17 +268,18 @@ msgstr ""
 msgid "To the top"
 msgstr ""
 
-#: inc/menu/edit_mega_menu_walker.php:240
+#: inc/menu/edit_mega_menu_walker.php:243
 #, php-format
 msgid "Original: %s"
 msgstr ""
 
-#: inc/menu/edit_mega_menu_walker.php:253 woocommerce/wishlist-view.php:241
+#: inc/menu/edit_mega_menu_walker.php:259 woocommerce/wishlist-view.php:241
 msgid "Remove"
 msgstr ""
 
-#: inc/menu/edit_mega_menu_walker.php:254 woocommerce/wishlist-view.php:36
-#: woocommerce/myaccount/my-orders.php:80 woocommerce/myaccount/orders.php:81
+#: inc/menu/edit_mega_menu_walker.php:260
+#: woocommerce/myaccount/my-orders.php:80 woocommerce/myaccount/orders.php:83
+#: woocommerce/wishlist-view.php:36
 msgid "Cancel"
 msgstr ""
 
@@ -342,6 +295,39 @@ msgstr ""
 msgid "No"
 msgstr ""
 
+#: inc/sidebars.php:5 parts/elements/header-title.php:28
+msgid "Blog"
+msgstr ""
+
+#: inc/sidebars.php:7 inc/sidebars.php:16
+msgid "Add widgets here."
+msgstr ""
+
+#: inc/sidebars.php:14 parts/content-page.php:6 parts/content.php:14
+msgid "Pages"
+msgstr ""
+
+#: inc/sidebars.php:24
+msgid "Footer column 1"
+msgstr ""
+
+#: inc/sidebars.php:30
+msgid "Footer column 2"
+msgstr ""
+
+#: inc/sidebars.php:36
+msgid "Footer column 3"
+msgstr ""
+
+#: inc/sidebars.php:42
+msgid "Footer column 4"
+msgstr ""
+
+#: inc/template-tags.php:81
+#, php-format
+msgid "Leave a Comment %1$s on %2$s"
+msgstr ""
+
 #: inc/tgmpa/acf_setup.php:22
 msgid "Norebro Theme Settings"
 msgstr ""
@@ -350,67 +336,88 @@ msgstr ""
 msgid "Theme Settings"
 msgstr ""
 
-#: inc/tgmpa/acf_setup.php:30
+#: inc/tgmpa/acf_setup.php:30 inc/tgmpa/acf_setup.php:37
+#: inc/tgmpa/acf_setup.php:44 inc/tgmpa/acf_setup.php:58
 msgid "Theme Pages Settings"
 msgstr ""
 
-#: inc/tgmpa/acf_setup.php:37
-msgid "Theme Header Settings"
+#: inc/tgmpa/acf_setup.php:31
+msgid "Branding"
 msgstr ""
 
 #: inc/tgmpa/acf_setup.php:38
-msgid "Header"
-msgstr ""
-
-#: inc/tgmpa/acf_setup.php:44
-msgid "Theme Panels Settings"
+msgid "Theme Styling"
 msgstr ""
 
 #: inc/tgmpa/acf_setup.php:45
-msgid "Panels"
+msgid "Typography"
 msgstr ""
 
 #: inc/tgmpa/acf_setup.php:51
-msgid "Theme Blog Settings"
+msgid "Theme Header Settings"
 msgstr ""
 
 #: inc/tgmpa/acf_setup.php:52
-msgid "Blog / Archive"
+msgid "Header & Menu"
 msgstr ""
 
-#: inc/tgmpa/acf_setup.php:58
-msgid "Theme Portfolio Settings"
+#: inc/tgmpa/acf_setup.php:59
+msgid "Page Settings"
 msgstr ""
 
-#: inc/tgmpa/acf_setup.php:65
-msgid "Theme WooCommerce Settings"
+#: inc/tgmpa/acf_setup.php:65 inc/tgmpa/acf_setup.php:100
+msgid "Theme Blog Settings"
 msgstr ""
 
-#: inc/tgmpa/acf_setup.php:66 inc/tgmpa/woocommerce_setup.php:147
-#: parts/elements/breadcrumbs.php:150 parts/elements/breadcrumbs.php:155
-#: parts/elements/breadcrumbs.php:163 parts/elements/breadcrumbs.php:171
-#: parts/elements/breadcrumbs.php:180 parts/elements/breadcrumbs.php:186
-#: parts/elements/header-title.php:72
-msgid "Shop"
+#: inc/tgmpa/acf_setup.php:66
+msgid "Blog Settings"
 msgstr ""
 
 #: inc/tgmpa/acf_setup.php:72
-msgid "Theme Footer Settings"
+msgid "Theme Portfolio Settings"
 msgstr ""
 
 #: inc/tgmpa/acf_setup.php:73
-msgid "Footer"
+msgid "Portfolio Settings"
 msgstr ""
 
 #: inc/tgmpa/acf_setup.php:79
-msgid "Theme Plugins Settings"
+msgid "Theme WooCommerce Settings"
 msgstr ""
 
 #: inc/tgmpa/acf_setup.php:80
-msgid "Plugins / Widgets"
+msgid "Shop Settings"
+msgstr ""
+
+#: inc/tgmpa/acf_setup.php:86
+msgid "Theme Panels Settings"
 msgstr ""
 
 #: inc/tgmpa/acf_setup.php:87
+msgid "Panels"
+msgstr ""
+
+#: inc/tgmpa/acf_setup.php:93
+msgid "Theme Footer Settings"
+msgstr ""
+
+#: inc/tgmpa/acf_setup.php:94
+msgid "Footer"
+msgstr ""
+
+#: inc/tgmpa/acf_setup.php:101
+msgid "Custom CSS"
+msgstr ""
+
+#: inc/tgmpa/acf_setup.php:107
+msgid "Theme Plugins Settings"
+msgstr ""
+
+#: inc/tgmpa/acf_setup.php:108
+msgid "Other Settings"
+msgstr ""
+
+#: inc/tgmpa/acf_setup.php:115
 msgid "Support"
 msgstr ""
 
@@ -915,6 +922,32 @@ msgstr ""
 msgid "Creative Slider"
 msgstr ""
 
+#: inc/tgmpa/ocdi_setup.php:243 inc/tgmpa/ocdi_setup.php:250
+#: inc/tgmpa/ocdi_setup.php:257 inc/tgmpa/ocdi_setup.php:264
+#: inc/tgmpa/ocdi_setup.php:271
+msgid "About us"
+msgstr ""
+
+#: inc/tgmpa/ocdi_setup.php:278 inc/tgmpa/ocdi_setup.php:285
+#: inc/tgmpa/ocdi_setup.php:292 inc/tgmpa/ocdi_setup.php:299
+#: inc/tgmpa/ocdi_setup.php:306 inc/tgmpa/ocdi_setup.php:313
+msgid "Contact"
+msgstr ""
+
+#: inc/tgmpa/ocdi_setup.php:320 inc/tgmpa/ocdi_setup.php:327
+#: inc/tgmpa/ocdi_setup.php:334
+msgid "Team"
+msgstr ""
+
+#: inc/tgmpa/ocdi_setup.php:341 inc/tgmpa/ocdi_setup.php:348
+#: inc/tgmpa/ocdi_setup.php:355
+msgid "Services"
+msgstr ""
+
+#: inc/tgmpa/ocdi_setup.php:362
+msgid "Partially"
+msgstr ""
+
 #: inc/tgmpa/woocommerce_setup.php:50 inc/tgmpa/woocommerce_setup.php:99
 msgctxt "placeholder"
 msgid "First name"
@@ -975,6 +1008,10 @@ msgctxt "placeholder"
 msgid "Password"
 msgstr ""
 
+#: inc/tgmpa/woocommerce_setup.php:147
+msgid "Shop"
+msgstr ""
+
 #: inc/tgmpa/woocommerce_setup.php:149
 msgid "WooCommerce sidebar."
 msgstr ""
@@ -983,15 +1020,36 @@ msgstr ""
 msgid "Norebro Default Avatar"
 msgstr ""
 
-#: page-templates/page_for-projects.php:272
+#: inc/wp_overrides.php:24
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/wp_overrides.php:31
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: inc/wp_overrides.php:31 woocommerce/myaccount/my-address.php:55
+msgid "Edit"
+msgstr ""
+
+#: inc/wp_overrides.php:34
+msgid "Leave reply"
+msgstr ""
+
+#: inc/wp_overrides.php:244
+msgid "Registration complete. Check your email."
+msgstr ""
+
+#: page-templates/page_for-projects.php:392
 msgid "All"
 msgstr ""
 
-#: page-templates/page_for-projects.php:444
-#: page-templates/page_for-projects.php:526
-#: page-templates/page_for-projects.php:570 parts/portfolio/header-full.php:86
-#: parts/portfolio/header-title-invert.php:91
-#: parts/portfolio/header-title.php:91
+#: page-templates/page_for-projects.php:575
+#: page-templates/page_for-projects.php:640
+#: page-templates/page_for-projects.php:684 parts/portfolio/header-full.php:84
+#: parts/portfolio/header-title-invert.php:89
+#: parts/portfolio/header-title.php:89
 msgid "Scroll"
 msgstr ""
 
@@ -1031,40 +1089,41 @@ msgstr ""
 msgid "Tag"
 msgstr ""
 
-#: parts/elements/breadcrumbs.php:239 parts/elements/header-title.php:67
+#: parts/elements/breadcrumbs.php:239 parts/elements/header-title.php:75
 msgid "Undefined"
 msgstr ""
 
-#: parts/elements/breadcrumbs.php:280 parts/elements/breadcrumbs.php:287
+#: parts/elements/breadcrumbs.php:285 parts/elements/breadcrumbs.php:292
 #, php-format
-msgid "Showing %d-%d of %d results"
+msgid "Showing %1$d-%2$d of %3$d results"
 msgstr ""
 
-#: parts/elements/breadcrumbs.php:293
+#: parts/elements/breadcrumbs.php:298
 msgid "Categories"
 msgstr ""
 
-#: parts/elements/breadcrumbs.php:311 woocommerce/loop/orderby.php:115
+#: parts/elements/breadcrumbs.php:316 woocommerce/loop/orderby.php:115
 msgid "Tags"
 msgstr ""
 
-#: parts/elements/breadcrumbs.php:329
+#: parts/elements/breadcrumbs.php:334
 msgid "Authors"
 msgstr ""
 
-#: parts/elements/header-menu-fullscreen-nav.php:40
-#: parts/elements/header-menu-nav.php:20
+#: parts/elements/header-menu-fullscreen-nav.php:43
+#: parts/elements/header-menu-nav.php:47
 #, php-format
-msgid "Please %s assign a menu %s to the primary menu location"
+msgid "Please %1$s assign a menu %2$s to the primary menu location"
 msgstr ""
 
-#: parts/elements/header-menu-optional-nav.php:34
-#: parts/headers/header-style-4.php:37
+#: parts/elements/header-menu-nav.php:92
+#: parts/elements/header-menu-optional-nav.php:47
+#: parts/headers/header-style-4.php:53
 msgid "Cart"
 msgstr ""
 
-#: parts/elements/header-menu-optional-nav.php:48
-#: parts/headers/header-style-4.php:50
+#: parts/elements/header-menu-optional-nav.php:62
+#: parts/headers/header-style-4.php:66
 msgid "Wishlist"
 msgstr ""
 
@@ -1076,19 +1135,19 @@ msgstr ""
 msgid "Search Results for: "
 msgstr ""
 
-#: parts/elements/header-title.php:68
+#: parts/elements/header-title.php:76
 msgid "Author"
 msgstr ""
 
-#: parts/elements/header-title.php:77
+#: parts/elements/header-title.php:85
 msgid "Product category"
 msgstr ""
 
-#: parts/elements/header-title.php:82
+#: parts/elements/header-title.php:90
 msgid "Product tag"
 msgstr ""
 
-#: parts/elements/header-title.php:86
+#: parts/elements/header-title.php:94
 msgid "Page not found!"
 msgstr ""
 
@@ -1108,11 +1167,11 @@ msgstr ""
 msgid "Next project"
 msgstr ""
 
-#: parts/elements/panel.php:40
+#: parts/elements/panel.php:76
 msgid "Share"
 msgstr ""
 
-#: parts/elements/related-posts.php:36
+#: parts/elements/related-posts.php:35
 msgid "Related posts"
 msgstr ""
 
@@ -1120,519 +1179,109 @@ msgstr ""
 msgid "Scroll to top"
 msgstr ""
 
-#: parts/portfolio/boxed-invert.php:48 parts/portfolio/boxed.php:56
-#: parts/portfolio/full-width-invert.php:39 parts/portfolio/full-width.php:46
-#: parts/portfolio/fullscreen.php:52 parts/portfolio/slider.php:44
-msgid "Task"
-msgstr ""
-
-#: parts/portfolio/boxed-invert.php:56 parts/portfolio/boxed.php:64
-#: parts/portfolio/full-width-invert.php:48 parts/portfolio/full-width.php:55
-#: parts/portfolio/fullscreen.php:60 parts/portfolio/header-full.php:46
-#: parts/portfolio/header-title-invert.php:41
-#: parts/portfolio/header-title.php:41 parts/portfolio/slider.php:54
-#: parts/portfolio-cards/_popup.php:37 woocommerce/myaccount/my-orders.php:14
+#: parts/portfolio-cards/_popup.php:66 parts/portfolio/boxed-invert.php:80
+#: parts/portfolio/boxed.php:88 parts/portfolio/full-width-invert.php:79
+#: parts/portfolio/full-width.php:86 parts/portfolio/fullscreen.php:91
+#: parts/portfolio/header-full.php:44
+#: parts/portfolio/header-title-invert.php:39
+#: parts/portfolio/header-title.php:39 parts/portfolio/slider.php:79
+#: woocommerce/myaccount/my-orders.php:14
 msgid "Date"
 msgstr ""
 
-#: parts/portfolio/boxed-invert.php:63 parts/portfolio/boxed.php:71
-#: parts/portfolio/full-width-invert.php:55 parts/portfolio/full-width.php:62
-#: parts/portfolio/fullscreen.php:67 parts/portfolio/header-full.php:53
-#: parts/portfolio/header-title-invert.php:50
-#: parts/portfolio/header-title.php:50 parts/portfolio/slider.php:61
-#: parts/portfolio-cards/_popup.php:44
+#: parts/portfolio-cards/_popup.php:73 parts/portfolio/boxed-invert.php:87
+#: parts/portfolio/boxed.php:95 parts/portfolio/full-width-invert.php:86
+#: parts/portfolio/full-width.php:93 parts/portfolio/fullscreen.php:98
+#: parts/portfolio/header-full.php:51
+#: parts/portfolio/header-title-invert.php:48
+#: parts/portfolio/header-title.php:48 parts/portfolio/slider.php:86
 msgid "Skills"
 msgstr ""
 
-#: parts/portfolio/boxed-invert.php:70 parts/portfolio/boxed.php:78
-#: parts/portfolio/full-width-invert.php:62 parts/portfolio/full-width.php:69
-#: parts/portfolio/fullscreen.php:74 parts/portfolio/header-full.php:60
-#: parts/portfolio/header-title-invert.php:59
-#: parts/portfolio/header-title.php:59 parts/portfolio/slider.php:68
-#: parts/portfolio-cards/_popup.php:51
+#: parts/portfolio-cards/_popup.php:80 parts/portfolio/boxed-invert.php:94
+#: parts/portfolio/boxed.php:102 parts/portfolio/full-width-invert.php:93
+#: parts/portfolio/full-width.php:100 parts/portfolio/fullscreen.php:105
+#: parts/portfolio/header-full.php:58
+#: parts/portfolio/header-title-invert.php:57
+#: parts/portfolio/header-title.php:57 parts/portfolio/slider.php:93
 msgid "Client"
 msgstr ""
 
-#: parts/portfolio/boxed-invert.php:86 parts/portfolio/boxed.php:94
-#: parts/portfolio/full-width-invert.php:78 parts/portfolio/full-width.php:85
-#: parts/portfolio/fullscreen.php:91 parts/portfolio/slider.php:85
-msgid "Share project"
-msgstr ""
-
-#: parts/portfolio/boxed-invert.php:90 parts/portfolio/boxed.php:98
-#: parts/portfolio/full-width-invert.php:82 parts/portfolio/full-width.php:89
-#: parts/portfolio/fullscreen.php:95 parts/portfolio/slider.php:89
-#: woocommerce/share.php:28
-msgid "Twitter"
-msgstr ""
-
-#: parts/portfolio/boxed-invert.php:94 parts/portfolio/boxed.php:102
-#: parts/portfolio/full-width-invert.php:86 parts/portfolio/full-width.php:93
-#: parts/portfolio/fullscreen.php:99 parts/portfolio/slider.php:93
-#: woocommerce/share.php:20
-msgid "Facebook"
-msgstr ""
-
-#: parts/portfolio/boxed-invert.php:98 woocommerce/share.php:44
-msgid "Google+"
-msgstr ""
-
-#: parts/portfolio/boxed-invert.php:102 parts/portfolio/boxed.php:110
-#: parts/portfolio/full-width-invert.php:94 parts/portfolio/full-width.php:101
-#: parts/portfolio/fullscreen.php:107 parts/portfolio/slider.php:101
-msgid "LinkedIn"
-msgstr ""
-
-#: parts/portfolio/boxed-invert.php:106 parts/portfolio/boxed.php:114
-#: parts/portfolio/full-width-invert.php:98 parts/portfolio/full-width.php:105
-#: parts/portfolio/fullscreen.php:111 parts/portfolio/slider.php:105
-#: woocommerce/share.php:36
-msgid "Pinterest"
-msgstr ""
-
-#: parts/portfolio/boxed-invert.php:114 parts/portfolio/boxed.php:122
-#: parts/portfolio/full-width-invert.php:106
-#: parts/portfolio/full-width.php:113 parts/portfolio/fullscreen.php:119
-#: parts/portfolio/slider.php:113
-msgid "Open Website"
-msgstr ""
-
-#: parts/portfolio/boxed.php:106 parts/portfolio/full-width-invert.php:90
-#: parts/portfolio/full-width.php:97 parts/portfolio/fullscreen.php:103
-#: parts/portfolio/slider.php:97
-msgid "Google"
-msgstr ""
-
-#: parts/portfolio/header-full.php:30
-#: parts/portfolio/header-title-invert.php:24
-#: parts/portfolio/header-title.php:24
-msgid "Back"
-msgstr ""
-
-#: parts/portfolio/header-full.php:67
-#: parts/portfolio/header-title-invert.php:68
-#: parts/portfolio/header-title.php:68 parts/portfolio-cards/_popup.php:58
+#: parts/portfolio-cards/_popup.php:87 parts/portfolio/header-full.php:65
+#: parts/portfolio/header-title-invert.php:66
+#: parts/portfolio/header-title.php:66
 msgid "Project link"
 msgstr ""
 
-#: parts/portfolio-cards/grid_4.php:24
-#: parts/portfolio-cards/grid_5_left.php:20
-#: parts/portfolio-cards/grid_7.php:22 parts/portfolio-cards/grid_8.php:29
-#: parts/portfolio-cards/_popup.php:74
+#: parts/portfolio-cards/grid_4.php:38 parts/portfolio-cards/grid_5_left.php:33
+#: parts/portfolio-cards/grid_7.php:35 parts/portfolio-cards/grid_8.php:46
 msgid "View Project"
+msgstr ""
+
+#: parts/portfolio/boxed-invert.php:72 parts/portfolio/boxed.php:80
+#: parts/portfolio/full-width-invert.php:70 parts/portfolio/full-width.php:77
+#: parts/portfolio/fullscreen.php:83 parts/portfolio/slider.php:69
+msgid "Task"
+msgstr ""
+
+#: parts/portfolio/boxed-invert.php:110 parts/portfolio/boxed.php:118
+#: parts/portfolio/full-width-invert.php:109 parts/portfolio/full-width.php:116
+#: parts/portfolio/fullscreen.php:122 parts/portfolio/slider.php:110
+msgid "Share project"
+msgstr ""
+
+#: parts/portfolio/boxed-invert.php:119 parts/portfolio/boxed.php:127
+#: parts/portfolio/full-width-invert.php:118 parts/portfolio/full-width.php:125
+#: parts/portfolio/fullscreen.php:131 parts/portfolio/slider.php:119
+msgid "Open Website"
+msgstr ""
+
+#: parts/portfolio/header-full.php:28
+#: parts/portfolio/header-title-invert.php:22
+#: parts/portfolio/header-title.php:22
+msgid "Back"
+msgstr ""
+
+#: searchform.php:3
+msgid "Search for"
+msgstr ""
+
+#: searchform.php:4
+msgid "Search..."
+msgstr ""
+
+#: woocommerce-swatches/single-product/variable.php:41
+msgid "Choose an option"
 msgstr ""
 
 #: woocommerce/add-to-wishlist-button.php:20
 msgid "I Want This"
 msgstr ""
 
-#: woocommerce/content-product_cat.php:75
-#: woocommerce/content-product_cat.php:95
-msgid "Shop now"
-msgstr ""
-
-#: woocommerce/product-searchform.php:27
-msgid "Search for:"
-msgstr ""
-
-#: woocommerce/product-searchform.php:28
-msgctxt "placeholder"
-msgid "Search products&hellip;"
-msgstr ""
-
-#: woocommerce/product-searchform.php:28
-msgctxt "label"
-msgid "Search for:"
-msgstr ""
-
-#: woocommerce/share.php:52
-msgid "I wanted you to see this site"
-msgstr ""
-
-#: woocommerce/single-product-reviews.php:50
-msgid "There are no reviews yet."
-msgstr ""
-
-#: woocommerce/single-product-reviews.php:63
-msgid "Add a review"
-msgstr ""
-
-#: woocommerce/single-product-reviews.php:63
-#, php-format
-msgid "Be the first to review &ldquo;%s&rdquo;"
-msgstr ""
-
-#: woocommerce/single-product-reviews.php:73
-msgid "Submit Review"
-msgstr ""
-
-#: woocommerce/single-product-reviews.php:80
-#, php-format
-msgid "You must be <a href=\"%s\">logged in</a> to post a review."
-msgstr ""
-
-#: woocommerce/single-product-reviews.php:84
-msgid "Rate this product:"
-msgstr ""
-
-#: woocommerce/single-product-reviews.php:85
-msgid "Rate&hellip;"
-msgstr ""
-
-#: woocommerce/single-product-reviews.php:86
-msgid "Perfect"
-msgstr ""
-
-#: woocommerce/single-product-reviews.php:87
-msgid "Good"
-msgstr ""
-
-#: woocommerce/single-product-reviews.php:88
-msgid "Average"
-msgstr ""
-
-#: woocommerce/single-product-reviews.php:89
-msgid "Not that bad"
-msgstr ""
-
-#: woocommerce/single-product-reviews.php:90
-msgid "Very Poor"
-msgstr ""
-
-#: woocommerce/single-product-reviews.php:103
-msgid ""
-"Only logged in customers who have purchased this product may leave a review."
-msgstr ""
-
-#: woocommerce/wishlist-view.php:32
-#: woocommerce/myaccount/form-reset-password.php:43
-msgid "Save"
-msgstr ""
-
-#: woocommerce/wishlist-view.php:73
-msgid "Product Name"
-msgstr ""
-
-#: woocommerce/wishlist-view.php:80
-msgid "Unit Price"
-msgstr ""
-
-#: woocommerce/wishlist-view.php:93
-msgid "Stock Status"
-msgstr ""
-
-#: woocommerce/wishlist-view.php:165
-msgid "Free!"
-msgstr ""
-
-#: woocommerce/wishlist-view.php:176
-msgid "Out of Stock"
-msgstr ""
-
-#: woocommerce/wishlist-view.php:179
-msgid "In Stock"
-msgstr ""
-
-#: woocommerce/wishlist-view.php:190
-#, php-format
-msgid "Added on : %s"
-msgstr ""
-
-#: woocommerce/wishlist-view.php:221
-msgid "Shared"
-msgstr ""
-
-#: woocommerce/wishlist-view.php:224
-msgid "Private"
-msgstr ""
-
-#: woocommerce/wishlist-view.php:227
-msgid "Public"
-msgstr ""
-
-#: woocommerce/wishlist-view.php:241 woocommerce/wishlist-view.php:247
-msgid "Remove this product"
-msgstr ""
-
-#: woocommerce/wishlist-view.php:258
-msgid "No products were added to the wishlist"
-msgstr ""
-
-#: woocommerce/wishlist-view.php:275
-msgid "Add the selected products to the cart"
-msgstr ""
-
-#: woocommerce/wishlist-view.php:283 woocommerce/wishlist-view.php:325
-msgid "Ask for an estimate"
-msgstr ""
-
-#: woocommerce/admin/wishlist-panel-premium.php:185
-#: woocommerce/admin/wishlist-panel-premium.php:383
-#, php-format
-msgid ""
-"Upgrade to the %1$spremium version%2$s%3$sof %1$sYITH WooCommerce Wishlist"
-"%2$s to benefit from all features!"
-msgstr ""
-
-#: woocommerce/admin/wishlist-panel-premium.php:187
-#: woocommerce/admin/wishlist-panel-premium.php:385
-#, php-format
-msgid "%1$sUPGRADE%2$s%3$s to the premium version%2$s"
-msgstr ""
-
-#: woocommerce/admin/wishlist-panel-premium.php:193
-msgid "Premium Features"
-msgstr ""
-
-#: woocommerce/admin/wishlist-panel-premium.php:196
-#: woocommerce/admin/wishlist-panel-premium.php:201
-msgid "Multiple Wishlist"
-msgstr ""
-
-#: woocommerce/admin/wishlist-panel-premium.php:203
-#, php-format
-msgid ""
-"%1$sDoes it ever happened to you to have too many wishes for a single wish "
-"list?%2$s%3$s The possibility to manage one's wishes is a fundamental "
-"feature in a modern e-commerce store and it also lets users' degree of "
-"satisfaction increase.%3$sThe option \"multiple wishlist\" of %1$sYITH "
-"Wishlist%2$s makes this feature and many others on your online store "
-"available, and thanks to this plugin your customers will be able to create, "
-"manage and share their own wish lists."
-msgstr ""
-
-#: woocommerce/admin/wishlist-panel-premium.php:212
-#: woocommerce/admin/wishlist-panel-premium.php:222
-msgid "Wishlist Private"
-msgstr ""
-
-#: woocommerce/admin/wishlist-panel-premium.php:214
-#, php-format
-msgid ""
-"By enabling the option wishlist, users will also have the possibility to "
-"%1$smanage the visibility%2$s of their wish lists according to one of the "
-"following options:"
-msgstr ""
-
-#: woocommerce/admin/wishlist-panel-premium.php:216
-#, php-format
-msgid "%1$spublic:%2$s all users can look for your wish list and see it;"
-msgstr ""
-
-#: woocommerce/admin/wishlist-panel-premium.php:217
-#, php-format
-msgid ""
-"%1$sshared:%2$s only users possessing a direct link to the wish list page "
-"can display it;"
-msgstr ""
-
-#: woocommerce/admin/wishlist-panel-premium.php:218
-#, php-format
-msgid "%1$sprivate:%2$s only the wish list creator can see it."
-msgstr ""
-
-#: woocommerce/admin/wishlist-panel-premium.php:229
-#: woocommerce/admin/wishlist-panel-premium.php:234
-msgid "Estimate Cost"
-msgstr ""
-
-#: woocommerce/admin/wishlist-panel-premium.php:236
-#, php-format
-msgid ""
-"%1$sDo you want to add the possibility to ask for estimates of costs into "
-"your catalogue?%3$s Do you want to manage customised packets for faithful "
-"customers in your store?%2$s%3$sThanks to the feature \"estimate cost\" of "
-"%1$sYITH WooCommerce Wishlist%2$s, each registered user will be able to ask "
-"for an estimate of their own products in the wishlist and add a text in the "
-"popup window that will open just after clicking. Then, they can confirm the "
-"text and send an email with all necessary information directly to the "
-"address that you have previously set."
-msgstr ""
-
-#: woocommerce/admin/wishlist-panel-premium.php:245
-#: woocommerce/admin/wishlist-panel-premium.php:250
-msgid "Admin Panel"
-msgstr ""
-
-#: woocommerce/admin/wishlist-panel-premium.php:247
-#, php-format
-msgid ""
-"Thanks to the useful Admin panel, accessible directly among the WooCommerce "
-"submenu pages, you will have total control on users' wishlists. In addition "
-"to that, evaluating the degree of appreciation for your products has never "
-"been so easy, now that %1$syou can see a useful report,%2$s available "
-"directly in the product page, which registers the occurrences of the product "
-"in customers' wish lists."
-msgstr ""
-
-#: woocommerce/admin/wishlist-panel-premium.php:257
-#: woocommerce/admin/wishlist-panel-premium.php:262
-msgid "Search Wishlists"
-msgstr ""
-
-#: woocommerce/admin/wishlist-panel-premium.php:264
-#, php-format
-msgid ""
-"How many times have you been looking for the perfect gift for a important "
-"event but you had no idea of what to buy? %1$s'Search wishlists'%2$s allows "
-"your e-shop users to access public wishlists of anyone, by simply knowing "
-"their name or email. This way you can grant %1$shigher visibility%2$s to "
-"your products and even encourage users to purchase."
-msgstr ""
-
-#: woocommerce/admin/wishlist-panel-premium.php:273
-msgid "'ADD TO CART' CHECKBOX"
-msgstr ""
-
-#: woocommerce/admin/wishlist-panel-premium.php:275
-#, php-format
-msgid ""
-"Your shop offers always a wide selection of products and wishlists of your "
-"users get more and more crowded everyday. Give them the possibility to "
-"select %1$ssome or all products%2$s in the wishlist and add them to cart "
-"just with one click."
-msgstr ""
-
-#: woocommerce/admin/wishlist-panel-premium.php:278
-msgid "'ADD TO CART'"
-msgstr ""
-
-#: woocommerce/admin/wishlist-panel-premium.php:285
-msgid "DISABLE WISHLIST"
-msgstr ""
-
-#: woocommerce/admin/wishlist-panel-premium.php:290
-msgid "DISABLE WISHLIST FOR UNLOGGED USERS"
-msgstr ""
-
-#: woocommerce/admin/wishlist-panel-premium.php:292
-#, php-format
-msgid ""
-"Favour users that have registered to your shop and disable plugin "
-"functionalities for all users that have not. By disabling this option, each "
-"time they try to add a product to the wishlist, they will be %1$sredirected"
-"%2$s to \"My Account\" page and a message will invite them to log in."
-msgstr ""
-
-#: woocommerce/admin/wishlist-panel-premium.php:301
-msgid "MESSAGE TO UNLOGGED USERS"
-msgstr ""
-
-#: woocommerce/admin/wishlist-panel-premium.php:303
-#, php-format
-msgid ""
-"Invite users that are visiting your shop to login if they want to fully "
-"benefit from Wishlist functionalities. Show a %1$scustomised message%2$s and "
-"redirect them to \"My Account\" page for registration."
-msgstr ""
-
-#: woocommerce/admin/wishlist-panel-premium.php:306
-msgid "UNLOGGED USERS"
-msgstr ""
-
-#: woocommerce/admin/wishlist-panel-premium.php:313
-#: woocommerce/admin/wishlist-panel-premium.php:318
-msgid "POPULAR TABLE"
-msgstr ""
-
-#: woocommerce/admin/wishlist-panel-premium.php:320
-#, php-format
-msgid ""
-"Some products draw customer's attention more than others and they do not "
-"hesitate to add products to their wishlist. Table %1$s'Popular'%2$s allows "
-"you, as shop administrator, to track products that appear most frequently in "
-"their wishlists."
-msgstr ""
-
-#: woocommerce/admin/wishlist-panel-premium.php:329
-msgid "FUNCTIONALITIES IN ONE CLICK"
-msgstr ""
-
-#: woocommerce/admin/wishlist-panel-premium.php:331
-#, php-format
-msgid ""
-"Users have the possibility to search for a wishlist, create a new one or "
-"display those already created. Add these %1$sfunctionalities%2$s through the "
-"dedicated widgets or show them immediately after \"Wishlist\" table."
-msgstr ""
-
-#: woocommerce/admin/wishlist-panel-premium.php:334
-msgid "FUNCTIONALITIES"
-msgstr ""
-
-#: woocommerce/admin/wishlist-panel-premium.php:341
-#: woocommerce/admin/wishlist-panel-premium.php:346
-msgid "PROMOTIONAL EMAIL"
-msgstr ""
-
-#: woocommerce/admin/wishlist-panel-premium.php:348
-#, php-format
-msgid ""
-"If you want to give the right input to your users to persuade them to "
-"%1$spurchase the products%2$s they have in their wishlists, you need to use "
-"this feature! %1$sSend them an email%2$s: customize its whole content from "
-"the option panel and add a coupon they can use in your shop, so that they "
-"will know you are offering a unique offer!"
-msgstr ""
-
-#: woocommerce/admin/wishlist-panel-premium.php:357
-msgid "FROM A WISHLIST TO ANOTHER"
-msgstr ""
-
-#: woocommerce/admin/wishlist-panel-premium.php:359
-#, php-format
-msgid ""
-"Who said that a product has to remain forever in the same wishlist? With the "
-"option %1$s\"Show \"Move to another wishlist\" dropdown menu\"%2$s, with "
-"just one click users will be free to move a product from a wishlist to "
-"another one, managing as they want their lists."
-msgstr ""
-
-#: woocommerce/admin/wishlist-panel-premium.php:362
-msgid "FROM A WISHLIST"
-msgstr ""
-
-#: woocommerce/admin/wishlist-panel-premium.php:369
-msgid "DATE"
-msgstr ""
-
-#: woocommerce/admin/wishlist-panel-premium.php:374
-msgid "DATE OF ADDITION TO A WISHLIST"
-msgstr ""
-
-#: woocommerce/admin/wishlist-panel-premium.php:376
-#, php-format
-msgid ""
-"Activating the %1$s\"Show date of addition\"%2$s option, users can see the "
-"date in which they have added a particular product to their list: a new way "
-"to keep you users informed about their operations."
-msgstr ""
-
-#: woocommerce/auth/form-grant-access.php:25
-#: woocommerce/auth/form-login.php:27
+#: woocommerce/auth/form-grant-access.php:25 woocommerce/auth/form-login.php:27
 #, php-format
 msgid "%s would like to connect to your store"
 msgstr ""
 
 #: woocommerce/auth/form-grant-access.php:29
 #, php-format
-msgid "This will give \"%s\" %s access which will allow it to"
+msgid "This will give \"%1$s\" %2$s access which will allow it to:"
 msgstr ""
 
-#: woocommerce/auth/form-grant-access.php:40
+#: woocommerce/auth/form-grant-access.php:39
 #, php-format
 msgid "Logged in as %s"
 msgstr ""
 
-#: woocommerce/auth/form-grant-access.php:42
+#: woocommerce/auth/form-grant-access.php:39
 msgid "Logout"
 msgstr ""
 
-#: woocommerce/auth/form-grant-access.php:48
+#: woocommerce/auth/form-grant-access.php:43
 msgid "Approve"
 msgstr ""
 
-#: woocommerce/auth/form-grant-access.php:49
+#: woocommerce/auth/form-grant-access.php:44
 msgid "Deny"
 msgstr ""
 
@@ -1640,7 +1289,7 @@ msgstr ""
 #, php-format
 msgid ""
 "To connect to %1$s you need to be logged in. Log in to your store below, or "
-"%2$scancel and return to %1$s%3$s"
+"<a href=\"%2$s\">cancel and return to %1$s</a>"
 msgstr ""
 
 #: woocommerce/auth/form-login.php:35 woocommerce/myaccount/form-login.php:46
@@ -1656,10 +1305,6 @@ msgstr ""
 #: woocommerce/myaccount/form-login.php:39
 #: woocommerce/myaccount/form-login.php:56
 msgid "Login"
-msgstr ""
-
-#: woocommerce/auth/header.php:33
-msgid "WooCommerce"
 msgstr ""
 
 #: woocommerce/cart/cart-empty.php:36
@@ -1689,7 +1334,6 @@ msgid "Cart Totals"
 msgstr ""
 
 #: woocommerce/cart/cart-totals.php:33 woocommerce/cart/cart-totals.php:34
-#: woocommerce/cart/mini-cart.php:94 woocommerce/cart/__old__mini-cart.php:85
 #: woocommerce/checkout/review-order.php:63
 msgid "Subtotal"
 msgstr ""
@@ -1704,61 +1348,45 @@ msgid "estimated for %s"
 msgstr ""
 
 #: woocommerce/cart/cart-totals.php:92 woocommerce/cart/cart-totals.php:93
-#: woocommerce/cart/cart.php:108 woocommerce/checkout/review-order.php:29
+#: woocommerce/cart/cart.php:107 woocommerce/checkout/review-order.php:29
 #: woocommerce/checkout/review-order.php:110
 #: woocommerce/myaccount/my-orders.php:16
 #: woocommerce/order/order-details.php:33
 msgid "Total"
 msgstr ""
 
-#: woocommerce/cart/cart.php:65 woocommerce/checkout/form-pay.php:30
+#: woocommerce/cart/cart.php:64 woocommerce/checkout/form-pay.php:30
 #: woocommerce/checkout/review-order.php:28
-#: woocommerce/emails/email-order-details.php:38
 #: woocommerce/order/order-details.php:32
 msgid "Product"
 msgstr ""
 
-#: woocommerce/cart/cart.php:79
+#: woocommerce/cart/cart.php:78
 msgid "Available on backorder"
 msgstr ""
 
-#: woocommerce/cart/cart.php:85 woocommerce/emails/email-order-details.php:40
+#: woocommerce/cart/cart.php:84
 msgid "Price"
 msgstr ""
 
-#: woocommerce/cart/cart.php:91 woocommerce/emails/email-order-details.php:39
+#: woocommerce/cart/cart.php:90
 msgid "Quantity"
 msgstr ""
 
-#: woocommerce/cart/cart.php:119 woocommerce/cart/mini-cart.php:64
-#: woocommerce/cart/__old__mini-cart.php:59
+#: woocommerce/cart/cart.php:118
 msgid "Remove this item"
 msgstr ""
 
-#: woocommerce/cart/cart.php:138 woocommerce/checkout/form-coupon.php:37
+#: woocommerce/cart/cart.php:137 woocommerce/checkout/form-coupon.php:38
 msgid "Enter coupon code"
 msgstr ""
 
-#: woocommerce/cart/cart.php:139 woocommerce/checkout/form-coupon.php:38
+#: woocommerce/cart/cart.php:138 woocommerce/checkout/form-coupon.php:39
 msgid "Apply"
 msgstr ""
 
-#: woocommerce/cart/cart.php:145
+#: woocommerce/cart/cart.php:144
 msgid "Update Cart"
-msgstr ""
-
-#: woocommerce/cart/mini-cart.php:83 woocommerce/cart/__old__mini-cart.php:74
-msgid "Cart is empty"
-msgstr ""
-
-#: woocommerce/cart/mini-cart.php:85 woocommerce/cart/mini-cart.php:101
-#: woocommerce/cart/__old__mini-cart.php:76
-#: woocommerce/cart/__old__mini-cart.php:92
-msgid "Go To Cart"
-msgstr ""
-
-#: woocommerce/cart/mini-cart.php:102 woocommerce/cart/__old__mini-cart.php:93
-msgid "Checkout"
 msgstr ""
 
 #: woocommerce/cart/proceed-to-checkout-button.php:27
@@ -1820,11 +1448,11 @@ msgstr ""
 msgid "You must be logged in to checkout."
 msgstr ""
 
-#: woocommerce/checkout/form-coupon.php:31
+#: woocommerce/checkout/form-coupon.php:32
 msgid "Have a coupon?"
 msgstr ""
 
-#: woocommerce/checkout/form-coupon.php:31
+#: woocommerce/checkout/form-coupon.php:32
 msgid "Click here to enter your code"
 msgstr ""
 
@@ -1860,8 +1488,6 @@ msgstr ""
 
 #: woocommerce/checkout/form-shipping.php:27
 #: woocommerce/checkout/form-shipping.php:62
-#: woocommerce/emails/email-addresses.php:35
-#: woocommerce/emails/plain/email-addresses.php:27
 msgid "Shipping address"
 msgstr ""
 
@@ -1884,8 +1510,9 @@ msgstr ""
 #, php-format
 msgid ""
 "Since your browser does not support JavaScript, or it is disabled, please "
-"ensure you click the %s Update Totals %s button before placing your order. "
-"You may be charged more than the amount stated above if you fail to do so."
+"ensure you click the %1$s Update Totals %2$s button before placing your "
+"order. You may be charged more than the amount stated above if you fail to "
+"do so."
 msgstr ""
 
 #: woocommerce/checkout/payment.php:45
@@ -1908,7 +1535,7 @@ msgid ""
 msgstr ""
 
 #: woocommerce/checkout/thankyou.php:33 woocommerce/myaccount/my-orders.php:72
-#: woocommerce/myaccount/orders.php:73
+#: woocommerce/myaccount/orders.php:75
 msgid "Pay"
 msgstr ""
 
@@ -1941,16 +1568,19 @@ msgstr ""
 msgid "Payment Method:"
 msgstr ""
 
+#: woocommerce/content-product_cat.php:75
+#: woocommerce/content-product_cat.php:95
+msgid "Shop now"
+msgstr ""
+
 #: woocommerce/emails/admin-cancelled-order.php:28
-#: woocommerce/emails/plain/admin-cancelled-order.php:25
 #, php-format
-msgid "The order #%d from %s has been cancelled. The order was as follows:"
+msgid "The order #%1$d from %2$s has been cancelled. The order was as follows:"
 msgstr ""
 
 #: woocommerce/emails/admin-failed-order.php:28
-#: woocommerce/emails/plain/admin-failed-order.php:25
 #, php-format
-msgid "Payment for order #%d from %s has failed. The order was as follows:"
+msgid "Payment for order #%1$d from %2$s has failed. The order was as follows:"
 msgstr ""
 
 #: woocommerce/emails/admin-new-order.php:28
@@ -1959,29 +1589,15 @@ msgid "You have received an order from %s. The order is as follows:"
 msgstr ""
 
 #: woocommerce/emails/customer-completed-order.php:28
-#: woocommerce/emails/plain/customer-completed-order.php:25
 #, php-format
 msgid ""
 "Hi there. Your recent order on %s has been completed. Your order details are "
 "shown below for your reference:"
 msgstr ""
 
-#: woocommerce/emails/customer-invoice.php:29
-#: woocommerce/emails/plain/customer-invoice.php:26
-#, php-format
-msgid ""
-"An order has been created for you on %s. To pay for this order please use "
-"the following link: %s"
-msgstr ""
-
-#: woocommerce/emails/customer-invoice.php:29
-msgid "pay"
-msgstr ""
-
 #: woocommerce/emails/customer-new-account.php:27
-#: woocommerce/emails/plain/customer-new-account.php:25
 #, php-format
-msgid "Thanks for creating an account on %s. Your username is %s"
+msgid "Thanks for creating an account on %1$s. Your username is %2$s"
 msgstr ""
 
 #: woocommerce/emails/customer-new-account.php:31
@@ -1990,7 +1606,6 @@ msgid "Your password has been automatically generated: %s"
 msgstr ""
 
 #: woocommerce/emails/customer-new-account.php:35
-#: woocommerce/emails/plain/customer-new-account.php:30
 #, php-format
 msgid ""
 "You can access your account area to view your orders and change your "
@@ -1998,24 +1613,20 @@ msgid ""
 msgstr ""
 
 #: woocommerce/emails/customer-note.php:28
-#: woocommerce/emails/plain/customer-note.php:25
 msgid "Hello, a note has just been added to your order:"
 msgstr ""
 
 #: woocommerce/emails/customer-note.php:32
-#: woocommerce/emails/plain/customer-note.php:33
 msgid "For your reference, your order details are shown below."
 msgstr ""
 
 #: woocommerce/emails/customer-on-hold-order.php:28
-#: woocommerce/emails/plain/customer-on-hold-order.php:25
 msgid ""
 "Your order is on-hold until we confirm payment has been received. Your order "
 "details are shown below for your reference:"
 msgstr ""
 
 #: woocommerce/emails/customer-processing-order.php:28
-#: woocommerce/emails/plain/customer-processing-order.php:25
 msgid ""
 "Your order has been received and is now being processed. Your order details "
 "are shown below for your reference:"
@@ -2026,123 +1637,37 @@ msgstr ""
 msgid "Hi there. Your order on %s has been partially refunded."
 msgstr ""
 
-#: woocommerce/emails/customer-refunded-order.php:33
+#: woocommerce/emails/customer-refunded-order.php:32
 #, php-format
 msgid "Hi there. Your order on %s has been refunded."
 msgstr ""
 
 #: woocommerce/emails/customer-reset-password.php:27
-msgid "Someone requested that the password be reset for the following account"
+msgid "Someone requested that the password be reset for the following account:"
 msgstr ""
 
 #: woocommerce/emails/customer-reset-password.php:28
-#: woocommerce/myaccount/form-login.php:89
-msgid "Username"
+#, php-format
+msgid "Username: %s"
 msgstr ""
 
 #: woocommerce/emails/customer-reset-password.php:29
-#: woocommerce/emails/plain/customer-reset-password.php:28
 msgid "If this was a mistake, just ignore this email and nothing will happen."
 msgstr ""
 
 #: woocommerce/emails/customer-reset-password.php:30
-msgid "To reset your password, visit the following address"
+msgid "To reset your password, visit the following address:"
 msgstr ""
 
 #: woocommerce/emails/customer-reset-password.php:33
 msgid "Click here to reset your password"
 msgstr ""
 
-#: woocommerce/emails/email-addresses.php:26
-#: woocommerce/emails/plain/email-addresses.php:23
-msgid "Billing address"
-msgstr ""
-
-#: woocommerce/emails/email-addresses.php:28
-#: woocommerce/order/order-details-customer.php:64
-#: woocommerce/order/order-details-customer.php:77
-#: woocommerce/single-product/meta.php:33
-msgid "N/A"
-msgstr ""
-
-#: woocommerce/emails/email-customer-details.php:28
-#: woocommerce/emails/plain/email-customer-details.php:25
-msgid "Customer details"
-msgstr ""
-
-#: woocommerce/emails/email-downloads.php:23
-#: woocommerce/myaccount/downloads.php:30
-#: woocommerce/order/order-downloads.php:25
-msgid "Downloads"
-msgstr ""
-
-#: woocommerce/emails/email-downloads.php:54
-#: woocommerce/myaccount/downloads.php:68
-#: woocommerce/order/order-downloads.php:60
-msgid "Never"
-msgstr ""
-
-#: woocommerce/emails/email-order-details.php:27
-msgid "Order details"
-msgstr ""
-
-#: woocommerce/emails/email-order-details.php:30
-#: woocommerce/emails/email-order-details.php:32
-#, php-format
-msgid "Order #%s"
-msgstr ""
-
-#: woocommerce/emails/email-order-items.php:34
-msgid "Product image"
-msgstr ""
-
-#: woocommerce/emails/plain/admin-new-order.php:25
-#, php-format
-msgid "You have received an order from %s."
-msgstr ""
-
-#: woocommerce/emails/plain/customer-new-account.php:28
-#, php-format
-msgid "Your password is %s."
-msgstr ""
-
-#: woocommerce/emails/plain/customer-refunded-order.php:25
-#, php-format
-msgid ""
-"Hi there. Your order on %s has been refunded. Your order details are shown "
-"below for your reference:"
-msgstr ""
-
-#: woocommerce/emails/plain/customer-reset-password.php:25
-msgid "Someone requested that the password be reset for the following account:"
-msgstr ""
-
-#: woocommerce/emails/plain/customer-reset-password.php:27
-#, php-format
-msgid "Username: %s"
-msgstr ""
-
-#: woocommerce/emails/plain/customer-reset-password.php:29
-msgid "To reset your password, visit the following address:"
-msgstr ""
-
-#: woocommerce/emails/plain/email-order-details.php:25
-#, php-format
-msgid "Order number: %s"
-msgstr ""
-
-#: woocommerce/emails/plain/email-order-details.php:43
-#, php-format
-msgid "View order: %s"
-msgstr ""
-
-#: woocommerce/global/form-login.php:51
-#: woocommerce/myaccount/form-login.php:59
+#: woocommerce/global/form-login.php:51 woocommerce/myaccount/form-login.php:59
 msgid "Remember me"
 msgstr ""
 
-#: woocommerce/global/form-login.php:55
-#: woocommerce/myaccount/form-login.php:61
+#: woocommerce/global/form-login.php:55 woocommerce/myaccount/form-login.php:61
 msgid "Lost your password?"
 msgstr ""
 
@@ -2154,21 +1679,6 @@ msgstr ""
 #: woocommerce/loop/no-products-found.php:26
 msgid "No products were found matching your selection."
 msgstr ""
-
-#: woocommerce/loop/result-count.php:39
-#, php-format
-msgid "Showing the single result"
-msgid_plural "Showing all <b>%d</b> results"
-msgstr[0] ""
-msgstr[1] ""
-
-#: woocommerce/loop/result-count.php:41
-#, php-format
-msgctxt "%1$d = first, %2$d = last, %3$d = total"
-msgid "Showing the single result"
-msgid_plural "Showing <b>%1$d&ndash;%2$d</b> of <b>%3$d</b> results"
-msgstr[0] ""
-msgstr[1] ""
 
 #: woocommerce/loop/sale-flash.php:28
 #: woocommerce/single-product/add-to-cart/variation.php:22
@@ -2192,9 +1702,19 @@ msgid ""
 "account details%2$s."
 msgstr ""
 
+#: woocommerce/myaccount/downloads.php:30
+#: woocommerce/order/order-downloads.php:25
+msgid "Downloads"
+msgstr ""
+
 #: woocommerce/myaccount/downloads.php:62
 #: woocommerce/order/order-downloads.php:54
 msgid "&infin;"
+msgstr ""
+
+#: woocommerce/myaccount/downloads.php:68
+#: woocommerce/order/order-downloads.php:60
+msgid "Never"
 msgstr ""
 
 #: woocommerce/myaccount/downloads.php:76
@@ -2206,7 +1726,7 @@ msgid "No downloads available yet."
 msgstr ""
 
 #: woocommerce/myaccount/form-add-payment-method.php:53
-#: woocommerce/myaccount/payment-methods.php:78
+#: woocommerce/myaccount/payment-methods.php:79
 msgid "Add Payment Method"
 msgstr ""
 
@@ -2276,6 +1796,10 @@ msgstr ""
 msgid "Register"
 msgstr ""
 
+#: woocommerce/myaccount/form-login.php:89
+msgid "Username"
+msgstr ""
+
 #: woocommerce/myaccount/form-login.php:107
 msgid "Anti-spam"
 msgstr ""
@@ -2308,6 +1832,11 @@ msgstr ""
 
 #: woocommerce/myaccount/form-reset-password.php:34
 msgid "Re-enter new password"
+msgstr ""
+
+#: woocommerce/myaccount/form-reset-password.php:43
+#: woocommerce/wishlist-view.php:32
+msgid "Save"
 msgstr ""
 
 #: woocommerce/myaccount/lost-password-confirmation.php:24
@@ -2357,20 +1886,20 @@ msgctxt "hash before order number"
 msgid "#"
 msgstr ""
 
-#: woocommerce/myaccount/my-orders.php:65 woocommerce/myaccount/orders.php:66
+#: woocommerce/myaccount/my-orders.php:65 woocommerce/myaccount/orders.php:68
 #, php-format
-msgid "%s for %s item"
-msgid_plural "%s for %s items"
+msgid "%1$s for %2$s item"
+msgid_plural "%1$s for %2$s items"
 msgstr[0] ""
 msgstr[1] ""
 
-#: woocommerce/myaccount/my-orders.php:76 woocommerce/myaccount/orders.php:77
+#: woocommerce/myaccount/my-orders.php:76 woocommerce/myaccount/orders.php:79
 msgid "View"
 msgstr ""
 
 #: woocommerce/myaccount/navigation.php:36
 #, php-format
-msgid "%s%s%s %sLogout%s"
+msgid "%1$s%2$s%3$s %4$sLogout%5$s"
 msgstr ""
 
 #: woocommerce/myaccount/orders.php:27
@@ -2381,29 +1910,29 @@ msgstr ""
 msgid "Your recent orders are displayed in the table below."
 msgstr ""
 
-#: woocommerce/myaccount/orders.php:112
+#: woocommerce/myaccount/orders.php:114
 msgid "Previous"
 msgstr ""
 
-#: woocommerce/myaccount/orders.php:123
+#: woocommerce/myaccount/orders.php:125
 msgid "No order has been made yet."
 msgstr ""
 
-#: woocommerce/myaccount/payment-methods.php:51
+#: woocommerce/myaccount/payment-methods.php:52
 #, php-format
-msgid "%s ending in %s"
+msgid "%1$s ending in %1$s"
 msgstr ""
 
-#: woocommerce/myaccount/payment-methods.php:72
+#: woocommerce/myaccount/payment-methods.php:73
 msgid "No saved methods found."
 msgstr ""
 
-#: woocommerce/myaccount/view-order.php:28 woocommerce/order/tracking.php:26
+#: woocommerce/myaccount/view-order.php:27 woocommerce/order/tracking.php:26
 #, php-format
 msgid "Order #%1$s was placed on %2$s and is currently %3$s."
 msgstr ""
 
-#: woocommerce/myaccount/view-order.php:36 woocommerce/order/tracking.php:34
+#: woocommerce/myaccount/view-order.php:37 woocommerce/order/tracking.php:34
 msgid "Order Updates"
 msgstr ""
 
@@ -2446,8 +1975,114 @@ msgstr ""
 msgid "Phone:"
 msgstr ""
 
+#: woocommerce/order/order-details-customer.php:64
+#: woocommerce/order/order-details-customer.php:77
+#: woocommerce/single-product/meta.php:33
+msgid "N/A"
+msgstr ""
+
 #: woocommerce/order/order-details.php:28
 msgid "Order Details"
+msgstr ""
+
+#: woocommerce/product-searchform.php:27
+msgid "Search for:"
+msgstr ""
+
+#: woocommerce/product-searchform.php:28
+msgctxt "placeholder"
+msgid "Search products&hellip;"
+msgstr ""
+
+#: woocommerce/product-searchform.php:28
+msgctxt "label"
+msgid "Search for:"
+msgstr ""
+
+#: woocommerce/share.php:18
+msgid "I wanted you to see this site"
+msgstr ""
+
+#: woocommerce/share.php:44
+msgid "Google+"
+msgstr ""
+
+#: woocommerce/share.php:50
+msgid "Email"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:50
+msgid "There are no reviews yet."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:63
+msgid "Add a review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:63
+#, php-format
+msgid "Be the first to review &ldquo;%s&rdquo;"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:64
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:73
+msgid "Submit Review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:80
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a review."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:84
+msgid "Rate this product:"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:85
+msgid "Rate&hellip;"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:86
+msgid "Perfect"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:87
+msgid "Good"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:88
+msgid "Average"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:89
+msgid "Not that bad"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:90
+msgid "Very Poor"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:103
+msgid ""
+"Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/simple.php:48
+#: woocommerce/single-product/add-to-cart/variable.php:32
+msgid "This product is currently out of stock and unavailable."
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:48
+msgid "Reset"
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variation.php:31
+msgid ""
+"Sorry, this product is unavailable. Please choose a different combination."
 msgstr ""
 
 #: woocommerce/single-product/meta.php:33
@@ -2460,11 +2095,11 @@ msgid_plural "Categories:"
 msgstr[0] ""
 msgstr[1] ""
 
-#: woocommerce/single-product/product-attributes.php:37
+#: woocommerce/single-product/product-attributes.php:36
 msgid "Weight"
 msgstr ""
 
-#: woocommerce/single-product/product-attributes.php:44
+#: woocommerce/single-product/product-attributes.php:43
 msgid "Dimensions"
 msgstr ""
 
@@ -2493,6 +2128,14 @@ msgstr ""
 msgid "out of 5"
 msgstr ""
 
+#: woocommerce/single-product/tabs/additional-information.php:25
+msgid "Additional Information"
+msgstr ""
+
+#: woocommerce/single-product/tabs/description.php:25
+msgid "Product Description"
+msgstr ""
+
 #: woocommerce/single-product/title.php:48
 #, php-format
 msgid "Rated %s out of 5"
@@ -2500,7 +2143,7 @@ msgstr ""
 
 #: woocommerce/single-product/title.php:50
 #, php-format
-msgid "out of %s5%s"
+msgid "out of %1$s5%2$s"
 msgstr ""
 
 #: woocommerce/single-product/title.php:51
@@ -2521,28 +2164,59 @@ msgstr[1] ""
 msgid "You may also like&hellip;"
 msgstr ""
 
-#: woocommerce/single-product/add-to-cart/simple.php:48
-#: woocommerce/single-product/add-to-cart/variable.php:33
-msgid "This product is currently out of stock and unavailable."
+#: woocommerce/wishlist-view.php:73
+msgid "Product Name"
 msgstr ""
 
-#: woocommerce/single-product/add-to-cart/variation.php:31
-msgid ""
-"Sorry, this product is unavailable. Please choose a different combination."
+#: woocommerce/wishlist-view.php:80
+msgid "Unit Price"
 msgstr ""
 
-#: woocommerce/single-product/tabs/additional-information.php:25
-msgid "Additional Information"
+#: woocommerce/wishlist-view.php:93
+msgid "Stock Status"
 msgstr ""
 
-#: woocommerce/single-product/tabs/description.php:25
-msgid "Product Description"
+#: woocommerce/wishlist-view.php:165
+msgid "Free!"
 msgstr ""
 
-#: woocommerce/single-product/tabs/tabs.php:61
-msgid "Share this product"
+#: woocommerce/wishlist-view.php:176
+msgid "Out of Stock"
 msgstr ""
 
-#: woocommerce-swatches/single-product/variable.php:41
-msgid "Choose an option"
+#: woocommerce/wishlist-view.php:179
+msgid "In Stock"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:190
+#, php-format
+msgid "Added on : %s"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:221
+msgid "Shared"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:224
+msgid "Private"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:227
+msgid "Public"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:241 woocommerce/wishlist-view.php:247
+msgid "Remove this product"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:258
+msgid "No products were added to the wishlist"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:275
+msgid "Add the selected products to the cart"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:283 woocommerce/wishlist-view.php:325
+msgid "Ask for an estimate"
 msgstr ""

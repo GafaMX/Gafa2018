@@ -6,6 +6,8 @@ get_template_part( 'inc/dynamic_css/parts/header_title' );
 get_template_part( 'inc/dynamic_css/parts/breadcrumbs' );
 get_template_part( 'inc/dynamic_css/parts/panel' );
 get_template_part( 'inc/dynamic_css/parts/page' );
+get_template_part( 'inc/dynamic_css/parts/portfolio-page' );
+get_template_part( 'inc/dynamic_css/parts/widgets' );
 get_template_part( 'inc/dynamic_css/parts/elements' );
 get_template_part( 'inc/dynamic_css/parts/footer' );
 get_template_part( 'inc/dynamic_css/parts/typography' );

@@ -8,6 +8,7 @@
         'options_global_page_headings_typo' => '{"color":"#444444","weight":"600","font_family":"Playfair Display","font_variants":["regular","700"],"font_subsets":["latin"]}',
         'options_global_page_subtitles_typo' => '{"color":"#636363","weight":"300","font_family":"Poppins","font_variants":["300","regular","500","600","700"],"font_subsets":["latin"]}',
         'options_global_page_smooth_scroll' => '1',
+        'options_global_page_is_wrapped' => '1',
         'options_global_footer_is_sticky' => '1',
         'options_global_footer_copyright_text' => '&copy; 2017, norebro theme by <a href="#" target="_blank">Colabr.io Team</a>, All right reserved.',
         '_options_global_footer_copyright_text' => 'field_592fd8901f24b',

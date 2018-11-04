@@ -135,24 +135,24 @@ class NorebroObjectParser {
 			}
 		}
 
-		if ( get_field( 'blog_item_layout_type' ) && get_field( 'blog_item_layout_type' ) != 'inherit' ) {
-			$post_object['boxed'] = (bool) get_field( 'blog_items_boxed_style' );
+		if ( NorebroSettings::get( 'blog_item_layout_type' ) && NorebroSettings::get( 'blog_item_layout_type' ) != 'inherit' ) {
+			$post_object['boxed'] = (bool) NorebroSettings::get( 'blog_items_boxed_style' );
 		} else {
-			$post_object['boxed'] = (bool) get_field( 'global_blog_items_boxed_style', 'option' );
+			$post_object['boxed'] = (bool) NorebroSettings::get( 'blog_items_boxed_style', 'global' );
 		}
 
 		// striped and indented
 		$post_object['grid_card_striped'] = false;
 		$post_object['grid_card_indented'] = false;
 		if ( NorebroSettings::page_is( 'blog_template' ) ) {
-			$post_object['grid_card_striped'] = get_field( 'blog_posts_grid_is_striped' );
-			$post_object['grid_card_indented'] = get_field( 'blog_posts_grid_is_indented' );
+			$post_object['grid_card_striped'] = NorebroSettings::get( 'blog_posts_grid_is_striped' );
+			$post_object['grid_card_indented'] = NorebroSettings::get( 'blog_posts_grid_is_indented' );
 		} else {
 			//case 'search':
 			//case 'archive':
 			//default:
-			$post_object['grid_card_striped'] = get_field( 'global_blog_page_grid_is_striped', 'option' );
-			$post_object['grid_card_indented'] = get_field( 'global_blog_page_grid_is_indented', 'option' );
+			$post_object['grid_card_striped'] = NorebroSettings::get( 'blog_page_grid_is_striped', 'global' );
+			$post_object['grid_card_indented'] = NorebroSettings::get( 'blog_page_grid_is_indented', 'global' );
 		}
 
 		$post_object['grid_style'] = get_field( 'post_style_in_grid', $_post->ID );
@@ -162,9 +162,9 @@ class NorebroObjectParser {
 		switch ( $_context ) {
 			case 'index':
 			default:
-				$post_object['animation_type'] = get_field( 'global_blog_page_animation_type', 'option' );
+				$post_object['animation_type'] = NorebroSettings::get( 'blog_page_animation_type', 'global' );
 				if ( in_array( $post_object['animation_type'], array( 'sync', 'async' ) ) ) {
-					$post_object['animation_effect'] = get_field( 'global_blog_page_animation_effect', 'option' );
+					$post_object['animation_effect'] = NorebroSettings::get( 'blog_page_animation_effect', 'global' );
 					if ( ! $post_object['animation_effect'] ) {
 						$post_object['animation_effect'] = 'fade-up';
 					}
@@ -196,7 +196,15 @@ class NorebroObjectParser {
 			$_desc_first_space = 200 + strpos( $_desc_first_space, ' ');
 			$project_object['short_description'] = substr( $project_object['short_description'], 0, $_desc_first_space ) . '&hellip;';
 		}
-		// images
+
+		// Visible
+		$project_object['category_visible'] = NorebroSettings::get( 'portfolio_page_category', 'global' );
+		$project_object['description_visible'] = NorebroSettings::get( 'portfolio_page_description', 'global' );
+		$project_object['more_visible'] = NorebroSettings::get( 'portfolio_page_more', 'global' );
+		$project_object['counter_visible'] = NorebroSettings::get( 'portfolio_page_numbers', 'global' );
+		$project_object['date_visible'] = NorebroSettings::get( 'portfolio_page_date', 'global' );
+
+		// Images
 		$project_object['images'] = get_field( 'project_content', $_post->ID );
 		$project_object['images_full'] = array();
 		if ( is_array( $project_object['images'] ) && count( $project_object['images'] ) > 0 ) {
@@ -267,18 +275,18 @@ class NorebroObjectParser {
 		// show navigation
 		$project_object['show_navigation'] = get_field( 'project_show_navigation', $_post->ID );
 		if ( in_array( $project_object['show_navigation'], array( 'inherit', NULL ) ) ) {
-			$project_object['show_navigation'] = get_field( 'global_project_show_navigation', 'option' );
+			$project_object['show_navigation'] = NorebroSettings::get( 'project_show_navigation', 'global' );
 		}
 
 		$project_object['navigation_position'] = get_field( 'project_navigation_position', $_post->ID );
 		if ( in_array( $project_object['navigation_position'] , array( 'inherit', NULL ) ) 
 				|| in_array( $project_object['show_navigation'], array( 'inherit', NULL ) ) ) {
-			$project_object['navigation_position'] = get_field( 'global_project_navigation_position', 'option' );
+			$project_object['navigation_position'] = NorebroSettings::get( 'project_navigation_position', 'global' );
 		}
 		// custom content position
 		$project_object['custom_content_position'] = get_field( 'project_custom_content_position', $_post->ID );
 		if ( in_array( $project_object['custom_content_position'], array( 'inherit', NULL ) ) ) {
-			$project_object['custom_content_position'] = get_field( 'global_project_custom_content_position', 'option' );
+			$project_object['custom_content_position'] = NorebroSettings::get( 'project_custom_content_position', 'global' );
 			if ( $project_object['custom_content_position'] == NULL ) {
 				$project_object['custom_content_position'] = 'top';
 			}
@@ -286,13 +294,13 @@ class NorebroObjectParser {
 		// breadcrumbs
 		$project_object['hide_breadcrumbs'] = get_field( 'page_show_breadcrumbs', $_post->ID );
 		if ( in_array( $project_object['hide_breadcrumbs'], array( 'inherit', NULL ) ) ) {
-			$project_object['hide_breadcrumbs'] = ( get_field( 'global_project_hide_breadcrumbs', 'option' ) == 'yes' );
+			$project_object['hide_breadcrumbs'] = ( NorebroSettings::get( 'project_hide_breadcrumbs', 'global' ) == 'yes' );
 		} else {
-			$project_object['hide_breadcrumbs'] = ( get_field( 'page_show_breadcrumbs' ) == 'no' );
+			$project_object['hide_breadcrumbs'] = ( NorebroSettings::get( 'page_show_breadcrumbs' ) == 'no' );
 		}
 		// sharing
-		$project_object['hide_sharing'] = (bool) get_field( 'global_project_hide_sharing_buttons', 'option' );
-		$project_object['sharing_links'] = get_field( 'global_project_social_sharing_buttons', 'option' );
+		$project_object['hide_sharing'] = (bool) NorebroSettings::get( 'project_hide_sharing_buttons', 'global' );
+		$project_object['sharing_links'] = NorebroSettings::get( 'project_social_sharing_buttons', 'global' );
 		$project_object['sharing_links_html'] = '';
 
 		// Build share links
@@ -350,7 +358,7 @@ class NorebroObjectParser {
 		}
 
 		// portfolio link
-		$project_object['link_to_all'] = get_field( 'global_portfolio_page', 'option' );
+		$project_object['link_to_all'] = NorebroSettings::get( 'portfolio_page', 'global' );
 		if ( ! $project_object['link_to_all'] ) {
 			$project_object['link_to_all'] = esc_url( home_url( '/' ) );
 		}

@@ -1,10 +1,26 @@
 <?php
 	// Settings
+	$mobile_is_fixed = NorebroSettings::get( 'header_mobile_menu_fixed', 'global' );
+	$fixed_initial_offset = NorebroSettings::get( 'header_fixed_initial_offset', 'global' );
+
 	$subheader_have_social = have_rows( 'global_header_menu_contacts_bar_social_links', 'option' );
 	$show_subheader = NorebroSettings::subheader_is_displayed();
+
+	$mobile_search_visibility = NorebroSettings::get( 'mobile_search_visibility', 'global' );
+
+	$header_classes = '';
+
+	if ( $show_subheader ) { 
+		$header_classes .= ' with-subheader'; 
+	}
+	if ( $mobile_search_visibility == false ) {
+		$header_classes .= ' without-mobile-search';
+	}
 ?>
 
-<header id="masthead" class="site-header dark-text header-6<?php if ( $show_subheader ) { echo ' with-subheader'; } ?>">
+<header id="masthead" class="site-header dark-text header-6<?php echo $header_classes; ?>"
+<?php if ( $mobile_is_fixed ) { echo ' data-mobile-header-fixed="true"'; } ?>
+<?php if ( $fixed_initial_offset ) { echo ' data-fixed-initial-offset="' . $fixed_initial_offset . '"'; } ?>>
 	<div class="header-wrap">
 		<?php get_template_part( 'parts/elements/header-menu-logo' ); ?>
 		<div class="right">

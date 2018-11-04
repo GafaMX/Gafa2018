@@ -7,6 +7,11 @@ class NorebroLayout {
 
 	/* Custom CSS buffer content data */
 	static private $dynamic_css_buffer_code = array();
+	static private $dynamic_desktop_css_buffer_code = array();
+	static private $dynamic_tablet_css_buffer_code = array();
+	static private $dynamic_mobile_css_buffer_code = array();
+	static private $dynamic_extrasmall_css_buffer_code = array();
+
 	static private $dynamic_retina_css_buffer_code = array();
 	static private $dynamic_shortcodes_css_buffer_code = array();
 
@@ -30,7 +35,7 @@ class NorebroLayout {
 	}
 
 	/* Append dynamic CSS to buffer code */
-	static function append_to_dynamic_css_buffer( $append_string = '' ) {
+	static function append_to_dynamic_css_buffer( $append_string = '', $type = false ) {
 		$append_string = trim( $append_string );
 		if ( strlen( $append_string ) == 0 ) { return false; }
 		$append_array = preg_split( "/((\r?\n)|(\r\n?))/", $append_string );
@@ -40,7 +45,23 @@ class NorebroLayout {
 			if ( strlen( $append_line ) == 0 ) { continue; }
 			$new_append_string .= $append_line;
 		}
-		self::$dynamic_css_buffer_code[] = $new_append_string;
+
+		switch ( $type ) {
+			case 'desktop':
+				self::$dynamic_desktop_css_buffer_code[] = $new_append_string;
+				break;
+			case 'tablet':
+				self::$dynamic_tablet_css_buffer_code[] = $new_append_string;
+				break;
+			case 'mobile':
+				self::$dynamic_mobile_css_buffer_code[] = $new_append_string;
+				break;
+			case 'extrasmall':
+				self::$dynamic_extrasmall_css_buffer_code[] = $new_append_string;
+				break;
+			default:
+				self::$dynamic_css_buffer_code[] = $new_append_string;
+		}
 		return true;
 	}
 
@@ -76,11 +97,26 @@ class NorebroLayout {
 
 	/* Show or return dynamic CSS code */
 	static function get_dynamic_css_buffer( $print = false ) {
+		$dynamic_css_buffer = implode( '', self::$dynamic_css_buffer_code );
+
+		if ( self::$dynamic_desktop_css_buffer_code ) {
+			$dynamic_css_buffer .= '@media screen and (min-width: 1025px){' . (implode( '', self::$dynamic_desktop_css_buffer_code )) . '}';
+		}
+		if ( self::$dynamic_tablet_css_buffer_code ) {
+			$dynamic_css_buffer .= '@media screen and (min-width: 768px) and (max-width: 1024px){' . implode( '', self::$dynamic_tablet_css_buffer_code ) . '}';
+		}
+		if ( self::$dynamic_mobile_css_buffer_code ) {
+			$dynamic_css_buffer .= '@media screen and (max-width: 767px){' . implode( '', self::$dynamic_mobile_css_buffer_code ) . '}';
+		}
+		if ( self::$dynamic_extrasmall_css_buffer_code ) {
+			$dynamic_css_buffer .= '@media screen and (max-width: 566px){' . implode( '', self::$dynamic_extrasmall_css_buffer_code ) . '}';
+		}
+
 		if ( $print ) {
-			echo implode( '', self::$dynamic_css_buffer_code );
+			echo $dynamic_css_buffer;
 			return true;
 		} else {
-			return implode( '', self::$dynamic_css_buffer_code );
+			return $dynamic_css_buffer;
 		}
 	}
 
@@ -105,7 +141,7 @@ class NorebroLayout {
 	}
 
 
-	static function the_paginator_layout( $current_page, $all_pages ) {
+	static function the_paginator_layout( $current_page, $all_pages, $align = 'left' ) {
 			$current_page = (int) $current_page;
 			$all_pages = (int) $all_pages;
 			if ( $current_page < 1 ) {
@@ -155,7 +191,7 @@ class NorebroLayout {
 				}
 			}
 
-			$layout = '<nav class="pagination"><ul>';
+			$layout = '<nav class="pagination text-' . $align . '"><ul>';
 			// prev button
 			if ( $current_page > 1 ) {
 				$layout .= '<li><a href="' . esc_url( get_pagenum_link( $current_page - 1 ) ) . '" class="prev hover-underline page-numbers">';

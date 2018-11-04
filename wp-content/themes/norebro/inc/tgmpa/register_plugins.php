@@ -8,7 +8,7 @@ function norebro_register_plugins() {
 			'slug' => 'js_composer',
 			'source' => get_template_directory() . '/plugins/js_composer.zip',
 			'required' => true,
-			'version' => '5.4.6',
+			'version' => '5.5.5',
 			'force_activation' => false,
 			'force_deactivation' => false
 		),
@@ -17,7 +17,7 @@ function norebro_register_plugins() {
 			'slug' => 'acf',
 			'source' => get_template_directory() . '/plugins/acf_pro.zip',
 			'required' => true,
-			'version' => '5.6.9',
+			'version' => '5.7.7',
 			'force_activation' => false,
 			'force_deactivation' => false
 		),
@@ -25,11 +25,6 @@ function norebro_register_plugins() {
 			'name' => 'WooCommerce',
 			'slug' => 'woocommerce',
 			'required' => true
-		),
-		array(
-			'name' => 'MailChimp for WordPress',
-			'slug' => 'mailchimp-for-wp',
-			'required' => false
 		),
 		array(
 			'name' => 'YITH WooCommerce Wishlist',
@@ -46,25 +41,25 @@ function norebro_register_plugins() {
 			'slug' => 'revslider',
 			'source' => get_template_directory() . '/plugins/revslider.zip',
 			'required' => true,
-			'version' => '5.4.0',
+			'version' => '5.4.8',
 			'force_activation' => false,
 			'force_deactivation' => false
 		),
 		array(
 			'name' => 'Norebro Portfolio',
 			'slug' => 'norebro-portfolio',
-			'source' => 'https://plugins.colabr.io/norebro-portfolio_v101.zip',
+			'source' => 'https://plugins.colabr.io/norebro-portfolio_v103.zip',
 			'required' => true,
-			'version' => '1.0.1',
+			'version' => '1.0.3',
 			'force_activation' => false,
 			'force_deactivation' => false
 		),
 		array(
 			'name' => 'Norebro Shortcodes and Widgets',
 			'slug' => 'norebro-extra',
-			'source' => 'https://plugins.colabr.io/norebro-extra_v1010.zip',
+			'source' => 'https://plugins.colabr.io/norebro-extra_v1018.zip',
 			'required' => true,
-			'version' => '1.0.10',
+			'version' => '1.0.18',
 			'force_activation' => false,
 			'force_deactivation' => false
 		),
@@ -73,9 +68,14 @@ function norebro_register_plugins() {
 			'slug' => 'one-click-import',
 			'source' => 'https://plugins.colabr.io/oneclick_demo.zip',
 			'required' => false,
-			'version' => '2.2.1',
+			'version' => '2.2.2',
 			'force_activation' => false,
 			'force_deactivation' => false
+		),
+		array(
+			'name' => 'Contact Form 7 MailChimp Extension',
+			'slug' => 'contact-form-7-mailchimp-extension',
+			'required' => false
 		),
 		array(
 			'name' => 'Contact Form 7',
@@ -87,10 +87,10 @@ function norebro_register_plugins() {
 			'slug' => 'envato-market',
 			'source' => 'https://plugins.colabr.io/envato-market.zip',
 			'required' => false,
-			'version' => '1.0.0-RC2',
+			'version' => '2.0.0',
 			'force_activation' => false,
 			'force_deactivation' => false
-		)
+		),
 	);
 
 	$config = array(

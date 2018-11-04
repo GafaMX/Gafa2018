@@ -2,7 +2,7 @@
 	// Settings
 	$prev_post = get_adjacent_post( false, '', false );
 	$next_post = get_adjacent_post( false, '', true );
-	$toggle_post_column = ( ! empty( $prev_post ) && ! empty( $next_post ) ) ? '6' : '12';
+	$toggle_post_column = '6';
 
 	$hide_prev_n_next = NorebroSettings::get( 'post_hide_previous_n_next', 'global' );
 
@@ -42,12 +42,18 @@
 		</div>
 	<?php endif; ?>
 
-		<a href="/" class="norebro-icon-grid">
-			<div class="icon"></div>
-		</a>
+	<?php
+        $blog_page = NorebroSettings::get('blog_page', 'global');
+        if(! empty( $blog_page ) ) {
+        echo '<a href="' . get_permalink($blog_page) . '" class="norebro-icon-grid">';
+            } else {
+        echo '<a href="/" class="norebro-icon-grid">';
+        }
+        echo '<div class="icon"></div></a>';
+    ?>
 
 	<?php if ( ! empty( $next_post ) ) : ?>
-		<div class="vc_col-md-<?php echo esc_attr( $toggle_post_column ); ?>">
+		<div class="vc_col-md-<?php echo esc_attr( $toggle_post_column ); ?><?php echo empty( $prev_post ) ? ' vc_col-md-offset-6' : ''?>">
 			<a href="<?php echo esc_url( get_permalink( $next_post ) ); ?>">
 				<table class="toggle-post right">
 					<tbody>
@@ -66,7 +72,7 @@
 											echo wp_kses( $next_title, 'default' );
 										}
 									?>
-								</h3>	
+								</h3>
 							</td>
 							<td class="arrow">
 								<span class="ion-ios-arrow-thin-right"></span>

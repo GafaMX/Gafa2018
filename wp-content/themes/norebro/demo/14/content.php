@@ -1,6 +1,7 @@
 <?php
 
 	$ocdi_fields_to_change = array(
+	  'options_global_page_is_wrapped' => '1',
 	  'options_global_page_brand_color' => '#84625a',
 	  'options_global_page_background_size' => 'auto',
 	  'options_global_page_background_repeat' => 'repeat',

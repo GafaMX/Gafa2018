@@ -267,7 +267,6 @@ class NorebroHelper {
 
 	/* Parse acf columns css */
 	static function parse_columns_to_css( $value, $is_double = false, $parent = false ) {
-
 		$value_array = explode( '-', $value );
 
 		if ( $parent != false ) {
@@ -323,5 +322,81 @@ class NorebroHelper {
 		return $classes;
 	}
 
+	/* Parse acf responsive height css */
+	static function parse_responsive_height_to_css( $value, $css = '${height}' ) {
+		$value_array = explode( '-', $value );
 
+		return array(
+			'desktop' => empty( $value_array[0] ) ? false : str_replace( '${height}', $value_array[0], $css ),
+			'tablet' =>  empty( $value_array[1] ) ? false : str_replace( '${height}', $value_array[1], $css ),
+			'mobile' =>  empty( $value_array[2] ) ? false : str_replace( '${height}', $value_array[2], $css )
+		);
+	}
+
+	static function parse_responsive_font_sizes( $value ) {
+		$result = new stdClass();
+		$parsed_data = json_decode($value);
+
+		$result->laptop_size = (isset($parsed_data->laptop_size)) ? $parsed_data->laptop_size : false;
+		$result->tablet_size = (isset($parsed_data->tablet_size)) ? $parsed_data->tablet_size : false;
+		$result->mobile_size = (isset($parsed_data->mobile_size)) ? $parsed_data->mobile : false;
+		$result->laptop_height = (isset($parsed_data->laptop_height)) ? $parsed_data->laptop_height : false;
+		$result->tablet_height = (isset($parsed_data->tablet_height)) ? $parsed_data->tablet_height : false;
+		$result->mobile_height = (isset($parsed_data->mobile_height)) ? $parsed_data->mobile_height : false;
+
+		return $result;
+	}
+
+	static function get_responsive_font_css( $data, $selector = '' ) {
+		$result = new stdClass();
+		$result->laptop = $result->tablet = $result->mobile = '';
+
+		// laptop devices
+		if ((isset($data->laptop_size) && !empty($data->laptop_size))) {
+			$result->laptop .= '@media screen and (max-width: 768px) { ';
+			$result->laptop .= $selector . ' { font-size:' . $data->laptop_size . '; } ';
+			$result->laptop .= '}';
+		}
+		if ((isset($data->laptop_height) && !empty($data->laptop_height))) {
+			$result->laptop .= '@media screen and (max-width: 768px) { ';
+			$result->laptop .= $selector . ' { line-height:' . $data->laptop_height . '; } ';
+			$result->laptop .= '}';
+		}
+
+		// tablet devices
+		if (isset($data->tablet_size) && !empty($data->tablet_size)) {
+			$result->tablet .= '@media screen and (max-width: 1024px) { ';
+			$result->tablet .= $selector . ' { font-size:' . $data->tablet_size . '; } ';
+			$result->tablet .= '}';
+		}
+		if (isset($data->tablet_height) && !empty($data->tablet_height)) {
+			$result->tablet .= '@media screen and (max-width: 1024px) { ';
+			$result->tablet .= $selector . ' { line-height:' . $data->tablet_height . '; } ';
+			$result->tablet .= '}';
+		}
+
+		// mobile devices
+		if (isset($data->mobile_size) && !empty($data->mobile_size)) {
+			$result->mobile .= '@media screen and (max-width: 1440px) { ';
+			$result->mobile .= $selector . ' { font-size:' . $data->mobile_size . '; } ';
+			$result->mobile .= '}';
+		}
+		if (isset($data->mobile_height) && !empty($data->mobile_height)) {
+			$result->mobile .= '@media screen and (max-width: 1440px) { ';
+			$result->mobile .= $selector . ' { line-height:' . $data->mobile_height . '; } ';
+
+			$result->mobile .= '}';
+		}
+
+		return $result;
+	}
+
+	static function get_all_responsive_font_css( $data, $selector = '' ) {
+		$result = self::get_responsive_font_css($data, $selector);
+		return $result->laptop . ' ' . $result->tablet . ' ' . $result->mobile;		
+	}
+
+	static function wrap_css_to_selector($css, $selector) {
+		return $selector . '{' . $css . '} ';
+	}
 }

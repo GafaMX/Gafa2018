@@ -23,12 +23,13 @@
 			<div class="content-center">
 				<div class="wrap text-center">
 					<h4 class="title<?php echo esc_attr( $title_class ); ?>"><?php echo esc_html( $project['title'] ); ?></h4>
-					
+					<?php if ( $project['category_visible'] !== false ) :  ?>
 					<?php if ( $project['categories_plain'] ) : ?>
 						<?php $categories = explode( ', ', $project['categories_plain'] ) ?>
 						<?php foreach ( $categories as $category ) : ?>
 							<span class="category<?php echo esc_attr( $category_class ); ?>"><?php echo esc_html( $category ); ?></span>
 						<?php endforeach; ?>
+					<?php endif; ?>
 					<?php endif; ?>
 
 				</div>

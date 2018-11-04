@@ -37,15 +37,20 @@ if ( $use_masonry_grid ) {
 	$li_class .= ' masonry-block grid-item';
 }
 
+$products_autoplay = NorebroSettings::get( 'woocommerce_products_autoplay', 'global' );
+if ( $products_autoplay === NULL ) {
+	$products_autoplay = true;
+}
+
 ?>
 
-<li <?php post_class( $li_class ); ?> data-product-item="true">
+<li <?php post_class( $li_class ); ?> data-product-item="true" data-lazy-item="true">
 	<div class="product-content trans-shadow">
 		<a href="<?php echo esc_url( get_post_permalink() ); ?>" class="static">
 			<div class="image-wrap">
 				<?php woocommerce_show_product_loop_sale_flash(); ?>
 
-				<div class="slider">
+				<div class="slider"<?php if ( $products_autoplay ) { echo ' data-autoplay="true"'; } ?>>
 					<?php
 					/**
 					 * woocommerce_before_shop_loop_item hook.
@@ -53,7 +58,7 @@ if ( $use_masonry_grid ) {
 					 * @hooked woocommerce_template_loop_product_link_open - 10
 					 */
 					//do_action( 'woocommerce_before_shop_loop_item' );
-					
+
 					/**
 					 * woocommerce_before_shop_loop_item_title hook.
 					 *
@@ -61,8 +66,8 @@ if ( $use_masonry_grid ) {
 					 * @hooked woocommerce_template_loop_product_thumbnail - 10
 					 */
 					//do_action( 'woocommerce_before_shop_loop_item_title' );
-						echo woocommerce_get_product_thumbnail();
-					
+						echo woocommerce_get_product_thumbnail('large');
+
 						$attachment_ids = $product->get_gallery_image_ids();
 						foreach ( $attachment_ids as $attachment_id ) {
 							echo wp_get_attachment_image( $attachment_id, 'large' );
@@ -84,14 +89,14 @@ if ( $use_masonry_grid ) {
 		?>
 		<div class="wc-product-title-wrap<?php if ( $product->get_price_html() == '' ) { echo ' without-price'; } ?>">
 			<?php
-				$categories = explode(', ', wc_get_product_category_list( $product->get_id() ) ); 
+				$categories = explode(', ', wc_get_product_category_list( $product->get_id() ) );
 				$categories = array_filter( $categories );
 				$i = 0;
 				if ( !empty( $categories ) ) :
 					foreach ( $categories as $category ):
 			 ?>
 				<div class="category">
-					<?php 
+					<?php
 						echo preg_replace('/(<a)(.+\/a>)/i', '${1} class="trans-hover" ${2}', $category);
 						if ( (++$i) < count( $categories ) ) {
 							echo ',';
@@ -100,7 +105,7 @@ if ( $use_masonry_grid ) {
 				</div>
 			<?php
 					endforeach;
-				endif; 
+				endif;
 			?>
 			<h3>
 				<a href="<?php echo esc_url( get_post_permalink() ); ?>" class="color-dark">
@@ -110,7 +115,7 @@ if ( $use_masonry_grid ) {
 			<div class="price">
 				<?php echo $product->get_price_html(); ?>
 			</div>
-			<?php 
+			<?php
 			if ( function_exists( 'YITH_WCWL' ) ) {
 				echo do_shortcode( '[yith_wcwl_add_to_wishlist]' );
 			}

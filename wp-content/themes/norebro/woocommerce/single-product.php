@@ -33,9 +33,12 @@ if ( ! defined( 'ABSPATH' ) ) {
 	if ( !$page_wrapped ) {
 		$page_container_class .= ' full'; 
 	}
+
+	$submenu = NorebroSettings::get( 'header_menu_hide_contacts_bar', 'global' );
+	$header_spacer = NorebroSettings::get( 'header_menu_add_cap', 'global' );
 ?>
 
-<div class="page-container<?php echo esc_attr( $page_container_class ); ?>">
+<div class="<?php echo esc_attr($submenu ? 'subheader_excluded' : 'subheader_included');?> <?php echo esc_attr($header_spacer == 'yes' ? 'spacer_included' : 'spacer_excluded');?>">
 	<?php 
 		while ( have_posts() ) {
 			the_post();
@@ -44,7 +47,5 @@ if ( ! defined( 'ABSPATH' ) ) {
 		do_action( 'woocommerce_after_main_content' );
 	?>
 </div>
-
-<?php 
-	get_footer( 'shop' );
-?>
+<div class="page-container"></div>
+<?php get_footer( 'shop' );?>

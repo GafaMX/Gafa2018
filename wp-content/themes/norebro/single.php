@@ -10,11 +10,18 @@
 		$hide_author_widget = false;
 	}
 
+	$hide_comments = NorebroSettings::get( 'post_hide_comments', 'global' );
+
 	$sidebar_row_class = '';
 	if ( $sidebar_position == 'right' ) {
 		$sidebar_row_class = ' with-right-sidebar';
 	} elseif ( $sidebar_position == 'left' ) {
 		$sidebar_row_class = ' with-left-sidebar';
+	}
+	$sidebar_layout = NorebroSettings::page_sidebar_layout();
+	$sidebar_class = '';
+	if ( $sidebar_layout ) {
+		$sidebar_class .= ' sidebar-' . $sidebar_layout;
 	}
 
 	$page_container_class = '';
@@ -35,7 +42,7 @@
 <div class="page-container <?php echo $page_container_class; ?>">
 	
 	<?php if ( is_active_sidebar( 'norebro-sidebar-blog' ) && $sidebar_position == 'left' ) : ?>
-	<div class="page-sidebar sidebar-left">
+	<div class="page-sidebar sidebar-left<?php echo $sidebar_class; ?>">
 		<aside id="secondary" class="widget-area">
 			<?php dynamic_sidebar( 'norebro-sidebar-blog' ); ?>
 		</aside>
@@ -59,7 +66,7 @@
 	</div>
 
 	<?php if ( is_active_sidebar( 'norebro-sidebar-blog' ) && $sidebar_position == 'right' ) : ?>
-	<div class="page-sidebar sidebar-right">
+	<div class="page-sidebar sidebar-right<?php echo $sidebar_class; ?>">
 		<aside id="secondary" class="widget-area">
 			<?php dynamic_sidebar( 'norebro-sidebar-blog' ); ?>
 		</aside>
@@ -68,7 +75,7 @@
 
 </div>
 
-<?php if ( comments_open() || get_comments_number() ) : ?>
+<?php if ( !$hide_comments && (comments_open() || get_comments_number()) ) : ?>
 	<?php comments_template(); ?>
 <?php endif; ?>
 

@@ -32,17 +32,21 @@
 		</div>
 		<div class="description overlay">
 			
+			<?php if ( $project['category_visible'] !== false ) :  ?>
 			<?php if ( $project['categories_plain'] ) : ?>
 				<?php $categories = explode( ', ', $project['categories_plain'] ) ?>
 				<?php foreach ( $categories as $category ) : ?>
 					<span class="category<?php echo esc_attr( $category_class ); ?>"><?php echo esc_html( $category ); ?></span>
 				<?php endforeach; ?>
 			<?php endif; ?>
+			<?php endif; ?>
 
 			<h4 class="title<?php echo esc_attr( $title_class ); ?>"><?php echo esc_html( $project['title'] ); ?></h4>
+			<?php if ( $project['more_visible'] !== false ) :  ?>
 			<div class="more brand-color<?php echo esc_attr( $more_class ); ?>">
 				<span class="ion-ios-plus-empty"></span>
 			</div>
+			<?php endif; ?>
 		</div>
 	</a>
 </div>

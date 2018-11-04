@@ -13,6 +13,7 @@
 	    'options_global_header_menu_contacts_bar_additional' => '',
 	    '_options_global_header_menu_contacts_bar_additional' => 'field_59229bda3630a',
 	    'options_global_header_menu_contacts_bar_emails' => '',
+	    'options_global_page_is_wrapped' => '1',
 	    '_options_global_header_menu_contacts_bar_emails' => 'field_59229bda35ef5',
 	    'options_global_header_menu_contacts_bar_phone_numbers' => '',
 	    '_options_global_header_menu_contacts_bar_phone_numbers' => 'field_59229bda35af2',

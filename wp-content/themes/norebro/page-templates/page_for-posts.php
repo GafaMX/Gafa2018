@@ -29,8 +29,19 @@
 	$posts_per_page = NorebroSettings::posts_per_page();
 	$posts_offset = ( $pagination_page - 1 ) * $posts_per_page;
 
-	$pagination_type = get_field( 'blog_pagination_type' );
-	if ( $pagination_type == NULL ){
+	$pagination_type = NorebroSettings::get( 'blog_pagination_type' );
+	if ( in_array( $pagination_type, array( 'inherit', NULL ) ) ) {
+		$pagination_type = NorebroSettings::get( 'blog_pagination_type', 'global' );
+	}
+	$pagination_position = NorebroSettings::get( 'blog_pagination_position' );
+	if ( in_array( $pagination_position, array( 'inherit', NULL ) ) ) {
+		$pagination_position = NorebroSettings::get( 'blog_pagination_position', 'global' );
+	}
+
+	if ( $pagination_position == NULL ) {
+		$pagination_position = 'left';
+	}
+	if ( $pagination_type == NULL ) {
 		$pagination_type = 'simple';
 	}
 
@@ -66,18 +77,25 @@
 	);
 	$posts_array = get_posts( $args );
 
-	$sidebar_position = NorebroSettings::get( 'blog_sidebar' );
+	$sidebar_position = NorebroSettings::get( 'page_sidebar' );
 	if ( in_array( $sidebar_position, array( 'inherit', NULL ) ) ) {
 		$sidebar_position = NorebroSettings::get( 'blog_sidebar', 'global' );
-		if ( $sidebar_position === NULL ) { $sidebar_position = 'right';  }
+		if ( in_array( $sidebar_position, array( 'inherit', NULL ) ) ) {
+			$sidebar_position = NorebroSettings::get( 'page_sidebar', 'global' );
+		}
 	}
-
 	$sidebar_page_class = '';
 	if ( $sidebar_position == 'left' ) {
 		$sidebar_page_class = ' with-left-sidebar';
 	}
 	if ( $sidebar_position == 'right' ) {
 		$sidebar_page_class = ' with-right-sidebar';
+	}
+
+	$sidebar_layout = NorebroSettings::page_sidebar_layout();
+	$sidebar_class = '';
+	if ( $sidebar_layout ) {
+		$sidebar_class .= ' sidebar-' . $sidebar_layout;
 	}
 
 	$posts_grid = NorebroSettings::get( 'blog_page_layout' );
@@ -89,6 +107,11 @@
 
 	$grid_item_style_class = '';
 	$posts_without_paddings = NorebroSettings::get( 'blog_items_without_padding' );
+	if ( in_array( $posts_without_paddings, array( 'inherit', NULL ) ) ) {
+		$posts_without_paddings = NorebroSettings::get( 'blog_items_without_padding', 'global' );
+	} else {
+		$posts_without_paddings = ( $posts_without_paddings == 'yes' ) ? true : false;
+	}
 	if ( $posts_without_paddings ) {
 		$grid_item_style_class .= ' post-offset';
 	}
@@ -109,7 +132,13 @@
 	}
 
 	$animation_type = NorebroSettings::get( 'blog_page_animation_type' );
+	if ( in_array( $animation_type, array( 'inherit', NULL ) ) ) {
+		$animation_type = NorebroSettings::get( 'blog_page_animation_type', 'global' );
+	}
 	$animation_effect = NorebroSettings::get( 'blog_page_animation_effect' );
+	if ( in_array( $animation_effect, array( 'inherit', NULL ) ) ) {
+		$animation_effect = NorebroSettings::get( 'blog_page_animation_effect', 'global' );
+	}
 
 	if ( $posts_grid == 'classic' ) { $columns_num = '1-1-1-1'; }
 	if ( $posts_layout_item == 'striped' ) { $columns_num = '1-1-1-1'; }
@@ -137,7 +166,7 @@
 	<div id="primary" class="content-area">
 			
 		<?php if ( $sidebar_position == 'left' ) : ?>
-		<div class="page-sidebar sidebar-left">
+		<div class="page-sidebar sidebar-left<?php echo $sidebar_class; ?>">
 			<aside id="secondary" class="widget-area">
 				<?php dynamic_sidebar( 'norebro-sidebar-blog' ); ?>
 			</aside>
@@ -207,16 +236,16 @@
 					if ( $paginator_all > 1 ) {
 						switch ( $pagination_type ) {
 							case 'simple':
-								NorebroLayout::the_paginator_layout( $pagination_page, $paginator_all );
+								NorebroLayout::the_paginator_layout( $pagination_page, $paginator_all, $pagination_position );
 								break;
 						 	case 'lazy_scroll':
-								echo '<div class="lazy-load loading font-titles" data-lazy-load="scroll" data-lazy-pages-count="' . esc_attr( $paginator_all ) . '">';
+								echo '<div class="lazy-load loading font-titles text-' . $pagination_position . '" data-lazy-load="scroll" data-lazy-pages-count="' . esc_attr( $paginator_all ) . '">';
 								echo '<span class="loading-text">' . esc_html__( 'Loading', 'norebro-extra' ) . '</span>';
 								echo '<span class="icon ion-refresh"></span>';
 								echo '</div>';
 								break;
 							case 'lazy_button':
-								echo '<div class="lazy-load load-more font-titles" data-lazy-load="click" data-lazy-pages-count="' . esc_attr( $paginator_all ) . '">';
+								echo '<div class="lazy-load load-more font-titles text-' . $pagination_position . '" data-lazy-load="click" data-lazy-pages-count="' . esc_attr( $paginator_all ) . '">';
 								echo '<span class="loadmore-text">' . esc_html__( 'Load More', 'norebro-extra' ) . '</span>';
 								echo '<span class="loading-text">' . esc_html__( 'Loading', 'norebro-extra' ) . '</span>';
 								echo '<span class="icon ion-refresh"></span>';
@@ -225,19 +254,16 @@
 						}
 					}
 				?>
-			</main><!-- #main -->
+			</main>
 		</div>
-
 		<?php if ( $sidebar_position == 'right' ) : ?>
-		<div class="page-sidebar sidebar-right">
+		<div class="page-sidebar sidebar-right<?php echo $sidebar_class; ?>">
 			<aside id="secondary" class="widget-area">
 				<?php dynamic_sidebar( 'norebro-sidebar-blog' ); ?>
 			</aside>
 		</div>
 		<?php endif; ?>
-
-	</div><!--#primary-->
-</div><!--.page-container-->
+	</div>
+</div>
 	
-<?php
-	get_footer();
+<?php get_footer();

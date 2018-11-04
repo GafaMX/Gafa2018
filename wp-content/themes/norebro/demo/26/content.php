@@ -18,6 +18,7 @@
 	  'options_global_header_menu_hide_contacts_bar' => '0',
 	  'options_global_header_menu_contacts_bar_phone_numbers' => '',
 	  '_options_global_header_menu_contacts_bar_phone_numbers' => 'field_59229bda35af2',
+	  'options_global_page_is_wrapped' => '1',
 	  'options_global_header_menu_contacts_bar_emails' => '',
 	  '_options_global_header_menu_contacts_bar_emails' => 'field_59229bda35ef5',
 	  'options_global_header_menu_contacts_bar_additional' => '',

@@ -18,6 +18,7 @@
         'options_global_header_menu_social_links_2_social_network' => 'dribbble',
         'options_global_header_menu_style' => 'style2',
         'options_global_header_menu_subheader_items_left' => '',
+        'options_global_page_is_wrapped' => '1',
         '_options_global_header_menu_subheader_items_left' => 'field_59229bda366f4',
         'options_global_header_menu_subheader_items_right' => '',
         '_options_global_header_menu_subheader_items_right' => 'field_59229bda366f5',

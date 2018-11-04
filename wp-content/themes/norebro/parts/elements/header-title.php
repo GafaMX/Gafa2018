@@ -77,7 +77,7 @@
 	} elseif ( NorebroSettings::page_is( 'product' ) ) {
 		$subtitle_text = wp_kses( NorebroSettings::get( 'woocommerce_header_subtitle', 'global' ), 'default' );
 	} elseif ( NorebroSettings::page_is( 'shop' ) ) {
-		$title_text = esc_html__( 'Shop', 'norebro' );
+		$title_text = get_the_title( $post->ID );
 	} elseif ( NorebroSettings::page_is( 'product_category' ) ) {
 		global $wp_query;
 		$cat = $wp_query->get_queried_object();

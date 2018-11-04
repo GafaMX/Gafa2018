@@ -189,7 +189,7 @@ function norebro_woocommerce_image_dimensions() {
 add_action( 'init', 'norebro_woocommerce_image_dimensions', 1 );
 
 
-add_filter( 'login_errors', create_function('$a', "return null;") );
+// add_filter( 'login_errors', create_function('$a', "return null;") );
 
 
 // Wishlist
@@ -229,3 +229,22 @@ function norebro_override_new_gravatar( $avatar_defaults ) {
 }
 
 add_filter( 'avatar_defaults', 'norebro_override_new_gravatar' );
+
+
+add_filter( 'woocommerce_checkout_fields', 'custom_override_checkout_fields', 90, 1 );
+function custom_override_checkout_fields( $fields ) {
+    $fields['billing']['billing_first_name']['placeholder'] = __( 'First Name', 'norebro' );
+    $fields['billing']['billing_last_name']['placeholder'] = __( 'Last Name', 'norebro' );
+    $fields['billing']['billing_company']['placeholder'] = __( 'Company name', 'norebro' );
+    $fields['billing']['billing_country']['placeholder'] = __( 'Choose country', 'norebro' );
+    $fields['billing']['billing_address_1']['placeholder'] = __( 'Last Name', 'norebro' );
+    $fields['billing']['billing_address_2']['placeholder'] = __( 'Street address', 'norebro' );
+    $fields['billing']['billing_city']['placeholder'] = __( 'Street address', 'norebro' );
+    $fields['billing']['billing_state']['placeholder'] = __( 'Town / city', 'norebro' );
+    $fields['billing']['billing_postcode']['placeholder'] = __( 'Postcode / ZIP', 'norebro' );
+    $fields['billing']['billing_email']['placeholder'] = __( 'Email', 'norebro' );
+    $fields['billing']['billing_phone']['placeholder'] = __( 'Phone', 'norebro' );
+    $fields['order']['order_comments']['placeholder'] = __( 'Notes about your order, e.g. special notes for delivery', 'norebro' );
+
+    return $fields;
+}

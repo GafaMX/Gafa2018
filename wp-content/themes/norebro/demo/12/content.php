@@ -8,6 +8,7 @@
 	    'options_global_page_headings_typo' => '{"color":"#373c40","weight":"500","font_family":"Poppins","font_variants":["300","regular","500","600","700"],"font_subsets":["latin"]}',
 	    'options_global_page_subtitles_typo' => '{"color":"#718091","font_family":"Poppins","font_variants":["300","regular","500","600","700"],"font_subsets":["latin"]}',
 	    'options_global_page_smooth_scroll' => '1',
+	    'options_global_page_is_wrapped' => '1',
 	    'options_global_header_menu_use_wrapper' => '0',
 	    'options_global_header_menu_text_typo' => '{"color":"#000000"}',
 	    'options_global_header_menu_border_type' => 'solid',

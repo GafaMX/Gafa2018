@@ -16,20 +16,14 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-<!-- generator="WordPress/4.8.2" created="2017-10-29 14:27" -->
-<rss version="2.0"
-	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
-	xmlns:content="http://purl.org/rss/1.0/modules/content/"
-	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
-	xmlns:dc="http://purl.org/dc/elements/1.1/"
-	xmlns:wp="http://wordpress.org/export/1.2/"
->
+<!-- generator="WordPress/4.9.5" created="2018-04-05 13:04" -->
+<rss version="2.0" xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:wp="http://wordpress.org/export/1.2/">
 
 <channel>
 	<title>Norebro</title>
 	<link>https://norebro.colabr.io/demo15</link>
 	<description>Demo15 - Single Product Shop</description>
-	<pubDate>Sun, 29 Oct 2017 14:27:01 +0000</pubDate>
+	<pubDate>Thu, 05 Apr 2018 13:04:33 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>https://norebro.colabr.io/demo15</wp:base_site_url>
@@ -143,7 +137,7 @@
 	<wp:term><wp:term_id>15</wp:term_id><wp:term_taxonomy>nav_menu</wp:term_taxonomy><wp:term_slug><![CDATA[main]]></wp:term_slug><wp:term_name><![CDATA[Main]]></wp:term_name>
 </wp:term>
 
-	<generator>https://wordpress.org/?v=4.8.2</generator>
+	<generator>https://wordpress.org/?v=4.9.5</generator>
 
 <image>
 	<url>https://norebro.colabr.io/demo15/wp-content/uploads/2017/09/cropped-favicon-32x32.png</url>
@@ -159,10 +153,10 @@
 		<pubDate>Sat, 26 Aug 2017 15:05:03 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://demo15/wp-content/uploads/2017/08/dm15__icon_01-min.png</guid>
-		<description></description>
+		<description/>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>11</wp:post_id>
+		<wp:post_id>5659000</wp:post_id>
 		<wp:post_date><![CDATA[2017-08-26 15:05:03]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-08-26 15:05:03]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
@@ -190,10 +184,10 @@
 		<pubDate>Sat, 26 Aug 2017 15:05:29 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://demo15/wp-content/uploads/2017/08/dm15__icon_02-min.png</guid>
-		<description></description>
+		<description/>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>12</wp:post_id>
+		<wp:post_id>5659001</wp:post_id>
 		<wp:post_date><![CDATA[2017-08-26 15:05:29]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-08-26 15:05:29]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
@@ -221,10 +215,10 @@
 		<pubDate>Sat, 26 Aug 2017 15:05:53 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://demo15/wp-content/uploads/2017/08/dm15__icon_03-min.png</guid>
-		<description></description>
+		<description/>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>13</wp:post_id>
+		<wp:post_id>5659002</wp:post_id>
 		<wp:post_date><![CDATA[2017-08-26 15:05:53]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-08-26 15:05:53]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
@@ -252,10 +246,10 @@
 		<pubDate>Sat, 26 Aug 2017 15:06:14 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://demo15/wp-content/uploads/2017/08/dm15__icon_04-min.png</guid>
-		<description></description>
+		<description/>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>14</wp:post_id>
+		<wp:post_id>5659003</wp:post_id>
 		<wp:post_date><![CDATA[2017-08-26 15:06:14]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-08-26 15:06:14]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
@@ -283,10 +277,10 @@
 		<pubDate>Mon, 28 Aug 2017 07:17:20 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://demo15/wp-content/uploads/2017/08/dm15__prod_01-min.jpg</guid>
-		<description></description>
+		<description/>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>24</wp:post_id>
+		<wp:post_id>5659004</wp:post_id>
 		<wp:post_date><![CDATA[2017-08-28 07:17:20]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-08-28 07:17:20]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
@@ -314,10 +308,10 @@
 		<pubDate>Mon, 28 Aug 2017 07:17:37 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://demo15/wp-content/uploads/2017/08/dm15__hero_01-min.png</guid>
-		<description></description>
+		<description/>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>25</wp:post_id>
+		<wp:post_id>5659005</wp:post_id>
 		<wp:post_date><![CDATA[2017-08-28 07:17:37]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-08-28 07:17:37]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
@@ -345,10 +339,10 @@
 		<pubDate>Mon, 28 Aug 2017 07:17:49 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://demo15/wp-content/uploads/2017/08/dm15__prod_02-min.jpg</guid>
-		<description></description>
+		<description/>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>26</wp:post_id>
+		<wp:post_id>5659006</wp:post_id>
 		<wp:post_date><![CDATA[2017-08-28 07:17:49]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-08-28 07:17:49]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
@@ -376,10 +370,10 @@
 		<pubDate>Mon, 28 Aug 2017 07:22:36 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://demo15/wp-content/uploads/2017/08/dm15__image_02-min.jpg</guid>
-		<description></description>
+		<description/>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>28</wp:post_id>
+		<wp:post_id>5659007</wp:post_id>
 		<wp:post_date><![CDATA[2017-08-28 07:22:36]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-08-28 07:22:36]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
@@ -407,10 +401,10 @@
 		<pubDate>Mon, 28 Aug 2017 07:23:46 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://demo15/wp-content/uploads/2017/08/dm15__image_03-min.jpg</guid>
-		<description></description>
+		<description/>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>29</wp:post_id>
+		<wp:post_id>5659008</wp:post_id>
 		<wp:post_date><![CDATA[2017-08-28 07:23:46]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-08-28 07:23:46]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
@@ -438,10 +432,10 @@
 		<pubDate>Mon, 28 Aug 2017 07:23:58 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://demo15/wp-content/uploads/2017/08/dm15__image_04-min.jpg</guid>
-		<description></description>
+		<description/>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>30</wp:post_id>
+		<wp:post_id>5659009</wp:post_id>
 		<wp:post_date><![CDATA[2017-08-28 07:23:58]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-08-28 07:23:58]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
@@ -469,10 +463,10 @@
 		<pubDate>Fri, 29 Sep 2017 14:27:54 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://norebro.colabr.io/demo15/wp-content/uploads/2017/09/favicon.png</guid>
-		<description></description>
+		<description/>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>52</wp:post_id>
+		<wp:post_id>5659010</wp:post_id>
 		<wp:post_date><![CDATA[2017-09-29 14:27:54]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-09-29 14:27:54]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
@@ -494,16 +488,18 @@
 			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:512;s:6:"height";i:512;s:4:"file";s:19:"2017/09/favicon.png";s:5:"sizes";a:5:{s:9:"thumbnail";a:4:{s:4:"file";s:19:"favicon-150x150.png";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:9:"image/png";}s:6:"medium";a:4:{s:4:"file";s:19:"favicon-300x300.png";s:5:"width";i:300;s:6:"height";i:300;s:9:"mime-type";s:9:"image/png";}s:14:"shop_thumbnail";a:4:{s:4:"file";s:19:"favicon-120x120.png";s:5:"width";i:120;s:6:"height";i:120;s:9:"mime-type";s:9:"image/png";}s:14:"post-thumbnail";a:4:{s:4:"file";s:19:"favicon-200x200.png";s:5:"width";i:200;s:6:"height";i:200;s:9:"mime-type";s:9:"image/png";}s:31:"norebro_thumbnail_next_and_prev";a:4:{s:4:"file";s:19:"favicon-200x140.png";s:5:"width";i:200;s:6:"height";i:140;s:9:"mime-type";s:9:"image/png";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
+	
+	
 	<item>
 		<title>cropped-favicon.png</title>
 		<link>https://norebro.colabr.io/demo15/cropped-favicon-png/</link>
 		<pubDate>Fri, 29 Sep 2017 14:27:58 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://norebro.colabr.io/demo15/wp-content/uploads/2017/09/cropped-favicon.png</guid>
-		<description></description>
-		<content:encoded><![CDATA[http://norebro.colabr.io/demo15/wp-content/uploads/2017/09/cropped-favicon.png]]></content:encoded>
+		<description/>
+		<content:encoded><![CDATA[{{this_domain}}/wp-content/uploads/2017/09/cropped-favicon.png]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>55</wp:post_id>
+		<wp:post_id>5659011</wp:post_id>
 		<wp:post_date><![CDATA[2017-09-29 14:27:58]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-09-29 14:27:58]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
@@ -528,6 +524,10 @@
 			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
 			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:512;s:6:"height";i:512;s:4:"file";s:27:"2017/09/cropped-favicon.png";s:5:"sizes";a:9:{s:9:"thumbnail";a:4:{s:4:"file";s:27:"cropped-favicon-150x150.png";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:9:"image/png";}s:6:"medium";a:4:{s:4:"file";s:27:"cropped-favicon-300x300.png";s:5:"width";i:300;s:6:"height";i:300;s:9:"mime-type";s:9:"image/png";}s:14:"shop_thumbnail";a:4:{s:4:"file";s:27:"cropped-favicon-120x120.png";s:5:"width";i:120;s:6:"height";i:120;s:9:"mime-type";s:9:"image/png";}s:14:"post-thumbnail";a:4:{s:4:"file";s:27:"cropped-favicon-200x200.png";s:5:"width";i:200;s:6:"height";i:200;s:9:"mime-type";s:9:"image/png";}s:31:"norebro_thumbnail_next_and_prev";a:4:{s:4:"file";s:27:"cropped-favicon-200x140.png";s:5:"width";i:200;s:6:"height";i:140;s:9:"mime-type";s:9:"image/png";}s:13:"site_icon-270";a:4:{s:4:"file";s:27:"cropped-favicon-270x270.png";s:5:"width";i:270;s:6:"height";i:270;s:9:"mime-type";s:9:"image/png";}s:13:"site_icon-192";a:4:{s:4:"file";s:27:"cropped-favicon-192x192.png";s:5:"width";i:192;s:6:"height";i:192;s:9:"mime-type";s:9:"image/png";}s:13:"site_icon-180";a:4:{s:4:"file";s:27:"cropped-favicon-180x180.png";s:5:"width";i:180;s:6:"height";i:180;s:9:"mime-type";s:9:"image/png";}s:12:"site_icon-32";a:4:{s:4:"file";s:25:"cropped-favicon-32x32.png";s:5:"width";i:32;s:6:"height";i:32;s:9:"mime-type";s:9:"image/png";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
 		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_oembed_541b88ae9886e6417d8d44bdff70cd6e]]></wp:meta_key>
+			<wp:meta_value><![CDATA[{{unknown}}]]></wp:meta_value>
+		</wp:postmeta>
 	</item>
 	<item>
 		<title>dm15__image_1.min</title>
@@ -535,10 +535,10 @@
 		<pubDate>Tue, 10 Oct 2017 12:47:15 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://norebro.colabr.io/demo15/wp-content/uploads/2017/08/dm15__image_1.min_.jpg</guid>
-		<description></description>
+		<description/>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>74</wp:post_id>
+		<wp:post_id>5659012</wp:post_id>
 		<wp:post_date><![CDATA[2017-10-10 12:47:15]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-10-10 12:47:15]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
@@ -560,18 +560,203 @@
 			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:1840;s:6:"height";i:700;s:4:"file";s:30:"2017/08/dm15__image_1.min_.jpg";s:5:"sizes";a:9:{s:9:"thumbnail";a:4:{s:4:"file";s:30:"dm15__image_1.min_-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:30:"dm15__image_1.min_-300x114.jpg";s:5:"width";i:300;s:6:"height";i:114;s:9:"mime-type";s:10:"image/jpeg";}s:12:"medium_large";a:4:{s:4:"file";s:30:"dm15__image_1.min_-768x292.jpg";s:5:"width";i:768;s:6:"height";i:292;s:9:"mime-type";s:10:"image/jpeg";}s:5:"large";a:4:{s:4:"file";s:31:"dm15__image_1.min_-1024x390.jpg";s:5:"width";i:1024;s:6:"height";i:390;s:9:"mime-type";s:10:"image/jpeg";}s:14:"shop_thumbnail";a:4:{s:4:"file";s:29:"dm15__image_1.min_-120x46.jpg";s:5:"width";i:120;s:6:"height";i:46;s:9:"mime-type";s:10:"image/jpeg";}s:12:"shop_catalog";a:4:{s:4:"file";s:30:"dm15__image_1.min_-800x304.jpg";s:5:"width";i:800;s:6:"height";i:304;s:9:"mime-type";s:10:"image/jpeg";}s:11:"shop_single";a:4:{s:4:"file";s:30:"dm15__image_1.min_-600x228.jpg";s:5:"width";i:600;s:6:"height";i:228;s:9:"mime-type";s:10:"image/jpeg";}s:14:"post-thumbnail";a:4:{s:4:"file";s:30:"dm15__image_1.min_-200x200.jpg";s:5:"width";i:200;s:6:"height";i:200;s:9:"mime-type";s:10:"image/jpeg";}s:31:"norebro_thumbnail_next_and_prev";a:4:{s:4:"file";s:30:"dm15__image_1.min_-200x140.jpg";s:5:"width";i:200;s:6:"height";i:140;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	<item>
 		<title>Barlow Tapped to Head New GMC Prep Art</title>
 		<link>https://norebro.colabr.io/demo15/2017/08/25/barlow-tapped-to-head-new-gmc-prep-art/</link>
 		<pubDate>Fri, 25 Aug 2017 12:27:57 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://demo30/?p=1</guid>
-		<description></description>
+		<description/>
 		<content:encoded><![CDATA[[vc_row][vc_column][norebro_text]Fingerstache microdosing kickstarter, migas occupy sartorial ennui sustainable green juice cardigan farm-to-table offal. Authentic kale chips everyday velit auctor aliquet. A wonderful <strong>serenity has taken possession</strong> of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents. I should be incapable of drawing a single stroke at the present moment and yet.[/norebro_text][vc_empty_space height="25px"][/vc_column][/vc_row][vc_row][vc_column][norebro_text]I feel that I never was a greater artist than now. When, while the lovely <strong>valley teems</strong> with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary, I throw myself down among the tall grass by the trickling stream.[/norebro_text][/vc_column][/vc_row][vc_row][vc_column][vc_empty_space height="40px"][norebro_image alignment="left" image_url="12904"][vc_empty_space height="40px"][/vc_column][/vc_row][vc_row][vc_column][norebro_heading module_type_layout="on_left" subtitle_type_layout="without_subtitle" title="T2glMkMlMjB3b3VsZCUyMEklMjBjb3VsZCUyMGRlc2NyaWJlJTIwdGhlc2UlMjBjb25jZXB0aW9ucw==" title_typo="font_size~26||weight~600"][vc_empty_space height="15px"][/vc_column][/vc_row][vc_row][vc_column][norebro_text]When, while the lovely valley teems with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary, I throw myself down among the tall grass by the trickling stream; and, as I lie close to the earth, a thousand unknown plants are noticed by me: when I hear the buzz.[/norebro_text][/vc_column][/vc_row][vc_row][vc_column][norebro_text]
 <blockquote>Oh, would I could describe these conceptions, could impress upon paper all that is living so full and warm within me, that it might be the mirror of my soul, as my soul is the mirror of the infinite God! My friend but it is too much for my strength. I sink under the weight of the splendour of these visions!</blockquote>
 [/norebro_text][/vc_column][/vc_row][vc_row][vc_column][norebro_text]<strong>A wonderful serenity</strong> has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents. <strong>I should be incapable of drawing</strong>.[/norebro_text][/vc_column][/vc_row]]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>1</wp:post_id>
+		<wp:post_id>5659013</wp:post_id>
 		<wp:post_date><![CDATA[2017-08-25 12:27:57]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-08-25 12:27:57]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
@@ -770,150 +955,23 @@
 		</wp:postmeta>
 	</item>
 	<item>
-		<title>Contact Form</title>
-		<link>https://norebro.colabr.io/demo15/?post_type=wpcf7_contact_form&#038;p=4</link>
-		<pubDate>Tue, 15 Aug 2017 12:38:19 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">http://demo15/?post_type=wpcf7_contact_form&#038;p=4</guid>
-		<description></description>
-		<content:encoded><![CDATA[<div class="input-group">
-   <label class="col-4">[text* your-name placeholder"Your name*"]</label><label class="col-4">[email* your-email placeholder"Email address*"]</label><label class="col-4">[text your-phone placeholder"Your phone (optional)"]</label>
-</div>
-<label> [textarea your-message placeholder"Your message"] </label>
-
-[submit "Send Message"]
-1
-Norebro "[your-subject]"
-[your-name] <wordpress@demo15>
-test@mail.ua
-From: [your-name] <[your-email]>
-Subject: [your-subject]
-
-Message Body:
-[your-message]
-
--- 
-This e-mail was sent from a contact form on Norebro (http://demo15)
-Reply-To: [your-email]
-
-
-
-
-Norebro "[your-subject]"
-Norebro <wordpress@demo15>
-[your-email]
-Message Body:
-[your-message]
-
--- 
-This e-mail was sent from a contact form on Norebro (http://demo15)
-Reply-To: test@mail.ua
-
-
-
-Thank you for your message. It has been sent.
-There was an error trying to send your message. Please try again later.
-One or more fields have an error. Please check and try again.
-There was an error trying to send your message. Please try again later.
-You must accept the terms and conditions before sending your message.
-The field is required.
-The field is too long.
-The field is too short.
-The date format is incorrect.
-The date is before the earliest one allowed.
-The date is after the latest one allowed.
-There was an unknown error uploading the file.
-You are not allowed to upload files of this type.
-The file is too big.
-There was an error uploading the file.
-The number format is invalid.
-The number is smaller than the minimum allowed.
-The number is larger than the maximum allowed.
-The answer to the quiz is incorrect.
-Your entered code is incorrect.
-The e-mail address entered is invalid.
-The URL is invalid.
-The telephone number is invalid.]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>4</wp:post_id>
-		<wp:post_date><![CDATA[2017-08-15 12:38:19]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2017-08-15 12:38:19]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[contact-form-1]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[wpcf7_contact_form]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_form]]></wp:meta_key>
-			<wp:meta_value><![CDATA[<div class="input-group">
-   <label class="col-4">[text* your-name placeholder"Your name*"]</label><label class="col-4">[email* your-email placeholder"Email address*"]</label><label class="col-4">[text your-phone placeholder"Your phone (optional)"]</label>
-</div>
-<label> [textarea your-message placeholder"Your message"] </label>
-
-[submit "Send Message"]]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_mail]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:9:{s:6:"active";b:1;s:7:"subject";s:24:"Norebro "[your-subject]"";s:6:"sender";s:30:"[your-name] <wordpress@demo15>";s:9:"recipient";s:12:"test@mail.ua";s:4:"body";s:159:"From: [your-name] <[your-email]>
-Subject: [your-subject]
-
-Message Body:
-[your-message]
-
--- 
-This e-mail was sent from a contact form on Norebro (http://demo15)";s:18:"additional_headers";s:22:"Reply-To: [your-email]";s:11:"attachments";s:0:"";s:8:"use_html";b:0;s:13:"exclude_blank";b:0;}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_mail_2]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:9:{s:6:"active";b:0;s:7:"subject";s:24:"Norebro "[your-subject]"";s:6:"sender";s:26:"Norebro <wordpress@demo15>";s:9:"recipient";s:12:"[your-email]";s:4:"body";s:101:"Message Body:
-[your-message]
-
--- 
-This e-mail was sent from a contact form on Norebro (http://demo15)";s:18:"additional_headers";s:22:"Reply-To: test@mail.ua";s:11:"attachments";s:0:"";s:8:"use_html";b:0;s:13:"exclude_blank";b:0;}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_messages]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:23:{s:12:"mail_sent_ok";s:45:"Thank you for your message. It has been sent.";s:12:"mail_sent_ng";s:71:"There was an error trying to send your message. Please try again later.";s:16:"validation_error";s:61:"One or more fields have an error. Please check and try again.";s:4:"spam";s:71:"There was an error trying to send your message. Please try again later.";s:12:"accept_terms";s:69:"You must accept the terms and conditions before sending your message.";s:16:"invalid_required";s:22:"The field is required.";s:16:"invalid_too_long";s:22:"The field is too long.";s:17:"invalid_too_short";s:23:"The field is too short.";s:12:"invalid_date";s:29:"The date format is incorrect.";s:14:"date_too_early";s:44:"The date is before the earliest one allowed.";s:13:"date_too_late";s:41:"The date is after the latest one allowed.";s:13:"upload_failed";s:46:"There was an unknown error uploading the file.";s:24:"upload_file_type_invalid";s:49:"You are not allowed to upload files of this type.";s:21:"upload_file_too_large";s:20:"The file is too big.";s:23:"upload_failed_php_error";s:38:"There was an error uploading the file.";s:14:"invalid_number";s:29:"The number format is invalid.";s:16:"number_too_small";s:47:"The number is smaller than the minimum allowed.";s:16:"number_too_large";s:46:"The number is larger than the maximum allowed.";s:23:"quiz_answer_not_correct";s:36:"The answer to the quiz is incorrect.";s:17:"captcha_not_match";s:31:"Your entered code is incorrect.";s:13:"invalid_email";s:38:"The e-mail address entered is invalid.";s:11:"invalid_url";s:19:"The URL is invalid.";s:11:"invalid_tel";s:32:"The telephone number is invalid.";}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_additional_settings]]></wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_locale]]></wp:meta_key>
-			<wp:meta_value><![CDATA[en_US]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_vc_post_settings]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:1:{s:10:"vc_grid_id";a:0:{}}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_config_errors]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:1:{s:11:"mail.sender";a:1:{i:0;a:2:{s:4:"code";i:102;s:4:"args";a:3:{s:7:"message";s:0:"";s:6:"params";a:0:{}s:4:"link";s:68:"https://contactform7.com/configuration-errors/invalid-mailbox-syntax";}}}}]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>Single Product</title>
+		<title>Demo15 - Single Product Shop</title>
 		<link>https://norebro.colabr.io/demo15/</link>
 		<pubDate>Fri, 25 Aug 2017 14:48:48 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://demo15/?page_id=6</guid>
-		<description></description>
+		<description/>
 		<content:encoded><![CDATA[[vc_row full_width="stretch_row" css=".vc_custom_1503909677581{background-color: #f4f4f4 !important;}" el_class="header-row-main"][vc_column][rev_slider_vc alias="home"][/vc_column][/vc_row][vc_row][vc_column css=".vc_custom_1507724878166{margin-top: -200px !important;}" el_class="text-center"][add_to_cart id="96"][norebro_text]
 
 *Offer valid starting 21 July, 2017 through 26 July, 2017
 
-[/norebro_text][/vc_column][/vc_row][vc_row full_width="stretch_row_content_no_spaces" css=".vc_custom_1503759722301{background-color: #ffffff !important;}"][vc_column width="1/4" css=".vc_custom_1503760192306{border-right-width: 1px !important;border-right-color: #ebebeb !important;border-right-style: solid !important;}"][vc_empty_space height="60px" el_class="norebro-phone-space"][norebro_icon_box box_type_layout="top_icon" box_alignment="`{`object Object`}`" icon_type_layout="default" icon_type="user_image" use_link="1" title="Free Delivery" link_url="url:%23|title:Learn%20More||" readmore_button="type=arrow_link&amp;size=default&amp;text-color=brand" icon_as_image="11" title_typo="font_size~17||line_height~30||weight~600" subtitle_typo="font_size~15||weight~inherit" subtitle="On any in-stock ordered by 6:00 p.m."][vc_empty_space height="40px"][/vc_column][vc_column width="1/4" css=".vc_custom_1503759747957{border-right-width: 1px !important;border-right-color: #ebebeb !important;border-right-style: solid !important;}"][vc_empty_space height="60px" el_class="vc_hidden-xs"][norebro_icon_box box_type_layout="top_icon" box_alignment="`{`object Object`}`" icon_type_layout="default" icon_type="user_image" use_link="1" title="Pickup at Any Store" link_url="url:%23|title:Learn%20More||" readmore_button="type=arrow_link&amp;size=default&amp;text-color=brand" icon_as_image="12" title_typo="font_size~17||line_height~30||weight~600" subtitle_typo="font_size~15||weight~inherit" subtitle="Bushwick four dollar toast succulents."][vc_empty_space height="40px"][/vc_column][vc_column width="1/4" css=".vc_custom_1503759757157{border-right-width: 1px !important;border-right-color: #ebebeb !important;border-right-style: solid !important;}"][vc_empty_space height="60px" el_class=" vc_hidden-xs"][norebro_icon_box box_type_layout="top_icon" box_alignment="`{`object Object`}`" icon_type_layout="default" icon_type="user_image" use_link="1" title="Trade-in Avaliable" link_url="url:%23|title:Learn%20More||" readmore_button="type=arrow_link&amp;size=default&amp;text-color=brand" icon_as_image="13" title_typo="font_size~17||line_height~30||weight~600" subtitle_typo="font_size~15||weight~inherit" subtitle="Glossier leggings celiac neutra viral."][vc_empty_space height="40px"][/vc_column][vc_column width="1/4"][vc_empty_space height="60px" el_class=" vc_hidden-xs"][norebro_icon_box box_type_layout="top_icon" box_alignment="`{`object Object`}`" icon_type_layout="default" icon_type="user_image" use_link="1" title="Worldwide Shipping " link_url="url:%23|title:Learn%20More||" readmore_button="type=arrow_link&amp;size=default&amp;text-color=brand" icon_as_image="14" title_typo="font_size~17||line_height~30||weight~600" subtitle_typo="font_size~15||weight~inherit" subtitle="Copper mug freegan actually flexitarian."][vc_empty_space height="40px" el_class="norebro-phone-space"][/vc_column][/vc_row][vc_row full_width="stretch_row_content_no_spaces"][vc_column][norebro_parallax size="cover" use_overlay="1" image="74" overlay_color="rgba(51,51,51,0.4)" parallax_speed="0.8"][vc_empty_space height="170px" el_class="norebro-phone-space"][norebro_heading module_type_layout="on_middle" subtitle_type_layout="bottom_subtitle" title="RW5qb3klMjB0aGUlMjBNdXNpYw==" subtitle="V2hlbiUyMGElMjBuYWtlZCUyMG1hbiUyN3MlMjBjaGFzaW5nJTIwYSUyMHdvbWFuJTIwdGhyb3VnaCUyMGFuJTIwYWxsZXklMjB3aXRoJTIwYSUyMGJ1dGNoZXIlMkMlM0NiciUyMGNsYXNzJTNEJTIydmNfaGlkZGVuLXhzJTIyJTJGJTNFJTBBY2xlYXJseSUyQyUyMHNvbWVvbmUlMjB3aG8lMjBiZWxpZXZlcyUyMGhlJTIwaXMlMjBhYm92ZSUyMHRoZSUyMGxhdy4=" title_typo="font_size~42||weight~inherit" subtitle_typo="font_size~17||weight~inherit" title_color="#ffffff" subtitle_color="#ffffff" css_class="nor-heading-xs"][norebro_video layout="outline" button_layout="filled" title="V2F0Y2glMjBQcm9tbw==" link="https://www.youtube.com/embed/_GuOjXYl5ew" button_anim="1" title_typo="weight~inherit" border_color="#ffffff" button_color="brand" icon_color="#ffffff" icon_hover_color="#ffffff" title_color="#ffffff" button_hover_color="#ffffff"][vc_empty_space height="170px" el_class="norebro-phone-space"][/norebro_parallax][/vc_column][/vc_row][vc_row][vc_column][vc_empty_space height="90px" el_class="norebro-phone-space"][norebro_heading module_type_layout="on_middle" subtitle_type_layout="bottom_subtitle" title="RGVzZXJ2ZSUyMEdyZWF0JTIwU291bmQ=" subtitle="V2hlbiUyMGElMjBuYWtlZCUyMG1hbiUyN3MlMjBjaGFzaW5nJTIwYSUyMHdvbWFuJTIwdGhyb3VnaCUyMGFuJTIwYWxsZXklMjB3aXRoJTIwYSUyMGJ1dGNoZXIlMkMlM0NiciUyMGNsYXNzJTNEJTIydmNfaGlkZGVuLXhzJTIyJTJGJTNFJTBBY2xlYXJseSUyQyUyMHNvbWVvbmUlMjB3aG8lMjBiZWxpZXZlcyUyMGhlJTIwaXMlMjBhYm92ZSUyMHRoZSUyMGxhdy4=" title_typo="font_size~42||weight~inherit" subtitle_typo="font_size~16||weight~inherit" subtitle_color="#636363" css_class="nor-heading-xs"][vc_empty_space height="90px" el_class="norebro-phone-space"][/vc_column][/vc_row][vc_row][vc_column width="3/12"][vc_row_inner][vc_column_inner][norebro_list_module list_layout="default" list_style="icon" list_value_type2="%5B%7B%22list_icon%22%3A%22ion-ios-checkmark-outline%22%2C%22list_title%22%3A%22Outstanding%20Design%22%7D%5D" icon_color="brand" title_typo="font_size~16||weight~600"][norebro_text text_typo="font_size~14||weight~400"]North melbourne shinboners the city loop, avalon is so not melb trams formula.[/norebro_text][vc_empty_space height="20px"][/vc_column_inner][/vc_row_inner][vc_row_inner][vc_column_inner][norebro_list_module list_layout="default" list_style="icon" list_value_type2="%5B%7B%22list_icon%22%3A%22ion-ios-checkmark-outline%22%2C%22list_title%22%3A%22Portable%20and%20Light%22%7D%5D" icon_color="brand" title_typo="font_size~16||weight~600"][norebro_text text_typo="font_size~14||weight~400"]Clearly, someone who believes he is above the law. North melbourne shinboners the city.[/norebro_text][vc_empty_space height="20px"][/vc_column_inner][/vc_row_inner][vc_row_inner][vc_column_inner][norebro_list_module list_layout="default" list_style="icon" list_value_type2="%5B%7B%22list_icon%22%3A%22ion-ios-checkmark-outline%22%2C%22list_title%22%3A%22Magnetic%20Sounds%22%7D%5D" icon_color="brand" title_typo="font_size~16||weight~600"][norebro_text text_typo="font_size~14||weight~400"]When a naked man's chasing a woman through an alley with a butcher knife flying vessels.[/norebro_text][vc_empty_space height="20px"][/vc_column_inner][/vc_row_inner][vc_row_inner][vc_column_inner][norebro_list_module list_layout="default" list_style="icon" list_value_type2="%5B%7B%22list_icon%22%3A%22ion-ios-checkmark-outline%22%2C%22list_title%22%3A%22Powerful%20Battery%22%7D%5D" icon_color="brand" title_typo="font_size~16||weight~600"][norebro_text text_typo="font_size~14||weight~400"]Ancient religions pyramids DNA manipulation flying vessels space time.[/norebro_text][vc_empty_space height="20px"][/vc_column_inner][/vc_row_inner][/vc_column][vc_column width="6/12"][norebro_carousel item_desktop="1" item_tablet="1" pagination_show="1" navigation_buttons="0" autoplay="0" dots_each="1"][norebro_carousel_inner title="Section 1" tab_id="1507637961616-4ac5ebfd-e2d9"][vc_single_image image="24" img_size="full" alignment="center"][/norebro_carousel_inner][norebro_carousel_inner title="Section 2" tab_id="1507637961773-84efb915-e6da"][vc_single_image image="26" img_size="full" alignment="center"][/norebro_carousel_inner][norebro_carousel_inner title="Section 3" tab_id="1507637962032-08d034d5-974d"][vc_single_image image="25" img_size="full" alignment="center"][/norebro_carousel_inner][/norebro_carousel][vc_empty_space height="20px" el_class="vc_hidden-lg vc_hidden-md"][/vc_column][vc_column width="3/12"][vc_row_inner][vc_column_inner][norebro_list_module list_layout="default" list_style="icon" list_value_type2="%5B%7B%22list_icon%22%3A%22ion-ios-checkmark-outline%22%2C%22list_title%22%3A%22Wireless%20Charging%22%7D%5D" icon_color="brand" title_typo="font_size~16||weight~600"][norebro_text text_typo="font_size~14||weight~400"]North melbourne shinboners the city loop, avalon is so not melb trams formula.[/norebro_text][vc_empty_space height="20px"][/vc_column_inner][/vc_row_inner][vc_row_inner][vc_column_inner][norebro_list_module list_layout="default" list_style="icon" list_value_type2="%5B%7B%22list_icon%22%3A%22ion-ios-checkmark-outline%22%2C%22list_title%22%3A%22Share%20a%20Call%22%7D%5D" icon_color="brand" title_typo="font_size~16||weight~600"][norebro_text text_typo="font_size~14||weight~400"]Clearly, someone who believes he is above the law. North melbourne shinboners the city.[/norebro_text][vc_empty_space height="20px"][/vc_column_inner][/vc_row_inner][vc_row_inner][vc_column_inner][norebro_list_module list_layout="default" list_style="icon" list_value_type2="%5B%7B%22list_icon%22%3A%22ion-ios-checkmark-outline%22%2C%22list_title%22%3A%22Waterproof%20%26%20Dust%20Tight%22%7D%5D" icon_color="brand" title_typo="font_size~16||weight~600"][norebro_text text_typo="font_size~14||weight~400"]When a naked man's chasing a woman through an alley with a butcher knife flying vessels.[/norebro_text][vc_empty_space height="20px"][/vc_column_inner][/vc_row_inner][vc_row_inner][vc_column_inner][norebro_list_module list_layout="default" list_style="icon" list_value_type2="%5B%7B%22list_icon%22%3A%22ion-ios-checkmark-outline%22%2C%22list_title%22%3A%22Great%20Beats%22%7D%5D" icon_color="brand" title_typo="font_size~16||weight~600"][norebro_text text_typo="font_size~14||weight~400"]Ancient religions pyramids DNA manipulation flying vessels space time.[/norebro_text][vc_empty_space height="20px" el_class="vc_hidden-xs"][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row][vc_row][vc_column][vc_empty_space height="90px" el_class="norebro-phone-space"][/vc_column][/vc_row][vc_row full_width="stretch_row_content_no_spaces" equal_height="yes" content_placement="middle"][vc_column width="1/3" css=".vc_custom_1507638116627{background-image: url(http://{{this_domain}}/wp-content/uploads/2017/08/dm15__image_02-min.jpg?id=28) !important;}" el_class="norebro-bg-cover"][/vc_column][vc_column width="2/3"][vc_row_inner equal_height="yes" content_placement="middle"][vc_column_inner width="1/2" css=".vc_custom_1503905134867{padding-top: 70px !important;padding-right: 70px !important;padding-bottom: 70px !important;padding-left: 70px !important;background-color: #4c58ff !important;}"][norebro_heading module_type_layout="on_left" subtitle_type_layout="bottom_subtitle" title="VGhlJTIwbG91ZGVzdCUyMHNwZWFrZXJzJTNDYnIlMjBjbGFzcyUzRCUyMnZjX2hpZGRlbi14cyUyMiUyRiUzRSUwQXlvdSVFMiU4MCU5OXZlJTIwZXZlciUyMHNlZW4=" title_typo="font_size~30||weight~inherit" subtitle_typo="weight~inherit" title_color="#ffffff"][vc_empty_space height="20px"][norebro_progress_bar layout="split" percent="74" name="Project Consulting" label_color="#ffffff" percent_color="#ffffff" bar_bg_color="rgba(255,255,255,0.19)" bar_line_color="#ffffff"][vc_empty_space height="20px"][norebro_text text_typo="font_size~15||weight~inherit"]<span style="color: #ffffff;">When a naked man's chasing a woman through an alley with a butcher, clearly, someone who believes he is above the law.  </span>[/norebro_text][vc_empty_space height="15px"][norebro_button layout="outline" shape_size="small" shape_position="left" icon_use="1" icon_position="right" link="url:%23|title:Learn%20More||" icon_as_icon="ion-android-arrow-forward" color="#ffffff" hover_color="#ffffff" text_color="#ffffff" hover_text_color="brand"][/vc_column_inner][vc_column_inner el_class="norebro-bg-cover" width="1/2" css=".vc_custom_1507638062520{background-image: url(http://{{this_domain}}/wp-content/uploads/2017/08/dm15__image_03-min.jpg?id=29) !important;}"][/vc_column_inner][/vc_row_inner][vc_row_inner equal_height="yes" content_placement="middle"][vc_column_inner el_class="norebro-bg-cover" width="1/2" css=".vc_custom_1507638226662{background-image: url(http://{{this_domain}}/wp-content/uploads/2017/08/dm15__image_04-min.jpg?id=30) !important;}"][/vc_column_inner][vc_column_inner width="1/2" css=".vc_custom_1503905146259{padding-top: 70px !important;padding-right: 70px !important;padding-bottom: 70px !important;padding-left: 70px !important;background-color: #4c58ff !important;}"][norebro_heading module_type_layout="on_left" subtitle_type_layout="bottom_subtitle" title="U3dpdGNoJTIwdG8lMjBTcGVha2VycyUyQyUzQ2JyJTIwY2xhc3MlM0QlMjJ2Y19oaWRkZW4teHMlMjIlMkYlM0UlMEFlYXNpbHklMjBrZWVwJTIweW91ciUyMHRpbWU=" title_typo="font_size~30||weight~inherit" subtitle_typo="weight~inherit" title_color="#ffffff"][vc_empty_space height="20px"][norebro_progress_bar layout="split" percent="89" name="Project Consulting" label_color="#ffffff" percent_color="#ffffff" bar_bg_color="rgba(255,255,255,0.19)" bar_line_color="#ffffff"][vc_empty_space height="20px"][norebro_text text_typo="font_size~15||weight~inherit"]<span style="color: #ffffff;">The regret on our side is, they used to say years ago, we are reading about puedor a peich no te digo trigo por no llamarte must become fear.</span>[/norebro_text][vc_empty_space height="15px"][norebro_button layout="outline" shape_size="small" shape_position="left" icon_use="1" icon_position="right" link="url:%23|title:Learn%20More||" icon_as_icon="ion-android-arrow-forward" color="#ffffff" hover_color="#ffffff" text_color="#ffffff" hover_text_color="brand"][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row][vc_row full_width="stretch_row" css=".vc_custom_1507640368433{background-color: #f9f9f9 !important;}"][vc_column width="1/4"][/vc_column][vc_column width="1/2" el_class="text-center"][vc_empty_space height="90px" el_class="norebro-phone-space"][norebro_heading module_type_layout="on_middle" subtitle_type_layout="bottom_subtitle" title="VHJhZGUtaW4lMjB5b3VyJTIwb2xkJTIwb25lJTNDYnIlMjBjbGFzcyUzRCUyMnZjX2hpZGRlbi14cyUyMiUyRiUzRSUwQWFuZCUyMGdldCUyMHVwJTIwdG8lMjAlMjQ5NiUyQSUyMGRpc2NvdW50" title_typo="font_size~42||line_height~50||weight~inherit" subtitle_typo="font_size~17||weight~inherit" subtitle_color="#636363" subtitle="V2hlbiUyMGElMjBuYWtlZCUyMG1hbiUyN3MlMjBjaGFzaW5nJTIwYSUyMHdvbWFuJTIwdGhyb3VnaCUyMGFuJTIwYWxsZXklMjB3aXRoJTIwYSUyMGJ1dGNoZXIlMkMlM0NiciUyMGNsYXNzJTNEJTIydmNfaGlkZGVuLXhzJTIyJTJGJTNFJTBBY2xlYXJseSUyQyUyMHNvbWVvbmUlMjB3aG8lMjBiZWxpZXZlcyUyMGhlJTIwaXMlMjBhYm92ZSUyMHRoZSUyMGxhdy4lMjA=" css_class="nor-heading-xs"][vc_empty_space height="15px"][add_to_cart id="96"][norebro_text]
+[/norebro_text][/vc_column][/vc_row][vc_row full_width="stretch_row_content_no_spaces" css=".vc_custom_1503759722301{background-color: #ffffff !important;}"][vc_column width="1/4" css=".vc_custom_1503760192306{border-right-width: 1px !important;border-right-color: #ebebeb !important;border-right-style: solid !important;}"][vc_empty_space height="60px" el_class="norebro-phone-space"][norebro_icon_box box_type_layout="top_icon" box_alignment="`{`object Object`}`" icon_type_layout="default" icon_type="user_image" use_link="1" title="Free Delivery" link_url="url:%23|title:Learn%20More||" readmore_button="type=arrow_link&amp;size=default&amp;text-color=brand" icon_as_image="5659000" title_typo="font_size~17||line_height~30||weight~600" subtitle_typo="font_size~15||weight~inherit" subtitle="On any in-stock ordered by 6:00 p.m."][vc_empty_space height="40px"][/vc_column][vc_column width="1/4" css=".vc_custom_1503759747957{border-right-width: 1px !important;border-right-color: #ebebeb !important;border-right-style: solid !important;}"][vc_empty_space height="60px" el_class="vc_hidden-xs"][norebro_icon_box box_type_layout="top_icon" box_alignment="`{`object Object`}`" icon_type_layout="default" icon_type="user_image" use_link="1" title="Pickup at Any Store" link_url="url:%23|title:Learn%20More||" readmore_button="type=arrow_link&amp;size=default&amp;text-color=brand" icon_as_image="5659001" title_typo="font_size~17||line_height~30||weight~600" subtitle_typo="font_size~15||weight~inherit" subtitle="Bushwick four dollar toast succulents."][vc_empty_space height="40px"][/vc_column][vc_column width="1/4" css=".vc_custom_1503759757157{border-right-width: 1px !important;border-right-color: #ebebeb !important;border-right-style: solid !important;}"][vc_empty_space height="60px" el_class=" vc_hidden-xs"][norebro_icon_box box_type_layout="top_icon" box_alignment="`{`object Object`}`" icon_type_layout="default" icon_type="user_image" use_link="1" title="Trade-in Avaliable" link_url="url:%23|title:Learn%20More||" readmore_button="type=arrow_link&amp;size=default&amp;text-color=brand" icon_as_image="5659002" title_typo="font_size~17||line_height~30||weight~600" subtitle_typo="font_size~15||weight~inherit" subtitle="Glossier leggings celiac neutra viral."][vc_empty_space height="40px"][/vc_column][vc_column width="1/4"][vc_empty_space height="60px" el_class=" vc_hidden-xs"][norebro_icon_box box_type_layout="top_icon" box_alignment="`{`object Object`}`" icon_type_layout="default" icon_type="user_image" use_link="1" title="Worldwide Shipping " link_url="url:%23|title:Learn%20More||" readmore_button="type=arrow_link&amp;size=default&amp;text-color=brand" icon_as_image="5659003" title_typo="font_size~17||line_height~30||weight~600" subtitle_typo="font_size~15||weight~inherit" subtitle="Copper mug freegan actually flexitarian."][vc_empty_space height="40px" el_class="norebro-phone-space"][/vc_column][/vc_row][vc_row full_width="stretch_row_content_no_spaces"][vc_column][norebro_parallax size="cover" use_overlay="1" image="5659012" overlay_color="rgba(51,51,51,0.4)" parallax_speed="0.8"][vc_empty_space height="170px" el_class="norebro-phone-space"][norebro_heading module_type_layout="on_middle" subtitle_type_layout="bottom_subtitle" title="RW5qb3klMjB0aGUlMjBNdXNpYw==" subtitle="V2hlbiUyMGElMjBuYWtlZCUyMG1hbiUyN3MlMjBjaGFzaW5nJTIwYSUyMHdvbWFuJTIwdGhyb3VnaCUyMGFuJTIwYWxsZXklMjB3aXRoJTIwYSUyMGJ1dGNoZXIlMkMlM0NiciUyMGNsYXNzJTNEJTIydmNfaGlkZGVuLXhzJTIyJTJGJTNFJTBBY2xlYXJseSUyQyUyMHNvbWVvbmUlMjB3aG8lMjBiZWxpZXZlcyUyMGhlJTIwaXMlMjBhYm92ZSUyMHRoZSUyMGxhdy4=" title_typo="font_size~42||weight~inherit" subtitle_typo="font_size~17||weight~inherit" title_color="#ffffff" subtitle_color="#ffffff" css_class="nor-heading-xs"][norebro_video layout="outline" button_layout="filled" title="V2F0Y2glMjBQcm9tbw==" link="https://www.youtube.com/embed/_GuOjXYl5ew" button_anim="1" title_typo="weight~inherit" border_color="#ffffff" button_color="brand" icon_color="#ffffff" icon_hover_color="#ffffff" title_color="#ffffff" button_hover_color="#ffffff"][vc_empty_space height="170px" el_class="norebro-phone-space"][/norebro_parallax][/vc_column][/vc_row][vc_row][vc_column][vc_empty_space height="90px" el_class="norebro-phone-space"][norebro_heading module_type_layout="on_middle" subtitle_type_layout="bottom_subtitle" title="RGVzZXJ2ZSUyMEdyZWF0JTIwU291bmQ=" subtitle="V2hlbiUyMGElMjBuYWtlZCUyMG1hbiUyN3MlMjBjaGFzaW5nJTIwYSUyMHdvbWFuJTIwdGhyb3VnaCUyMGFuJTIwYWxsZXklMjB3aXRoJTIwYSUyMGJ1dGNoZXIlMkMlM0NiciUyMGNsYXNzJTNEJTIydmNfaGlkZGVuLXhzJTIyJTJGJTNFJTBBY2xlYXJseSUyQyUyMHNvbWVvbmUlMjB3aG8lMjBiZWxpZXZlcyUyMGhlJTIwaXMlMjBhYm92ZSUyMHRoZSUyMGxhdy4=" title_typo="font_size~42||weight~inherit" subtitle_typo="font_size~16||weight~inherit" subtitle_color="#636363" css_class="nor-heading-xs"][vc_empty_space height="90px" el_class="norebro-phone-space"][/vc_column][/vc_row][vc_row][vc_column width="3/12"][vc_row_inner][vc_column_inner][norebro_list_module list_layout="default" list_style="icon" list_value_type2="%5B%7B%22list_icon%22%3A%22ion-ios-checkmark-outline%22%2C%22list_title%22%3A%22Outstanding%20Design%22%7D%5D" icon_color="brand" title_typo="font_size~16||weight~600"][norebro_text text_typo="font_size~14||weight~400"]North melbourne shinboners the city loop, avalon is so not melb trams formula.[/norebro_text][vc_empty_space height="20px"][/vc_column_inner][/vc_row_inner][vc_row_inner][vc_column_inner][norebro_list_module list_layout="default" list_style="icon" list_value_type2="%5B%7B%22list_icon%22%3A%22ion-ios-checkmark-outline%22%2C%22list_title%22%3A%22Portable%20and%20Light%22%7D%5D" icon_color="brand" title_typo="font_size~16||weight~600"][norebro_text text_typo="font_size~14||weight~400"]Clearly, someone who believes he is above the law. North melbourne shinboners the city.[/norebro_text][vc_empty_space height="20px"][/vc_column_inner][/vc_row_inner][vc_row_inner][vc_column_inner][norebro_list_module list_layout="default" list_style="icon" list_value_type2="%5B%7B%22list_icon%22%3A%22ion-ios-checkmark-outline%22%2C%22list_title%22%3A%22Magnetic%20Sounds%22%7D%5D" icon_color="brand" title_typo="font_size~16||weight~600"][norebro_text text_typo="font_size~14||weight~400"]When a naked man's chasing a woman through an alley with a butcher knife flying vessels.[/norebro_text][vc_empty_space height="20px"][/vc_column_inner][/vc_row_inner][vc_row_inner][vc_column_inner][norebro_list_module list_layout="default" list_style="icon" list_value_type2="%5B%7B%22list_icon%22%3A%22ion-ios-checkmark-outline%22%2C%22list_title%22%3A%22Powerful%20Battery%22%7D%5D" icon_color="brand" title_typo="font_size~16||weight~600"][norebro_text text_typo="font_size~14||weight~400"]Ancient religions pyramids DNA manipulation flying vessels space time.[/norebro_text][vc_empty_space height="20px"][/vc_column_inner][/vc_row_inner][/vc_column][vc_column width="6/12"][norebro_carousel item_desktop="1" item_tablet="1" pagination_show="1" navigation_buttons="0" autoplay="0" dots_each="1"][norebro_carousel_inner title="Section 1" tab_id="1507637961616-4ac5ebfd-e2d9"][vc_single_image image="5659004" img_size="full" alignment="center"][/norebro_carousel_inner][norebro_carousel_inner title="Section 2" tab_id="1507637961773-84efb915-e6da"][vc_single_image image="5659006" img_size="full" alignment="center"][/norebro_carousel_inner][norebro_carousel_inner title="Section 3" tab_id="1507637962032-08d034d5-974d"][vc_single_image image="5659005" img_size="full" alignment="center"][/norebro_carousel_inner][/norebro_carousel][vc_empty_space height="20px" el_class="vc_hidden-lg vc_hidden-md"][/vc_column][vc_column width="3/12"][vc_row_inner][vc_column_inner][norebro_list_module list_layout="default" list_style="icon" list_value_type2="%5B%7B%22list_icon%22%3A%22ion-ios-checkmark-outline%22%2C%22list_title%22%3A%22Wireless%20Charging%22%7D%5D" icon_color="brand" title_typo="font_size~16||weight~600"][norebro_text text_typo="font_size~14||weight~400"]North melbourne shinboners the city loop, avalon is so not melb trams formula.[/norebro_text][vc_empty_space height="20px"][/vc_column_inner][/vc_row_inner][vc_row_inner][vc_column_inner][norebro_list_module list_layout="default" list_style="icon" list_value_type2="%5B%7B%22list_icon%22%3A%22ion-ios-checkmark-outline%22%2C%22list_title%22%3A%22Share%20a%20Call%22%7D%5D" icon_color="brand" title_typo="font_size~16||weight~600"][norebro_text text_typo="font_size~14||weight~400"]Clearly, someone who believes he is above the law. North melbourne shinboners the city.[/norebro_text][vc_empty_space height="20px"][/vc_column_inner][/vc_row_inner][vc_row_inner][vc_column_inner][norebro_list_module list_layout="default" list_style="icon" list_value_type2="%5B%7B%22list_icon%22%3A%22ion-ios-checkmark-outline%22%2C%22list_title%22%3A%22Waterproof%20%26%20Dust%20Tight%22%7D%5D" icon_color="brand" title_typo="font_size~16||weight~600"][norebro_text text_typo="font_size~14||weight~400"]When a naked man's chasing a woman through an alley with a butcher knife flying vessels.[/norebro_text][vc_empty_space height="20px"][/vc_column_inner][/vc_row_inner][vc_row_inner][vc_column_inner][norebro_list_module list_layout="default" list_style="icon" list_value_type2="%5B%7B%22list_icon%22%3A%22ion-ios-checkmark-outline%22%2C%22list_title%22%3A%22Great%20Beats%22%7D%5D" icon_color="brand" title_typo="font_size~16||weight~600"][norebro_text text_typo="font_size~14||weight~400"]Ancient religions pyramids DNA manipulation flying vessels space time.[/norebro_text][vc_empty_space height="20px" el_class="vc_hidden-xs"][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row][vc_row][vc_column][vc_empty_space height="90px" el_class="norebro-phone-space"][/vc_column][/vc_row][vc_row full_width="stretch_row_content_no_spaces" equal_height="yes" content_placement="middle"][vc_column width="1/3" css=".vc_custom_1507638116627{background-image: url({{this_domain}}/wp-content/uploads/2017/08/dm15__image_02-min.jpg?id=28) !important;}" el_class="norebro-bg-cover"][/vc_column][vc_column width="2/3"][vc_row_inner equal_height="yes" content_placement="middle"][vc_column_inner width="1/2" css=".vc_custom_1503905134867{padding-top: 70px !important;padding-right: 70px !important;padding-bottom: 70px !important;padding-left: 70px !important;background-color: #4c58ff !important;}"][norebro_heading module_type_layout="on_left" subtitle_type_layout="bottom_subtitle" title="VGhlJTIwbG91ZGVzdCUyMHNwZWFrZXJzJTNDYnIlMjBjbGFzcyUzRCUyMnZjX2hpZGRlbi14cyUyMiUyRiUzRSUwQXlvdSVFMiU4MCU5OXZlJTIwZXZlciUyMHNlZW4=" title_typo="font_size~30||weight~inherit" subtitle_typo="weight~inherit" title_color="#ffffff"][vc_empty_space height="20px"][norebro_progress_bar layout="split" percent="74" name="Project Consulting" label_color="#ffffff" percent_color="#ffffff" bar_bg_color="rgba(255,255,255,0.19)" bar_line_color="#ffffff"][vc_empty_space height="20px"][norebro_text text_typo="font_size~15||weight~inherit"]<span style="color: #ffffff;">When a naked man's chasing a woman through an alley with a butcher, clearly, someone who believes he is above the law.  </span>[/norebro_text][vc_empty_space height="15px"][norebro_button layout="outline" shape_size="small" shape_position="left" icon_use="1" icon_position="right" link="url:%23|title:Learn%20More||" icon_as_icon="ion-android-arrow-forward" color="#ffffff" hover_color="#ffffff" text_color="#ffffff" hover_text_color="brand"][/vc_column_inner][vc_column_inner el_class="norebro-bg-cover" width="1/2" css=".vc_custom_1507638062520{background-image: url({{this_domain}}/wp-content/uploads/2017/08/dm15__image_03-min.jpg?id=29) !important;}"][/vc_column_inner][/vc_row_inner][vc_row_inner equal_height="yes" content_placement="middle"][vc_column_inner el_class="norebro-bg-cover" width="1/2" css=".vc_custom_1507638226662{background-image: url({{this_domain}}/wp-content/uploads/2017/08/dm15__image_04-min.jpg?id=30) !important;}"][/vc_column_inner][vc_column_inner width="1/2" css=".vc_custom_1503905146259{padding-top: 70px !important;padding-right: 70px !important;padding-bottom: 70px !important;padding-left: 70px !important;background-color: #4c58ff !important;}"][norebro_heading module_type_layout="on_left" subtitle_type_layout="bottom_subtitle" title="U3dpdGNoJTIwdG8lMjBTcGVha2VycyUyQyUzQ2JyJTIwY2xhc3MlM0QlMjJ2Y19oaWRkZW4teHMlMjIlMkYlM0UlMEFlYXNpbHklMjBrZWVwJTIweW91ciUyMHRpbWU=" title_typo="font_size~30||weight~inherit" subtitle_typo="weight~inherit" title_color="#ffffff"][vc_empty_space height="20px"][norebro_progress_bar layout="split" percent="89" name="Project Consulting" label_color="#ffffff" percent_color="#ffffff" bar_bg_color="rgba(255,255,255,0.19)" bar_line_color="#ffffff"][vc_empty_space height="20px"][norebro_text text_typo="font_size~15||weight~inherit"]<span style="color: #ffffff;">The regret on our side is, they used to say years ago, we are reading about puedor a peich no te digo trigo por no llamarte must become fear.</span>[/norebro_text][vc_empty_space height="15px"][norebro_button layout="outline" shape_size="small" shape_position="left" icon_use="1" icon_position="right" link="url:%23|title:Learn%20More||" icon_as_icon="ion-android-arrow-forward" color="#ffffff" hover_color="#ffffff" text_color="#ffffff" hover_text_color="brand"][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row][vc_row full_width="stretch_row" css=".vc_custom_1507640368433{background-color: #f9f9f9 !important;}"][vc_column width="1/4"][/vc_column][vc_column width="1/2" el_class="text-center"][vc_empty_space height="90px" el_class="norebro-phone-space"][norebro_heading module_type_layout="on_middle" subtitle_type_layout="bottom_subtitle" title="VHJhZGUtaW4lMjB5b3VyJTIwb2xkJTIwb25lJTNDYnIlMjBjbGFzcyUzRCUyMnZjX2hpZGRlbi14cyUyMiUyRiUzRSUwQWFuZCUyMGdldCUyMHVwJTIwdG8lMjAlMjQ5NiUyQSUyMGRpc2NvdW50" title_typo="font_size~42||line_height~50||weight~inherit" subtitle_typo="font_size~17||weight~inherit" subtitle_color="#636363" subtitle="V2hlbiUyMGElMjBuYWtlZCUyMG1hbiUyN3MlMjBjaGFzaW5nJTIwYSUyMHdvbWFuJTIwdGhyb3VnaCUyMGFuJTIwYWxsZXklMjB3aXRoJTIwYSUyMGJ1dGNoZXIlMkMlM0NiciUyMGNsYXNzJTNEJTIydmNfaGlkZGVuLXhzJTIyJTJGJTNFJTBBY2xlYXJseSUyQyUyMHNvbWVvbmUlMjB3aG8lMjBiZWxpZXZlcyUyMGhlJTIwaXMlMjBhYm92ZSUyMHRoZSUyMGxhdy4lMjA=" css_class="nor-heading-xs"][vc_empty_space height="15px"][add_to_cart id="96"][norebro_text]
 
 *Offer valid starting 21 July, 2017 through 26 July, 2017
 
 [/norebro_text][vc_empty_space height="90px" el_class="norebro-phone-space"][/vc_column][vc_column width="1/4"][/vc_column][/vc_row]]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>6</wp:post_id>
+		<wp:post_id>5659014</wp:post_id>
 		<wp:post_date><![CDATA[2017-08-25 14:48:48]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-08-25 14:48:48]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
@@ -1249,480 +1307,43 @@ This e-mail was sent from a contact form on Norebro (http://demo15)";s:18:"addit
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_wpb_shortcodes_custom_css]]></wp:meta_key>
-			<wp:meta_value><![CDATA[.vc_custom_1503909677581{background-color: #f4f4f4 !important;}.vc_custom_1503759722301{background-color: #ffffff !important;}.vc_custom_1507640368433{background-color: #f9f9f9 !important;}.vc_custom_1507724878166{margin-top: -200px !important;}.vc_custom_1503760192306{border-right-width: 1px !important;border-right-color: #ebebeb !important;border-right-style: solid !important;}.vc_custom_1503759747957{border-right-width: 1px !important;border-right-color: #ebebeb !important;border-right-style: solid !important;}.vc_custom_1503759757157{border-right-width: 1px !important;border-right-color: #ebebeb !important;border-right-style: solid !important;}.vc_custom_1507638116627{background-image: url(http://{{this_domain}}/wp-content/uploads/2017/08/dm15__image_02-min.jpg?id=28) !important;}.vc_custom_1503905134867{padding-top: 70px !important;padding-right: 70px !important;padding-bottom: 70px !important;padding-left: 70px !important;background-color: #4c58ff !important;}.vc_custom_1507638062520{background-image: url(http://{{this_domain}}/wp-content/uploads/2017/08/dm15__image_03-min.jpg?id=29) !important;}.vc_custom_1507638226662{background-image: url(http://{{this_domain}}/wp-content/uploads/2017/08/dm15__image_04-min.jpg?id=30) !important;}.vc_custom_1503905146259{padding-top: 70px !important;padding-right: 70px !important;padding-bottom: 70px !important;padding-left: 70px !important;background-color: #4c58ff !important;}]]></wp:meta_value>
+			<wp:meta_value><![CDATA[.vc_custom_1503909677581{background-color: #f4f4f4 !important;}.vc_custom_1503759722301{background-color: #ffffff !important;}.vc_custom_1507640368433{background-color: #f9f9f9 !important;}.vc_custom_1507724878166{margin-top: -200px !important;}.vc_custom_1503760192306{border-right-width: 1px !important;border-right-color: #ebebeb !important;border-right-style: solid !important;}.vc_custom_1503759747957{border-right-width: 1px !important;border-right-color: #ebebeb !important;border-right-style: solid !important;}.vc_custom_1503759757157{border-right-width: 1px !important;border-right-color: #ebebeb !important;border-right-style: solid !important;}.vc_custom_1507638116627{background-image: url({{this_domain}}/wp-content/uploads/2017/08/dm15__image_02-min.jpg?id=28) !important;}.vc_custom_1503905134867{padding-top: 70px !important;padding-right: 70px !important;padding-bottom: 70px !important;padding-left: 70px !important;background-color: #4c58ff !important;}.vc_custom_1507638062520{background-image: url({{this_domain}}/wp-content/uploads/2017/08/dm15__image_03-min.jpg?id=29) !important;}.vc_custom_1507638226662{background-image: url({{this_domain}}/wp-content/uploads/2017/08/dm15__image_04-min.jpg?id=30) !important;}.vc_custom_1503905146259{padding-top: 70px !important;padding-right: 70px !important;padding-bottom: 70px !important;padding-left: 70px !important;background-color: #4c58ff !important;}]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[inline_featured_image]]></wp:meta_key>
 			<wp:meta_value><![CDATA[0]]></wp:meta_value>
 		</wp:postmeta>
-	</item>
-	<item>
-		<title>Bluetooth® High-End  Remote Speaker</title>
-		<link>https://norebro.colabr.io/demo15/product/bluetooth-high-end-remote-speaker/</link>
-		<pubDate>Tue, 10 Oct 2017 13:40:52 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">http://norebro.colabr.io/demo15/?post_type=product&#038;p=96</guid>
-		<description></description>
-		<content:encoded><![CDATA[fwefwefewfwf]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>96</wp:post_id>
-		<wp:post_date><![CDATA[2017-10-10 13:40:52]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2017-10-10 13:40:52]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[open]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[bluetooth-high-end-remote-speaker]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[product]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
 		<wp:postmeta>
-			<wp:meta_key><![CDATA[inline_featured_image]]></wp:meta_key>
+			<wp:meta_key><![CDATA[hefo_before]]></wp:meta_key>
 			<wp:meta_value><![CDATA[0]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
-			<wp:meta_key><![CDATA[_vc_post_settings]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:1:{s:10:"vc_grid_id";a:0:{}}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wc_review_count]]></wp:meta_key>
+			<wp:meta_key><![CDATA[hefo_after]]></wp:meta_key>
 			<wp:meta_value><![CDATA[0]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wc_rating_count]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:0:{}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wc_average_rating]]></wp:meta_key>
-			<wp:meta_value><![CDATA[0]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
-			<wp:meta_value><![CDATA[25]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_sku]]></wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_regular_price]]></wp:meta_key>
-			<wp:meta_value><![CDATA[264]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_sale_price]]></wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_sale_price_dates_from]]></wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_sale_price_dates_to]]></wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[total_sales]]></wp:meta_key>
-			<wp:meta_value><![CDATA[0]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_tax_status]]></wp:meta_key>
-			<wp:meta_value><![CDATA[taxable]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_tax_class]]></wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_manage_stock]]></wp:meta_key>
-			<wp:meta_value><![CDATA[no]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_backorders]]></wp:meta_key>
-			<wp:meta_value><![CDATA[no]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_sold_individually]]></wp:meta_key>
-			<wp:meta_value><![CDATA[no]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_weight]]></wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_length]]></wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_width]]></wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_height]]></wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_upsell_ids]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:0:{}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_crosssell_ids]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:0:{}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_purchase_note]]></wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_default_attributes]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:0:{}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_virtual]]></wp:meta_key>
-			<wp:meta_value><![CDATA[no]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_downloadable]]></wp:meta_key>
-			<wp:meta_value><![CDATA[no]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_product_image_gallery]]></wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_download_limit]]></wp:meta_key>
-			<wp:meta_value><![CDATA[-1]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_download_expiry]]></wp:meta_key>
-			<wp:meta_value><![CDATA[-1]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_stock]]></wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_stock_status]]></wp:meta_key>
-			<wp:meta_value><![CDATA[instock]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-			<wp:meta_value><![CDATA[3.1.1]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_price]]></wp:meta_key>
-			<wp:meta_value><![CDATA[264]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[header_menu_style]]></wp:meta_key>
-			<wp:meta_value><![CDATA[inherit]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_header_menu_style]]></wp:meta_key>
-			<wp:meta_value><![CDATA[field_59390deaef21a]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[header_logo_style]]></wp:meta_key>
-			<wp:meta_value><![CDATA[inherit]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_header_logo_style]]></wp:meta_key>
-			<wp:meta_value><![CDATA[field_59391a16302be]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[menu_type]]></wp:meta_key>
-			<wp:meta_value><![CDATA[inherit]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_type]]></wp:meta_key>
-			<wp:meta_value><![CDATA[field_59390deaefde5]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[header_menu_fixed]]></wp:meta_key>
-			<wp:meta_value><![CDATA[inherit]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_header_menu_fixed]]></wp:meta_key>
-			<wp:meta_value><![CDATA[field_59390deaf1978]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[header_menu_use_wrapper]]></wp:meta_key>
-			<wp:meta_value><![CDATA[inherit]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_header_menu_use_wrapper]]></wp:meta_key>
-			<wp:meta_value><![CDATA[field_59390deaef614]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[header_menu_add_cap]]></wp:meta_key>
-			<wp:meta_value><![CDATA[inherit]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_header_menu_add_cap]]></wp:meta_key>
-			<wp:meta_value><![CDATA[field_59390deaef9ea]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[header_menu_style_settings]]></wp:meta_key>
-			<wp:meta_value><![CDATA[inherit]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_header_menu_style_settings]]></wp:meta_key>
-			<wp:meta_value><![CDATA[field_59411fcf0048f]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[header_menu_add_contacts_bar]]></wp:meta_key>
-			<wp:meta_value><![CDATA[inherit]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_header_menu_add_contacts_bar]]></wp:meta_key>
-			<wp:meta_value><![CDATA[field_59390deaf0da4]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[header_menu_contacts_bar_style]]></wp:meta_key>
-			<wp:meta_value><![CDATA[inherit]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_header_menu_contacts_bar_style]]></wp:meta_key>
-			<wp:meta_value><![CDATA[field_5941030b7ce5d]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[header_background_type]]></wp:meta_key>
-			<wp:meta_value><![CDATA[inherit]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_header_background_type]]></wp:meta_key>
-			<wp:meta_value><![CDATA[field_59390deaf218a]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[header_subtitle]]></wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_header_subtitle]]></wp:meta_key>
-			<wp:meta_value><![CDATA[field_593ddebba2fcb]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[header_background_color]]></wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_header_background_color]]></wp:meta_key>
-			<wp:meta_value><![CDATA[field_59390deaf2582]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[header_title_align]]></wp:meta_key>
-			<wp:meta_value><![CDATA[inherit]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_header_title_align]]></wp:meta_key>
-			<wp:meta_value><![CDATA[field_59390deb0034e]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[page_typography_settings]]></wp:meta_key>
-			<wp:meta_value><![CDATA[inherit]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_page_typography_settings]]></wp:meta_key>
-			<wp:meta_value><![CDATA[field_593a55746376f]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[header_height_fullscreen]]></wp:meta_key>
-			<wp:meta_value><![CDATA[inherit]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_header_height_fullscreen]]></wp:meta_key>
-			<wp:meta_value><![CDATA[field_59390deb00733]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[header_height]]></wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_header_height]]></wp:meta_key>
-			<wp:meta_value><![CDATA[field_59390deb00b09]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[header_use_hero]]></wp:meta_key>
-			<wp:meta_value><![CDATA[inherit]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_header_use_hero]]></wp:meta_key>
-			<wp:meta_value><![CDATA[field_59390deb00ef1]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[page_show_breadcrumbs]]></wp:meta_key>
-			<wp:meta_value><![CDATA[inherit]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_page_show_breadcrumbs]]></wp:meta_key>
-			<wp:meta_value><![CDATA[field_59390deb03328]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[breadcrumbs_background_color]]></wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_breadcrumbs_background_color]]></wp:meta_key>
-			<wp:meta_value><![CDATA[field_593d618e8bfd2]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[breadcrumbs_text_color]]></wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_breadcrumbs_text_color]]></wp:meta_key>
-			<wp:meta_value><![CDATA[field_593db13395d12]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[page_background_type]]></wp:meta_key>
-			<wp:meta_value><![CDATA[inherit]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_page_background_type]]></wp:meta_key>
-			<wp:meta_value><![CDATA[field_59390deb0171e]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[page_background_color]]></wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_page_background_color]]></wp:meta_key>
-			<wp:meta_value><![CDATA[field_59390deb02f35]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[page_use_boxed_wrapper]]></wp:meta_key>
-			<wp:meta_value><![CDATA[inherit]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_page_use_boxed_wrapper]]></wp:meta_key>
-			<wp:meta_value><![CDATA[field_59390deb03738]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[page_is_wrapped]]></wp:meta_key>
-			<wp:meta_value><![CDATA[inherit]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_page_is_wrapped]]></wp:meta_key>
-			<wp:meta_value><![CDATA[field_59390deb03b1b]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[full_width_margins_type]]></wp:meta_key>
-			<wp:meta_value><![CDATA[inherit]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_full_width_margins_type]]></wp:meta_key>
-			<wp:meta_value><![CDATA[field_591b10dbb4a85_fwgaps_type]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[page_add_top_padding]]></wp:meta_key>
-			<wp:meta_value><![CDATA[inherit]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_page_add_top_padding]]></wp:meta_key>
-			<wp:meta_value><![CDATA[field_59390deb03f38]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[footer_background_type]]></wp:meta_key>
-			<wp:meta_value><![CDATA[inherit]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_footer_background_type]]></wp:meta_key>
-			<wp:meta_value><![CDATA[field_59390deb053ac]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[footer_text_color]]></wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_footer_text_color]]></wp:meta_key>
-			<wp:meta_value><![CDATA[field_5940ec917da19]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[footer_logo_widget_type]]></wp:meta_key>
-			<wp:meta_value><![CDATA[inherit]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_footer_logo_widget_type]]></wp:meta_key>
-			<wp:meta_value><![CDATA[field_59390deb04788]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[footer_as_sticky]]></wp:meta_key>
-			<wp:meta_value><![CDATA[inherit]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_footer_as_sticky]]></wp:meta_key>
-			<wp:meta_value><![CDATA[field_59391743def2b]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[footer_is_wrapped]]></wp:meta_key>
-			<wp:meta_value><![CDATA[inherit]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_footer_is_wrapped]]></wp:meta_key>
-			<wp:meta_value><![CDATA[field_59390deb06fd1]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[footer_hide]]></wp:meta_key>
-			<wp:meta_value><![CDATA[inherit]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_footer_hide]]></wp:meta_key>
-			<wp:meta_value><![CDATA[field_59390deb06b99]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[footer_show_copyright_section]]></wp:meta_key>
-			<wp:meta_value><![CDATA[inherit]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_footer_show_copyright_section]]></wp:meta_key>
-			<wp:meta_value><![CDATA[field_59390deb07397]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[footer_copyright_section_background]]></wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_footer_copyright_section_background]]></wp:meta_key>
-			<wp:meta_value><![CDATA[field_59390deb0778d]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[footer_copyright_section_text_color]]></wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_footer_copyright_section_text_color]]></wp:meta_key>
-			<wp:meta_value><![CDATA[field_59390deb07b67]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[page_custom_css]]></wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_page_custom_css]]></wp:meta_key>
-			<wp:meta_value><![CDATA[field_59390deb083b5]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[slide_template]]></wp:meta_key>
-			<wp:meta_value><![CDATA[default]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	<item>
 		<title>How to make a blog using WordPress</title>
 		<link>https://norebro.colabr.io/demo15/2017/09/27/how-to-make-a-blog-using-wordpress/</link>
 		<pubDate>Wed, 27 Sep 2017 12:38:25 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://norebro.colabr.io/demo30/?p=12906</guid>
-		<description></description>
+		<description/>
 		<content:encoded><![CDATA[[vc_row][vc_column][norebro_text]A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which farm-to-table offal. Authentic kale chips everyday velit auctor aliquet. A wonderful <strong>serenity has taken possession</strong> of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents. I should be incapable of drawing a single stroke at the present moment and yet.[/norebro_text][vc_empty_space height="25px"][/vc_column][/vc_row][vc_row][vc_column][norebro_text]I feel that I never was a greater artist than now. When, while the lovely <strong>valley teems</strong> with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary, I throw myself down among the tall grass by the trickling stream.[/norebro_text][/vc_column][/vc_row][vc_row][vc_column][vc_empty_space height="40px"][norebro_image alignment="left" image_url="12904"][vc_empty_space height="40px"][/vc_column][/vc_row][vc_row][vc_column][norebro_heading module_type_layout="on_left" subtitle_type_layout="without_subtitle" title="T2glMkMlMjB3b3VsZCUyMEklMjBjb3VsZCUyMGRlc2NyaWJlJTIwdGhlc2UlMjBjb25jZXB0aW9ucw==" title_typo="font_size~26||weight~600"][vc_empty_space height="15px"][/vc_column][/vc_row][vc_row][vc_column][norebro_text]When, while the lovely valley teems with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary, I throw myself down among the tall grass by the trickling stream; and, as I lie close to the earth, a thousand unknown plants are noticed by me: when I hear the buzz.[/norebro_text][/vc_column][/vc_row][vc_row][vc_column][norebro_text]
 <blockquote>Oh, would I could describe these conceptions, could impress upon paper all that is living so full and warm within me, that it might be the mirror of my soul, as my soul is the mirror of the infinite God! My friend but it is too much for my strength. I sink under the weight of the splendour of these visions!</blockquote>
 [/norebro_text][/vc_column][/vc_row][vc_row][vc_column][norebro_text]<strong>A wonderful serenity</strong> has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents. <strong>I should be incapable of drawing</strong>.[/norebro_text][/vc_column][/vc_row]]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>12906</wp:post_id>
+		<wp:post_id>5659015</wp:post_id>
 		<wp:post_date><![CDATA[2017-09-27 12:38:25]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-09-27 12:38:25]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
@@ -1938,12 +1559,12 @@ This e-mail was sent from a contact form on Norebro (http://demo15)";s:18:"addit
 		<pubDate>Wed, 27 Sep 2017 12:39:26 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://norebro.colabr.io/demo30/?p=12908</guid>
-		<description></description>
+		<description/>
 		<content:encoded><![CDATA[[vc_row][vc_column][norebro_text]When, while the lovely valley teems with vapour around me, and the meridian sun strikes the upper surface farm-to-table offal. Authentic kale chips everyday velit auctor aliquet. A wonderful <strong>serenity has taken possession</strong> of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents. I should be incapable of drawing a single stroke at the present moment and yet.[/norebro_text][vc_empty_space height="25px"][/vc_column][/vc_row][vc_row][vc_column][norebro_text]I feel that I never was a greater artist than now. When, while the lovely <strong>valley teems</strong> with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary, I throw myself down among the tall grass by the trickling stream.[/norebro_text][/vc_column][/vc_row][vc_row][vc_column][vc_empty_space height="40px"][norebro_image alignment="left" image_url="12904"][vc_empty_space height="40px"][/vc_column][/vc_row][vc_row][vc_column][norebro_heading module_type_layout="on_left" subtitle_type_layout="without_subtitle" title="T2glMkMlMjB3b3VsZCUyMEklMjBjb3VsZCUyMGRlc2NyaWJlJTIwdGhlc2UlMjBjb25jZXB0aW9ucw==" title_typo="font_size~26||weight~600"][vc_empty_space height="15px"][/vc_column][/vc_row][vc_row][vc_column][norebro_text]When, while the lovely valley teems with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary, I throw myself down among the tall grass by the trickling stream; and, as I lie close to the earth, a thousand unknown plants are noticed by me: when I hear the buzz.[/norebro_text][/vc_column][/vc_row][vc_row][vc_column][norebro_text]
 <blockquote>Oh, would I could describe these conceptions, could impress upon paper all that is living so full and warm within me, that it might be the mirror of my soul, as my soul is the mirror of the infinite God! My friend but it is too much for my strength. I sink under the weight of the splendour of these visions!</blockquote>
 [/norebro_text][/vc_column][/vc_row][vc_row][vc_column][norebro_text]<strong>A wonderful serenity</strong> has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents. <strong>I should be incapable of drawing</strong>.[/norebro_text][/vc_column][/vc_row]]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>12908</wp:post_id>
+		<wp:post_id>5659016</wp:post_id>
 		<wp:post_date><![CDATA[2017-09-27 12:39:26]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-09-27 12:39:26]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
@@ -2168,7 +1789,7 @@ This e-mail was sent from a contact form on Norebro (http://demo15)";s:18:"addit
 			<wp:comment_id>2</wp:comment_id>
 			<wp:comment_author><![CDATA[Sofia Helin]]></wp:comment_author>
 			<wp:comment_author_email><![CDATA[alexdremlyuga@gmail.com]]></wp:comment_author_email>
-			<wp:comment_author_url></wp:comment_author_url>
+			<wp:comment_author_url/>
 			<wp:comment_author_IP><![CDATA[195.24.146.10]]></wp:comment_author_IP>
 			<wp:comment_date><![CDATA[2017-10-18 10:25:41]]></wp:comment_date>
 			<wp:comment_date_gmt><![CDATA[2017-10-18 10:25:41]]></wp:comment_date_gmt>
@@ -2181,17 +1802,17 @@ Ut enim sed quia non numquam eius modi tempora incidunt ut labore et dolore magn
 		</wp:comment>
 	</item>
 	<item>
-		<title>Highlights from Hong  Kong&#039;s Art Central</title>
+		<title>Highlights from Hong  Kong&apos;s Art Central</title>
 		<link>https://norebro.colabr.io/demo15/2017/09/27/highlights-from-hong-kongs-art-central/</link>
 		<pubDate>Wed, 27 Sep 2017 12:45:06 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://norebro.colabr.io/demo30/?p=12914</guid>
-		<description></description>
+		<description/>
 		<content:encoded><![CDATA[[vc_row][vc_column][norebro_text]Fingerstache microdosing kickstarter, migas occupy sartorial ennui sustainable green juice cardigan farm-to-table offal. Authentic kale chips everyday velit auctor aliquet. A wonderful <strong>serenity has taken possession</strong> of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents. I should be incapable of drawing a single stroke at the present moment and yet.[/norebro_text][vc_empty_space height="25px"][/vc_column][/vc_row][vc_row][vc_column][norebro_text]I feel that I never was a greater artist than now. When, while the lovely <strong>valley teems</strong> with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary, I throw myself down among the tall grass by the trickling stream.[/norebro_text][/vc_column][/vc_row][vc_row][vc_column][vc_empty_space height="40px"][norebro_image alignment="left" image_url="12904"][vc_empty_space height="40px"][/vc_column][/vc_row][vc_row][vc_column][norebro_heading module_type_layout="on_left" subtitle_type_layout="without_subtitle" title="T2glMkMlMjB3b3VsZCUyMEklMjBjb3VsZCUyMGRlc2NyaWJlJTIwdGhlc2UlMjBjb25jZXB0aW9ucw==" title_typo="font_size~26||weight~600"][vc_empty_space height="15px"][/vc_column][/vc_row][vc_row][vc_column][norebro_text]When, while the lovely valley teems with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary, I throw myself down among the tall grass by the trickling stream; and, as I lie close to the earth, a thousand unknown plants are noticed by me: when I hear the buzz.[/norebro_text][/vc_column][/vc_row][vc_row][vc_column][norebro_text]
 <blockquote>Oh, would I could describe these conceptions, could impress upon paper all that is living so full and warm within me, that it might be the mirror of my soul, as my soul is the mirror of the infinite God! My friend but it is too much for my strength. I sink under the weight of the splendour of these visions!</blockquote>
 [/norebro_text][/vc_column][/vc_row][vc_row][vc_column][norebro_text]<strong>A wonderful serenity</strong> has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents. <strong>I should be incapable of drawing</strong>.[/norebro_text][/vc_column][/vc_row]]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>12914</wp:post_id>
+		<wp:post_id>5659017</wp:post_id>
 		<wp:post_date><![CDATA[2017-09-27 12:45:06]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-09-27 12:45:06]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
@@ -2407,12 +2028,12 @@ Ut enim sed quia non numquam eius modi tempora incidunt ut labore et dolore magn
 		<pubDate>Wed, 27 Sep 2017 12:45:15 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://norebro.colabr.io/demo30/?p=12915</guid>
-		<description></description>
+		<description/>
 		<content:encoded><![CDATA[[vc_row][vc_column][norebro_text]Fingerstache microdosing kickstarter, migas occupy sartorial ennui sustainable green juice cardigan farm-to-table offal. Authentic kale chips everyday velit auctor aliquet. A wonderful <strong>serenity has taken possession</strong> of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents. I should be incapable of drawing a single stroke at the present moment and yet.[/norebro_text][vc_empty_space height="25px"][/vc_column][/vc_row][vc_row][vc_column][norebro_text]I feel that I never was a greater artist than now. When, while the lovely <strong>valley teems</strong> with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary, I throw myself down among the tall grass by the trickling stream.[/norebro_text][/vc_column][/vc_row][vc_row][vc_column][vc_empty_space height="40px"][norebro_image alignment="left" image_url="12904"][vc_empty_space height="40px"][/vc_column][/vc_row][vc_row][vc_column][norebro_heading module_type_layout="on_left" subtitle_type_layout="without_subtitle" title="T2glMkMlMjB3b3VsZCUyMEklMjBjb3VsZCUyMGRlc2NyaWJlJTIwdGhlc2UlMjBjb25jZXB0aW9ucw==" title_typo="font_size~26||weight~600"][vc_empty_space height="15px"][/vc_column][/vc_row][vc_row][vc_column][norebro_text]When, while the lovely valley teems with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary, I throw myself down among the tall grass by the trickling stream; and, as I lie close to the earth, a thousand unknown plants are noticed by me: when I hear the buzz.[/norebro_text][/vc_column][/vc_row][vc_row][vc_column][norebro_text]
 <blockquote>Oh, would I could describe these conceptions, could impress upon paper all that is living so full and warm within me, that it might be the mirror of my soul, as my soul is the mirror of the infinite God! My friend but it is too much for my strength. I sink under the weight of the splendour of these visions!</blockquote>
 [/norebro_text][/vc_column][/vc_row][vc_row][vc_column][norebro_text]<strong>A wonderful serenity</strong> has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents. <strong>I should be incapable of drawing</strong>.[/norebro_text][/vc_column][/vc_row]]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>12915</wp:post_id>
+		<wp:post_id>5659018</wp:post_id>
 		<wp:post_date><![CDATA[2017-09-27 12:45:15]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-09-27 12:45:15]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
@@ -2625,7 +2246,7 @@ Ut enim sed quia non numquam eius modi tempora incidunt ut labore et dolore magn
 			<wp:comment_id>3</wp:comment_id>
 			<wp:comment_author><![CDATA[Sofia Helin]]></wp:comment_author>
 			<wp:comment_author_email><![CDATA[alexdremlyuga@gmail.com]]></wp:comment_author_email>
-			<wp:comment_author_url></wp:comment_author_url>
+			<wp:comment_author_url/>
 			<wp:comment_author_IP><![CDATA[195.24.146.10]]></wp:comment_author_IP>
 			<wp:comment_date><![CDATA[2017-10-18 10:24:59]]></wp:comment_date>
 			<wp:comment_date_gmt><![CDATA[2017-10-18 10:24:59]]></wp:comment_date_gmt>
@@ -2642,12 +2263,12 @@ Ut enim sed quia non numquam eius modi tempora incidunt ut labore et dolore magn
 		<pubDate>Wed, 27 Sep 2017 12:45:22 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://norebro.colabr.io/demo30/?p=12916</guid>
-		<description></description>
+		<description/>
 		<content:encoded><![CDATA[[vc_row][vc_column][norebro_text]Fingerstache microdosing kickstarter, migas occupy sartorial ennui sustainable green juice cardigan farm-to-table offal. Authentic kale chips everyday velit auctor aliquet. A wonderful <strong>serenity has taken possession</strong> of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents. I should be incapable of drawing a single stroke at the present moment and yet.[/norebro_text][vc_empty_space height="25px"][/vc_column][/vc_row][vc_row][vc_column][norebro_text]I feel that I never was a greater artist than now. When, while the lovely <strong>valley teems</strong> with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary, I throw myself down among the tall grass by the trickling stream.[/norebro_text][/vc_column][/vc_row][vc_row][vc_column][vc_empty_space height="40px"][norebro_image alignment="left" image_url="12904"][vc_empty_space height="40px"][/vc_column][/vc_row][vc_row][vc_column][norebro_heading module_type_layout="on_left" subtitle_type_layout="without_subtitle" title="T2glMkMlMjB3b3VsZCUyMEklMjBjb3VsZCUyMGRlc2NyaWJlJTIwdGhlc2UlMjBjb25jZXB0aW9ucw==" title_typo="font_size~26||weight~600"][vc_empty_space height="15px"][/vc_column][/vc_row][vc_row][vc_column][norebro_text]When, while the lovely valley teems with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary, I throw myself down among the tall grass by the trickling stream; and, as I lie close to the earth, a thousand unknown plants are noticed by me: when I hear the buzz.[/norebro_text][/vc_column][/vc_row][vc_row][vc_column][norebro_text]
 <blockquote>Oh, would I could describe these conceptions, could impress upon paper all that is living so full and warm within me, that it might be the mirror of my soul, as my soul is the mirror of the infinite God! My friend but it is too much for my strength. I sink under the weight of the splendour of these visions!</blockquote>
 [/norebro_text][/vc_column][/vc_row][vc_row][vc_column][norebro_text]<strong>A wonderful serenity</strong> has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents. <strong>I should be incapable of drawing</strong>.[/norebro_text][/vc_column][/vc_row]]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>12916</wp:post_id>
+		<wp:post_id>5659019</wp:post_id>
 		<wp:post_date><![CDATA[2017-09-27 12:45:22]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-09-27 12:45:22]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
@@ -2860,7 +2481,7 @@ Ut enim sed quia non numquam eius modi tempora incidunt ut labore et dolore magn
 			<wp:comment_id>4</wp:comment_id>
 			<wp:comment_author><![CDATA[Sofia Helin]]></wp:comment_author>
 			<wp:comment_author_email><![CDATA[alexdremlyuga@gmail.com]]></wp:comment_author_email>
-			<wp:comment_author_url></wp:comment_author_url>
+			<wp:comment_author_url/>
 			<wp:comment_author_IP><![CDATA[195.24.146.10]]></wp:comment_author_IP>
 			<wp:comment_date><![CDATA[2017-10-18 10:25:10]]></wp:comment_date>
 			<wp:comment_date_gmt><![CDATA[2017-10-18 10:25:10]]></wp:comment_date_gmt>
@@ -2877,10 +2498,10 @@ Ut enim sed quia non numquam eius modi tempora incidunt ut labore et dolore magn
 		<pubDate>Thu, 19 Oct 2017 10:05:31 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://norebro.colabr.io/demo15/?page_id=12917</guid>
-		<description></description>
+		<description/>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>12917</wp:post_id>
+		<wp:post_id>5659020</wp:post_id>
 		<wp:post_date><![CDATA[2017-10-19 10:05:31]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-10-19 10:05:31]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
@@ -3299,7 +2920,7 @@ Ut enim sed quia non numquam eius modi tempora incidunt ut labore et dolore magn
 		<pubDate>Thu, 19 Oct 2017 10:10:13 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://norebro.colabr.io/demo15/?page_id=12922</guid>
-		<description></description>
+		<description/>
 		<content:encoded><![CDATA[[vc_row full_width="stretch_row"][vc_column css=".vc_custom_1502450761306{padding-top: 0px !important;}"][vc_empty_space height="40px" el_class="norebro-phone-space"][/vc_column][/vc_row][vc_row full_width="stretch_row"][vc_column width="1/4"][norebro_heading module_type_layout="on_left" subtitle_type_layout="without_subtitle" title="T3VyJTIwT2ZmaWNlcw==" title_typo="font_size~22||weight~700"][/vc_column][vc_column width="1/4"][norebro_heading module_type_layout="on_left" subtitle_type_layout="bottom_subtitle" title="Q29wZW5oYWdlbg==" title_typo="font_size~16||weight~inherit" subtitle_typo="weight~inherit"][norebro_text text_typo="font_size~15||line_height~25||weight~inherit"]Bjelkes Allé 6A, 2200 København N
 sayhello@norebro.com
 +4 509 120 6705 - Main Office[/norebro_text][/vc_column][vc_column width="1/4"][norebro_heading module_type_layout="on_left" subtitle_type_layout="bottom_subtitle" title="Q29wZW5oYWdlbg==" title_typo="font_size~16||weight~inherit" subtitle_typo="weight~inherit"][norebro_text text_typo="font_size~15||line_height~25||weight~inherit"]Fensmarkgade 832,
@@ -3308,7 +2929,7 @@ sayhello@norebro.com
 sayhello@norebro.com
 +4 650 905 5690 - Main Office[/norebro_text][/vc_column][/vc_row][vc_row full_width="stretch_row"][vc_column width="1/4"][norebro_heading module_type_layout="on_left" subtitle_type_layout="without_subtitle" title="U2F5JTIwSGVsbG8=" title_typo="font_size~22||weight~700"][/vc_column][vc_column width="3/4"][norebro_contact_form form_id="4" form_style="border" fields_offset="15px" button="type=default&amp;size=default&amp;color=brand" fields_border_color="rgba(68,68,68,0.3)" fields_focus_border_color="#505cfd"][/vc_column][/vc_row][vc_row full_width="stretch_row"][vc_column css=".vc_custom_1502450761306{padding-top: 0px !important;}"][vc_empty_space height="80px" el_class="norebro-phone-space"][/vc_column][/vc_row][vc_row full_width="stretch_row_content_no_spaces"][vc_column][norebro_google_maps map_zoom_enable="1" map_style="flat_pale" marker_locations="55.689718,12.5645143" map_height="450px"][/vc_column][/vc_row]]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>12922</wp:post_id>
+		<wp:post_id>5659021</wp:post_id>
 		<wp:post_date><![CDATA[2017-10-19 10:10:13]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-10-19 10:10:13]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
@@ -3743,10 +3364,10 @@ sayhello@norebro.com
 		<pubDate>Thu, 19 Oct 2017 10:15:47 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://norebro.colabr.io/demo15/?page_id=12931</guid>
-		<description></description>
-		<content:encoded><![CDATA[[vc_row full_width="stretch_row_content_no_spaces" css=".vc_custom_1503759722301{background-color: #ffffff !important;}"][vc_column width="1/4" css=".vc_custom_1503760192306{border-right-width: 1px !important;border-right-color: #ebebeb !important;border-right-style: solid !important;}"][vc_empty_space height="60px" el_class="norebro-phone-space"][norebro_icon_box box_type_layout="top_icon" box_alignment="`{`object Object`}`" icon_type_layout="default" icon_type="user_image" use_link="1" title="Free Delivery" link_url="url:%23|title:Learn%20More||" readmore_button="type=arrow_link&amp;size=default&amp;text-color=brand" icon_as_image="11" title_typo="font_size~17||line_height~35||weight~600" subtitle_typo="font_size~15||weight~inherit" subtitle="On any in-stock ordered by 6:00 p.m."][vc_empty_space height="40px" el_class="norebro-phone-space vc_hidden-xs"][/vc_column][vc_column width="1/4" css=".vc_custom_1503759747957{border-right-width: 1px !important;border-right-color: #ebebeb !important;border-right-style: solid !important;}"][vc_empty_space height="60px" el_class="norebro-phone-space"][norebro_icon_box box_type_layout="top_icon" box_alignment="`{`object Object`}`" icon_type_layout="default" icon_type="user_image" use_link="1" title="Pickup at Any Store" link_url="url:%23|title:Learn%20More||" readmore_button="type=arrow_link&amp;size=default&amp;text-color=brand" icon_as_image="12" title_typo="font_size~17||weight~600" subtitle_typo="font_size~15||weight~inherit" subtitle="Bushwick four dollar toast succulents."][vc_empty_space height="40px" el_class="norebro-phone-space vc_hidden-xs"][/vc_column][vc_column width="1/4" css=".vc_custom_1503759757157{border-right-width: 1px !important;border-right-color: #ebebeb !important;border-right-style: solid !important;}"][vc_empty_space height="60px" el_class="norebro-phone-space"][norebro_icon_box box_type_layout="top_icon" box_alignment="`{`object Object`}`" icon_type_layout="default" icon_type="user_image" use_link="1" title="Trade-in Avaliable" link_url="url:%23|title:Learn%20More||" readmore_button="type=arrow_link&amp;size=default&amp;text-color=brand" icon_as_image="13" title_typo="font_size~17||weight~600" subtitle_typo="font_size~15||weight~inherit" subtitle="Glossier leggings celiac neutra viral."][vc_empty_space height="40px" el_class="norebro-phone-space vc_hidden-xs"][/vc_column][vc_column width="1/4"][vc_empty_space height="60px" el_class="norebro-phone-space"][norebro_icon_box box_type_layout="top_icon" box_alignment="`{`object Object`}`" icon_type_layout="default" icon_type="user_image" use_link="1" title="Worldwide Shipping " link_url="url:%23|title:Learn%20More||" readmore_button="type=arrow_link&amp;size=default&amp;text-color=brand" icon_as_image="14" title_typo="font_size~17||weight~600" subtitle_typo="font_size~15||weight~inherit" subtitle="Copper mug freegan actually flexitarian."][vc_empty_space height="40px" el_class="norebro-phone-space vc_hidden-xs"][/vc_column][/vc_row][vc_row full_width="stretch_row_content_no_spaces"][vc_column][norebro_parallax size="cover" use_overlay="1" image="74" overlay_color="rgba(51,51,51,0.4)" parallax_speed="0.8"][vc_empty_space height="170px" el_class="norebro-phone-space"][norebro_heading module_type_layout="on_middle" subtitle_type_layout="bottom_subtitle" title="RW5qb3klMjB0aGUlMjBNdXNpYw==" subtitle="V2hlbiUyMGElMjBuYWtlZCUyMG1hbiUyN3MlMjBjaGFzaW5nJTIwYSUyMHdvbWFuJTIwdGhyb3VnaCUyMGFuJTIwYWxsZXklMjB3aXRoJTIwYSUyMGJ1dGNoZXIlMkMlM0NiciUyMGNsYXNzJTNEJTIydmNfaGlkZGVuLXhzJTIyJTJGJTNFJTBBY2xlYXJseSUyQyUyMHNvbWVvbmUlMjB3aG8lMjBiZWxpZXZlcyUyMGhlJTIwaXMlMjBhYm92ZSUyMHRoZSUyMGxhdy4=" title_typo="font_size~42||weight~inherit" subtitle_typo="font_size~17||weight~inherit" title_color="#ffffff" subtitle_color="#ffffff"][norebro_video layout="outline" button_layout="filled" title="V2F0Y2glMjBQcm9tbw==" link="https://www.youtube.com/embed/_GuOjXYl5ew" button_anim="1" title_typo="weight~inherit" border_color="#ffffff" button_color="brand" icon_color="#ffffff" icon_hover_color="#ffffff" title_color="#ffffff" button_hover_color="#ffffff"][vc_empty_space height="170px" el_class="norebro-phone-space"][/norebro_parallax][/vc_column][/vc_row][vc_row full_width="stretch_row_content_no_spaces" equal_height="yes" content_placement="middle"][vc_column width="1/3" css=".vc_custom_1507638116627{background-image: url(http://{{this_domain}}/wp-content/uploads/2017/08/dm15__image_02-min.jpg?id=28) !important;}" el_class="norebro-bg-cover"][/vc_column][vc_column width="2/3"][vc_row_inner equal_height="yes" content_placement="middle"][vc_column_inner width="1/2" css=".vc_custom_1503905134867{padding-top: 70px !important;padding-right: 70px !important;padding-bottom: 70px !important;padding-left: 70px !important;background-color: #4c58ff !important;}"][norebro_heading module_type_layout="on_left" subtitle_type_layout="bottom_subtitle" title="VGhlJTIwbG91ZGVzdCUyMHNwZWFrZXJzJTNDYnIlMjBjbGFzcyUzRCUyMnZjX2hpZGRlbi14cyUyMiUyRiUzRSUwQXlvdSVFMiU4MCU5OXZlJTIwZXZlciUyMHNlZW4=" title_typo="font_size~30||weight~inherit" subtitle_typo="weight~inherit" title_color="#ffffff"][vc_empty_space height="20px"][norebro_progress_bar layout="split" percent="74" name="Project Consulting" label_color="#ffffff" percent_color="#ffffff" bar_bg_color="rgba(255,255,255,0.19)" bar_line_color="#ffffff"][vc_empty_space height="20px"][norebro_text text_typo="font_size~15||weight~inherit"]<span style="color: #ffffff;">When a naked man's chasing a woman through an alley with a butcher, clearly, someone who believes he is above the law.  </span>[/norebro_text][vc_empty_space height="15px"][norebro_button layout="outline" shape_size="small" shape_position="left" icon_use="1" icon_position="right" link="url:%23|title:Learn%20More||" icon_as_icon="ion-android-arrow-forward" color="#ffffff" hover_color="#ffffff" text_color="#ffffff" hover_text_color="brand"][/vc_column_inner][vc_column_inner el_class="norebro-bg-cover" width="1/2" css=".vc_custom_1507638062520{background-image: url(http://{{this_domain}}/wp-content/uploads/2017/08/dm15__image_03-min.jpg?id=29) !important;}"][/vc_column_inner][/vc_row_inner][vc_row_inner equal_height="yes" content_placement="middle"][vc_column_inner el_class="norebro-bg-cover" width="1/2" css=".vc_custom_1507638226662{background-image: url(http://{{this_domain}}/wp-content/uploads/2017/08/dm15__image_04-min.jpg?id=30) !important;}"][/vc_column_inner][vc_column_inner width="1/2" css=".vc_custom_1503905146259{padding-top: 70px !important;padding-right: 70px !important;padding-bottom: 70px !important;padding-left: 70px !important;background-color: #4c58ff !important;}"][norebro_heading module_type_layout="on_left" subtitle_type_layout="bottom_subtitle" title="U3dpdGNoJTIwdG8lMjBTcGVha2VycyUyQyUzQ2JyJTIwY2xhc3MlM0QlMjJ2Y19oaWRkZW4teHMlMjIlMkYlM0UlMEFlYXNpbHklMjBrZWVwJTIweW91ciUyMHRpbWU=" title_typo="font_size~30||weight~inherit" subtitle_typo="weight~inherit" title_color="#ffffff"][vc_empty_space height="20px"][norebro_progress_bar layout="split" percent="89" name="Project Consulting" label_color="#ffffff" percent_color="#ffffff" bar_bg_color="rgba(255,255,255,0.19)" bar_line_color="#ffffff"][vc_empty_space height="20px"][norebro_text text_typo="font_size~15||weight~inherit"]<span style="color: #ffffff;">The regret on our side is, they used to say years ago, we are reading about puedor a peich no te digo trigo por no llamarte must become fear.</span>[/norebro_text][vc_empty_space height="15px"][norebro_button layout="outline" shape_size="small" shape_position="left" icon_use="1" icon_position="right" link="url:%23|title:Learn%20More||" icon_as_icon="ion-android-arrow-forward" color="#ffffff" hover_color="#ffffff" text_color="#ffffff" hover_text_color="brand"][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row]]]></content:encoded>
+		<description/>
+		<content:encoded><![CDATA[[vc_row full_width="stretch_row_content_no_spaces" css=".vc_custom_1503759722301{background-color: #ffffff !important;}"][vc_column width="1/4" css=".vc_custom_1503760192306{border-right-width: 1px !important;border-right-color: #ebebeb !important;border-right-style: solid !important;}"][vc_empty_space height="60px" el_class="norebro-phone-space"][norebro_icon_box box_type_layout="top_icon" box_alignment="`{`object Object`}`" icon_type_layout="default" icon_type="user_image" use_link="1" title="Free Delivery" link_url="url:%23|title:Learn%20More||" readmore_button="type=arrow_link&amp;size=default&amp;text-color=brand" icon_as_image="5659000" title_typo="font_size~17||line_height~35||weight~600" subtitle_typo="font_size~15||weight~inherit" subtitle="On any in-stock ordered by 6:00 p.m."][vc_empty_space height="40px" el_class="norebro-phone-space vc_hidden-xs"][/vc_column][vc_column width="1/4" css=".vc_custom_1503759747957{border-right-width: 1px !important;border-right-color: #ebebeb !important;border-right-style: solid !important;}"][vc_empty_space height="60px" el_class="norebro-phone-space"][norebro_icon_box box_type_layout="top_icon" box_alignment="`{`object Object`}`" icon_type_layout="default" icon_type="user_image" use_link="1" title="Pickup at Any Store" link_url="url:%23|title:Learn%20More||" readmore_button="type=arrow_link&amp;size=default&amp;text-color=brand" icon_as_image="5659001" title_typo="font_size~17||weight~600" subtitle_typo="font_size~15||weight~inherit" subtitle="Bushwick four dollar toast succulents."][vc_empty_space height="40px" el_class="norebro-phone-space vc_hidden-xs"][/vc_column][vc_column width="1/4" css=".vc_custom_1503759757157{border-right-width: 1px !important;border-right-color: #ebebeb !important;border-right-style: solid !important;}"][vc_empty_space height="60px" el_class="norebro-phone-space"][norebro_icon_box box_type_layout="top_icon" box_alignment="`{`object Object`}`" icon_type_layout="default" icon_type="user_image" use_link="1" title="Trade-in Avaliable" link_url="url:%23|title:Learn%20More||" readmore_button="type=arrow_link&amp;size=default&amp;text-color=brand" icon_as_image="5659002" title_typo="font_size~17||weight~600" subtitle_typo="font_size~15||weight~inherit" subtitle="Glossier leggings celiac neutra viral."][vc_empty_space height="40px" el_class="norebro-phone-space vc_hidden-xs"][/vc_column][vc_column width="1/4"][vc_empty_space height="60px" el_class="norebro-phone-space"][norebro_icon_box box_type_layout="top_icon" box_alignment="`{`object Object`}`" icon_type_layout="default" icon_type="user_image" use_link="1" title="Worldwide Shipping " link_url="url:%23|title:Learn%20More||" readmore_button="type=arrow_link&amp;size=default&amp;text-color=brand" icon_as_image="5659003" title_typo="font_size~17||weight~600" subtitle_typo="font_size~15||weight~inherit" subtitle="Copper mug freegan actually flexitarian."][vc_empty_space height="40px" el_class="norebro-phone-space vc_hidden-xs"][/vc_column][/vc_row][vc_row full_width="stretch_row_content_no_spaces"][vc_column][norebro_parallax size="cover" use_overlay="1" image="5659012" overlay_color="rgba(51,51,51,0.4)" parallax_speed="0.8"][vc_empty_space height="170px" el_class="norebro-phone-space"][norebro_heading module_type_layout="on_middle" subtitle_type_layout="bottom_subtitle" title="RW5qb3klMjB0aGUlMjBNdXNpYw==" subtitle="V2hlbiUyMGElMjBuYWtlZCUyMG1hbiUyN3MlMjBjaGFzaW5nJTIwYSUyMHdvbWFuJTIwdGhyb3VnaCUyMGFuJTIwYWxsZXklMjB3aXRoJTIwYSUyMGJ1dGNoZXIlMkMlM0NiciUyMGNsYXNzJTNEJTIydmNfaGlkZGVuLXhzJTIyJTJGJTNFJTBBY2xlYXJseSUyQyUyMHNvbWVvbmUlMjB3aG8lMjBiZWxpZXZlcyUyMGhlJTIwaXMlMjBhYm92ZSUyMHRoZSUyMGxhdy4=" title_typo="font_size~42||weight~inherit" subtitle_typo="font_size~17||weight~inherit" title_color="#ffffff" subtitle_color="#ffffff"][norebro_video layout="outline" button_layout="filled" title="V2F0Y2glMjBQcm9tbw==" link="https://www.youtube.com/embed/_GuOjXYl5ew" button_anim="1" title_typo="weight~inherit" border_color="#ffffff" button_color="brand" icon_color="#ffffff" icon_hover_color="#ffffff" title_color="#ffffff" button_hover_color="#ffffff"][vc_empty_space height="170px" el_class="norebro-phone-space"][/norebro_parallax][/vc_column][/vc_row][vc_row full_width="stretch_row_content_no_spaces" equal_height="yes" content_placement="middle"][vc_column width="1/3" css=".vc_custom_1507638116627{background-image: url({{this_domain}}/wp-content/uploads/2017/08/dm15__image_02-min.jpg?id=28) !important;}" el_class="norebro-bg-cover"][/vc_column][vc_column width="2/3"][vc_row_inner equal_height="yes" content_placement="middle"][vc_column_inner width="1/2" css=".vc_custom_1503905134867{padding-top: 70px !important;padding-right: 70px !important;padding-bottom: 70px !important;padding-left: 70px !important;background-color: #4c58ff !important;}"][norebro_heading module_type_layout="on_left" subtitle_type_layout="bottom_subtitle" title="VGhlJTIwbG91ZGVzdCUyMHNwZWFrZXJzJTNDYnIlMjBjbGFzcyUzRCUyMnZjX2hpZGRlbi14cyUyMiUyRiUzRSUwQXlvdSVFMiU4MCU5OXZlJTIwZXZlciUyMHNlZW4=" title_typo="font_size~30||weight~inherit" subtitle_typo="weight~inherit" title_color="#ffffff"][vc_empty_space height="20px"][norebro_progress_bar layout="split" percent="74" name="Project Consulting" label_color="#ffffff" percent_color="#ffffff" bar_bg_color="rgba(255,255,255,0.19)" bar_line_color="#ffffff"][vc_empty_space height="20px"][norebro_text text_typo="font_size~15||weight~inherit"]<span style="color: #ffffff;">When a naked man's chasing a woman through an alley with a butcher, clearly, someone who believes he is above the law.  </span>[/norebro_text][vc_empty_space height="15px"][norebro_button layout="outline" shape_size="small" shape_position="left" icon_use="1" icon_position="right" link="url:%23|title:Learn%20More||" icon_as_icon="ion-android-arrow-forward" color="#ffffff" hover_color="#ffffff" text_color="#ffffff" hover_text_color="brand"][/vc_column_inner][vc_column_inner el_class="norebro-bg-cover" width="1/2" css=".vc_custom_1507638062520{background-image: url({{this_domain}}/wp-content/uploads/2017/08/dm15__image_03-min.jpg?id=29) !important;}"][/vc_column_inner][/vc_row_inner][vc_row_inner equal_height="yes" content_placement="middle"][vc_column_inner el_class="norebro-bg-cover" width="1/2" css=".vc_custom_1507638226662{background-image: url({{this_domain}}/wp-content/uploads/2017/08/dm15__image_04-min.jpg?id=30) !important;}"][/vc_column_inner][vc_column_inner width="1/2" css=".vc_custom_1503905146259{padding-top: 70px !important;padding-right: 70px !important;padding-bottom: 70px !important;padding-left: 70px !important;background-color: #4c58ff !important;}"][norebro_heading module_type_layout="on_left" subtitle_type_layout="bottom_subtitle" title="U3dpdGNoJTIwdG8lMjBTcGVha2VycyUyQyUzQ2JyJTIwY2xhc3MlM0QlMjJ2Y19oaWRkZW4teHMlMjIlMkYlM0UlMEFlYXNpbHklMjBrZWVwJTIweW91ciUyMHRpbWU=" title_typo="font_size~30||weight~inherit" subtitle_typo="weight~inherit" title_color="#ffffff"][vc_empty_space height="20px"][norebro_progress_bar layout="split" percent="89" name="Project Consulting" label_color="#ffffff" percent_color="#ffffff" bar_bg_color="rgba(255,255,255,0.19)" bar_line_color="#ffffff"][vc_empty_space height="20px"][norebro_text text_typo="font_size~15||weight~inherit"]<span style="color: #ffffff;">The regret on our side is, they used to say years ago, we are reading about puedor a peich no te digo trigo por no llamarte must become fear.</span>[/norebro_text][vc_empty_space height="15px"][norebro_button layout="outline" shape_size="small" shape_position="left" icon_use="1" icon_position="right" link="url:%23|title:Learn%20More||" icon_as_icon="ion-android-arrow-forward" color="#ffffff" hover_color="#ffffff" text_color="#ffffff" hover_text_color="brand"][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row]]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>12931</wp:post_id>
+		<wp:post_id>5659022</wp:post_id>
 		<wp:post_date><![CDATA[2017-10-19 10:15:47]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-10-19 10:15:47]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
@@ -4180,8 +3801,465 @@ sayhello@norebro.com
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_wpb_shortcodes_custom_css]]></wp:meta_key>
-			<wp:meta_value><![CDATA[.vc_custom_1503759722301{background-color: #ffffff !important;}.vc_custom_1503760192306{border-right-width: 1px !important;border-right-color: #ebebeb !important;border-right-style: solid !important;}.vc_custom_1503759747957{border-right-width: 1px !important;border-right-color: #ebebeb !important;border-right-style: solid !important;}.vc_custom_1503759757157{border-right-width: 1px !important;border-right-color: #ebebeb !important;border-right-style: solid !important;}.vc_custom_1507638116627{background-image: url(http://{{this_domain}}/wp-content/uploads/2017/08/dm15__image_02-min.jpg?id=28) !important;}.vc_custom_1503905134867{padding-top: 70px !important;padding-right: 70px !important;padding-bottom: 70px !important;padding-left: 70px !important;background-color: #4c58ff !important;}.vc_custom_1507638062520{background-image: url(http://{{this_domain}}/wp-content/uploads/2017/08/dm15__image_03-min.jpg?id=29) !important;}.vc_custom_1507638226662{background-image: url(http://{{this_domain}}/wp-content/uploads/2017/08/dm15__image_04-min.jpg?id=30) !important;}.vc_custom_1503905146259{padding-top: 70px !important;padding-right: 70px !important;padding-bottom: 70px !important;padding-left: 70px !important;background-color: #4c58ff !important;}]]></wp:meta_value>
+			<wp:meta_value><![CDATA[.vc_custom_1503759722301{background-color: #ffffff !important;}.vc_custom_1503760192306{border-right-width: 1px !important;border-right-color: #ebebeb !important;border-right-style: solid !important;}.vc_custom_1503759747957{border-right-width: 1px !important;border-right-color: #ebebeb !important;border-right-style: solid !important;}.vc_custom_1503759757157{border-right-width: 1px !important;border-right-color: #ebebeb !important;border-right-style: solid !important;}.vc_custom_1507638116627{background-image: url({{this_domain}}/wp-content/uploads/2017/08/dm15__image_02-min.jpg?id=28) !important;}.vc_custom_1503905134867{padding-top: 70px !important;padding-right: 70px !important;padding-bottom: 70px !important;padding-left: 70px !important;background-color: #4c58ff !important;}.vc_custom_1507638062520{background-image: url({{this_domain}}/wp-content/uploads/2017/08/dm15__image_03-min.jpg?id=29) !important;}.vc_custom_1507638226662{background-image: url({{this_domain}}/wp-content/uploads/2017/08/dm15__image_04-min.jpg?id=30) !important;}.vc_custom_1503905146259{padding-top: 70px !important;padding-right: 70px !important;padding-bottom: 70px !important;padding-left: 70px !important;background-color: #4c58ff !important;}]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
+	
+	<item>
+		<title>Bluetooth&#xAE; High-End  Remote Speaker</title>
+		<link>https://norebro.colabr.io/demo15/product/bluetooth-high-end-remote-speaker/</link>
+		<pubDate>Tue, 10 Oct 2017 13:40:52 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://norebro.colabr.io/demo15/?post_type=product&amp;p=96</guid>
+		<description/>
+		<content:encoded><![CDATA[fwefwefewfwf]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>5659023</wp:post_id>
+		<wp:post_date><![CDATA[2017-10-10 13:40:52]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2017-10-10 13:40:52]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[bluetooth-high-end-remote-speaker]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[product]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[inline_featured_image]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_vc_post_settings]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{s:10:"vc_grid_id";a:0:{}}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wc_review_count]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wc_rating_count]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:0:{}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wc_average_rating]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[5659005]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sku]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_regular_price]]></wp:meta_key>
+			<wp:meta_value><![CDATA[264]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sale_price]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sale_price_dates_from]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sale_price_dates_to]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[total_sales]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_tax_status]]></wp:meta_key>
+			<wp:meta_value><![CDATA[taxable]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_tax_class]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_manage_stock]]></wp:meta_key>
+			<wp:meta_value><![CDATA[no]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_backorders]]></wp:meta_key>
+			<wp:meta_value><![CDATA[no]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_sold_individually]]></wp:meta_key>
+			<wp:meta_value><![CDATA[no]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_weight]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_length]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_width]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_height]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_upsell_ids]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:0:{}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_crosssell_ids]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:0:{}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_purchase_note]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_default_attributes]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:0:{}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_virtual]]></wp:meta_key>
+			<wp:meta_value><![CDATA[no]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_downloadable]]></wp:meta_key>
+			<wp:meta_value><![CDATA[no]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_product_image_gallery]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_download_limit]]></wp:meta_key>
+			<wp:meta_value><![CDATA[-1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_download_expiry]]></wp:meta_key>
+			<wp:meta_value><![CDATA[-1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_stock]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_stock_status]]></wp:meta_key>
+			<wp:meta_value><![CDATA[instock]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
+			<wp:meta_value><![CDATA[3.1.1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_price]]></wp:meta_key>
+			<wp:meta_value><![CDATA[264]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[header_menu_style]]></wp:meta_key>
+			<wp:meta_value><![CDATA[inherit]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_header_menu_style]]></wp:meta_key>
+			<wp:meta_value><![CDATA[field_59390deaef21a]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[header_logo_style]]></wp:meta_key>
+			<wp:meta_value><![CDATA[inherit]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_header_logo_style]]></wp:meta_key>
+			<wp:meta_value><![CDATA[field_59391a16302be]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[menu_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[inherit]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[field_59390deaefde5]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[header_menu_fixed]]></wp:meta_key>
+			<wp:meta_value><![CDATA[inherit]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_header_menu_fixed]]></wp:meta_key>
+			<wp:meta_value><![CDATA[field_59390deaf1978]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[header_menu_use_wrapper]]></wp:meta_key>
+			<wp:meta_value><![CDATA[inherit]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_header_menu_use_wrapper]]></wp:meta_key>
+			<wp:meta_value><![CDATA[field_59390deaef614]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[header_menu_add_cap]]></wp:meta_key>
+			<wp:meta_value><![CDATA[inherit]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_header_menu_add_cap]]></wp:meta_key>
+			<wp:meta_value><![CDATA[field_59390deaef9ea]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[header_menu_style_settings]]></wp:meta_key>
+			<wp:meta_value><![CDATA[inherit]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_header_menu_style_settings]]></wp:meta_key>
+			<wp:meta_value><![CDATA[field_59411fcf0048f]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[header_menu_add_contacts_bar]]></wp:meta_key>
+			<wp:meta_value><![CDATA[inherit]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_header_menu_add_contacts_bar]]></wp:meta_key>
+			<wp:meta_value><![CDATA[field_59390deaf0da4]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[header_menu_contacts_bar_style]]></wp:meta_key>
+			<wp:meta_value><![CDATA[inherit]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_header_menu_contacts_bar_style]]></wp:meta_key>
+			<wp:meta_value><![CDATA[field_5941030b7ce5d]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[header_background_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[inherit]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_header_background_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[field_59390deaf218a]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[header_subtitle]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_header_subtitle]]></wp:meta_key>
+			<wp:meta_value><![CDATA[field_593ddebba2fcb]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[header_background_color]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_header_background_color]]></wp:meta_key>
+			<wp:meta_value><![CDATA[field_59390deaf2582]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[header_title_align]]></wp:meta_key>
+			<wp:meta_value><![CDATA[inherit]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_header_title_align]]></wp:meta_key>
+			<wp:meta_value><![CDATA[field_59390deb0034e]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[page_typography_settings]]></wp:meta_key>
+			<wp:meta_value><![CDATA[inherit]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_page_typography_settings]]></wp:meta_key>
+			<wp:meta_value><![CDATA[field_593a55746376f]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[header_height_fullscreen]]></wp:meta_key>
+			<wp:meta_value><![CDATA[inherit]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_header_height_fullscreen]]></wp:meta_key>
+			<wp:meta_value><![CDATA[field_59390deb00733]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[header_height]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_header_height]]></wp:meta_key>
+			<wp:meta_value><![CDATA[field_59390deb00b09]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[header_use_hero]]></wp:meta_key>
+			<wp:meta_value><![CDATA[inherit]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_header_use_hero]]></wp:meta_key>
+			<wp:meta_value><![CDATA[field_59390deb00ef1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[page_show_breadcrumbs]]></wp:meta_key>
+			<wp:meta_value><![CDATA[inherit]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_page_show_breadcrumbs]]></wp:meta_key>
+			<wp:meta_value><![CDATA[field_59390deb03328]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[breadcrumbs_background_color]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_breadcrumbs_background_color]]></wp:meta_key>
+			<wp:meta_value><![CDATA[field_593d618e8bfd2]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[breadcrumbs_text_color]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_breadcrumbs_text_color]]></wp:meta_key>
+			<wp:meta_value><![CDATA[field_593db13395d12]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[page_background_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[inherit]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_page_background_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[field_59390deb0171e]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[page_background_color]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_page_background_color]]></wp:meta_key>
+			<wp:meta_value><![CDATA[field_59390deb02f35]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[page_use_boxed_wrapper]]></wp:meta_key>
+			<wp:meta_value><![CDATA[inherit]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_page_use_boxed_wrapper]]></wp:meta_key>
+			<wp:meta_value><![CDATA[field_59390deb03738]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[page_is_wrapped]]></wp:meta_key>
+			<wp:meta_value><![CDATA[inherit]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_page_is_wrapped]]></wp:meta_key>
+			<wp:meta_value><![CDATA[field_59390deb03b1b]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[full_width_margins_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[inherit]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_full_width_margins_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[field_591b10dbb4a85_fwgaps_type]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[page_add_top_padding]]></wp:meta_key>
+			<wp:meta_value><![CDATA[inherit]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_page_add_top_padding]]></wp:meta_key>
+			<wp:meta_value><![CDATA[field_59390deb03f38]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[footer_background_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[inherit]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_footer_background_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[field_59390deb053ac]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[footer_text_color]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_footer_text_color]]></wp:meta_key>
+			<wp:meta_value><![CDATA[field_5940ec917da19]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[footer_logo_widget_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[inherit]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_footer_logo_widget_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[field_59390deb04788]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[footer_as_sticky]]></wp:meta_key>
+			<wp:meta_value><![CDATA[inherit]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_footer_as_sticky]]></wp:meta_key>
+			<wp:meta_value><![CDATA[field_59391743def2b]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[footer_is_wrapped]]></wp:meta_key>
+			<wp:meta_value><![CDATA[inherit]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_footer_is_wrapped]]></wp:meta_key>
+			<wp:meta_value><![CDATA[field_59390deb06fd1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[footer_hide]]></wp:meta_key>
+			<wp:meta_value><![CDATA[inherit]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_footer_hide]]></wp:meta_key>
+			<wp:meta_value><![CDATA[field_59390deb06b99]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[footer_show_copyright_section]]></wp:meta_key>
+			<wp:meta_value><![CDATA[inherit]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_footer_show_copyright_section]]></wp:meta_key>
+			<wp:meta_value><![CDATA[field_59390deb07397]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[footer_copyright_section_background]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_footer_copyright_section_background]]></wp:meta_key>
+			<wp:meta_value><![CDATA[field_59390deb0778d]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[footer_copyright_section_text_color]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_footer_copyright_section_text_color]]></wp:meta_key>
+			<wp:meta_value><![CDATA[field_59390deb07b67]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[page_custom_css]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_page_custom_css]]></wp:meta_key>
+			<wp:meta_value><![CDATA[field_59390deb083b5]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[slide_template]]></wp:meta_key>
+			<wp:meta_value><![CDATA[default]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	
 </channel>
 </rss>

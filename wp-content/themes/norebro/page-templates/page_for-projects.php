@@ -9,22 +9,26 @@
 	$page_wrapped = NorebroSettings::page_is_wrapped();
 	$add_content_padding = NorebroSettings::page_add_top_padding();
 
-	// projects count
+	// Projects count
 	$count_projects = wp_count_posts( 'norebro_portfolio' );
 	$published_projects = $count_projects->publish;
 
 	if ( get_query_var( 'paged' ) ) { 
 		$pagination_page = get_query_var( 'paged' ); 
 	} elseif ( get_query_var( 'page' ) ) {
-		$pagination_page = get_query_var( 'page' ); 
-	} else { 
+		$pagination_page = get_query_var( 'page' );
+	} else {
 		$pagination_page = 1;
 	}
 
-	// pagination settings
-	$projects_per_page = get_field( 'portfolio_projects_per_page' );
+	// Pagination settings
+	$projects_per_page = NorebroSettings::get( 'portfolio_projects_per_page' );
 	if ( ! $projects_per_page || $projects_per_page < 1 ) {
-		$projects_per_page = 24;
+
+		$projects_per_page = NorebroSettings::get( 'portfolio_projects_per_page', 'global' );
+		if ( ! $projects_per_page || $projects_per_page < 1 ) {
+			$projects_per_page = 12;
+		}
 	}
 
 	$projects_offset = ( $pagination_page - 1 ) * $projects_per_page;
@@ -35,17 +39,42 @@
 	}
 	$paginator_all = ceil( $published_projects / $projects_per_page );
 
-	$pagination_type = get_field( 'portfolio_pagination_type' );
+	$pagination_type = NorebroSettings::get( 'portfolio_pagination_type' );
+	if ( in_array( $pagination_type, array( 'inherit', NULL ) ) ) {
+		$pagination_type = NorebroSettings::get( 'portfolio_pagination_type', 'global' );
+	}
 	if ( $pagination_type == NULL ){
 		$pagination_type = 'simple';
 	}
+	$pagination_position = NorebroSettings::get( 'portfolio_pagination_position' );
+	if ( in_array( $pagination_position, array( 'inherit', NULL ) ) ) {
+		$pagination_position = NorebroSettings::get( 'portfolio_pagination_position', 'global' );
+	}
+	if ( $pagination_position == NULL ){
+		$pagination_position = 'left';
+	}
 
-	// show filter
-	$show_filter = (bool) get_field( 'project_show_filter' );
-	$filter_align = get_field( 'portfolio_filter_align' );
+	// Filter
+	$show_filter = NorebroSettings::get( 'project_show_filter' );
+	if ( in_array( $show_filter, array( 'inherit', NULL ) ) ) {
+		$show_filter = NorebroSettings::get( 'project_show_filter', 'global' );
+		if ( $show_filter ) {
+			$show_filter = 'show';
+		}
+	}
+
+	$show_filter = ( $show_filter == 'show' );
+
+	$filter_align = NorebroSettings::get( 'portfolio_filter_align' );
+
+	if ( in_array( $show_filter, array( 'inherit', NULL ) ) ) {
+		$filter_align = NorebroSettings::get( 'portfolio_filter_align', 'global' );
+	}
 	if ( ! $filter_align ) {
 		$filter_align = 'center';
 	}
+
+	$filter_align_class = '';
 	switch ( $filter_align ) {
 		case 'left':
 			$filter_align_class = ' text-left';
@@ -53,37 +82,55 @@
 		case 'right':
 			$filter_align_class = ' text-right';
 			break;
-		default:
-			$filter_align_class = '';
-			break;
 	}
 
 	// Slider pagination
-	$slider_pagination_show = get_field( 'project_show_slider_pagination' );
+	$slider_pagination_show = NorebroSettings::get( 'project_show_slider_pagination' );
 	if ( is_null( $slider_pagination_show ) ) {
 		$slider_pagination_show = true;
 	}
 
-	$slider_pagination_type = get_field( 'portfolio_slider_pagination_type' );
+	$slider_pagination_type = NorebroSettings::get( 'portfolio_slider_pagination_type' );
 	if ( $slider_pagination_type == NULL ){
 		$slider_pagination_type = 'numbers';
 	}
 
 	// Popup
-	$open_in_popup = (bool) get_field( 'portfolio_projects_in_popup' );
-	$hide_view_link_in_popup = (bool) get_field( 'portfolio_projects_hide_view_link_in_popup' );
-	$popup_autoplay = (bool) get_field( 'portfolio_projects_popup_gallery_autoplay' );
-	$popup_navigation = (bool) get_field( 'portfolio_projects_popup_gallery_navigation' );
-	$popup_mouse_scrolling = (bool) get_field( 'portfolio_projects_popup_mouse_scrolling' );
-	$popup_autoplay_time = get_field( 'portfolio_projects_popup_gallery_autoplay_time' );
+	$open_in_popup = NorebroSettings::get( 'portfolio_projects_in_popup' );
+	if ( in_array( $open_in_popup, array( 'inherit', NULL ) ) ) {
+		$open_in_popup = (bool) NorebroSettings::get( 'portfolio_projects_in_popup', 'global' );
+	} else {
+		$open_in_popup = ( $open_in_popup == 'enable' );
+	}
 
-	if ( is_null( $popup_autoplay_time ) ) {
+
+	$hide_view_link_in_popup = NorebroSettings::get( 'portfolio_projects_hide_view_link_in_popup' );
+	if ( in_array( $hide_view_link_in_popup, array( 'inherit', NULL ) ) ) {
+		$hide_view_link_in_popup = (bool) NorebroSettings::get( 'portfolio_gallery_link', 'global' );
+	} else {
+		$hide_view_link_in_popup = ( $hide_view_link_in_popup == 'yes' );
+	}
+
+	// Autoplay popup gallery
+	$popup_autoplay = NorebroSettings::get( 'portfolio_projects_popup_gallery_autoplay' );
+	if ( in_array( $popup_autoplay, array( 'inherit', NULL ) ) ) {
+		$popup_autoplay = (bool) NorebroSettings::get( 'portfolio_gallery_autoplay', 'global' );
+	} else {
+		$popup_autoplay = ( $popup_autoplay == 'enable' );
+	}
+
+
+	$popup_autoplay_time = NorebroSettings::get( 'portfolio_projects_popup_gallery_autoplay_time' );
+	if ( !$popup_autoplay_time ) {
+		$popup_autoplay_time = NorebroSettings::get( 'portfolio_gallery_autoplay_time', 'global' );
+	}
+	if ( is_null( $popup_autoplay_time ) || $popup_autoplay_time == '' ) {
 		$popup_autoplay_time = '5';
 	}
 
 	$metro_style = false;
 
-	// Results
+	// Pagintaion results
 	$projects_show_from = ( $projects_offset + 1 <= $published_projects ) ? $projects_offset + 1 : $published_projects ;
 	$projects_show_to = $projects_offset + $projects_per_page;
 	if ( $projects_show_to > $published_projects ) {
@@ -111,11 +158,26 @@
 	);
 	$projects_array = get_posts( $args );
 
-	// sidebar and layout
-	$sidebar_position = get_field( 'portfolio_sidebar' );
-	if ( $sidebar_position == 'inherit' ) {
-		$sidebar_position = get_field( 'global_portfolio_sidebar', 'option' );
+	// Animation type & effect
+	$animation_type = NorebroSettings::get( 'portfolio_animation_type' );
+	if ( in_array( $animation_type, array( 'inherit', NULL ) ) ) {
+		$animation_type = NorebroSettings::get( 'portfolio_animation_type', 'global' );
 	}
+	$animation_effect = NorebroSettings::get( 'portfolio_animation_effect' );
+	if ( in_array( $animation_effect, array( 'inherit', NULL ) ) ) {
+		$animation_effect = NorebroSettings::get( 'portfolio_animation_effect', 'global' );
+	}
+
+	// Sidebar
+	$sidebar_position = NorebroSettings::get( 'page_sidebar' );
+	if ( in_array( $sidebar_position, array( 'inherit', NULL ) ) ) {
+		$sidebar_position = NorebroSettings::get( 'portfolio_page_sidebar', 'global' );
+
+		if ( in_array( $sidebar_position, array( 'inherit', NULL ) ) ) {
+			$sidebar_position = NorebroSettings::get( 'page_sidebar', 'global' );
+		}
+	}
+
 	$sidebar_page_class = '';
 	if ( $sidebar_position == 'left' ) {
 		$sidebar_page_class = ' with-left-sidebar';
@@ -124,25 +186,26 @@
 		$sidebar_page_class = ' with-right-sidebar';
 	}
 
-	$animation_type = NorebroSettings::get( 'portfolio_animation_type' );
-	$animation_effect = NorebroSettings::get( 'portfolio_animation_effect' );
+	$sidebar_layout = NorebroSettings::page_sidebar_layout();
+	$sidebar_class = '';
+	if ( $sidebar_layout ) {
+		$sidebar_class .= ' sidebar-' . $sidebar_layout;
+	}
 
+	// Portfolio grid paddings
 	$grid_item_style_class = '';
-	$posts_without_paddings = get_field( 'portfolio_items_without_padding' );
-	if ( $posts_without_paddings ) {
+	$posts_without_paddings = NorebroSettings::get( 'portfolio_items_without_padding' );
+	if ( in_array( $posts_without_paddings, array( 'inherit', NULL ) ) ) {
+		$posts_without_paddings = NorebroSettings::get( 'portfolio_items_without_padding', 'global' );
+	}
+
+	if ( ( is_bool( $posts_without_paddings ) && $posts_without_paddings ) || $posts_without_paddings == 'yes' ) {
 		$grid_item_style_class .= ' post-offset ';
 	} else {
 		$grid_item_style_class .= ' with-padding ';
 	}
 
-	$columns_num = NorebroSettings::get( 'portfolio_columns_in_row' );
-	if ( ! isset( $columns_num ) ) {
-		$columns_num = '4-3-2-1';
-	}
-
-	$columns_class = NorebroHelper::parse_columns_to_css( $columns_num, false );
-	$columns_double_class = NorebroHelper::parse_columns_to_css( $columns_num, true );
-
+	// Page container class
 	$page_container_class = '';
 	if ( !$show_breadcrumbs && $add_content_padding ) {
 		$page_container_class .= ' without-breadcrumbs'; 
@@ -154,10 +217,52 @@
 		$page_container_class .= ' bottom-offset';
 	}
 
+	// Columns classes
+	$columns_num = NorebroSettings::get( 'portfolio_columns_in_row' );
+	if ( ! isset( $columns_num ) ) {
+		$columns_num = 'i-i-i-i';
+	}
+	$columns_num_global = NorebroSettings::get( 'portfolio_columns_in_row', 'global' );
+	if ( ! isset( $columns_num_global ) ) {
+		$columns_num_global = '4-3-2-1';
+	}
 
-	$projects_layout_item = get_field( 'portfolio_item_layout_type' );
+	$columns_class = NorebroHelper::parse_columns_to_css( $columns_num, false, $columns_num_global );
+	$columns_double_class = NorebroHelper::parse_columns_to_css( $columns_num, true, $columns_num_global );
+
+	$columns_in_row = explode( '-', $columns_num );
+	if ( is_array( $columns_in_row ) ) {
+		$columns_in_row = intval( $columns_in_row[0] );
+	}
+
+
+	// Portfolio layout type
+	$projects_layout_item = NorebroSettings::get( 'portfolio_item_layout_type' );
 	if ( ! $projects_layout_item || $projects_layout_item == 'inherit' ) {
-		$projects_layout_item = get_field( 'global_portfolio_item_layout_type', 'option' );
+		$projects_layout_item = NorebroSettings::get( 'portfolio_layout', 'global' );
+	}
+
+	if ( $projects_layout_item == NULL ) {
+		$projects_layout_item = 'grid_1';
+	}
+
+	$projects_layout_hover = 'hover_1';
+	if ( $projects_layout_item == 'grid_1' ) {
+		$projects_layout_hover = NorebroSettings::get( 'portfolio_grid_1_hover' );
+		$template_layout = NorebroSettings::get( 'portfolio_item_layout_type' );
+		if ( $template_layout == NULL || $template_layout == 'inherit' || ! $projects_layout_hover || $projects_layout_hover == 'inherit' ) {
+			$projects_layout_hover = NorebroSettings::get( 'portfolio_grid_1_hover', 'global' );
+		}
+	}
+	else if ( $projects_layout_item == 'grid_2' ) {
+		$projects_layout_hover = NorebroSettings::get( 'portfolio_grid_2_hover' );
+		$template_layout = NorebroSettings::get( 'portfolio_item_layout_type' );
+		if ( $template_layout == NULL || $template_layout == 'inherit' || ! $projects_layout_hover || $projects_layout_hover == 'inherit' ) {
+			$projects_layout_hover = NorebroSettings::get( 'portfolio_grid_2_hover', 'global' );
+		}
+	}
+	if ( $projects_layout_hover == NULL ) {
+		$projects_layout_hover = 'hover_1';
 	}
 
 	$is_slider = $is_splitscreen = $is_onepage = false;
@@ -186,6 +291,12 @@
 		if ( $projects_layout_item == 'grid_8' ) {
 			$onepage_object->vertical = true;
 		}
+
+		$mousewheel = NorebroSettings::get( 'portfolio_mousewheel' );
+		if ( $mousewheel !== false ) {
+			$onepage_object->mousewheel = true;
+		}
+
 		$onepage_json = json_encode( $onepage_object );
 
 		$onepage_class = '';
@@ -259,7 +370,7 @@
 	<div id="primary" class="content-area">
 
 		<?php if ( $sidebar_position == 'left' ) : ?>
-		<div class="page-sidebar sidebar-left">
+		<div class="page-sidebar sidebar-left<?php echo $sidebar_class; ?>">
 			<aside id="secondary" class="widget-area">
 				<?php dynamic_sidebar( 'norebro-sidebar-blog' ); ?>
 			</aside>
@@ -310,12 +421,12 @@
 							}
 							// Animation calculating
 							$_anim_attrs = '';
-							if ( in_array( $animation_type, array( 'sync', 'async', 'default' ) ) ) {
+							if ( in_array( $animation_type, array( 'sync', 'async' ) ) ) {
 								$_anim_attrs .= ' data-aos-once="true"';
 								$_anim_attrs .= ' data-aos="' . $animation_effect . '"';
-								if ( $animation_type == 'async' ) {
-									$columns_num = (int) substr( $columns_num, 0, 1);
-									$_delay = ( 400 / $columns_num ) * ( $_post_i % $columns_num );
+								if ( $animation_type == 'async' && $columns_in_row ) {
+									$columns_in_row = (int) substr( $columns_in_row, 0, 1);
+									$_delay = ( 400 / $columns_in_row ) * ( $_post_i % $columns_in_row );
 									$_delay = (int) $_delay - ( $_delay % 50 );
 									$_anim_attrs .= ' data-aos-delay="' . $_delay . '"';
 								}
@@ -326,23 +437,11 @@
 							}
 
 							switch ( $projects_layout_item ) {
-								case 'grid_1_hover_1':
-									get_template_part( 'parts/portfolio-cards/grid_1_hover_1' );
+								case 'grid_1':
+									get_template_part( 'parts/portfolio-cards/grid_1_' . $projects_layout_hover );
 									break;
-						     case 'grid_1_hover_2':
-									get_template_part( 'parts/portfolio-cards/grid_1_hover_2' );
-									break;
-						     case 'grid_1_hover_3':
-									get_template_part( 'parts/portfolio-cards/grid_1_hover_3' );
-									break;
-						     case 'grid_2_hover_1':
-									get_template_part( 'parts/portfolio-cards/grid_2_hover_1' );
-									break;
-						     case 'grid_2_hover_2':
-									get_template_part( 'parts/portfolio-cards/grid_2_hover_2' );
-									break;
-						     case 'grid_2_hover_3':
-									get_template_part( 'parts/portfolio-cards/grid_2_hover_3' );
+						     case 'grid_2':
+									get_template_part( 'parts/portfolio-cards/grid_2_' . $projects_layout_hover );
 									break;
 						     case 'grid_4':
 									get_template_part( 'parts/portfolio-cards/grid_4' );
@@ -371,8 +470,6 @@
 							if ( $open_in_popup ) {
 								$norebro_project['hide_view_link_in_popup'] = $hide_view_link_in_popup; 
 								$norebro_project['popup_autoplay'] = $popup_autoplay;
-								$norebro_project['popup_navigation'] = $popup_navigation;
-								$norebro_project['popup_mouse_scrolling'] = $popup_mouse_scrolling;
 								$norebro_project['popup_autoplay_time'] = $popup_autoplay_time;
 								
 								ob_start();
@@ -393,16 +490,16 @@
 
 								switch ( $pagination_type ) {
 									case 'simple':
-										NorebroLayout::the_paginator_layout( $pagination_page, $paginator_all );
+										NorebroLayout::the_paginator_layout( $pagination_page, $paginator_all, $pagination_position );
 										break;
 								 	case 'lazy_scroll':
-										echo '<div class="lazy-load loading font-titles" data-lazy-load="scroll" data-lazy-pages-count="' . esc_attr( $paginator_all ) . '">';
+										echo '<div class="lazy-load loading font-titles text-' . $pagination_position . '" data-lazy-load="scroll" data-lazy-pages-count="' . esc_attr( $paginator_all ) . '">';
 										echo '<span class="loading-text">' . esc_html__( 'Loading', 'norebro-extra' ) . '</span>';
 										echo '<span class="icon ion-refresh"></span>';
 										echo '</div>';
 										break;
 									case 'lazy_button':
-										echo '<div class="lazy-load load-more font-titles" data-lazy-load="click" data-lazy-pages-count="' . esc_attr( $paginator_all ) . '">';
+										echo '<div class="lazy-load load-more font-titles text-' . $pagination_position . '" data-lazy-load="click" data-lazy-pages-count="' . esc_attr( $paginator_all ) . '">';
 										echo '<span class="loadmore-text">' . esc_html__( 'Load More', 'norebro-extra' ) . '</span>';
 										echo '<span class="loading-text">' . esc_html__( 'Loading', 'norebro-extra' ) . '</span>';
 										echo '<span class="icon ion-refresh"></span>';
@@ -419,28 +516,24 @@
 					<div class="vc_row wpb_row vc_row-fluid vc_row-no-padding" data-vc-full-width="true" data-vc-stretch-content="true">
 						<div class="norebro-recent-projects-sc <?php echo esc_attr( $slider_wrap_class ); ?>" 
 							id="<?php echo esc_attr( $recent_projects_uniqid ); ?>"
-							<?php if ( $appearance_effect != 'none' ) { echo ' data-aos="' . esc_attr( $appearance_effect ) . '"'; } ?> 
-							<?php if ( $appearance_duration ) { echo ' data-aos-duration="' . esc_attr( intval( $appearance_duration ) ) . '"'; } ?>>
+							<?php if ( $animation_effect != 'none' ) { echo ' data-aos="' . esc_attr( $animation_effect ) . '"'; } ?>>
 							
-							<div class="slider full-height<?php echo esc_attr( $slider_class . $css_class ); ?>" data-norebro-slider='<?php echo esc_attr( $slider_json ); ?>'>
+							<div class="slider full-vh" data-norebro-slider='<?php echo esc_attr( $slider_json ); ?>'>
 								<?php 
 									$_post_i = 0;
 									foreach ( $projects_array as $_project_index => $_project_object ) {
 										$norebro_project = NorebroObjectParser::parse_to_project_object( $_project_object );
 										$norebro_project['in_popup'] = $open_in_popup;
 										NorebroHelper::set_storage_item_data( $norebro_project );
-										$_columns_num_class = $columns_num_class; // reserve
-										if ( $norebro_project['grid_style'] == '2col' && $columns_num_class != '12' ) {
-											$columns_num_class = intval( $columns_num_class ) * 2; // wide grid item
-										}
+
 										// Animation calculating
 										$_anim_attrs = '';
 										if ( in_array( $animation_type, array( 'sync', 'async' ) ) ) {
 											$_anim_attrs .= ' data-aos-once="true"';
 											$_anim_attrs .= ' data-aos="' . $animation_effect . '"';
-											if ( $animation_type == 'async' ) {
-												$columns_num = (int) substr( $columns_num, 0, 1);
-												$_delay = ( 400 / $columns_num ) * ( $_post_i % $columns_num );
+											if ( $animation_type == 'async' && $columns_in_row ) {
+												$columns_in_row = (int) substr( $columns_in_row, 0, 1);
+												$_delay = ( 400 / $columns_in_row ) * ( $_post_i % $columns_in_row );
 												$_delay = (int) $_delay - ( $_delay % 50 );
 												$_anim_attrs .= ' data-aos-delay="' . $_delay . '"';
 											}
@@ -466,8 +559,6 @@
 										if ( $open_in_popup ) {
 											$norebro_project['hide_view_link_in_popup'] = $hide_view_link_in_popup; 
 											$norebro_project['popup_autoplay'] = $popup_autoplay;
-											$norebro_project['popup_navigation'] = $popup_navigation;
-											$norebro_project['popup_mouse_scrolling'] = $popup_mouse_scrolling;
 											$norebro_project['popup_autoplay_time'] = $popup_autoplay_time;
 											
 											ob_start();
@@ -479,8 +570,8 @@
 								?>
 							</div>
 
-							<?php if ( $card_layout == 'grid_4' ) : ?>
-							<div class="scroll<?php echo esc_attr( $scroll_desc_class ); ?>">
+							<?php if ( $projects_layout_item == 'grid_4' ) : ?>
+							<div class="scroll">
 								<?php echo esc_html__( 'Scroll', 'norebro' ) ?>
 							</div>
 							<?php endif; ?>
@@ -535,8 +626,6 @@
 										if ( $open_in_popup ) {
 											$norebro_project['hide_view_link_in_popup'] = $hide_view_link_in_popup; 
 											$norebro_project['popup_autoplay'] = $popup_autoplay;
-											$norebro_project['popup_navigation'] = $popup_navigation;
-											$norebro_project['popup_mouse_scrolling'] = $popup_mouse_scrolling;
 											$norebro_project['popup_autoplay_time'] = $popup_autoplay_time;
 											
 											ob_start();
@@ -547,7 +636,7 @@
 									}
 								?>
 							</div>
-							<div class="scroll<?php echo esc_attr( $scroll_desc_class ); ?>">
+							<div class="scroll">
 								<?php esc_html_e( 'Scroll', 'norebro' ) ?>
 							</div>
 						</div>
@@ -581,8 +670,6 @@
 										if ( $open_in_popup ) {
 											$norebro_project['hide_view_link_in_popup'] = $hide_view_link_in_popup; 
 											$norebro_project['popup_autoplay'] = $popup_autoplay;
-											$norebro_project['popup_navigation'] = $popup_navigation;
-											$norebro_project['popup_mouse_scrolling'] = $popup_mouse_scrolling;
 											$norebro_project['popup_autoplay_time'] = $popup_autoplay_time;
 											
 											ob_start();
@@ -593,7 +680,7 @@
 									}
 								?>
 							</div>
-							<div class="scroll font-titles<?php echo esc_attr( $scroll_desc_class ); ?>">
+							<div class="scroll font-titles">
 								<?php esc_html_e( 'Scroll', 'norebro' ) ?>
 							</div>
 						</div>
@@ -604,7 +691,7 @@
 		</div>
 
 		<?php if ( $sidebar_position == 'right' ) : ?>
-		<div class="page-sidebar sidebar-right">
+		<div class="page-sidebar sidebar-right<?php echo $sidebar_class; ?>">
 			<aside id="secondary" class="widget-area">
 				<?php dynamic_sidebar( 'norebro-sidebar-blog' ); ?>
 			</aside>

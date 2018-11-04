@@ -15,6 +15,7 @@
 	    'options_global_footer_text_color' => '#9194a0',
 	    'options_global_fullscreen_menu_style' => 'default',
 	    'options_global_fullscreen_menu_text_typo' => '',
+	    'options_global_page_is_wrapped' => '1',
 	    'options_global_header_logo_when_fixed' => 'dark_variant',
 	    'options_global_header_menu_border_color' => 'rgba(0,0,0,0.06)',
 	    'options_global_header_menu_border_type' => 'solid',

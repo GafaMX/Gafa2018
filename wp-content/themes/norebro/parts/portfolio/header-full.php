@@ -1,4 +1,4 @@
-<?php 
+<?php
 	$project = NorebroObjectParser::parse_to_project_object( $post );
 	if ( is_array( $project['images_full'] ) && count( $project['images_full'] ) > 0 ) {
 		$project['images'] = $project['images_full'];
@@ -9,8 +9,8 @@
 	}
 ?>
 
-<?php 
-	if ( $project['show_navigation'] == 'prev_n_next' && ( $project['prev'] || $project['next'] ) 
+<?php
+	if ( $project['show_navigation'] == 'prev_n_next' && ( $project['prev'] || $project['next'] )
 			&& $project['navigation_position'] == 'top' ) {
 		get_template_part( 'parts/elements/next-n-prev-projects' );
 	}
@@ -27,7 +27,7 @@
 				<span class="icon ion-android-arrow-back"></span>
 				<?php esc_html_e( 'Back', 'norebro' ); ?>
 			</a>
-			
+
 			<div class="portfolio-content">
 				<?php if ( $project['categories_plain'] ) : ?>
 					<?php $categories = explode( ', ', $project['categories_plain'] ) ?>
@@ -67,6 +67,26 @@
 						</li>
 						<?php endif; ?>
 
+						<?php
+						$tags = wp_get_post_terms($post->ID, 'norebro_portfolio_tags');
+						if (!empty($tags)) {
+							?>
+							<li>
+								<div class="title uppercase"><?php esc_html_e( 'Tags', 'norebro' ); ?></div>
+								<p>
+									<?php $i = 0; foreach ($tags as $tag):
+										if ($i == 0):
+											echo $tag->name;
+										else:
+											echo ', ' . $tag->name;
+										endif;
+										$i++; endforeach; ?>
+								</p>
+							</li>
+							<?php
+						}
+						?>
+
 						<?php if ( $project['custom_fields'] ) : ?>
 							<?php foreach ( $project['custom_fields'] as $custom_field ) : ?>
 							<li>
@@ -79,7 +99,7 @@
 				</div>
 
 			</div><!--.content-->
-			
+
 		</div>
 		<div class="scroll font-titles"><?php esc_html_e( 'Scroll', 'norebro' ); ?></div>
 	</div><!--.content-center-->
@@ -91,15 +111,15 @@
 	</div>
 </div>
 
-<?php 
-	if ( $project['show_navigation'] == 'prev_n_next' && ( $project['prev'] || $project['next'] ) 
+<?php
+	if ( $project['show_navigation'] == 'prev_n_next' && ( $project['prev'] || $project['next'] )
 			&& $project['navigation_position'] == 'bottom' ) {
 		get_template_part( 'parts/elements/next-n-prev-projects' );
 	}
 ?>
 
 <?php if ( comments_open() || get_comments_number() ) : ?>
-	<div class="portfolio-comments">	
+	<div class="portfolio-comments">
 		<?php comments_template(); ?>
 	</div>
 <?php endif; ?>

@@ -35,7 +35,7 @@ global $product; ?>
 		</h4>
 		<br>
 		<?php if ( ! empty( $show_rating ) ) : ?>
-			<?php echo $product->get_rating_html(); ?>
+			<?php echo wc_get_rating_html( $product->get_id() ); ?>
 		<?php else: ?>
 			<div class="category subtitle-font brand-border-color brand-color">
 				<?php echo wc_get_product_category_list( $product->get_id() ); ?>

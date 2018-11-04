@@ -44,8 +44,8 @@
 	$home_slug = NorebroSettings::breadcrumbs_home_slug();
 	$portfolio_slug = NorebroSettings::breadcrumbs_portfolio_slug();
 	$search_slug = esc_html__( 'Search results', 'norebro' );
-	$cats_slug = esc_html__( 'Tag:', 'norebro' ); 
-	$tag_slug = esc_html__( 'Tag:', 'norebro' ); 
+	$cats_slug = esc_html__( 'Tag:', 'norebro' );
+	$tag_slug = esc_html__( 'Tag:', 'norebro' );
 	$author_slug = esc_html__( 'Author:', 'norebro' );
 	$not_found_slug = esc_html__( 'Page not found', 'norebro' );
 
@@ -78,7 +78,10 @@
 		} elseif ( NorebroSettings::page_is( 'tag' ) ) {
 			$have_right_side = true;
 			$breadcrumbs_ancestors[] = $tag_slug . ' ' . single_tag_title( '', false );
-		}elseif ( NorebroSettings::page_is( 'search' ) ) {
+		} elseif ( NorebroSettings::page_is( 'author' ) ) {
+			$have_right_side = true;
+			$breadcrumbs_ancestors[] =  get_the_author();
+		} elseif ( NorebroSettings::page_is( 'search' ) ) {
 			$breadcrumbs_ancestors[] = $search_slug;
 		} elseif ( is_day() ) {
 			$have_right_side = true;
@@ -147,28 +150,28 @@
 				$breadcrumbs_ancestors[] = '[' . get_the_date( get_option( 'date_format' ), $post->ID ) . ']';
 			}
 		} elseif ( NorebroSettings::page_is( 'shop' ) ) {
-			$breadcrumbs_ancestors[] = esc_html__( 'Shop', 'norebro' );
+			$breadcrumbs_ancestors[] = NorebroSettings::breadcrumbs_woocommerce_slug();
 		} elseif ( NorebroSettings::page_is( 'product_category' ) ) {
 			global $wp_query;
         	$cat = $wp_query->get_queried_object();
-			$breadcrumbs_ancestors[] = array( 
-				esc_html__( 'Shop', 'norebro' ),
+			$breadcrumbs_ancestors[] = array(
+				NorebroSettings::breadcrumbs_woocommerce_slug(),
 				get_permalink( wc_get_page_id( 'shop' ) )
 			);
 			$breadcrumbs_ancestors[] = esc_html__( 'Category', 'norebro' ) . ': ' . $cat->name;
 		} elseif ( NorebroSettings::page_is( 'product_tag' ) ) {
 			global $wp_query;
 			$cat = $wp_query->get_queried_object();
-			$breadcrumbs_ancestors[] = array( 
-				esc_html__( 'Shop', 'norebro' ),
+			$breadcrumbs_ancestors[] = array(
+				NorebroSettings::breadcrumbs_woocommerce_slug(),
 				get_permalink( wc_get_page_id( 'shop' ) )
 			);
 			$breadcrumbs_ancestors[] = esc_html__( 'Tag', 'norebro' ) . ': ' . $cat->name;
 		} elseif ( NorebroSettings::page_is( 'product' ) ) {
 			global $args;
 			$terms = wp_get_post_terms( $post->ID, 'product_cat', array( 'taxonomy' => 'product_cat' ) );
-			$breadcrumbs_ancestors[] = array( 
-				esc_html__( 'Shop', 'norebro' ),
+			$breadcrumbs_ancestors[] = array(
+				NorebroSettings::breadcrumbs_woocommerce_slug(),
 				get_permalink( wc_get_page_id( 'shop' ) )
 			);
 			if ( is_array( $terms ) && is_object( $terms[0] ) ) {
@@ -176,14 +179,14 @@
 			}
 			$breadcrumbs_ancestors[] = get_the_title();
 		} elseif ( NorebroSettings::page_is( 'cart' ) ) {
-			$breadcrumbs_ancestors[] = array( 
-				esc_html__( 'Shop', 'norebro' ),
+			$breadcrumbs_ancestors[] = array(
+				NorebroSettings::breadcrumbs_woocommerce_slug(),
 				get_permalink( wc_get_page_id( 'shop' ) )
 			);
 			$breadcrumbs_ancestors[] = get_the_title();
 		} elseif ( NorebroSettings::page_is( 'checkout' ) ) {
-			$breadcrumbs_ancestors[] = array( 
-				esc_html__( 'Shop', 'norebro' ),
+			$breadcrumbs_ancestors[] = array(
+				NorebroSettings::breadcrumbs_woocommerce_slug(),
 				get_permalink( wc_get_page_id( 'shop' ) )
 			);
 			$breadcrumbs_ancestors[] = get_the_title();
@@ -243,14 +246,14 @@
 			$format = has_post_format();
 			if ( is_array( $format ) && count( $format ) > 0 ) {
 				$format = $format[0];
-			} 
+			}
 			$breadcrumbs_ancestors[] = get_post_format_string( $format );
 		}
 	}
 
 	$page_container_class = '';
-	if ( !$page_wrapped ) { 
-		$page_container_class .= ' full'; 
+	if ( !$page_wrapped ) {
+		$page_container_class .= ' full';
 	}
 ?>
 
@@ -258,7 +261,7 @@
 <div class="breadcrumbs" itemscope itemtype="http://schema.org/BreadcrumbList">
 	<div class="page-container<?php echo esc_attr( $page_container_class ); ?>">
 		<div class="vc_col-sm-12">
-			
+
 			<div class="left">
 				<?php
 					foreach ( $breadcrumbs_ancestors as $ancestor_key => $ancestor_value ) {
@@ -286,7 +289,7 @@
 				</div>
 			</div>
 
-			<?php elseif ( $have_right_side ) : ?>			
+			<?php elseif ( $have_right_side ) : ?>
 			<div class="right">
 				<div class="result">
 					<?php echo sprintf( esc_html__( 'Showing %1$d-%2$d of %3$d results', 'norebro' ), $filter_posts_show_from, $filter_posts_show_to, $filter_published_posts ); ?>
@@ -309,7 +312,7 @@
 					<ul class="select-menu"></ul>
 				</div>
 				<?php endif; ?>
-				
+
 				<?php if ( is_array( $filter_tag_ids ) && $filter_tag_ids && $show_tags_filter ) : ?>
 				<div class="select" data-select="true">
 					<select>

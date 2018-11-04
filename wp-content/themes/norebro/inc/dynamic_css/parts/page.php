@@ -10,8 +10,9 @@
 	# 3.2. Background position
 	# 3.3. Background repeat
 	# 3.4. Background attachment
-	# 4. Full width container margins
-	# 5. View
+	# 4. Links & border color
+	# 5. Full width container margins
+	# 6. View
 */
 
 
@@ -19,19 +20,25 @@
 
 $background_color 		= false;
 $background_image 		= false;
-$background_size 		= false;
+$background_size 		   = false;
 $background_position 	= false;
 $background_repeat 		= false;
 $background_attachment	= false;
+$links_color            = false;
+$borders_color          = false;
 $full_width_margins		= false;
+$content_wrapper_width  = false;
 
 $background_color_css 		= '';
 $background_image_css 		= '';
 $background_size_css 		= '';
 $background_position_css 	= '';
 $background_repeat_css 		= '';
-$background_attachment_css 	= '';
+$background_attachment_css = '';
+$links_css                 = '';
+$borders_css               = '';
 $full_width_margins_css 	= '';
+$content_wrapper_width_css = '';
 
 
 # 2. Background color
@@ -50,10 +57,17 @@ if ( NorebroSettings::page_is( 'single' ) ) {
 		}
 	}
 } elseif ( NorebroSettings::page_is( 'project' ) ) {
+	# Project page
 	$background_color = NorebroSettings::get( 'page_background_color' );
+
 	if ( ! $background_color && in_array( NorebroSettings::get( 'page_background_type' ), array( 'inherit', NULL ) ) ) {
-		// Need more settings!
-		$background_color = NorebroSettings::get( 'page_background_color', 'global' );
+		# Global project page
+		$background_color = NorebroSettings::get( 'project_page_background_color', 'global' );
+
+		if ( ! $background_color && in_array( NorebroSettings::get( 'project_page_background_type', 'global' ), array( 'inherit', NULL ) ) ) {
+			# Global page
+			$background_color = NorebroSettings::get( 'page_background_color', 'global' );
+		}
 	}
 } else {
 	$background_color = NorebroSettings::get( 'page_background_color' );
@@ -87,11 +101,17 @@ if ( NorebroSettings::page_is( 'single' ) ) {
 		}
 	}
 } elseif ( NorebroSettings::page_is( 'project' ) ) {
+	# Project page
 	if ( NorebroSettings::get( 'page_background_type' ) == 'custom' ) {
 		$background_image = NorebroSettings::get( 'page_background_image' );
 	} elseif ( in_array( NorebroSettings::get( 'page_background_type' ), array( 'inherit', NULL ) ) ) {
-		// Need more settings!
-		$background_image = NorebroSettings::get( 'page_background_image', 'global' );
+		# Global project page
+		if ( NorebroSettings::get( 'project_page_background_type', 'global' ) == 'custom' ) {
+			$background_image = NorebroSettings::get( 'project_page_background_image', 'global' );
+		} elseif ( in_array( NorebroSettings::get( 'project_page_background_type', 'global' ), array( 'inherit', NULL ) ) ) {
+			# Global page
+			$background_image = NorebroSettings::get( 'page_background_image', 'global' );
+		}
 	}
 } else {
 	if ( NorebroSettings::get( 'page_background_type' ) == 'custom' ) {
@@ -126,11 +146,17 @@ if ( NorebroSettings::page_is( 'single' ) ) {
 		}
 	}
 } elseif ( NorebroSettings::page_is( 'project' ) ) {
+	# Project page
 	if ( NorebroSettings::get( 'page_background_type' ) == 'custom' ) {
 		$background_size = NorebroSettings::get( 'page_background_size' );
 	} elseif ( in_array( NorebroSettings::get( 'page_background_type' ), array( 'inherit', NULL ) ) ) {
-		// Need more settings!
-		$background_size = NorebroSettings::get( 'page_background_size', 'global' );
+		# Global project page
+		if ( NorebroSettings::get( 'project_page_background_type', 'global' ) == 'custom' ) {
+			$background_size = NorebroSettings::get( 'project_page_background_size', 'global' );
+		} elseif ( in_array( NorebroSettings::get( 'project_page_background_type', 'global' ), array( 'inherit', NULL ) ) ) {
+			# Global page
+			$background_size = NorebroSettings::get( 'page_background_size', 'global' );
+		}
 	}
 } else {
 	if ( NorebroSettings::get( 'page_background_type' ) == 'custom' ) {
@@ -177,11 +203,17 @@ if ( $background_size == 'auto' || $background_size == 'contain' ) {
 			}
 		}
 	} elseif ( NorebroSettings::page_is( 'project' ) ) {
+		# Project page
 		if ( NorebroSettings::get( 'page_background_type' ) == 'custom' ) {
 			$background_position = NorebroSettings::get( 'page_background_position' );
 		} elseif ( in_array( NorebroSettings::get( 'page_background_type' ), array( 'inherit', NULL ) ) ) {
-			// Need more settings!
-			$background_position = NorebroSettings::get( 'page_background_position', 'global' );
+			# Global project page
+			if ( NorebroSettings::get( 'project_page_background_type', 'global' ) == 'custom' ) {
+				$background_position = NorebroSettings::get( 'project_page_background_position', 'global' );
+			} elseif ( in_array( NorebroSettings::get( 'project_page_background_type', 'global' ), array( 'inherit', NULL ) ) ) {
+				# Global page
+				$background_position = NorebroSettings::get( 'page_background_position', 'global' );
+			}
 		}
 	} else {
 		if ( NorebroSettings::get( 'page_background_type' ) == 'custom' ) {
@@ -246,11 +278,17 @@ if ( $background_size == 'auto' || $background_size == 'contain' ) {
 			}
 		}
 	} elseif ( NorebroSettings::page_is( 'project' ) ) {
+		# Project page
 		if ( NorebroSettings::get( 'page_background_type' ) == 'custom' ) {
 			$background_repeat = NorebroSettings::get( 'page_background_repeat' );
 		} elseif ( in_array( NorebroSettings::get( 'page_background_type' ), array( 'inherit', NULL ) ) ) {
-			// Need more settings!
-			$background_repeat = NorebroSettings::get( 'page_background_repeat', 'global' );
+			# Global project page
+			if ( NorebroSettings::get( 'project_page_background_type', 'global' ) == 'custom' ) {
+				$background_repeat = NorebroSettings::get( 'project_page_background_repeat', 'global' );
+			} elseif ( in_array( NorebroSettings::get( 'project_page_background_type', 'global' ), array( 'inherit', NULL ) ) ) {
+				# Global page
+				$background_repeat = NorebroSettings::get( 'page_background_repeat', 'global' );
+			}
 		}
 	} else {
 		if ( NorebroSettings::get( 'page_background_type' ) == 'custom' ) {
@@ -299,11 +337,17 @@ if ( NorebroSettings::page_is( 'single' ) ) {
 		}
 	}
 } elseif ( NorebroSettings::page_is( 'project' ) ) {
+	# Project page
 	if ( NorebroSettings::get( 'page_background_type' ) == 'custom' ) {
 		$background_attachment = NorebroSettings::get( 'page_background_is_attached' );
 	} elseif ( in_array( NorebroSettings::get( 'page_background_type' ), array( 'inherit', NULL ) ) ) {
-		// Need more settings!
-		$background_attachment = NorebroSettings::get( 'page_background_attach', 'global' );
+		# Global project page
+		if ( NorebroSettings::get( 'project_page_background_type', 'global' ) == 'custom' ) {
+			$background_attachment = NorebroSettings::get( 'project_page_background_is_attached', 'global' );
+		} elseif ( in_array( NorebroSettings::get( 'project_page_background_type', 'global' ), array( 'inherit', NULL ) ) ) {
+			# Global page
+			$background_attachment = NorebroSettings::get( 'page_background_attach', 'global' );
+		}
 	}
 } else {
 	if ( NorebroSettings::get( 'page_background_type' ) == 'custom' ) {
@@ -318,21 +362,52 @@ if ( $background_attachment ) {
 }
 
 
-# 4. Full width container margins
+# 4. Links color
 
-$full_width_margins = NorebroSettings::get( 'full_width_margins_type' );
-if ( $full_width_margins == 'custom' ) {
-	$full_width_margins = NorebroSettings::get( 'full_width_margins_size' );
-} else {
-	$full_width_margins = NorebroSettings::get( 'full_width_margins_size', 'global' );
+$links_color = NorebroSettings::get( 'page_links_color', 'global' );
+if ( $links_color ) {
+	$links_css = 'color:' . $links_color . ';';
 }
 
+$borders_color = NorebroSettings::get( 'page_borders_color', 'global' );
+if ( $borders_color ) {
+	$borders_css = 'border-color:' . $borders_color . ';';
+}
+
+
+# 5. Full width container margins
+$content_wrapper_width = NorebroSettings::get( 'content_wrapper_width' );
+if ( $content_wrapper_width == NULL ) {
+	if ( NorebroSettings::page_is( 'project' ) ) {
+		$content_wrapper_width = NorebroSettings::get( 'project_content_wrapper_width', 'global' );
+	} elseif ( NorebroSettings::page_is( 'single' ) ) {
+		$content_wrapper_width = NorebroSettings::get( 'post_content_wrapper_width', 'global' );
+	}
+	if ( $content_wrapper_width == NULL ) {
+		$content_wrapper_width = NorebroSettings::get( 'content_wrapper_width', 'global' );
+	}
+}
+if ( $content_wrapper_width ) {
+	$content_wrapper_width_css = 'max-width:' . $content_wrapper_width;
+}
+
+$full_width_margins = NorebroSettings::get( 'full_width_margins_size' );
+if ( $full_width_margins == NULL ) {
+	if ( NorebroSettings::page_is( 'project' ) ) {
+		$full_width_margins = NorebroSettings::get( 'project_full_width_margins_size', 'global' );
+		if ( $full_width_margins == NULL ) {
+			$full_width_margins = NorebroSettings::get( 'full_width_margins_size', 'global' );
+		}
+	} else {
+		$full_width_margins = NorebroSettings::get( 'full_width_margins_size', 'global' );
+	}
+}
 if ( $full_width_margins ) {
 	$full_width_margins_css = 'margin-left:' . $full_width_margins . ';margin-right:' . $full_width_margins . ';';
 }
 
 
-# 5. View
+# 6. View
 
 if ( $background_color_css || $background_image_css || $background_size_css || $background_position_css 
 	|| $background_repeat_css || $background_attachment_css ) {
@@ -349,11 +424,44 @@ if ( $background_color_css || $background_image_css || $background_size_css || $
 	NorebroLayout::append_to_dynamic_css_buffer( $_style_block );
 }
 
+if ( $links_css ) {
+	// --- start of CSS ---
+	$_style_block = '.widget a:hover, p a, #comments p a, .page-content p a, .post .entry-content p a, #comments.comments-area a.comment-reply-link,';
+	$_style_block .= '#comments.comments-area a.comment-edit-link, .comments-area a:hover, .post .entry-content ul a, .post .entry-content ol a{';
+	$_style_block .= $links_css;
+	$_style_block .= '}';
+	// --- end of CSS ---
+	NorebroLayout::append_to_dynamic_css_buffer( $_style_block );
+}
+if ( $borders_css ) {
+	// --- start of CSS ---
+	$_style_block = '.widget_search form input, input:not([type="submit"]), textarea, select, .comments-area .comment-respond:after,';
+	$_style_block .= '.comments-area .comment-list > li, .comments-area .comment-respond:before, .blog-grid.grid-4{';
+	$_style_block .= $borders_css;
+	$_style_block .= '}';
+
+	$_style_block .= '@media screen and (min-width: 769px){ #mega-menu-wrap > ul .sub-nav .sub-menu-wide > .mega-menu-item > a.menu-link {';
+	$_style_block .= $borders_css;
+	$_style_block .= '}}';
+	// --- end of CSS ---
+	NorebroLayout::append_to_dynamic_css_buffer( $_style_block );
+}
+
 if ( $full_width_margins_css ) {
 	// --- start of CSS ---
-	$_style_block = '.full-width-container{';
+	$_style_block = '.page-container.full{';
 	$_style_block .= $full_width_margins_css;
 	$_style_block .= '}';
 	// --- end of CSS ---
 	NorebroLayout::append_to_dynamic_css_buffer( $_style_block );
 }
+
+if ( $content_wrapper_width_css ) {
+	// --- start of CSS ---
+	$_style_block = '.page-container{';
+	$_style_block .= $content_wrapper_width_css;
+	$_style_block .= '}';
+	// --- end of CSS ---
+	NorebroLayout::append_to_dynamic_css_buffer( $_style_block );
+}
+

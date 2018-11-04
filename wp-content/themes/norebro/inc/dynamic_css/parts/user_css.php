@@ -21,22 +21,38 @@ $project_css 	= false;
 
 
 # 2. Global custom CSS
-$global_css = get_field( 'global_page_custom_css', 'option' );
+$global_css            = NorebroSettings::get( 'page_custom_css', 'global' );
+$global_large_css      = NorebroSettings::get( 'page_custom_large_css', 'global' );
+$global_medium_css     = NorebroSettings::get( 'page_custom_medium_css', 'global' );
+$global_small_css      = NorebroSettings::get( 'page_custom_small_css', 'global' );
+$global_extrasmall_css = NorebroSettings::get( 'page_custom_extrasmall_css', 'global' );
 
 # 3. Current page custom CSS
-$page_css = get_field( 'page_custom_css' );
+$page_css = NorebroSettings::get( 'page_custom_css' );
 
 # 4. Current page custom CSS
-$post_css = get_field( 'post_custom_css' );
+$post_css = NorebroSettings::get( 'post_custom_css' );
 
 # 5. Current project custom CSS
-$project_css = get_field( 'project_custom_css' );
+$project_css = NorebroSettings::get( 'project_custom_css' );
 
 
 # 6. View
 
 if ( $global_css ) {
 	NorebroLayout::append_to_dynamic_css_buffer( $global_css );
+}
+if ( $global_large_css ) {
+	NorebroLayout::append_to_dynamic_css_buffer( $global_large_css, 'desktop' );
+}
+if ( $global_medium_css ) {
+	NorebroLayout::append_to_dynamic_css_buffer( $global_medium_css, 'tablet' );
+}
+if ( $global_small_css ) {
+	NorebroLayout::append_to_dynamic_css_buffer( $global_small_css, 'mobile' );
+}
+if ( $global_extrasmall_css ) {
+	NorebroLayout::append_to_dynamic_css_buffer( $global_extrasmall_css, 'extrasmall' );
 }
 if ( $page_css ) {
 	NorebroLayout::append_to_dynamic_css_buffer( $page_css );

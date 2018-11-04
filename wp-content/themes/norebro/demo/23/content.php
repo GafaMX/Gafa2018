@@ -9,6 +9,7 @@
 	    'options_global_page_smooth_scroll' => '1',
 	    'options_global_page_custom_css' => '.header-title h1.page-title {text-transform:uppercase;}',
 	    'options_global_logo_type' => 'sitename',
+	    'options_global_page_is_wrapped' => '1',
 	    'options_global_header_menu_logo_typo' => '{"color":"#333333"}',
 	    'options_global_menu_type' => 'hamburger',
 	    'options_global_header_menu_fixed' => '0',

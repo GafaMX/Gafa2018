@@ -16,6 +16,7 @@
 		'options_global_page_background_repeat' => 'repeat',
 		'options_global_page_background_size' => 'auto',
 		'options_global_page_brand_color' => '#505cfd',
+		'options_global_page_is_wrapped' => '1',
 		'options_global_page_headings_typo' => '{"weight":"500","font_family":"Poppins","font_variants":["regular","500","600"],"font_subsets":["latin"]}',
 		'options_global_page_show_breadcrumbs' => '0',
 		'options_global_page_smooth_scroll' => '1',

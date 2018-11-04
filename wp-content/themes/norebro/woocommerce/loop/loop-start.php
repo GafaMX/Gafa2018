@@ -23,4 +23,4 @@ $use_masonry_grid = (bool) ( NorebroSettings::get( 'woocommerce_shop_layout', 'g
 ?>
 
 <div class="vc_row">
-	<ul class="woo-products<?php if ( $use_masonry_grid ) { echo ' norebro-masonry'; } ?>">
+	<ul class="woo-products<?php if ( $use_masonry_grid ) { echo ' norebro-masonry'; } ?>" data-lazy-container="true">

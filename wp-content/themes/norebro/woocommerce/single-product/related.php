@@ -22,7 +22,7 @@
 
 	global $product, $woocommerce_loop, $page_wrapped;
 
-	$details_type = get_field( 'global_woocommerce_product_description_layout', 'options' );
+	$details_type = NorebroSettings::get( 'woocommerce_product_description_layout', 'global' );
 	if ( ! $details_type ) { $details_type = 'default'; }
 
 	if ( empty( $product ) || ! $product->exists() ) {
@@ -52,30 +52,32 @@
 	$woocommerce_loop['columns'] = apply_filters( 'woocommerce_related_products_columns', $columns );
 
 ?>
+</div>
 	<div class="clear"></div>
 	<?php if ( $products->have_posts() ) : ?>
-	<div class="single-related-wrapper page-wrap-offset">
-		<div class="product">
-			<div class="related products columns-4">
-				<div class="vc_col-sm-12">
-					<h3 class="text-left title"><?php esc_html_e( 'Related products', 'norebro' ); ?></h3>
-					<?php 
-						woocommerce_product_loop_start();
+	<div class="page-container">
+		<div class="single-related-wrapper page-wrap-offset">
+			<div class="product">
+				<div class="related products columns-4">
+					<div class="vc_col-sm-12">
+						<h3 class="text-left title"><?php esc_html_e( 'Related products', 'norebro' ); ?></h3>
+						<?php 
+							woocommerce_product_loop_start();
 
-						while ( $products->have_posts() ) {
-							$products->the_post();
-							wc_get_template_part( 'content', 'product' );
-						}
+							while ( $products->have_posts() ) {
+								$products->the_post();
+								wc_get_template_part( 'content', 'product' );
+							}
 
-						woocommerce_product_loop_end(); 
-					?>
+							woocommerce_product_loop_end(); 
+						?>
+					</div>
+					<div class="clear"></div>
 				</div>
-				<div class="clear"></div>
 			</div>
 		</div>
 	</div>
 	<?php endif; ?>
-
 <?php
 	wp_reset_postdata();
 ?>

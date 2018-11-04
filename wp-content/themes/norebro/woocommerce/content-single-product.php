@@ -21,9 +21,15 @@
 
 	$shop_page_id = wc_get_page_id( 'shop' );
 
-	$show_breadcrumbs = ( is_product() ) ? get_field( 'global_woocommerce_page_show_breadcrumbs', 'option' ) : get_field( 'page_show_breadcrumbs' );
+	$show_breadcrumbs = false;
+	if ( is_product() ) {
+		$show_breadcrumbs = NorebroSettings::get( 'woocommerce_page_show_breadcrumbs', 'global' );
+	} else {
+		$show_breadcrumbs = NorebroSettings::get( 'page_show_breadcrumbs' ); 
+	}
+
 	if ( $show_breadcrumbs == 'inherit' ) {
-		$show_breadcrumbs = (bool) get_field( 'global_page_show_breadcrumbs', 'option' );
+		$show_breadcrumbs = (bool) NorebroSettings::get( 'page_show_breadcrumbs', 'global' );
 	} else {
 		$show_breadcrumbs = ( $show_breadcrumbs == 'yes' );
 	}
@@ -36,36 +42,34 @@
 ?>
 
 <div id="product-<?php the_ID(); ?>" <?php post_class(); ?>>
-
+	<div class="norebro-content-wrap-right">
 	<!-- Slider in single-product/product-image.php -->
 	<?php do_action( 'woocommerce_before_single_product_summary' ); ?>
+		<div class="vc_col-md-6 woo-single-summary-wrap">
+			<div class="summary entry-summary">
 
-	<div class="vc_col-md-6 woo-single-summary-wrap">
-		<div class="summary entry-summary">
-
-			<?php if ( $show_breadcrumbs ) : ?>
-			<div class="breadcrumbs">
-				<a class="brand-color-hover hover-underline underline-brand" href="<?php echo esc_url( get_permalink( wc_get_page_id( 'shop' ) ) ); ?>">
-					<?php echo get_the_title( $shop_page_id ); ?>
-				</a>
-				<?php
-					$ancestors = get_ancestors( get_the_ID(), 'page', 'post_type' );
-
-					for( $i = count( $ancestors ) - 1; $i >= 0; $i-- ) {
-						$page = get_page( $ancestors[$i] );
-						printf( ' / <a class="brand-color-hover hover-underline underline-brand" href="%s">%s</a>', $page->guid, $page->post_title );
-					}
-				?>
-				/ <span class="current"><?php the_title(); ?></span>
-			</div>
-			<?php endif; ?>
-
-			<div class="woo-summary-content">
-				<div class="wrap"><!-- For scroll -->
-					<?php do_action( 'woocommerce_before_main_content' ); ?>
-					<?php do_action( 'woocommerce_single_product_summary' ); ?>
+				<?php if ( $show_breadcrumbs ) : ?>
+				<div class="breadcrumbs">
+					<a class="brand-color-hover hover-underline underline-brand" href="<?php echo esc_url( get_permalink( wc_get_page_id( 'shop' ) ) ); ?>">
+						<?php echo NorebroSettings::breadcrumbs_woocommerce_slug(); ?>
+					</a>
 					<?php
-						// Tabs
-						do_action( 'woocommerce_after_single_product_summary' ); 
+						$ancestors = get_ancestors( get_the_ID(), 'page', 'post_type' );
+
+						for( $i = count( $ancestors ) - 1; $i >= 0; $i-- ) {
+							$page = get_page( $ancestors[$i] );
+							printf( ' / <a class="brand-color-hover hover-underline underline-brand" href="%s">%s</a>', $page->guid, $page->post_title );
+						}
 					?>
-<?php do_action( 'woocommerce_after_single_product' ); ?>
+					/ <span class="current"><?php the_title(); ?></span>
+				</div>
+				<?php endif; ?>
+				<div class="woo-summary-content">
+					<div class="wrap"><!-- For scroll -->
+						<?php do_action( 'woocommerce_before_main_content' ); ?>
+						<?php do_action( 'woocommerce_single_product_summary' ); ?>
+						<?php
+							// Tabs
+							do_action( 'woocommerce_after_single_product_summary' ); 
+						?>
+						<?php do_action( 'woocommerce_after_single_product' ); ?>

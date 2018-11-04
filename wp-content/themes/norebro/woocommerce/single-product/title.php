@@ -28,7 +28,7 @@
 	$availability_html = '';
 
 	if ( empty( $availability['availability'] ) ) {
-		$availability_html = '<span class="stock subtitle ' . esc_attr( $availability['class'] ) . '">In stock</span>';
+		$availability_html = '<span class="stock subtitle ' . esc_attr( $availability['class'] ) . '">' . __( 'In stock', 'norebro' ) . '</span>';
 	} else {
 		$availability_html = '<span class="stock subtitle ' . esc_attr( $availability['class'] ) . '">' . $availability['availability'] . '</span>';
 	}

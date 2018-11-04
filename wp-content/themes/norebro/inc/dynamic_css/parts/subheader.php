@@ -14,12 +14,13 @@
 # 1. Variables
 
 $subheader_background 	= false;
-$subheader_typo 		= false;
+$subheader_typo 		   = false;
 $subheader_height 		= false;
 
-$subheader_background_css 	= '';
-$subheader_typo_css 		= '';
-$subheader_height_css 		= '';
+$subheader_background_css = '';
+$subheader_typo_css       = '';
+$subheader_height_css     = '';
+$height_css               = '';
 
 
 # 2. Background color
@@ -79,11 +80,14 @@ if ( NorebroSettings::get( 'header_menu_contacts_bar_style' ) == 'custom' ) {
 }
 
 if ( $subheader_height ) {
-	$subheader_height_css  = 'height:' . $subheader_height . 'px;';
-	$subheader_height_css .= 'max-height:' . $subheader_height . 'px;';
-	$subheader_height_css .= 'line-height:' . $subheader_height . 'px;';
+	$subheader_height_css  = 'height:${height}px;';
+	$subheader_height_css .= 'max-height:${height}px;';
+	$subheader_height_css .= 'line-height:${height}px;';
 
-	$header_css = 'margin-top:' . $subheader_height . 'px;';
+	$header_css = 'margin-top:${height}px;';
+
+	$subheader_height_css = NorebroHelper::parse_responsive_height_to_css( $subheader_height, $subheader_height_css );
+	$header_css = NorebroHelper::parse_responsive_height_to_css( $subheader_height, $header_css );
 }
 
 
@@ -110,16 +114,20 @@ if ( $subheader_typo_css ) {
 
 
 if ( $subheader_height_css ) {
-	// --- start of CSS ---
-	$_style_block = '.subheader,.subheader .content,.subheader .social-bar li a{';
-	$_style_block .= $subheader_height_css;
-	$_style_block .= '}';
-	$_style_block .= '#masthead.with-subheader, .header-cap.with-subheader{';
-	$_style_block .= $header_css;
-	$_style_block .= '}';
-	// --- end of CSS ---
-	NorebroLayout::append_to_dynamic_css_buffer( $_style_block );
-}
+	$subheader_height_classes = '.subheader,.subheader .content,.subheader .social-bar li a';
 
+	if ( $subheader_height_css['desktop'] ) {
+		$_style_block = $subheader_height_classes . '{' . $subheader_height_css['desktop'] . '}';
+		NorebroLayout::append_to_dynamic_css_buffer( $_style_block, 'desktop' );
+	}
+	if ( $subheader_height_css['tablet'] ) {
+		$_style_block = $subheader_height_classes . '{' . $subheader_height_css['tablet'] . '}';
+		NorebroLayout::append_to_dynamic_css_buffer( $_style_block, 'tablet' );
+	}
+	if ( $subheader_height_css['mobile'] ) {
+		$_style_block = $subheader_height_classes . '{' . $subheader_height_css['mobile'] . '}';
+		NorebroLayout::append_to_dynamic_css_buffer( $_style_block, 'mobile' );
+	}
+}
 
 

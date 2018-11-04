@@ -16,20 +16,14 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-<!-- generator="WordPress/4.8.2" created="2017-10-29 13:37" -->
-<rss version="2.0"
-	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
-	xmlns:content="http://purl.org/rss/1.0/modules/content/"
-	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
-	xmlns:dc="http://purl.org/dc/elements/1.1/"
-	xmlns:wp="http://wordpress.org/export/1.2/"
->
+<!-- generator="WordPress/4.8.6" created="2018-04-04 09:06" -->
+<rss version="2.0" xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:wp="http://wordpress.org/export/1.2/">
 
 <channel>
 	<title>Norebro</title>
 	<link>https://norebro.colabr.io/demo10</link>
 	<description>Demo10 - Portfolio Sidebar Menu</description>
-	<pubDate>Sun, 29 Oct 2017 13:37:09 +0000</pubDate>
+	<pubDate>Wed, 04 Apr 2018 09:06:07 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>https://norebro.colabr.io/demo10</wp:base_site_url>
@@ -143,7 +137,7 @@
 	<wp:term><wp:term_id>29</wp:term_id><wp:term_taxonomy>nav_menu</wp:term_taxonomy><wp:term_slug><![CDATA[main]]></wp:term_slug><wp:term_name><![CDATA[Main]]></wp:term_name>
 </wp:term>
 
-	<generator>https://wordpress.org/?v=4.8.2</generator>
+	<generator>https://wordpress.org/?v=4.8.6</generator>
 
 <image>
 	<url>https://norebro.colabr.io/demo10/wp-content/uploads/2017/09/cropped-favicon-32x32.png</url>
@@ -153,16 +147,17 @@
 	<height>32</height>
 </image> 
 
+	
 	<item>
 		<title>favicon</title>
 		<link>https://norebro.colabr.io/demo10/favicon/</link>
 		<pubDate>Fri, 29 Sep 2017 14:50:48 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://norebro.colabr.io/demo10/wp-content/uploads/2017/09/favicon.png</guid>
-		<description></description>
+		<description/>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>46</wp:post_id>
+		<wp:post_id>5654000</wp:post_id>
 		<wp:post_date><![CDATA[2017-09-29 14:50:48]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-09-29 14:50:48]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
@@ -184,16 +179,17 @@
 			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:512;s:6:"height";i:512;s:4:"file";s:19:"2017/09/favicon.png";s:5:"sizes";a:5:{s:9:"thumbnail";a:4:{s:4:"file";s:19:"favicon-150x150.png";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:9:"image/png";}s:6:"medium";a:4:{s:4:"file";s:19:"favicon-300x300.png";s:5:"width";i:300;s:6:"height";i:300;s:9:"mime-type";s:9:"image/png";}s:14:"shop_thumbnail";a:4:{s:4:"file";s:19:"favicon-120x120.png";s:5:"width";i:120;s:6:"height";i:120;s:9:"mime-type";s:9:"image/png";}s:14:"post-thumbnail";a:4:{s:4:"file";s:19:"favicon-200x200.png";s:5:"width";i:200;s:6:"height";i:200;s:9:"mime-type";s:9:"image/png";}s:31:"norebro_thumbnail_next_and_prev";a:4:{s:4:"file";s:19:"favicon-200x140.png";s:5:"width";i:200;s:6:"height";i:140;s:9:"mime-type";s:9:"image/png";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
+	
 	<item>
 		<title>cropped-favicon.png</title>
 		<link>https://norebro.colabr.io/demo10/cropped-favicon-png/</link>
 		<pubDate>Fri, 29 Sep 2017 14:50:52 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://norebro.colabr.io/demo10/wp-content/uploads/2017/09/cropped-favicon.png</guid>
-		<description></description>
-		<content:encoded><![CDATA[http://norebro.colabr.io/demo10/wp-content/uploads/2017/09/cropped-favicon.png]]></content:encoded>
+		<description/>
+		<content:encoded><![CDATA[{{this_domain}}/wp-content/uploads/2017/09/cropped-favicon.png]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>48</wp:post_id>
+		<wp:post_id>5654001</wp:post_id>
 		<wp:post_date><![CDATA[2017-09-29 14:50:52]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-09-29 14:50:52]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
@@ -225,10 +221,10 @@
 		<pubDate>Tue, 03 Oct 2017 11:43:42 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://norebro.colabr.io/demo10/wp-content/uploads/2017/09/nor_portfolio_item_10.jpg</guid>
-		<description></description>
+		<description/>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>14633</wp:post_id>
+		<wp:post_id>5654002</wp:post_id>
 		<wp:post_date><![CDATA[2017-10-03 11:43:42]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-10-03 11:43:42]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
@@ -256,10 +252,10 @@
 		<pubDate>Tue, 03 Oct 2017 11:46:23 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://norebro.colabr.io/demo10/wp-content/uploads/2017/09/nor_portfolio_item_11.jpg</guid>
-		<description></description>
+		<description/>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>14634</wp:post_id>
+		<wp:post_id>5654003</wp:post_id>
 		<wp:post_date><![CDATA[2017-10-03 11:46:23]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-10-03 11:46:23]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
@@ -287,10 +283,10 @@
 		<pubDate>Tue, 03 Oct 2017 11:50:20 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://norebro.colabr.io/demo10/wp-content/uploads/2017/09/nor_portfolio_item_12.jpg</guid>
-		<description></description>
+		<description/>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>14635</wp:post_id>
+		<wp:post_id>5654004</wp:post_id>
 		<wp:post_date><![CDATA[2017-10-03 11:50:20]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-10-03 11:50:20]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
@@ -318,10 +314,10 @@
 		<pubDate>Tue, 03 Oct 2017 11:56:30 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://norebro.colabr.io/demo10/wp-content/uploads/2017/09/nor_portfolio_item_16-min.jpg</guid>
-		<description></description>
+		<description/>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>14637</wp:post_id>
+		<wp:post_id>5654005</wp:post_id>
 		<wp:post_date><![CDATA[2017-10-03 11:56:30]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-10-03 11:56:30]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
@@ -349,10 +345,10 @@
 		<pubDate>Tue, 03 Oct 2017 11:56:32 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://norebro.colabr.io/demo10/wp-content/uploads/2017/09/nor_portfolio_item_14-min.jpg</guid>
-		<description></description>
+		<description/>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>14638</wp:post_id>
+		<wp:post_id>5654006</wp:post_id>
 		<wp:post_date><![CDATA[2017-10-03 11:56:32]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-10-03 11:56:32]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
@@ -380,10 +376,10 @@
 		<pubDate>Tue, 03 Oct 2017 11:56:34 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://norebro.colabr.io/demo10/wp-content/uploads/2017/09/nor_portfolio_item_15-min.jpg</guid>
-		<description></description>
+		<description/>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>14639</wp:post_id>
+		<wp:post_id>5654007</wp:post_id>
 		<wp:post_date><![CDATA[2017-10-03 11:56:34]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-10-03 11:56:34]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
@@ -411,10 +407,10 @@
 		<pubDate>Tue, 03 Oct 2017 12:01:02 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://norebro.colabr.io/demo10/wp-content/uploads/2017/09/nor_portfolio_item_19-min.jpg</guid>
-		<description></description>
+		<description/>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>14640</wp:post_id>
+		<wp:post_id>5654008</wp:post_id>
 		<wp:post_date><![CDATA[2017-10-03 12:01:02]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-10-03 12:01:02]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
@@ -442,10 +438,10 @@
 		<pubDate>Tue, 03 Oct 2017 12:01:05 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://norebro.colabr.io/demo10/wp-content/uploads/2017/09/nor_portfolio_item_17-min.jpg</guid>
-		<description></description>
+		<description/>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>14641</wp:post_id>
+		<wp:post_id>5654009</wp:post_id>
 		<wp:post_date><![CDATA[2017-10-03 12:01:05]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-10-03 12:01:05]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
@@ -473,10 +469,10 @@
 		<pubDate>Tue, 03 Oct 2017 12:01:07 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://norebro.colabr.io/demo10/wp-content/uploads/2017/09/nor_portfolio_item_18-min.jpg</guid>
-		<description></description>
+		<description/>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>14642</wp:post_id>
+		<wp:post_id>5654010</wp:post_id>
 		<wp:post_date><![CDATA[2017-10-03 12:01:07]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-10-03 12:01:07]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
@@ -504,10 +500,10 @@
 		<pubDate>Tue, 03 Oct 2017 12:04:25 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://norebro.colabr.io/demo10/wp-content/uploads/2017/09/nor_portfolio_item_22-min.jpg</guid>
-		<description></description>
+		<description/>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>14643</wp:post_id>
+		<wp:post_id>5654011</wp:post_id>
 		<wp:post_date><![CDATA[2017-10-03 12:04:25]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-10-03 12:04:25]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
@@ -535,10 +531,10 @@
 		<pubDate>Tue, 03 Oct 2017 12:04:27 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://norebro.colabr.io/demo10/wp-content/uploads/2017/09/nor_portfolio_item_20-min.jpg</guid>
-		<description></description>
+		<description/>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>14644</wp:post_id>
+		<wp:post_id>5654012</wp:post_id>
 		<wp:post_date><![CDATA[2017-10-03 12:04:27]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-10-03 12:04:27]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
@@ -566,10 +562,10 @@
 		<pubDate>Tue, 03 Oct 2017 12:04:29 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://norebro.colabr.io/demo10/wp-content/uploads/2017/09/nor_portfolio_item_21-min.jpg</guid>
-		<description></description>
+		<description/>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>14645</wp:post_id>
+		<wp:post_id>5654013</wp:post_id>
 		<wp:post_date><![CDATA[2017-10-03 12:04:29]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-10-03 12:04:29]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
@@ -597,10 +593,10 @@
 		<pubDate>Tue, 03 Oct 2017 12:09:05 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://norebro.colabr.io/demo10/wp-content/uploads/2017/09/nor_portfolio_item_25-min.jpg</guid>
-		<description></description>
+		<description/>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>14646</wp:post_id>
+		<wp:post_id>5654014</wp:post_id>
 		<wp:post_date><![CDATA[2017-10-03 12:09:05]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-10-03 12:09:05]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
@@ -628,10 +624,10 @@
 		<pubDate>Tue, 03 Oct 2017 12:09:08 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://norebro.colabr.io/demo10/wp-content/uploads/2017/09/nor_portfolio_item_23-min.jpg</guid>
-		<description></description>
+		<description/>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>14647</wp:post_id>
+		<wp:post_id>5654015</wp:post_id>
 		<wp:post_date><![CDATA[2017-10-03 12:09:08]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-10-03 12:09:08]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
@@ -659,10 +655,10 @@
 		<pubDate>Tue, 03 Oct 2017 12:09:10 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://norebro.colabr.io/demo10/wp-content/uploads/2017/09/nor_portfolio_item_24-min.jpg</guid>
-		<description></description>
+		<description/>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>14648</wp:post_id>
+		<wp:post_id>5654016</wp:post_id>
 		<wp:post_date><![CDATA[2017-10-03 12:09:10]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-10-03 12:09:10]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
@@ -690,10 +686,10 @@
 		<pubDate>Tue, 03 Oct 2017 12:11:57 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://norebro.colabr.io/demo10/wp-content/uploads/2017/09/nor_portfolio_item_27-min.jpg</guid>
-		<description></description>
+		<description/>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>14649</wp:post_id>
+		<wp:post_id>5654017</wp:post_id>
 		<wp:post_date><![CDATA[2017-10-03 12:11:57]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-10-03 12:11:57]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
@@ -721,10 +717,10 @@
 		<pubDate>Tue, 03 Oct 2017 12:11:59 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://norebro.colabr.io/demo10/wp-content/uploads/2017/09/nor_portfolio_item_26-min.jpg</guid>
-		<description></description>
+		<description/>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>14650</wp:post_id>
+		<wp:post_id>5654018</wp:post_id>
 		<wp:post_date><![CDATA[2017-10-03 12:11:59]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-10-03 12:11:59]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
@@ -752,10 +748,10 @@
 		<pubDate>Tue, 03 Oct 2017 12:13:34 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://norebro.colabr.io/demo10/wp-content/uploads/2017/09/nor_portfolio_item_28-min.jpg</guid>
-		<description></description>
+		<description/>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>14651</wp:post_id>
+		<wp:post_id>5654019</wp:post_id>
 		<wp:post_date><![CDATA[2017-10-03 12:13:34]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-10-03 12:13:34]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
@@ -783,10 +779,10 @@
 		<pubDate>Tue, 03 Oct 2017 12:17:08 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://norebro.colabr.io/demo10/wp-content/uploads/2017/09/nor_portfolio_item_31-min.jpg</guid>
-		<description></description>
+		<description/>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>14652</wp:post_id>
+		<wp:post_id>5654020</wp:post_id>
 		<wp:post_date><![CDATA[2017-10-03 12:17:08]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-10-03 12:17:08]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
@@ -814,10 +810,10 @@
 		<pubDate>Tue, 03 Oct 2017 12:17:11 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://norebro.colabr.io/demo10/wp-content/uploads/2017/09/nor_portfolio_item_29-min.jpg</guid>
-		<description></description>
+		<description/>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>14653</wp:post_id>
+		<wp:post_id>5654021</wp:post_id>
 		<wp:post_date><![CDATA[2017-10-03 12:17:11]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-10-03 12:17:11]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
@@ -845,10 +841,10 @@
 		<pubDate>Tue, 03 Oct 2017 12:17:13 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://norebro.colabr.io/demo10/wp-content/uploads/2017/09/nor_portfolio_item_30-min.jpg</guid>
-		<description></description>
+		<description/>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>14654</wp:post_id>
+		<wp:post_id>5654022</wp:post_id>
 		<wp:post_date><![CDATA[2017-10-03 12:17:13]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-10-03 12:17:13]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
@@ -876,10 +872,10 @@
 		<pubDate>Tue, 03 Oct 2017 12:20:50 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://norebro.colabr.io/demo10/wp-content/uploads/2017/09/nor_portfolio_item_32-min.jpg</guid>
-		<description></description>
+		<description/>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>14655</wp:post_id>
+		<wp:post_id>5654023</wp:post_id>
 		<wp:post_date><![CDATA[2017-10-03 12:20:50]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-10-03 12:20:50]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
@@ -907,10 +903,10 @@
 		<pubDate>Tue, 03 Oct 2017 12:20:52 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://norebro.colabr.io/demo10/wp-content/uploads/2017/09/nor_portfolio_item_33-min.jpg</guid>
-		<description></description>
+		<description/>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>14656</wp:post_id>
+		<wp:post_id>5654024</wp:post_id>
 		<wp:post_date><![CDATA[2017-10-03 12:20:52]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-10-03 12:20:52]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
@@ -938,10 +934,10 @@
 		<pubDate>Tue, 03 Oct 2017 12:20:54 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://norebro.colabr.io/demo10/wp-content/uploads/2017/09/nor_portfolio_item_34-min.jpg</guid>
-		<description></description>
+		<description/>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>14657</wp:post_id>
+		<wp:post_id>5654025</wp:post_id>
 		<wp:post_date><![CDATA[2017-10-03 12:20:54]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-10-03 12:20:54]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
@@ -969,10 +965,10 @@
 		<pubDate>Tue, 03 Oct 2017 12:26:55 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://norebro.colabr.io/demo10/wp-content/uploads/2017/09/nor_portfolio_item_35-min.jpg</guid>
-		<description></description>
+		<description/>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>14660</wp:post_id>
+		<wp:post_id>5654026</wp:post_id>
 		<wp:post_date><![CDATA[2017-10-03 12:26:55]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-10-03 12:26:55]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
@@ -1000,10 +996,10 @@
 		<pubDate>Tue, 03 Oct 2017 12:26:57 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://norebro.colabr.io/demo10/wp-content/uploads/2017/09/nor_portfolio_item_36-min.jpg</guid>
-		<description></description>
+		<description/>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>14661</wp:post_id>
+		<wp:post_id>5654027</wp:post_id>
 		<wp:post_date><![CDATA[2017-10-03 12:26:57]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-10-03 12:26:57]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
@@ -1031,10 +1027,10 @@
 		<pubDate>Tue, 03 Oct 2017 12:26:59 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://norebro.colabr.io/demo10/wp-content/uploads/2017/09/nor_portfolio_item_37-min.jpg</guid>
-		<description></description>
+		<description/>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>14662</wp:post_id>
+		<wp:post_id>5654028</wp:post_id>
 		<wp:post_date><![CDATA[2017-10-03 12:26:59]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-10-03 12:26:59]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
@@ -1062,10 +1058,10 @@
 		<pubDate>Tue, 03 Oct 2017 12:28:31 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://norebro.colabr.io/demo10/wp-content/uploads/2017/09/nor_portfolio_item_38-min.jpg</guid>
-		<description></description>
+		<description/>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>14663</wp:post_id>
+		<wp:post_id>5654029</wp:post_id>
 		<wp:post_date><![CDATA[2017-10-03 12:28:31]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-10-03 12:28:31]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
@@ -1093,10 +1089,10 @@
 		<pubDate>Tue, 03 Oct 2017 12:44:11 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://norebro.colabr.io/demo10/wp-content/uploads/2017/09/nor_portfolio_item_39-min.jpg</guid>
-		<description></description>
+		<description/>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>14664</wp:post_id>
+		<wp:post_id>5654030</wp:post_id>
 		<wp:post_date><![CDATA[2017-10-03 12:44:11]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-10-03 12:44:11]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
@@ -1124,10 +1120,10 @@
 		<pubDate>Tue, 03 Oct 2017 12:44:12 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://norebro.colabr.io/demo10/wp-content/uploads/2017/09/nor_portfolio_item_40-min.jpg</guid>
-		<description></description>
+		<description/>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>14665</wp:post_id>
+		<wp:post_id>5654031</wp:post_id>
 		<wp:post_date><![CDATA[2017-10-03 12:44:12]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-10-03 12:44:12]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
@@ -1149,16 +1145,17 @@
 			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:1024;s:6:"height";i:1024;s:4:"file";s:37:"2017/09/nor_portfolio_item_40-min.jpg";s:5:"sizes";a:8:{s:9:"thumbnail";a:4:{s:4:"file";s:37:"nor_portfolio_item_40-min-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:37:"nor_portfolio_item_40-min-300x300.jpg";s:5:"width";i:300;s:6:"height";i:300;s:9:"mime-type";s:10:"image/jpeg";}s:12:"medium_large";a:4:{s:4:"file";s:37:"nor_portfolio_item_40-min-768x768.jpg";s:5:"width";i:768;s:6:"height";i:768;s:9:"mime-type";s:10:"image/jpeg";}s:14:"shop_thumbnail";a:4:{s:4:"file";s:37:"nor_portfolio_item_40-min-120x120.jpg";s:5:"width";i:120;s:6:"height";i:120;s:9:"mime-type";s:10:"image/jpeg";}s:12:"shop_catalog";a:4:{s:4:"file";s:37:"nor_portfolio_item_40-min-800x800.jpg";s:5:"width";i:800;s:6:"height";i:800;s:9:"mime-type";s:10:"image/jpeg";}s:11:"shop_single";a:4:{s:4:"file";s:37:"nor_portfolio_item_40-min-600x600.jpg";s:5:"width";i:600;s:6:"height";i:600;s:9:"mime-type";s:10:"image/jpeg";}s:14:"post-thumbnail";a:4:{s:4:"file";s:37:"nor_portfolio_item_40-min-200x200.jpg";s:5:"width";i:200;s:6:"height";i:200;s:9:"mime-type";s:10:"image/jpeg";}s:31:"norebro_thumbnail_next_and_prev";a:4:{s:4:"file";s:37:"nor_portfolio_item_40-min-200x140.jpg";s:5:"width";i:200;s:6:"height";i:140;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
+	
 	<item>
 		<title>nor__banner__13__min</title>
 		<link>https://norebro.colabr.io/demo10/about/nor__banner__13__min/</link>
 		<pubDate>Thu, 19 Oct 2017 07:34:10 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://norebro.colabr.io/demo10/wp-content/uploads/2017/10/nor__banner__13__min.jpg</guid>
-		<description></description>
+		<description/>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>14885</wp:post_id>
+		<wp:post_id>5654032</wp:post_id>
 		<wp:post_date><![CDATA[2017-10-19 07:34:10]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-10-19 07:34:10]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
@@ -1186,10 +1183,10 @@
 		<pubDate>Thu, 19 Oct 2017 07:34:11 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://norebro.colabr.io/demo10/wp-content/uploads/2017/10/nor__logo_real_01-min.png</guid>
-		<description></description>
+		<description/>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>14886</wp:post_id>
+		<wp:post_id>5654033</wp:post_id>
 		<wp:post_date><![CDATA[2017-10-19 07:34:11]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-10-19 07:34:11]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
@@ -1217,10 +1214,10 @@
 		<pubDate>Thu, 19 Oct 2017 07:34:12 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://norebro.colabr.io/demo10/wp-content/uploads/2017/10/nor__logo_real_02-min.png</guid>
-		<description></description>
+		<description/>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>14887</wp:post_id>
+		<wp:post_id>5654034</wp:post_id>
 		<wp:post_date><![CDATA[2017-10-19 07:34:12]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-10-19 07:34:12]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
@@ -1248,10 +1245,10 @@
 		<pubDate>Thu, 19 Oct 2017 07:34:13 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://norebro.colabr.io/demo10/wp-content/uploads/2017/10/nor__logo_real_03-min.png</guid>
-		<description></description>
+		<description/>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>14888</wp:post_id>
+		<wp:post_id>5654035</wp:post_id>
 		<wp:post_date><![CDATA[2017-10-19 07:34:13]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-10-19 07:34:13]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
@@ -1279,10 +1276,10 @@
 		<pubDate>Thu, 19 Oct 2017 07:34:14 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://norebro.colabr.io/demo10/wp-content/uploads/2017/10/nor__logo_real_04-min.png</guid>
-		<description></description>
+		<description/>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>14889</wp:post_id>
+		<wp:post_id>5654036</wp:post_id>
 		<wp:post_date><![CDATA[2017-10-19 07:34:14]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-10-19 07:34:14]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
@@ -1304,16 +1301,34 @@
 			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:150;s:6:"height";i:49;s:4:"file";s:33:"2017/10/nor__logo_real_04-min.png";s:5:"sizes";a:1:{s:9:"thumbnail";a:4:{s:4:"file";s:32:"nor__logo_real_04-min-150x49.png";s:5:"width";i:150;s:6:"height";i:49;s:9:"mime-type";s:9:"image/png";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	<item>
 		<title>nor__logo_real_05-min</title>
 		<link>https://norebro.colabr.io/demo10/about/nor__logo_real_05-min/</link>
 		<pubDate>Thu, 19 Oct 2017 07:34:15 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://norebro.colabr.io/demo10/wp-content/uploads/2017/10/nor__logo_real_05-min.png</guid>
-		<description></description>
+		<description/>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>14890</wp:post_id>
+		<wp:post_id>5654037</wp:post_id>
 		<wp:post_date><![CDATA[2017-10-19 07:34:15]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-10-19 07:34:15]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
@@ -1341,10 +1356,10 @@
 		<pubDate>Thu, 19 Oct 2017 07:34:15 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://norebro.colabr.io/demo10/wp-content/uploads/2017/10/nor__logo_real_06-min.png</guid>
-		<description></description>
+		<description/>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>14891</wp:post_id>
+		<wp:post_id>5654038</wp:post_id>
 		<wp:post_date><![CDATA[2017-10-19 07:34:15]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-10-19 07:34:15]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
@@ -1366,16 +1381,176 @@
 			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:103;s:6:"height";i:70;s:4:"file";s:33:"2017/10/nor__logo_real_06-min.png";s:5:"sizes";a:0:{}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	<item>
 		<title>Gentleman Barber</title>
 		<link>https://norebro.colabr.io/demo10/project/gentleman-barber/</link>
 		<pubDate>Mon, 11 Sep 2017 13:53:06 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">http://norebro.colabr.io/?post_type=norebro_portfolio&#038;p=14543</guid>
-		<description></description>
+		<guid isPermaLink="false">http://norebro.colabr.io/?post_type=norebro_portfolio&amp;p=14543</guid>
+		<description/>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>14543</wp:post_id>
+		<wp:post_id>5654039</wp:post_id>
 		<wp:post_date><![CDATA[2017-09-11 15:53:06]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-09-11 13:53:06]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
@@ -1418,7 +1593,7 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[project_content]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:2:{i:0;s:5:"14664";i:1;s:5:"14665";}]]></wp:meta_value>
+			<wp:meta_value><![CDATA[a:2:{i:0;s:7:"5654030";i:1;s:7:"5654031";}]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_project_content]]></wp:meta_key>
@@ -1854,11 +2029,11 @@
 		<link>https://norebro.colabr.io/demo10/project/grey-t-shirt/</link>
 		<pubDate>Sun, 17 Sep 2017 13:55:37 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">http://norebro.colabr.io/?post_type=norebro_portfolio&#038;p=14544</guid>
-		<description></description>
+		<guid isPermaLink="false">http://norebro.colabr.io/?post_type=norebro_portfolio&amp;p=14544</guid>
+		<description/>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>14544</wp:post_id>
+		<wp:post_id>5654040</wp:post_id>
 		<wp:post_date><![CDATA[2017-09-17 15:55:37]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-09-17 13:55:37]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
@@ -1905,7 +2080,7 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[project_content]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:3:{i:0;s:5:"14647";i:1;s:5:"14646";i:2;s:5:"14648";}]]></wp:meta_value>
+			<wp:meta_value><![CDATA[a:3:{i:0;s:7:"5654015";i:1;s:7:"5654014";i:2;s:7:"5654016";}]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_project_content]]></wp:meta_key>
@@ -2345,11 +2520,11 @@
 		<link>https://norebro.colabr.io/demo10/project/coffee-cup/</link>
 		<pubDate>Sat, 16 Sep 2017 13:58:21 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">http://norebro.colabr.io/?post_type=norebro_portfolio&#038;p=14546</guid>
-		<description></description>
+		<guid isPermaLink="false">http://norebro.colabr.io/?post_type=norebro_portfolio&amp;p=14546</guid>
+		<description/>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>14546</wp:post_id>
+		<wp:post_id>5654041</wp:post_id>
 		<wp:post_date><![CDATA[2017-09-16 15:58:21]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-09-16 13:58:21]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
@@ -2400,7 +2575,7 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[project_content]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:3:{i:0;s:5:"14650";i:1;s:5:"14649";i:2;s:5:"14651";}]]></wp:meta_value>
+			<wp:meta_value><![CDATA[a:3:{i:0;s:7:"5654018";i:1;s:7:"5654017";i:2;s:7:"5654019";}]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_project_content]]></wp:meta_key>
@@ -2844,11 +3019,11 @@
 		<link>https://norebro.colabr.io/demo10/project/card-clip/</link>
 		<pubDate>Fri, 15 Sep 2017 13:59:17 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">http://norebro.colabr.io/?post_type=norebro_portfolio&#038;p=14548</guid>
-		<description></description>
+		<guid isPermaLink="false">http://norebro.colabr.io/?post_type=norebro_portfolio&amp;p=14548</guid>
+		<description/>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>14548</wp:post_id>
+		<wp:post_id>5654042</wp:post_id>
 		<wp:post_date><![CDATA[2017-09-15 15:59:17]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-09-15 13:59:17]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
@@ -2899,7 +3074,7 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[project_content]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:3:{i:0;s:5:"14655";i:1;s:5:"14657";i:2;s:5:"14656";}]]></wp:meta_value>
+			<wp:meta_value><![CDATA[a:3:{i:0;s:7:"5654023";i:1;s:7:"5654025";i:2;s:7:"5654024";}]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_project_content]]></wp:meta_key>
@@ -3343,11 +3518,11 @@
 		<link>https://norebro.colabr.io/demo10/project/linen-bag/</link>
 		<pubDate>Thu, 14 Sep 2017 14:00:13 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">http://norebro.colabr.io/?post_type=norebro_portfolio&#038;p=14549</guid>
-		<description></description>
+		<guid isPermaLink="false">http://norebro.colabr.io/?post_type=norebro_portfolio&amp;p=14549</guid>
+		<description/>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>14549</wp:post_id>
+		<wp:post_id>5654043</wp:post_id>
 		<wp:post_date><![CDATA[2017-09-14 16:00:13]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-09-14 14:00:13]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
@@ -3398,7 +3573,7 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[project_content]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:3:{i:0;s:5:"14653";i:1;s:5:"14654";i:2;s:5:"14652";}]]></wp:meta_value>
+			<wp:meta_value><![CDATA[a:3:{i:0;s:7:"5654021";i:1;s:7:"5654022";i:2;s:7:"5654020";}]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_project_content]]></wp:meta_key>
@@ -3842,11 +4017,11 @@
 		<link>https://norebro.colabr.io/demo10/project/white-mug/</link>
 		<pubDate>Wed, 13 Sep 2017 14:01:09 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">http://norebro.colabr.io/?post_type=norebro_portfolio&#038;p=14550</guid>
-		<description></description>
+		<guid isPermaLink="false">http://norebro.colabr.io/?post_type=norebro_portfolio&amp;p=14550</guid>
+		<description/>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>14550</wp:post_id>
+		<wp:post_id>5654044</wp:post_id>
 		<wp:post_date><![CDATA[2017-09-13 16:01:09]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-09-13 14:01:09]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
@@ -3897,7 +4072,7 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[project_content]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:3:{i:0;s:5:"14663";i:1;s:5:"14650";i:2;s:5:"14649";}]]></wp:meta_value>
+			<wp:meta_value><![CDATA[a:3:{i:0;s:7:"5654029";i:1;s:7:"5654018";i:2;s:7:"5654017";}]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_project_content]]></wp:meta_key>
@@ -4341,11 +4516,11 @@
 		<link>https://norebro.colabr.io/demo10/project/golden-poster/</link>
 		<pubDate>Tue, 12 Sep 2017 14:02:20 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">http://norebro.colabr.io/?post_type=norebro_portfolio&#038;p=14551</guid>
-		<description></description>
+		<guid isPermaLink="false">http://norebro.colabr.io/?post_type=norebro_portfolio&amp;p=14551</guid>
+		<description/>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>14551</wp:post_id>
+		<wp:post_id>5654045</wp:post_id>
 		<wp:post_date><![CDATA[2017-09-12 16:02:20]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-09-12 14:02:20]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
@@ -4400,7 +4575,7 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[project_content]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:3:{i:0;s:5:"14660";i:1;s:5:"14661";i:2;s:5:"14662";}]]></wp:meta_value>
+			<wp:meta_value><![CDATA[a:3:{i:0;s:7:"5654026";i:1;s:7:"5654027";i:2;s:7:"5654028";}]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_project_content]]></wp:meta_key>
@@ -4848,11 +5023,11 @@
 		<link>https://norebro.colabr.io/demo10/project/realistic-plant/</link>
 		<pubDate>Mon, 18 Sep 2017 14:03:14 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">http://norebro.colabr.io/?post_type=norebro_portfolio&#038;p=14552</guid>
-		<description></description>
+		<guid isPermaLink="false">http://norebro.colabr.io/?post_type=norebro_portfolio&amp;p=14552</guid>
+		<description/>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>14552</wp:post_id>
+		<wp:post_id>5654046</wp:post_id>
 		<wp:post_date><![CDATA[2017-09-18 16:03:14]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-09-18 14:03:14]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
@@ -4907,7 +5082,7 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[project_content]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:3:{i:0;s:5:"14644";i:1;s:5:"14645";i:2;s:5:"14643";}]]></wp:meta_value>
+			<wp:meta_value><![CDATA[a:3:{i:0;s:7:"5654012";i:1;s:7:"5654013";i:2;s:7:"5654011";}]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_project_content]]></wp:meta_key>
@@ -5355,11 +5530,11 @@
 		<link>https://norebro.colabr.io/demo10/project/coffee-package/</link>
 		<pubDate>Sun, 10 Sep 2017 14:04:08 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">http://norebro.colabr.io/?post_type=norebro_portfolio&#038;p=14553</guid>
-		<description></description>
+		<guid isPermaLink="false">http://norebro.colabr.io/?post_type=norebro_portfolio&amp;p=14553</guid>
+		<description/>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>14553</wp:post_id>
+		<wp:post_id>5654047</wp:post_id>
 		<wp:post_date><![CDATA[2017-09-10 16:04:08]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-09-10 14:04:08]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
@@ -5414,7 +5589,7 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[project_content]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:3:{i:0;s:5:"14651";i:1;s:5:"14650";i:2;s:5:"14649";}]]></wp:meta_value>
+			<wp:meta_value><![CDATA[a:3:{i:0;s:7:"5654019";i:1;s:7:"5654018";i:2;s:7:"5654017";}]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_project_content]]></wp:meta_key>
@@ -5857,18 +6032,29 @@
 			<wp:meta_value><![CDATA[linen-bag]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	<item>
 		<title>Barlow Tapped to Head New GMC Prep Art</title>
 		<link>https://norebro.colabr.io/demo10/2017/08/25/barlow-tapped-to-head-new-gmc-prep-art/</link>
 		<pubDate>Fri, 25 Aug 2017 12:27:57 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://demo30/?p=1</guid>
-		<description></description>
+		<description/>
 		<content:encoded><![CDATA[[vc_row][vc_column][norebro_text]Fingerstache microdosing kickstarter, migas occupy sartorial ennui sustainable green juice cardigan farm-to-table offal. Authentic kale chips everyday velit auctor aliquet. A wonderful <strong>serenity has taken possession</strong> of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents. I should be incapable of drawing a single stroke at the present moment and yet.[/norebro_text][vc_empty_space height="25px"][/vc_column][/vc_row][vc_row][vc_column][norebro_text]I feel that I never was a greater artist than now. When, while the lovely <strong>valley teems</strong> with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary, I throw myself down among the tall grass by the trickling stream.[/norebro_text][/vc_column][/vc_row][vc_row][vc_column][vc_empty_space height="40px"][norebro_image alignment="left" image_url="12904"][vc_empty_space height="40px"][/vc_column][/vc_row][vc_row][vc_column][norebro_heading module_type_layout="on_left" subtitle_type_layout="without_subtitle" title="T2glMkMlMjB3b3VsZCUyMEklMjBjb3VsZCUyMGRlc2NyaWJlJTIwdGhlc2UlMjBjb25jZXB0aW9ucw==" title_typo="font_size~26||weight~600"][vc_empty_space height="15px"][/vc_column][/vc_row][vc_row][vc_column][norebro_text]When, while the lovely valley teems with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary, I throw myself down among the tall grass by the trickling stream; and, as I lie close to the earth, a thousand unknown plants are noticed by me: when I hear the buzz.[/norebro_text][/vc_column][/vc_row][vc_row][vc_column][norebro_text]
 <blockquote>Oh, would I could describe these conceptions, could impress upon paper all that is living so full and warm within me, that it might be the mirror of my soul, as my soul is the mirror of the infinite God! My friend but it is too much for my strength. I sink under the weight of the splendour of these visions!</blockquote>
 [/norebro_text][/vc_column][/vc_row][vc_row][vc_column][norebro_text]<strong>A wonderful serenity</strong> has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents. <strong>I should be incapable of drawing</strong>.[/norebro_text][/vc_column][/vc_row]]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>1</wp:post_id>
+		<wp:post_id>5654048</wp:post_id>
 		<wp:post_date><![CDATA[2017-08-25 12:27:57]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-08-25 12:27:57]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
@@ -6066,155 +6252,19 @@
 			<wp:meta_value><![CDATA[0]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
+	
 	<item>
-		<title>Contact Form</title>
-		<link>https://norebro.colabr.io/demo10/?post_type=wpcf7_contact_form&#038;p=6</link>
-		<pubDate>Wed, 09 Aug 2017 12:08:17 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">http://demo10/?post_type=wpcf7_contact_form&#038;p=6</guid>
-		<description></description>
-		<content:encoded><![CDATA[<div class="input-group">
-   <label class="col-6">[text* your-name placeholder"Your name*"]</label>
-   <label class="col-6">[email* your-email placeholder"Email address*"]</label>
-</div>
-<div class="input-group">
-   <label class="col-6">[text your-phone placeholder"Your phone (optional)"]</label>
-   <label class="col-6">[text your-subject placeholder"Subject"]</label>
-</div>
-<label>[textarea your-message placeholder"Your message"]</label>
-
-[submit "Send Message"]
-1
-Norebro "[your-subject]"
-[your-name] <wordpress@demo10>
-test@mail.ua
-From: [your-name] <[your-email]>
-Subject: [your-subject]
-
-Message Body:
-[your-message]
-
--- 
-This e-mail was sent from a contact form on Norebro (http://demo10)
-Reply-To: [your-email]
-
-
-
-
-Norebro "[your-subject]"
-Norebro <wordpress@demo10>
-[your-email]
-Message Body:
-[your-message]
-
--- 
-This e-mail was sent from a contact form on Norebro (http://demo10)
-Reply-To: test@mail.ua
-
-
-
-Thank you for your message. It has been sent.
-There was an error trying to send your message. Please try again later.
-One or more fields have an error. Please check and try again.
-There was an error trying to send your message. Please try again later.
-You must accept the terms and conditions before sending your message.
-The field is required.
-The field is too long.
-The field is too short.
-The date format is incorrect.
-The date is before the earliest one allowed.
-The date is after the latest one allowed.
-There was an unknown error uploading the file.
-You are not allowed to upload files of this type.
-The file is too big.
-There was an error uploading the file.
-The number format is invalid.
-The number is smaller than the minimum allowed.
-The number is larger than the maximum allowed.
-The answer to the quiz is incorrect.
-Your entered code is incorrect.
-The e-mail address entered is invalid.
-The URL is invalid.
-The telephone number is invalid.]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>6</wp:post_id>
-		<wp:post_date><![CDATA[2017-08-09 12:08:17]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2017-08-09 12:08:17]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[contact-form-1]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[wpcf7_contact_form]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_form]]></wp:meta_key>
-			<wp:meta_value><![CDATA[<div class="input-group">
-   <label class="col-6">[text* your-name placeholder"Your name*"]</label>
-   <label class="col-6">[email* your-email placeholder"Email address*"]</label>
-</div>
-<div class="input-group">
-   <label class="col-6">[text your-phone placeholder"Your phone (optional)"]</label>
-   <label class="col-6">[text your-subject placeholder"Subject"]</label>
-</div>
-<label>[textarea your-message placeholder"Your message"]</label>
-
-[submit "Send Message"]]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_mail]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:9:{s:6:"active";b:1;s:7:"subject";s:24:"Norebro "[your-subject]"";s:6:"sender";s:30:"[your-name] <wordpress@demo10>";s:9:"recipient";s:12:"test@mail.ua";s:4:"body";s:159:"From: [your-name] <[your-email]>
-Subject: [your-subject]
-
-Message Body:
-[your-message]
-
--- 
-This e-mail was sent from a contact form on Norebro (http://demo10)";s:18:"additional_headers";s:22:"Reply-To: [your-email]";s:11:"attachments";s:0:"";s:8:"use_html";b:0;s:13:"exclude_blank";b:0;}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_mail_2]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:9:{s:6:"active";b:0;s:7:"subject";s:24:"Norebro "[your-subject]"";s:6:"sender";s:26:"Norebro <wordpress@demo10>";s:9:"recipient";s:12:"[your-email]";s:4:"body";s:101:"Message Body:
-[your-message]
-
--- 
-This e-mail was sent from a contact form on Norebro (http://demo10)";s:18:"additional_headers";s:22:"Reply-To: test@mail.ua";s:11:"attachments";s:0:"";s:8:"use_html";b:0;s:13:"exclude_blank";b:0;}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_messages]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:23:{s:12:"mail_sent_ok";s:45:"Thank you for your message. It has been sent.";s:12:"mail_sent_ng";s:71:"There was an error trying to send your message. Please try again later.";s:16:"validation_error";s:61:"One or more fields have an error. Please check and try again.";s:4:"spam";s:71:"There was an error trying to send your message. Please try again later.";s:12:"accept_terms";s:69:"You must accept the terms and conditions before sending your message.";s:16:"invalid_required";s:22:"The field is required.";s:16:"invalid_too_long";s:22:"The field is too long.";s:17:"invalid_too_short";s:23:"The field is too short.";s:12:"invalid_date";s:29:"The date format is incorrect.";s:14:"date_too_early";s:44:"The date is before the earliest one allowed.";s:13:"date_too_late";s:41:"The date is after the latest one allowed.";s:13:"upload_failed";s:46:"There was an unknown error uploading the file.";s:24:"upload_file_type_invalid";s:49:"You are not allowed to upload files of this type.";s:21:"upload_file_too_large";s:20:"The file is too big.";s:23:"upload_failed_php_error";s:38:"There was an error uploading the file.";s:14:"invalid_number";s:29:"The number format is invalid.";s:16:"number_too_small";s:47:"The number is smaller than the minimum allowed.";s:16:"number_too_large";s:46:"The number is larger than the maximum allowed.";s:23:"quiz_answer_not_correct";s:36:"The answer to the quiz is incorrect.";s:17:"captcha_not_match";s:31:"Your entered code is incorrect.";s:13:"invalid_email";s:38:"The e-mail address entered is invalid.";s:11:"invalid_url";s:19:"The URL is invalid.";s:11:"invalid_tel";s:32:"The telephone number is invalid.";}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_additional_settings]]></wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_locale]]></wp:meta_key>
-			<wp:meta_value><![CDATA[en_US]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_vc_post_settings]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:1:{s:10:"vc_grid_id";a:0:{}}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_config_errors]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:1:{s:11:"mail.sender";a:1:{i:0;a:2:{s:4:"code";i:102;s:4:"args";a:3:{s:7:"message";s:0:"";s:6:"params";a:0:{}s:4:"link";s:68:"https://contactform7.com/configuration-errors/invalid-mailbox-syntax";}}}}]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>Simple Portfolio</title>
+		<title>Demo10 - Portfolio Sidebar Menu</title>
 		<link>https://norebro.colabr.io/demo10/</link>
 		<pubDate>Wed, 09 Aug 2017 12:11:11 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://demo10/?page_id=8</guid>
-		<description></description>
-		<content:encoded><![CDATA[[vc_row][vc_column][vc_empty_space height="70px" el_class="vc_hidden-lg vc_hidden-md"][norebro_recent_projects projects_in_block="16" open_in_popup="1" card_layout="grid_2_hover_3" animation_type="async" filter_align="left"][vc_empty_space height="90px" el_class="norebro-phone-space"][/vc_column][/vc_row][vc_row css=".vc_custom_1508171047433{border-top-width: 1px !important;border-top-color: #ebebeb !important;border-top-style: solid !important;}"][vc_column][vc_empty_space height="90px" el_class="norebro-phone-space"][norebro_heading module_type_layout="on_middle" subtitle_type_layout="bottom_subtitle" subtitle_offset="15px" title="U2lnbiUyMFVwJTIwdG8lMjBOZXdzbGV0dGVy" subtitle="WW91JTIwZ290dGElMjBnbyUyMHRocm91Z2glMjBpdCUyMHRvJTIwc2VlJTIwdGhlcmUlMjBhaW4lRTIlODAlOTl0JTIwbm90aGluZyUyMHRvJTIwaXQuJTIwRGlkJTIweW91JTIwZmVlbCUyMHRoYXQlM0YlM0NiciUyMGNsYXNzJTNEJTIydmNfaGlkZGVuLXhzJTIyJTJGJTNFJTBBTG9vayUyMGF0JTIwbWUlMjAlRTIlODAlOTMlMjBJJUUyJTgwJTk5bSUyMG5vdCUyMG91dCUyMG9mJTIwYnJlYXRoJTIwYW55bW9yZSUyMQ==" subtitle_typo="weight~inherit" title_typo="font_size~26||weight~500"][vc_empty_space][norebro_subscribe input_type="default" input_placeholder="Write your email address..." fullwidth="0" button="type=default&amp;size=default"][vc_empty_space height="20px"][norebro_text text_typo="font_size~14||weight~inherit"]
+		<description/>
+		<content:encoded><![CDATA[[vc_row][vc_column][vc_empty_space height="70px" el_class="vc_hidden-lg vc_hidden-md"][norebro_recent_projects projects_in_block="16" open_in_popup="1" card_layout="grid_2_hover_3" animation_type="async" filter_align="left"][vc_empty_space height="90px" el_class="norebro-phone-space"][/vc_column][/vc_row][vc_row css=".vc_custom_1508171047433{border-top-width: 1px !important;border-top-color: #ebebeb !important;border-top-style: solid !important;}"][vc_column][vc_empty_space height="90px" el_class="norebro-phone-space"][norebro_heading module_type_layout="on_middle" subtitle_type_layout="bottom_subtitle" subtitle_offset="15px" title="U2lnbiUyMFVwJTIwdG8lMjBOZXdzbGV0dGVy" subtitle="WW91JTIwZ290dGElMjBnbyUyMHRocm91Z2glMjBpdCUyMHRvJTIwc2VlJTIwdGhlcmUlMjBhaW4lRTIlODAlOTl0JTIwbm90aGluZyUyMHRvJTIwaXQuJTIwRGlkJTIweW91JTIwZmVlbCUyMHRoYXQlM0YlM0NiciUyMGNsYXNzJTNEJTIydmNfaGlkZGVuLXhzJTIyJTJGJTNFJTBBTG9vayUyMGF0JTIwbWUlMjAlRTIlODAlOTMlMjBJJUUyJTgwJTk5bSUyMG5vdCUyMG91dCUyMG9mJTIwYnJlYXRoJTIwYW55bW9yZSUyMQ==" subtitle_typo="weight~inherit" title_typo="font_size~26||weight~500"][vc_empty_space][vc_row_inner][vc_column_inner width="1/3"][/vc_column_inner][vc_column_inner width="1/3"][norebro_contact_form form_id="5674052" form_style="classic" button="type=default&amp;size=default"][/vc_column_inner][vc_column_inner width="1/3"][/vc_column_inner][/vc_row_inner][vc_empty_space height="20px"][norebro_text text_typo="font_size~14||weight~inherit"]
 <p style="text-align: center;">I respect your privacy, so we never share your info</p>
 [/norebro_text][vc_empty_space height="60px" el_class="norebro-phone-space"][/vc_column][/vc_row]]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>8</wp:post_id>
+		<wp:post_id>5654049</wp:post_id>
 		<wp:post_date><![CDATA[2017-08-09 12:11:11]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-08-09 12:11:11]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
@@ -6240,7 +6290,7 @@ This e-mail was sent from a contact form on Norebro (http://demo10)";s:18:"addit
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[slide_template]]></wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
+			<wp:meta_value><![CDATA[default]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_wpb_vc_js_status]]></wp:meta_key>
@@ -6476,7 +6526,7 @@ This e-mail was sent from a contact form on Norebro (http://demo10)";s:18:"addit
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_footer_show_copyright_section]]></wp:meta_key>
-			<wp:meta_value><![CDATA[field_59390deb07397]]></wp:meta_value>
+			<wp:meta_value><![CDATA[field_59390dsb07397]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[page_custom_css]]></wp:meta_key>
@@ -6550,6 +6600,38 @@ This e-mail was sent from a contact form on Norebro (http://demo10)";s:18:"addit
 			<wp:meta_key><![CDATA[inline_featured_image]]></wp:meta_key>
 			<wp:meta_value><![CDATA[0]]></wp:meta_value>
 		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[hefo_before]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[hefo_after]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[content_wrapper_width]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_content_wrapper_width]]></wp:meta_key>
+			<wp:meta_value><![CDATA[field_591b10dbb4a82342342345623]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[page_sidebar_layout]]></wp:meta_key>
+			<wp:meta_value><![CDATA[inherit]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_page_sidebar_layout]]></wp:meta_key>
+			<wp:meta_value><![CDATA[field_592345234958934]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[footer_copyright_section_links_color]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_footer_copyright_section_links_color]]></wp:meta_key>
+			<wp:meta_value><![CDATA[field_59390deb07b68]]></wp:meta_value>
+		</wp:postmeta>
 	</item>
 	<item>
 		<title>Blog</title>
@@ -6557,10 +6639,10 @@ This e-mail was sent from a contact form on Norebro (http://demo10)";s:18:"addit
 		<pubDate>Fri, 13 Oct 2017 12:17:07 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://norebro.colabr.io/demo29/?page_id=36</guid>
-		<description></description>
+		<description/>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>36</wp:post_id>
+		<wp:post_id>5654050</wp:post_id>
 		<wp:post_date><![CDATA[2017-10-13 12:17:07]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-10-13 12:17:07]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
@@ -7035,12 +7117,12 @@ This e-mail was sent from a contact form on Norebro (http://demo10)";s:18:"addit
 		<pubDate>Wed, 27 Sep 2017 12:38:25 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://norebro.colabr.io/demo30/?p=12906</guid>
-		<description></description>
+		<description/>
 		<content:encoded><![CDATA[[vc_row][vc_column][norebro_text]A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which farm-to-table offal. Authentic kale chips everyday velit auctor aliquet. A wonderful <strong>serenity has taken possession</strong> of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents. I should be incapable of drawing a single stroke at the present moment and yet.[/norebro_text][vc_empty_space height="25px"][/vc_column][/vc_row][vc_row][vc_column][norebro_text]I feel that I never was a greater artist than now. When, while the lovely <strong>valley teems</strong> with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary, I throw myself down among the tall grass by the trickling stream.[/norebro_text][/vc_column][/vc_row][vc_row][vc_column][vc_empty_space height="40px"][norebro_image alignment="left" image_url="12904"][vc_empty_space height="40px"][/vc_column][/vc_row][vc_row][vc_column][norebro_heading module_type_layout="on_left" subtitle_type_layout="without_subtitle" title="T2glMkMlMjB3b3VsZCUyMEklMjBjb3VsZCUyMGRlc2NyaWJlJTIwdGhlc2UlMjBjb25jZXB0aW9ucw==" title_typo="font_size~26||weight~600"][vc_empty_space height="15px"][/vc_column][/vc_row][vc_row][vc_column][norebro_text]When, while the lovely valley teems with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary, I throw myself down among the tall grass by the trickling stream; and, as I lie close to the earth, a thousand unknown plants are noticed by me: when I hear the buzz.[/norebro_text][/vc_column][/vc_row][vc_row][vc_column][norebro_text]
 <blockquote>Oh, would I could describe these conceptions, could impress upon paper all that is living so full and warm within me, that it might be the mirror of my soul, as my soul is the mirror of the infinite God! My friend but it is too much for my strength. I sink under the weight of the splendour of these visions!</blockquote>
 [/norebro_text][/vc_column][/vc_row][vc_row][vc_column][norebro_text]<strong>A wonderful serenity</strong> has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents. <strong>I should be incapable of drawing</strong>.[/norebro_text][/vc_column][/vc_row]]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>12906</wp:post_id>
+		<wp:post_id>5654051</wp:post_id>
 		<wp:post_date><![CDATA[2017-09-27 12:38:25]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-09-27 12:38:25]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
@@ -7256,12 +7338,12 @@ This e-mail was sent from a contact form on Norebro (http://demo10)";s:18:"addit
 		<pubDate>Wed, 27 Sep 2017 12:39:26 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://norebro.colabr.io/demo30/?p=12908</guid>
-		<description></description>
+		<description/>
 		<content:encoded><![CDATA[[vc_row][vc_column][norebro_text]When, while the lovely valley teems with vapour around me, and the meridian sun strikes the upper surface farm-to-table offal. Authentic kale chips everyday velit auctor aliquet. A wonderful <strong>serenity has taken possession</strong> of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents. I should be incapable of drawing a single stroke at the present moment and yet.[/norebro_text][vc_empty_space height="25px"][/vc_column][/vc_row][vc_row][vc_column][norebro_text]I feel that I never was a greater artist than now. When, while the lovely <strong>valley teems</strong> with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary, I throw myself down among the tall grass by the trickling stream.[/norebro_text][/vc_column][/vc_row][vc_row][vc_column][vc_empty_space height="40px"][norebro_image alignment="left" image_url="12904"][vc_empty_space height="40px"][/vc_column][/vc_row][vc_row][vc_column][norebro_heading module_type_layout="on_left" subtitle_type_layout="without_subtitle" title="T2glMkMlMjB3b3VsZCUyMEklMjBjb3VsZCUyMGRlc2NyaWJlJTIwdGhlc2UlMjBjb25jZXB0aW9ucw==" title_typo="font_size~26||weight~600"][vc_empty_space height="15px"][/vc_column][/vc_row][vc_row][vc_column][norebro_text]When, while the lovely valley teems with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary, I throw myself down among the tall grass by the trickling stream; and, as I lie close to the earth, a thousand unknown plants are noticed by me: when I hear the buzz.[/norebro_text][/vc_column][/vc_row][vc_row][vc_column][norebro_text]
 <blockquote>Oh, would I could describe these conceptions, could impress upon paper all that is living so full and warm within me, that it might be the mirror of my soul, as my soul is the mirror of the infinite God! My friend but it is too much for my strength. I sink under the weight of the splendour of these visions!</blockquote>
 [/norebro_text][/vc_column][/vc_row][vc_row][vc_column][norebro_text]<strong>A wonderful serenity</strong> has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents. <strong>I should be incapable of drawing</strong>.[/norebro_text][/vc_column][/vc_row]]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>12908</wp:post_id>
+		<wp:post_id>5654052</wp:post_id>
 		<wp:post_date><![CDATA[2017-09-27 12:39:26]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-09-27 12:39:26]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
@@ -7486,7 +7568,7 @@ This e-mail was sent from a contact form on Norebro (http://demo10)";s:18:"addit
 			<wp:comment_id>3</wp:comment_id>
 			<wp:comment_author><![CDATA[Sofia Helin]]></wp:comment_author>
 			<wp:comment_author_email><![CDATA[alexdremlyuga@gmail.com]]></wp:comment_author_email>
-			<wp:comment_author_url></wp:comment_author_url>
+			<wp:comment_author_url/>
 			<wp:comment_author_IP><![CDATA[195.24.146.10]]></wp:comment_author_IP>
 			<wp:comment_date><![CDATA[2017-10-18 10:25:41]]></wp:comment_date>
 			<wp:comment_date_gmt><![CDATA[2017-10-18 10:25:41]]></wp:comment_date_gmt>
@@ -7499,17 +7581,17 @@ Ut enim sed quia non numquam eius modi tempora incidunt ut labore et dolore magn
 		</wp:comment>
 	</item>
 	<item>
-		<title>Highlights from Hong  Kong&#039;s Art Central</title>
+		<title>Highlights from Hong  Kong&apos;s Art Central</title>
 		<link>https://norebro.colabr.io/demo10/2017/09/27/highlights-from-hong-kongs-art-central/</link>
 		<pubDate>Wed, 27 Sep 2017 12:45:06 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://norebro.colabr.io/demo30/?p=12914</guid>
-		<description></description>
+		<description/>
 		<content:encoded><![CDATA[[vc_row][vc_column][norebro_text]Fingerstache microdosing kickstarter, migas occupy sartorial ennui sustainable green juice cardigan farm-to-table offal. Authentic kale chips everyday velit auctor aliquet. A wonderful <strong>serenity has taken possession</strong> of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents. I should be incapable of drawing a single stroke at the present moment and yet.[/norebro_text][vc_empty_space height="25px"][/vc_column][/vc_row][vc_row][vc_column][norebro_text]I feel that I never was a greater artist than now. When, while the lovely <strong>valley teems</strong> with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary, I throw myself down among the tall grass by the trickling stream.[/norebro_text][/vc_column][/vc_row][vc_row][vc_column][vc_empty_space height="40px"][norebro_image alignment="left" image_url="12904"][vc_empty_space height="40px"][/vc_column][/vc_row][vc_row][vc_column][norebro_heading module_type_layout="on_left" subtitle_type_layout="without_subtitle" title="T2glMkMlMjB3b3VsZCUyMEklMjBjb3VsZCUyMGRlc2NyaWJlJTIwdGhlc2UlMjBjb25jZXB0aW9ucw==" title_typo="font_size~26||weight~600"][vc_empty_space height="15px"][/vc_column][/vc_row][vc_row][vc_column][norebro_text]When, while the lovely valley teems with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary, I throw myself down among the tall grass by the trickling stream; and, as I lie close to the earth, a thousand unknown plants are noticed by me: when I hear the buzz.[/norebro_text][/vc_column][/vc_row][vc_row][vc_column][norebro_text]
 <blockquote>Oh, would I could describe these conceptions, could impress upon paper all that is living so full and warm within me, that it might be the mirror of my soul, as my soul is the mirror of the infinite God! My friend but it is too much for my strength. I sink under the weight of the splendour of these visions!</blockquote>
 [/norebro_text][/vc_column][/vc_row][vc_row][vc_column][norebro_text]<strong>A wonderful serenity</strong> has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents. <strong>I should be incapable of drawing</strong>.[/norebro_text][/vc_column][/vc_row]]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>12914</wp:post_id>
+		<wp:post_id>5654053</wp:post_id>
 		<wp:post_date><![CDATA[2017-09-27 12:45:06]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-09-27 12:45:06]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
@@ -7725,12 +7807,12 @@ Ut enim sed quia non numquam eius modi tempora incidunt ut labore et dolore magn
 		<pubDate>Wed, 27 Sep 2017 12:45:15 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://norebro.colabr.io/demo30/?p=12915</guid>
-		<description></description>
+		<description/>
 		<content:encoded><![CDATA[[vc_row][vc_column][norebro_text]Fingerstache microdosing kickstarter, migas occupy sartorial ennui sustainable green juice cardigan farm-to-table offal. Authentic kale chips everyday velit auctor aliquet. A wonderful <strong>serenity has taken possession</strong> of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents. I should be incapable of drawing a single stroke at the present moment and yet.[/norebro_text][vc_empty_space height="25px"][/vc_column][/vc_row][vc_row][vc_column][norebro_text]I feel that I never was a greater artist than now. When, while the lovely <strong>valley teems</strong> with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary, I throw myself down among the tall grass by the trickling stream.[/norebro_text][/vc_column][/vc_row][vc_row][vc_column][vc_empty_space height="40px"][norebro_image alignment="left" image_url="12904"][vc_empty_space height="40px"][/vc_column][/vc_row][vc_row][vc_column][norebro_heading module_type_layout="on_left" subtitle_type_layout="without_subtitle" title="T2glMkMlMjB3b3VsZCUyMEklMjBjb3VsZCUyMGRlc2NyaWJlJTIwdGhlc2UlMjBjb25jZXB0aW9ucw==" title_typo="font_size~26||weight~600"][vc_empty_space height="15px"][/vc_column][/vc_row][vc_row][vc_column][norebro_text]When, while the lovely valley teems with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary, I throw myself down among the tall grass by the trickling stream; and, as I lie close to the earth, a thousand unknown plants are noticed by me: when I hear the buzz.[/norebro_text][/vc_column][/vc_row][vc_row][vc_column][norebro_text]
 <blockquote>Oh, would I could describe these conceptions, could impress upon paper all that is living so full and warm within me, that it might be the mirror of my soul, as my soul is the mirror of the infinite God! My friend but it is too much for my strength. I sink under the weight of the splendour of these visions!</blockquote>
 [/norebro_text][/vc_column][/vc_row][vc_row][vc_column][norebro_text]<strong>A wonderful serenity</strong> has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents. <strong>I should be incapable of drawing</strong>.[/norebro_text][/vc_column][/vc_row]]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>12915</wp:post_id>
+		<wp:post_id>5654054</wp:post_id>
 		<wp:post_date><![CDATA[2017-09-27 12:45:15]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-09-27 12:45:15]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
@@ -7943,7 +8025,7 @@ Ut enim sed quia non numquam eius modi tempora incidunt ut labore et dolore magn
 			<wp:comment_id>4</wp:comment_id>
 			<wp:comment_author><![CDATA[Sofia Helin]]></wp:comment_author>
 			<wp:comment_author_email><![CDATA[alexdremlyuga@gmail.com]]></wp:comment_author_email>
-			<wp:comment_author_url></wp:comment_author_url>
+			<wp:comment_author_url/>
 			<wp:comment_author_IP><![CDATA[195.24.146.10]]></wp:comment_author_IP>
 			<wp:comment_date><![CDATA[2017-10-18 10:24:59]]></wp:comment_date>
 			<wp:comment_date_gmt><![CDATA[2017-10-18 10:24:59]]></wp:comment_date_gmt>
@@ -7960,12 +8042,12 @@ Ut enim sed quia non numquam eius modi tempora incidunt ut labore et dolore magn
 		<pubDate>Wed, 27 Sep 2017 12:45:22 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://norebro.colabr.io/demo30/?p=12916</guid>
-		<description></description>
+		<description/>
 		<content:encoded><![CDATA[[vc_row][vc_column][norebro_text]Fingerstache microdosing kickstarter, migas occupy sartorial ennui sustainable green juice cardigan farm-to-table offal. Authentic kale chips everyday velit auctor aliquet. A wonderful <strong>serenity has taken possession</strong> of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents. I should be incapable of drawing a single stroke at the present moment and yet.[/norebro_text][vc_empty_space height="25px"][/vc_column][/vc_row][vc_row][vc_column][norebro_text]I feel that I never was a greater artist than now. When, while the lovely <strong>valley teems</strong> with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary, I throw myself down among the tall grass by the trickling stream.[/norebro_text][/vc_column][/vc_row][vc_row][vc_column][vc_empty_space height="40px"][norebro_image alignment="left" image_url="12904"][vc_empty_space height="40px"][/vc_column][/vc_row][vc_row][vc_column][norebro_heading module_type_layout="on_left" subtitle_type_layout="without_subtitle" title="T2glMkMlMjB3b3VsZCUyMEklMjBjb3VsZCUyMGRlc2NyaWJlJTIwdGhlc2UlMjBjb25jZXB0aW9ucw==" title_typo="font_size~26||weight~600"][vc_empty_space height="15px"][/vc_column][/vc_row][vc_row][vc_column][norebro_text]When, while the lovely valley teems with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary, I throw myself down among the tall grass by the trickling stream; and, as I lie close to the earth, a thousand unknown plants are noticed by me: when I hear the buzz.[/norebro_text][/vc_column][/vc_row][vc_row][vc_column][norebro_text]
 <blockquote>Oh, would I could describe these conceptions, could impress upon paper all that is living so full and warm within me, that it might be the mirror of my soul, as my soul is the mirror of the infinite God! My friend but it is too much for my strength. I sink under the weight of the splendour of these visions!</blockquote>
 [/norebro_text][/vc_column][/vc_row][vc_row][vc_column][norebro_text]<strong>A wonderful serenity</strong> has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents. <strong>I should be incapable of drawing</strong>.[/norebro_text][/vc_column][/vc_row]]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>12916</wp:post_id>
+		<wp:post_id>5654055</wp:post_id>
 		<wp:post_date><![CDATA[2017-09-27 12:45:22]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-09-27 12:45:22]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
@@ -8178,7 +8260,7 @@ Ut enim sed quia non numquam eius modi tempora incidunt ut labore et dolore magn
 			<wp:comment_id>5</wp:comment_id>
 			<wp:comment_author><![CDATA[Sofia Helin]]></wp:comment_author>
 			<wp:comment_author_email><![CDATA[alexdremlyuga@gmail.com]]></wp:comment_author_email>
-			<wp:comment_author_url></wp:comment_author_url>
+			<wp:comment_author_url/>
 			<wp:comment_author_IP><![CDATA[195.24.146.10]]></wp:comment_author_IP>
 			<wp:comment_date><![CDATA[2017-10-18 10:25:10]]></wp:comment_date>
 			<wp:comment_date_gmt><![CDATA[2017-10-18 10:25:10]]></wp:comment_date_gmt>
@@ -8195,10 +8277,10 @@ Ut enim sed quia non numquam eius modi tempora incidunt ut labore et dolore magn
 		<pubDate>Fri, 13 Oct 2017 12:20:32 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://norebro.colabr.io/demo29/?page_id=12918</guid>
-		<description></description>
+		<description/>
 		<content:encoded><![CDATA[[vc_row full_width="stretch_row_content_no_spaces" equal_height="yes" content_placement="middle" el_class="norebro-content-wrap-left"][vc_column width="1/2"][vc_row_inner][vc_column_inner width="11/12"][vc_empty_space height="90px" el_class="norebro-phone-space"][norebro_heading module_type_layout="on_left" subtitle_type_layout="top_subtitle" title="U2F5JTIwSGVsbG8=" subtitle="R2V0JTIwaW4lMjB0b3VjaA==" title_typo="font_size~22||weight~700" subtitle_typo="font_size~14||line_height~1||weight~400||use_custom_font~1||custom_font~Poppins:300,400,500,700"][norebro_text]Bring to the table win-win survival <strong>strategies to ensure</strong> proactive domination. At the end of the day, going forward, a new normal that has evolved <strong>from generation</strong>.[/norebro_text][norebro_contact_form form_id="6" form_style="classic" fields_offset="25px" button="type=default&amp;size=default&amp;color=brand"][vc_empty_space height="90px" el_class="norebro-phone-space"][/vc_column_inner][vc_column_inner width="1/12"][/vc_column_inner][/vc_row_inner][/vc_column][vc_column width="1/2"][norebro_google_maps map_zoom_enable="1" map_style="light_monochrome" marker_locations="55.689718,12.5645143"][/vc_column][/vc_row]]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>12918</wp:post_id>
+		<wp:post_id>5654056</wp:post_id>
 		<wp:post_date><![CDATA[2017-10-13 12:20:32]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-10-13 12:20:32]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
@@ -8681,10 +8763,10 @@ Ut enim sed quia non numquam eius modi tempora incidunt ut labore et dolore magn
 		<pubDate>Fri, 13 Oct 2017 12:29:37 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://norebro.colabr.io/demo29/?page_id=12924</guid>
-		<description></description>
-		<content:encoded><![CDATA[[vc_row full_width="stretch_row"][vc_column width="1/3"][norebro_heading module_type_layout="on_left" subtitle_type_layout="without_subtitle" title="SGklMjBUaGVyZSUyMSUyMEklRTIlODAlOTltJTIwU3RhY2V5JTIwJUUyJTgwJTk1JTNDYnIlMkYlM0UlMEFDcmVhdGl2ZSUyMERlc2lnbmVy" title_typo="font_size~22||line_height~30||weight~700"][vc_empty_space height="10px"][norebro_text text_typo="font_size~15||line_height~25||weight~300"]I can't tell where your back ends and your butt begins. Brr, it sure is cold in here. I wish <a href="#">some strong</a>, chivalrous man would lend <strong>me his jacket</strong>, or his pants. Just when I think I'm out, those cheeks pull me right back in.[/norebro_text][vc_empty_space height="10px"][norebro_text text_typo="font_size~15||line_height~25||weight~300"]Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from <strong>generation X</strong> is on the runway heading towards a streamlined cloud solution. Capitalize on low hanging fruit to identify a ballpark value added activity.[/norebro_text][vc_empty_space][norebro_heading module_type_layout="on_left" subtitle_type_layout="without_subtitle" title="Rm9sbG93JTIwTWU=" title_typo="font_size~22||line_height~30||weight~700"][vc_empty_space height="10px"][norebro_social_networks icon_layout="inline" alignment="left" type_links="custom" default_colors="0" twitter_link_custom="#" instagram_link_custom="#" dribbble_link_custom="#"][/vc_column][vc_column width="1/3" css=".vc_custom_1502460144933{padding-top: 0px !important;}"][norebro_heading module_type_layout="on_left" subtitle_type_layout="without_subtitle" title="TXklMjBFeHBlcmllbmNl" title_typo="font_size~22||line_height~30||weight~700"][vc_empty_space height="10px"][norebro_text text_typo="font_size~15||line_height~25||weight~300"]Bring to the table win-win <strong>survival strategies</strong> to ensure proactive domination. At the end of the day, going forward content in real-time will have <a href="#">multiple touchpoints</a>.[/norebro_text][vc_empty_space height="49px"][norebro_heading module_type_layout="on_left" subtitle_type_layout="bottom_subtitle" heading_type="h4" title="TWVkaWElMjBSZXNvdXJjZXMlMjBJbmMu" title_typo="font_size~15||line_height~15||weight~700" subtitle="SWxsdXN0cmF0aW9uJTJDJTIwRGVzaWduJTJDJTIwQW5pbWF0aW9u" subtitle_typo="font_size~15||line_height~15||weight~300"][vc_empty_space][norebro_heading module_type_layout="on_left" subtitle_type_layout="bottom_subtitle" heading_type="h4" title="TWFzaGFibGU=" title_typo="font_size~15||line_height~15||weight~700" subtitle="TW90aW9uJTJDJTIwRGVzaWduJTJDJTIwUGhvdG8=" subtitle_typo="font_size~15||line_height~15||weight~300"][vc_empty_space][norebro_heading module_type_layout="on_left" subtitle_type_layout="bottom_subtitle" heading_type="h4" title="VGhlJTIwTmV3JTIwWW9yayUyMFRpbWVz" title_typo="font_size~15||line_height~15||weight~700" subtitle="V2ViJTIwRGVzaWduJTJDJTIwRnJvbnQtRW5kJTIwRGV2ZWxvcGVy" subtitle_typo="font_size~15||line_height~15||weight~300"][/vc_column][vc_column width="1/3"][norebro_video layout="with_preview" button_layout="filled" link="https://www.youtube.com/embed/_GuOjXYl5ew" button_shadow="1" button_anim="1" preview_image="14885" button_color="rgba(51,51,51,0.9)"][/vc_column][/vc_row][vc_row full_width="stretch_row"][vc_column][vc_empty_space height="90px" el_class="norebro-phone-space"][/vc_column][/vc_row][vc_row full_width="stretch_row" css=".vc_custom_1502804202666{background-color: #f9f9f9 !important;}"][vc_column][vc_empty_space height="90px" el_class="norebro-phone-space"][vc_row_inner equal_height="yes" content_placement="middle"][vc_column_inner width="1/6"][norebro_clients_logo image_logo="14886"][/vc_column_inner][vc_column_inner width="1/6"][norebro_clients_logo image_logo="14887"][/vc_column_inner][vc_column_inner width="1/6"][norebro_clients_logo image_logo="14888"][/vc_column_inner][vc_column_inner width="1/6"][norebro_clients_logo image_logo="14889"][/vc_column_inner][vc_column_inner width="1/6"][norebro_clients_logo image_logo="14890"][/vc_column_inner][vc_column_inner width="1/6"][norebro_clients_logo image_logo="14891"][/vc_column_inner][/vc_row_inner][vc_empty_space height="90px" el_class="norebro-phone-space"][/vc_column][/vc_row][vc_row full_width="stretch_row" css=".vc_custom_1502803772618{padding-top: 0px !important;background-color: #505cfd !important;}"][vc_column][vc_empty_space height="90px" el_class="norebro-phone-space"][norebro_heading module_type_layout="on_left" subtitle_type_layout="top_subtitle" title="VGhleSUyMFNheQ==" title_typo="font_size~32||line_height~25||weight~700" subtitle="VGVzdGltb25pYWxz" subtitle_typo="font_size~16||weight~inherit" title_color="#ffffff" subtitle_color="rgba(255,255,255,0.6)"][vc_empty_space height="30px"][norebro_carousel item_desktop="3" pagination_show="1" navigation_buttons="1" autoplay_time="3" offset_nav_buttons="1" dots_each="1" dots_color="#ffffff"][norebro_carousel_inner title="Section 1" tab_id="1502803813064-aaa3879f-3e5f"][norebro_testimonial block_type_layout="default" block_type_alignment_default="left" quote="Oh, would I could describe these conceptions, could impress upon paper all that is living so full and warm within me, that it might." author="Marco Guerra" position="Tech leader / WEB dEveloper" quote_color="#ffffff" author_color="#ffffff" position_color="rgba(255,255,255,0.6)"][/norebro_carousel_inner][norebro_carousel_inner title="Section 1" tab_id="1502804082579-1044066c-189c"][norebro_testimonial block_type_layout="default" block_type_alignment_default="left" quote="Said Californ'y is the place you ought to be So they loaded up the truck and moved to Beverly. Hills that is. Swimmin' pools movie stars." author="Stacey Pickering" position="Product Manager" quote_color="#ffffff" author_color="#ffffff" position_color="rgba(255,255,255,0.6)"][/norebro_carousel_inner][norebro_carousel_inner title="Section 1" tab_id="1502804081754-cbe7833d-bef1"][norebro_testimonial block_type_layout="default" block_type_alignment_default="left" quote="Oh, would I could describe these conceptions, could impress upon paper all that is living so full and warm within me, that it might." author="Linda Cardellini" position="Creative Director / Designer" quote_color="#ffffff" author_color="#ffffff" position_color="rgba(255,255,255,0.6)"][/norebro_carousel_inner][/norebro_carousel][vc_empty_space height="90px" el_class="norebro-phone-space"][/vc_column][/vc_row]]]></content:encoded>
+		<description/>
+		<content:encoded><![CDATA[[vc_row full_width="stretch_row"][vc_column width="1/3"][norebro_heading module_type_layout="on_left" subtitle_type_layout="without_subtitle" title="SGklMjBUaGVyZSUyMSUyMEklRTIlODAlOTltJTIwU3RhY2V5JTIwJUUyJTgwJTk1JTNDYnIlMkYlM0UlMEFDcmVhdGl2ZSUyMERlc2lnbmVy" title_typo="font_size~22||line_height~30||weight~700"][vc_empty_space height="10px"][norebro_text text_typo="font_size~15||line_height~25||weight~300"]I can't tell where your back ends and your butt begins. Brr, it sure is cold in here. I wish <a href="#">some strong</a>, chivalrous man would lend <strong>me his jacket</strong>, or his pants. Just when I think I'm out, those cheeks pull me right back in.[/norebro_text][vc_empty_space height="10px"][norebro_text text_typo="font_size~15||line_height~25||weight~300"]Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from <strong>generation X</strong> is on the runway heading towards a streamlined cloud solution. Capitalize on low hanging fruit to identify a ballpark value added activity.[/norebro_text][vc_empty_space][norebro_heading module_type_layout="on_left" subtitle_type_layout="without_subtitle" title="Rm9sbG93JTIwTWU=" title_typo="font_size~22||line_height~30||weight~700"][vc_empty_space height="10px"][norebro_social_networks icon_layout="inline" alignment="left" type_links="custom" default_colors="0" twitter_link_custom="#" instagram_link_custom="#" dribbble_link_custom="#"][/vc_column][vc_column width="1/3" css=".vc_custom_1502460144933{padding-top: 0px !important;}"][norebro_heading module_type_layout="on_left" subtitle_type_layout="without_subtitle" title="TXklMjBFeHBlcmllbmNl" title_typo="font_size~22||line_height~30||weight~700"][vc_empty_space height="10px"][norebro_text text_typo="font_size~15||line_height~25||weight~300"]Bring to the table win-win <strong>survival strategies</strong> to ensure proactive domination. At the end of the day, going forward content in real-time will have <a href="#">multiple touchpoints</a>.[/norebro_text][vc_empty_space height="49px"][norebro_heading module_type_layout="on_left" subtitle_type_layout="bottom_subtitle" heading_type="h4" title="TWVkaWElMjBSZXNvdXJjZXMlMjBJbmMu" title_typo="font_size~15||line_height~15||weight~700" subtitle="SWxsdXN0cmF0aW9uJTJDJTIwRGVzaWduJTJDJTIwQW5pbWF0aW9u" subtitle_typo="font_size~15||line_height~15||weight~300"][vc_empty_space][norebro_heading module_type_layout="on_left" subtitle_type_layout="bottom_subtitle" heading_type="h4" title="TWFzaGFibGU=" title_typo="font_size~15||line_height~15||weight~700" subtitle="TW90aW9uJTJDJTIwRGVzaWduJTJDJTIwUGhvdG8=" subtitle_typo="font_size~15||line_height~15||weight~300"][vc_empty_space][norebro_heading module_type_layout="on_left" subtitle_type_layout="bottom_subtitle" heading_type="h4" title="VGhlJTIwTmV3JTIwWW9yayUyMFRpbWVz" title_typo="font_size~15||line_height~15||weight~700" subtitle="V2ViJTIwRGVzaWduJTJDJTIwRnJvbnQtRW5kJTIwRGV2ZWxvcGVy" subtitle_typo="font_size~15||line_height~15||weight~300"][/vc_column][vc_column width="1/3"][norebro_video layout="with_preview" button_layout="filled" link="https://www.youtube.com/embed/_GuOjXYl5ew" button_shadow="1" button_anim="1" preview_image="5654032" button_color="rgba(51,51,51,0.9)"][/vc_column][/vc_row][vc_row full_width="stretch_row"][vc_column][vc_empty_space height="90px" el_class="norebro-phone-space"][/vc_column][/vc_row][vc_row full_width="stretch_row" css=".vc_custom_1502804202666{background-color: #f9f9f9 !important;}"][vc_column][vc_empty_space height="90px" el_class="norebro-phone-space"][vc_row_inner equal_height="yes" content_placement="middle"][vc_column_inner width="1/6"][norebro_clients_logo image_logo="5654033"][/vc_column_inner][vc_column_inner width="1/6"][norebro_clients_logo image_logo="5654034"][/vc_column_inner][vc_column_inner width="1/6"][norebro_clients_logo image_logo="5654035"][/vc_column_inner][vc_column_inner width="1/6"][norebro_clients_logo image_logo="5654036"][/vc_column_inner][vc_column_inner width="1/6"][norebro_clients_logo image_logo="5654037"][/vc_column_inner][vc_column_inner width="1/6"][norebro_clients_logo image_logo="5654038"][/vc_column_inner][/vc_row_inner][vc_empty_space height="90px" el_class="norebro-phone-space"][/vc_column][/vc_row][vc_row full_width="stretch_row" css=".vc_custom_1502803772618{padding-top: 0px !important;background-color: #505cfd !important;}"][vc_column][vc_empty_space height="90px" el_class="norebro-phone-space"][norebro_heading module_type_layout="on_left" subtitle_type_layout="top_subtitle" title="VGhleSUyMFNheQ==" title_typo="font_size~32||line_height~25||weight~700" subtitle="VGVzdGltb25pYWxz" subtitle_typo="font_size~16||weight~inherit" title_color="#ffffff" subtitle_color="rgba(255,255,255,0.6)"][vc_empty_space height="30px"][norebro_carousel item_desktop="3" pagination_show="1" navigation_buttons="1" autoplay_time="3" offset_nav_buttons="1" dots_each="1" dots_color="#ffffff"][norebro_carousel_inner title="Section 1" tab_id="1502803813064-aaa3879f-3e5f"][norebro_testimonial block_type_layout="default" block_type_alignment_default="left" quote="Oh, would I could describe these conceptions, could impress upon paper all that is living so full and warm within me, that it might." author="Marco Guerra" position="Tech leader / WEB dEveloper" quote_color="#ffffff" author_color="#ffffff" position_color="rgba(255,255,255,0.6)"][/norebro_carousel_inner][norebro_carousel_inner title="Section 1" tab_id="1502804082579-1044066c-189c"][norebro_testimonial block_type_layout="default" block_type_alignment_default="left" quote="Said Californ'y is the place you ought to be So they loaded up the truck and moved to Beverly. Hills that is. Swimmin' pools movie stars." author="Stacey Pickering" position="Product Manager" quote_color="#ffffff" author_color="#ffffff" position_color="rgba(255,255,255,0.6)"][/norebro_carousel_inner][norebro_carousel_inner title="Section 1" tab_id="1502804081754-cbe7833d-bef1"][norebro_testimonial block_type_layout="default" block_type_alignment_default="left" quote="Oh, would I could describe these conceptions, could impress upon paper all that is living so full and warm within me, that it might." author="Linda Cardellini" position="Creative Director / Designer" quote_color="#ffffff" author_color="#ffffff" position_color="rgba(255,255,255,0.6)"][/norebro_carousel_inner][/norebro_carousel][vc_empty_space height="90px" el_class="norebro-phone-space"][/vc_column][/vc_row]]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>12924</wp:post_id>
+		<wp:post_id>5654057</wp:post_id>
 		<wp:post_date><![CDATA[2017-10-13 12:29:37]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-10-13 12:29:37]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
@@ -9181,16 +9263,17 @@ Ut enim sed quia non numquam eius modi tempora incidunt ut labore et dolore magn
 			<wp:meta_value><![CDATA[.vc_custom_1502804202666{background-color: #f9f9f9 !important;}.vc_custom_1502803772618{padding-top: 0px !important;background-color: #505cfd !important;}.vc_custom_1502460144933{padding-top: 0px !important;}]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
+	
 	<item>
 		<title>Bottle Design</title>
 		<link>https://norebro.colabr.io/demo10/project/bottle-design/</link>
 		<pubDate>Thu, 21 Sep 2017 05:07:49 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">http://norebro.colabr.io/?post_type=norebro_portfolio&#038;p=13778</guid>
-		<description></description>
+		<guid isPermaLink="false">http://norebro.colabr.io/?post_type=norebro_portfolio&amp;p=13778</guid>
+		<description/>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>13778</wp:post_id>
+		<wp:post_id>5654058</wp:post_id>
 		<wp:post_date><![CDATA[2017-09-21 07:07:49]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-09-21 05:07:49]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
@@ -9225,7 +9308,7 @@ Ut enim sed quia non numquam eius modi tempora incidunt ut labore et dolore magn
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[project_content]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:3:{i:0;s:5:"14633";i:1;s:5:"14634";i:2;s:5:"14635";}]]></wp:meta_value>
+			<wp:meta_value><![CDATA[a:3:{i:0;s:7:"5654002";i:1;s:7:"5654003";i:2;s:7:"5654004";}]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_project_content]]></wp:meta_key>
@@ -9653,11 +9736,11 @@ Ut enim sed quia non numquam eius modi tempora incidunt ut labore et dolore magn
 		<link>https://norebro.colabr.io/demo10/project/paper-envelope/</link>
 		<pubDate>Wed, 20 Sep 2017 13:47:43 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">http://norebro.colabr.io/?post_type=norebro_portfolio&#038;p=14541</guid>
-		<description></description>
+		<guid isPermaLink="false">http://norebro.colabr.io/?post_type=norebro_portfolio&amp;p=14541</guid>
+		<description/>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>14541</wp:post_id>
+		<wp:post_id>5654059</wp:post_id>
 		<wp:post_date><![CDATA[2017-09-20 15:47:43]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-09-20 13:47:43]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
@@ -9696,7 +9779,7 @@ Ut enim sed quia non numquam eius modi tempora incidunt ut labore et dolore magn
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[project_content]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:3:{i:0;s:5:"14637";i:1;s:5:"14638";i:2;s:5:"14639";}]]></wp:meta_value>
+			<wp:meta_value><![CDATA[a:3:{i:0;s:7:"5654005";i:1;s:7:"5654006";i:2;s:7:"5654007";}]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_project_content]]></wp:meta_key>
@@ -10128,11 +10211,11 @@ Ut enim sed quia non numquam eius modi tempora incidunt ut labore et dolore magn
 		<link>https://norebro.colabr.io/demo10/project/ceramic-bottle/</link>
 		<pubDate>Tue, 19 Sep 2017 13:48:15 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">http://norebro.colabr.io/?post_type=norebro_portfolio&#038;p=14542</guid>
-		<description></description>
+		<guid isPermaLink="false">http://norebro.colabr.io/?post_type=norebro_portfolio&amp;p=14542</guid>
+		<description/>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>14542</wp:post_id>
+		<wp:post_id>5654060</wp:post_id>
 		<wp:post_date><![CDATA[2017-09-19 15:48:15]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-09-19 13:48:15]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
@@ -10171,7 +10254,7 @@ Ut enim sed quia non numquam eius modi tempora incidunt ut labore et dolore magn
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[project_content]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:3:{i:0;s:5:"14640";i:1;s:5:"14641";i:2;s:5:"14642";}]]></wp:meta_value>
+			<wp:meta_value><![CDATA[a:3:{i:0;s:7:"5654008";i:1;s:7:"5654009";i:2;s:7:"5654010";}]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_project_content]]></wp:meta_key>
@@ -10604,10 +10687,10 @@ Ut enim sed quia non numquam eius modi tempora incidunt ut labore et dolore magn
 		<pubDate>Thu, 19 Oct 2017 07:38:40 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://norebro.colabr.io/demo10/?page_id=14896</guid>
-		<description></description>
+		<description/>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>14896</wp:post_id>
+		<wp:post_id>5654061</wp:post_id>
 		<wp:post_date><![CDATA[2017-10-19 07:38:40]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-10-19 07:38:40]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>

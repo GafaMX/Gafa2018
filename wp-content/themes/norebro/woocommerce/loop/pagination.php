@@ -25,23 +25,55 @@ global $wp_query;
 if ( $wp_query->max_num_pages <= 1 ) {
 	return;
 }
-?>
-<nav class="pagination">
-	<?php
-		$paginate = paginate_links( apply_filters( 'woocommerce_pagination_args', array(
-			'base'         => esc_url_raw( str_replace( 999999999, '%#%', remove_query_arg( 'add-to-cart', get_pagenum_link( 999999999, false ) ) ) ),
-			'format'       => '',
-			'add_args'     => false,
-			'current'      => max( 1, get_query_var( 'paged' ) ),
-			'total'        => $wp_query->max_num_pages,
-			'prev_text'    => '<span class="icon-left ion-android-arrow-back"></span> Prev',
-			'next_text'    => 'Next <span class="icon-right ion-android-arrow-forward"></span>',
-			'type'         => 'list',
-			'end_size'     => 3,
-			'mid_size'     => 3,
-		) ) );
 
-		$paginate = str_replace( '<a class="', '<a class="hover-underline ', $paginate );
-		echo str_replace( '<a class=\'', '<a class=\'hover-underline ', $paginate );
+// Pagination
+$pagination_type = NorebroSettings::get( 'woocommerce_pagination_type', 'global' );
+if ( $pagination_type == NULL ){
+	$pagination_type = 'simple';
+}
+$pagination_position = NorebroSettings::get( 'woocommerce_pagination_position', 'global' );
+if ( $pagination_position == NULL ){
+	$pagination_position = 'left';
+}
+
+
+?>
+<nav class="pagination text-<?php echo $pagination_position; ?>">
+	<?php
+
+		switch ( $pagination_type ) {
+			case 'simple':
+				$paginate = paginate_links( apply_filters( 'woocommerce_pagination_args', array(
+					'base'         => esc_url_raw( str_replace( 999999999, '%#%', remove_query_arg( 'add-to-cart', get_pagenum_link( 999999999, false ) ) ) ),
+					'format'       => '',
+					'add_args'     => false,
+					'current'      => max( 1, get_query_var( 'paged' ) ),
+					'total'        => $wp_query->max_num_pages,
+					'prev_text'    => '<span class="icon-left ion-android-arrow-back"></span> Prev',
+					'next_text'    => 'Next <span class="icon-right ion-android-arrow-forward"></span>',
+					'type'         => 'list',
+					'end_size'     => 3,
+					'mid_size'     => 3,
+				) ) );
+
+
+				$paginate = str_replace( '<a class="', '<a class="hover-underline ', $paginate );
+				echo str_replace( '<a class=\'', '<a class=\'hover-underline ', $paginate );
+				break;
+		 	case 'lazy_scroll':
+				echo '<div class="lazy-load loading font-titles text-' . $pagination_position . '" data-lazy-load="scroll" data-lazy-pages-count="' . esc_attr( $wp_query->max_num_pages ) . '">';
+				echo '<span class="loading-text">' . esc_html__( 'Loading', 'norebro-extra' ) . '</span>';
+				echo '<span class="icon ion-refresh"></span>';
+				echo '</div>';
+				break;
+			case 'lazy_button':
+				echo '<div class="lazy-load load-more font-titles text-' . $pagination_position . '" data-lazy-load="click" data-lazy-pages-count="' . esc_attr( $wp_query->max_num_pages ) . '">';
+				echo '<span class="loadmore-text">' . esc_html__( 'Load More', 'norebro-extra' ) . '</span>';
+				echo '<span class="loading-text">' . esc_html__( 'Loading', 'norebro-extra' ) . '</span>';
+				echo '<span class="icon ion-refresh"></span>';
+				echo '</div>';
+				break;
+		}
+
 	?>
 </nav>

@@ -45,6 +45,8 @@
 	}
 ?>
 <?php if ( $footer_is_visible || $copyright_is_visible ) : ?>
+</div>
+</div> <!-- Closed id="content" tag -->
 <footer id="colophon" class="site-footer<?php echo esc_attr( $footer_class ); ?>">
 
 	<?php if ( $footer_is_visible ) : ?>
@@ -109,4 +111,5 @@
 	<?php endif; ?>
 
 </footer><!-- #colophon -->
+
 <?php endif; ?>

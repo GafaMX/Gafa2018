@@ -62,11 +62,59 @@
             "return_format": "value"
         },
         {
+            "key": "field_59391464a7d7c",
+            "label": "Fullscreen height",
+            "name": "header_height_fullscreen",
+            "type": "radio",
+            "instructions": "Enable fullscreen height for header title?",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "inherit": "Theme settings inherited",
+                "yes": "Yes",
+                "no": "No"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "save_other_choice": 0,
+            "default_value": "inherit",
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_59391464a8178",
+            "label": "Height",
+            "name": "post_title_height",
+            "type": "norebro_responsive_height",
+            "instructions": "Set up header title height",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_59391464a7d7c",
+                        "operator": "!=",
+                        "value": "yes"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": ""
+        },
+        {
             "key": "field_59391464a51e6",
-            "label": "Subtitle type",
+            "label": "Subtitle text",
             "name": "header_title_subtitle_type",
             "type": "select",
-            "instructions": "Choose subtitle type for header title",
+            "instructions": "Choose custom subtitle type",
             "required": 0,
             "conditional_logic": 0,
             "wrapper": {
@@ -82,6 +130,35 @@
             },
             "default_value": [
                 "inherit"
+            ],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_593d5eb537af1",
+            "label": "Content position",
+            "name": "post_header_title_align",
+            "type": "select",
+            "instructions": "Choose header title content position",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "inherit": "Theme settings inherited",
+                "left": "Left",
+                "center": "Center",
+                "right": "Right"
+            },
+            "default_value": [
+                
             ],
             "allow_null": 0,
             "multiple": 0,
@@ -392,7 +469,7 @@
             "label": "Background overlay color",
             "name": "post_title_background_overlay",
             "type": "norebro_color",
-            "instructions": "Choose color of transparent overlay",
+            "instructions": "Choose background overlay color",
             "required": 0,
             "conditional_logic": [
                 [
@@ -421,40 +498,11 @@
             "default_value": ""
         },
         {
-            "key": "field_593d5eb537af1",
-            "label": "Content aligment",
-            "name": "post_header_title_align",
-            "type": "select",
-            "instructions": "Choose header title alignment",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "choices": {
-                "inherit": "Theme settings inherited",
-                "left": "Left",
-                "center": "Center",
-                "right": "Right"
-            },
-            "default_value": [
-                
-            ],
-            "allow_null": 0,
-            "multiple": 0,
-            "ui": 0,
-            "ajax": 0,
-            "return_format": "value",
-            "placeholder": ""
-        },
-        {
             "key": "field_59391464a79ac",
             "label": "Typography settings",
             "name": "post_typography_settings",
             "type": "radio",
-            "instructions": "If not selected, theme settings are inherited",
+            "instructions": "Set up typography for header title",
             "required": 0,
             "conditional_logic": 0,
             "wrapper": {
@@ -518,58 +566,6 @@
                 "id": ""
             },
             "add_theme_inherited": true
-        },
-        {
-            "key": "field_59391464a7d7c",
-            "label": "Fullscreen height",
-            "name": "header_height_fullscreen",
-            "type": "radio",
-            "instructions": "Enable fullscreen height for header title?",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "choices": {
-                "inherit": "Theme settings inherited",
-                "yes": "Yes",
-                "no": "No"
-            },
-            "allow_null": 0,
-            "other_choice": 0,
-            "save_other_choice": 0,
-            "default_value": "inherit",
-            "layout": "horizontal",
-            "return_format": "value"
-        },
-        {
-            "key": "field_59391464a8178",
-            "label": "Height",
-            "name": "post_title_height",
-            "type": "text",
-            "instructions": "Set up header title height. Use the CSS-units value",
-            "required": 0,
-            "conditional_logic": [
-                [
-                    {
-                        "field": "field_59391464a7d7c",
-                        "operator": "!=",
-                        "value": "yes"
-                    }
-                ]
-            ],
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "default_value": "",
-            "placeholder": "",
-            "prepend": "height:",
-            "append": ";",
-            "maxlength": ""
         },
         {
             "key": "field_593db4dfba577",
@@ -1000,11 +996,11 @@
             "return_format": "value"
         },
         {
-            "key": "field_59391464ac11a",
-            "label": "Overlay hover color in grid",
-            "name": "post_overlay_color",
-            "type": "norebro_color",
-            "instructions": "Choose overlay color (worked on <em>Inner<\/em> cards)",
+            "key": "field_59391s64ab91d",
+            "label": "Custom CSS",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
             "required": 0,
             "conditional_logic": 0,
             "wrapper": {
@@ -1012,14 +1008,15 @@
                 "class": "",
                 "id": ""
             },
-            "default_value": ""
+            "placement": "top",
+            "endpoint": 0
         },
         {
             "key": "field_59391464ac555",
             "label": "Custom CSS styles",
             "name": "post_custom_css",
             "type": "textarea",
-            "instructions": "",
+            "instructions": "Write your own stylesheet here",
             "required": 0,
             "conditional_logic": 0,
             "wrapper": {
@@ -1032,6 +1029,23 @@
             "maxlength": "",
             "rows": "",
             "new_lines": ""
+        },
+        {
+            "key": "field_5937e0a52b4567mod951",
+            "label": "",
+            "name": "",
+            "type": "message",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "<p class=\"message\"><span class=\"icon ion-information-circled\"></span> <b>Note:</b> you won't lose the CSS code written here while updating the theme.</p>",
+            "new_lines": "",
+            "esc_html": 0
         }
     ],
     "location": [

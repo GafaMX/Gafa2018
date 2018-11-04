@@ -35,6 +35,7 @@
 	    'options_global_page_show_breadcrumbs' => '0',
 	    'options_global_page_smooth_scroll' => '1',
 	    'options_global_header_logo_by_default' => 'dark_variant',
+	    'options_global_page_is_wrapped' => '1',
 	    'options_global_header_logo_when_fixed' => 'dark_variant',
 	    'options_global_side_panel_add_padding' => '0',
 	    'options_global_side_panel_background' => 'rgba(255,255,255,0.01)',

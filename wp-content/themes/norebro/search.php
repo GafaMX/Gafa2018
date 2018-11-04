@@ -12,6 +12,12 @@
 		$sidebar_page_class = ' with-right-sidebar';
 	}
 
+	$sidebar_layout = NorebroSettings::page_sidebar_layout();
+	$sidebar_class = '';
+	if ( $sidebar_layout ) {
+		$sidebar_class .= ' sidebar-' . $sidebar_layout;
+	}
+
 	$posts_grid = NorebroSettings::get( 'blog_page_layout', 'global' );
 	$grid_style_class = ( $posts_grid == 'masonry' ) ? 'blog-posts-masonry' : 'blog-posts-classic';
 
@@ -49,7 +55,7 @@
 	<div id="primary" class="content-area">
 		
 		<?php if ( $sidebar_position == 'left' ) : ?>
-		<div class="page-sidebar sidebar-left">
+		<div class="page-sidebar sidebar-left<?php echo $sidebar_class; ?>">
 			<aside id="secondary" class="widget-area">
 				<?php dynamic_sidebar( 'norebro-sidebar-blog' ); ?>
 			</aside>
@@ -150,7 +156,7 @@
 		</div>
 
 		<?php if ( $sidebar_position == 'right' ) : ?>
-		<div class="page-sidebar sidebar-right">
+		<div class="page-sidebar sidebar-right<?php echo $sidebar_class; ?>">
 			<aside id="secondary" class="widget-area">
 				<?php dynamic_sidebar( 'norebro-sidebar-blog' ); ?>
 			</aside>

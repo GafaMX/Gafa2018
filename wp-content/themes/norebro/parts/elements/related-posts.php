@@ -77,7 +77,9 @@
 						?>
 						<?php if ( $thumb_id ) : ?>
 						<header>
-							<img src="<?php echo esc_url( $img_url ); ?>" alt="<?php echo get_the_title(); ?>">
+							<a rel="external" href="<?php echo esc_url( get_the_permalink() ); ?>">
+								<img src="<?php echo esc_url( $img_url ); ?>" alt="<?php echo get_the_title(); ?>">
+							</a>
 							<div class="tags">
 								<a class="tag brand-bg-color brand-border-color" href="<?php echo esc_url( get_category_link( $category[0]->term_id ) ); ?>">
 									<?php echo esc_html( $category[0]->name ); ?>

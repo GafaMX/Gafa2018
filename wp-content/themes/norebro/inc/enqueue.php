@@ -11,12 +11,18 @@ add_action( "admin_head", "norebro_enqueue_admin_style" );
 
 // Styles including
 function norebro_enqueue_own_styles() {
-	wp_enqueue_style( 'norebro-style', get_stylesheet_uri(), array(), '1.0.18' );
+	wp_enqueue_style( 'norebro-style', get_stylesheet_uri(), array(), '1.2.0' );
 	if ( is_rtl() ) {
 		wp_enqueue_style( 'norebro-rtl', get_template_directory_uri() . '/rtl.css' );
 	}
 	wp_enqueue_style( 'norebro-grid', get_template_directory_uri() . '/css/grid.min.css', false );
 	get_template_part( 'inc/dynamic_css/index' );
+
+	# User custom js
+	$custom_js_header = NorebroSettings::get( 'header_javascript', 'global' );
+	if ( $custom_js_header ) {
+		echo '<script type="text/javascript">' .  $custom_js_header . '</script>';
+	}
 }
 
 add_action( 'wp_enqueue_scripts', 'norebro_enqueue_own_styles' );
@@ -30,6 +36,12 @@ function norebro_enqueue_own_styles_secondary() {
 	wp_register_style( 'shortcodes-settings', false );
 	wp_enqueue_style( 'shortcodes-settings' );
 	wp_add_inline_style( 'shortcodes-settings', NorebroLayout::get_shortcodes_css_buffer( false ) );
+
+	# User custom js
+	$custom_js_footer = NorebroSettings::get( 'footer_javascript', 'global' );
+	if ( $custom_js_footer ) {
+		echo '<script type="text/javascript">' .  $custom_js_footer . '</script>';
+	}
 }
 
 add_action( 'wp_footer', 'norebro_enqueue_own_styles_secondary' );
@@ -38,7 +50,7 @@ add_action( 'wp_footer', 'norebro_enqueue_own_styles_secondary' );
 // Scripts including
 function norebro_enqueue_own_scripts() {
 
-	if ( get_field( 'global_page_smooth_scroll', 'option' ) ) {
+	if ( NorebroSettings::get( 'global_page_smooth_scroll', 'option' ) ) {
 		NorebroHelper::add_required_script( 'smooth-scroll' );
 	}
 

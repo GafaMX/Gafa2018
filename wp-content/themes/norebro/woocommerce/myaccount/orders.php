@@ -63,9 +63,9 @@ do_action( 'woocommerce_before_account_orders', $has_orders ); ?>
 								</span>
 
 							<?php elseif ( 'order-total' === $column_id ) : ?>
-								<?php 
+								<?php
 									/* translators: %1$s: item count, %2$s: order total */
-									echo esc_html( sprintf( _n( '%1$s for %2$s item', '%1$s for %2$s items', $item_count, 'norebro' ), $order->get_formatted_order_total(), $item_count ) ); 
+									echo sprintf( _n( '%1$s for %2$s item', '%1$s for %2$s items', $item_count, 'norebro' ), $order->get_formatted_order_total(), $item_count ); 
 								?>
 							<?php elseif ( 'order-actions' === $column_id ) : ?>
 								<?php

@@ -28,7 +28,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	printf(
 		$test,
 		'<mark class="order-number">' . wp_kses( $order->get_order_number(), 'default' ) . '</mark>',
-		'<mark class="order-date">' . wp_kses( date_i18n( get_option( 'date_format' ), strtotime( $order->order_date ) ) ), 'default' ) . '</mark>',
+		'<mark class="order-date">' . wp_kses( date_i18n( get_option( 'date_format' ), strtotime( $order->get_date_created() ) ), 'default' ) . '</mark>',
 		'<mark class="order-status">' . wp_kses( wc_get_order_status_name( $order->get_status() ), 'default' ) . '</mark>'
 	);
 ?></p>

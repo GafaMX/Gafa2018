@@ -3,14 +3,17 @@ em.norebro_is { /* *icon span */
 	margin-right: 4px;
 	font-size: 14px;
 }
-
 .wp-picker-container {
 	display: inline-block;
 }
-
 .wp-picker-container .wp-color-result.button {
 	height: 32px;
 	padding-left: 28px;
+	margin: 3px 6px 3px 0px;
+}
+ul.acf-radio-list, 
+ul.acf-checkbox-list {
+	margin: 3px 0px;
 }
 .wp-color-result-text {
 	line-height: 30px;
@@ -995,16 +998,10 @@ em.norebro_is { /* *icon span */
 	width: 50%;
 	float: left;
 }
-
-
-
 .wpb_norebro_split_screen_column_left > .wpb_element_wrapper > .wpb_column_container,
 .wpb_norebro_split_screen_column_right > .wpb_element_wrapper > .wpb_column_container {
 	margin: 0 10px;
 }
-
-
-
 .wpb_norebro_vertical_slider_inner .wpb_element_wrapper .wpb_column_container {
 	margin: 0 10px;
 }
@@ -1012,7 +1009,6 @@ em.norebro_is { /* *icon span */
 .wpb_norebro_vertical_slider_inner .wpb_element_wrapper .wpb_column_container.vc_empty-container::after {
 	top: 10px;
 }
-
 .wpb_norebro_vertical_slider_inner {
 	border-bottom: 2px dotted #e6e6e6;
 }
@@ -1022,11 +1018,9 @@ em.norebro_is { /* *icon span */
 }
 
 
-
 /*
 * Datetime
 */
-
 .norebro_extra_datetime_block {
 	margin-top: 5px;
 	padding: 5px 6px;
@@ -1056,41 +1050,40 @@ em.norebro_is { /* *icon span */
 /**
 * Button settings type
 */
-
-
+.norebro-acf-columns-field-content,
+.norebro-acf-ecommerce-columns-field-content {
+	margin-left: -8px;
+	margin-right: -8px;
+}
 .col-3,
+.col-4,
 .col-6 {
 	float: left;
-	padding-right: 15px;
 	box-sizing: border-box;
-	margin-bottom: 5px;
-}
-.col-3:last-of-type {
-	padding-right: 0px;
+	margin: 0px 8px 5px;
 }
 .col-3 {
-	width: 25%;
+    width: calc(25% - 16px);
+}
+.col-4 {
+	width: calc(33.33% - 16px);
 }
 .col-6 {
-	width: 50%;
+	width: calc(50% - 16px);
 }
 
 .left {
 	float: left;
 }
-
 .fullwidth {
 	margin-left: 10px;
 }
-
 .norebro_extra_button_block .brand-color {
 	margin-left: 5px;
 }
-
 .norebro_extra_button_block .brand-color label {
 	vertical-align: -4px;
 }
-
 .norebro_extra_button_block .button-checkbox {
 	min-height: 40px;
 	margin-top: 32px;
@@ -1135,12 +1128,9 @@ em.norebro_is { /* *icon span */
 	top: 0;
 	left: 0;
 }
-
-
 /**
 * Colorpicker settings type
 */
-
 .norebro_extra_colorpicker_block .left {
 	float: left;
 }
@@ -1161,8 +1151,6 @@ em.norebro_is { /* *icon span */
 	vertical-align: -4px;
 }
 
-
-
 /* Fixed color picker */
 .iris-picker {
 	display: none !important;
@@ -1170,15 +1158,10 @@ em.norebro_is { /* *icon span */
 .wp-picker-active .iris-picker {
 	display: block !important;
 }
-
-
 /* Fixed visual composer tinymce z-index in popup */
 .vc_ui-panel.vc_ui-panel-window {
 	z-index: 10000 !important;
 }
-
-
-
 .vc_shortcode-param[data-param_type="iconpicker"] .vc-icons-selector .selected-icon i {
 	font-size: 46px;
 	line-height: 46px;
@@ -1187,34 +1170,79 @@ em.norebro_is { /* *icon span */
 	padding: 4px 0;
 	height: 46px;
 }
-
 .vc-icons-selector .selector-button {
 	padding-top: 8px;
 	height: 46px;
 }
-
 .vc-icons-selector .selector {
 	height: 54px;
 }
-
 .fip-vc-theme-grey.vc-icons-selector span.current-icon {
 	background-color: #305288;
 }
 .fip-vc-theme-grey.vc-icons-selector .fip-icons-container .fip-box.current-icon:hover {
 	background-color: #305288;
 }
-
 .fip-vc-theme-grey.vc-icons-selector .selector-search input[type="text"] {
 	font-size: 14px;
 }
-
 .vc-icons-selector .fip-icons-container .fip-box {
 	padding: 4px 0;
 	height: 46px;
 	font-size: 46px;
 	line-height: 46px;
 }
-
+.norebro-acf-image-option-type {
+	margin: 8px -8px 0px;
+	padding: 0px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.norebro-acf-image-option-type .naiot-container {
+	height: auto;
+	width: auto;
+	background: #f3f3f3;
+	border: 1px solid #f3f3f3;
+	border-radius: 3px;
+	padding: 10px;
+}
+.norebro-acf-image-option-type .naiot-item {
+    margin: 0px 8px;
+    width: calc(25% - 16px);
+    height: auto;
+}
+@media only screen and (max-width: 1440px) {
+	.norebro-acf-image-option-type .naiot-item {
+	    width: calc((100% / 3) - 16px);
+	}
+}
+.norebro-acf-image-option-type .naiot-item img {
+	width: 100%;
+	height: auto;
+	vertical-align: top;
+}
+.norebro-acf-image-option-type .naiot-description {
+	width: auto;
+	font-style: normal;
+	margin: 0px 0px 16px 0px;
+	border-radius: 0px 0px 3px 3px;
+	height: auto;
+	padding: 10px 0px;
+}
+.norebro-acf-image-option-type .naiot-item.naiot-item--active .naiot-container {
+	border-color: #0a6cbe !important;
+	border-radius: 3px 3px 0px 0px;
+	box-shadow: none;
+	background: #f1f6fb;
+}
+.norebro-acf-image-option-type .naiot-item.naiot-item--active .naiot-description {
+	background: #0a6cbe;
+	color: #fff;
+}
+.norebro-acf-image-option-type .naiot-item:hover .naiot-container {
+	border-color: #f3f3f3;
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.06);
+}
 /*
 * ACF admin
 */
@@ -1236,47 +1264,51 @@ em.norebro_is { /* *icon span */
 	font-size: 14px;
 	font-weight: 600;
 	color: #23282d;
+	cursor: default;
 }
-
 .acf-field-593dd51cf9daf {
 	display: none;
 }
-
 .acf-fields h9 {
 	color: #23282d;
 	font-weight: 600;
 	display: block;
-	font-size: 14px;
-	margin: 4px 0px 10px;
+	font-size: 15px;
+	margin: 9px 0px 11px;
 }
-.acf-fields p {
-	margin: 4px 0px 8px;
-	color: #888;
+
+.acf-fields .message {
+	background-color: rgba(254,157,93,0.18);
+	border: 0px solid rgba(0,0,0,0.04);
+	border-left-width: 4px;
+	color: rgba(0,0,0,0.7);
+	padding: 12px 14px;
+	margin: 3px 0px;
 }
-.acf-fields p b {
-	color: #0073aa;
+.acf-fields .message b {
+	font-weight: 700;
 }
 .acf-fields .icon {
 	font-size: 16px;
 	vertical-align: middle;
 	margin-top: -2px;
 	display: inline-block;
-	color: #0073aa;
 }
-
+.acf-fields .message {
+	margin: 8px 0px 8px;
+}
 .acf-fields.-left > .acf-field > .acf-label {
 	padding: 12px 12px 14px 12px;
 }
-
 .acf-field select {
-	margin: 0px 0px 6px 0px;
+	margin: 3px 0px;
 	padding: 2px 6px;
 	height: 32px;
 	border-radius: 3px;
 	border-color: rgba(0, 0, 0, 0.16);
 	cursor: pointer;
+	vertical-align: top;
 }
-
 .norebro-acf-typo-field-content .font-preview {
 	padding: 15px;
 	border: none;
@@ -1285,38 +1317,54 @@ em.norebro_is { /* *icon span */
 	font-size: 14px;
 	border-left: 3px solid rgba(0, 0, 0, 0.1);
 }
-
 ul.acf-checkbox-list li input {
 	vertical-align: -3px;
 }
-
 .acf-image-uploader p {
 	font-size: 0;
 }
-
 ul.acf-checkbox-list li {
 	margin: 0;
 }
-
 .acf-field textarea {
 	border-color: rgba(0, 0, 0, 0.16);
 	border-radius: 3px;
-
 }
-.acf-field input[type="text"], .acf-field input[type="url"], .acf-field input[type="email"], .acf-field input[type="number"] {
+.acf-input .select2-container--default .select2-selection--single .select2-selection__arrow {
+	top: 6px;
+}
+.acf-input .select2-container--default .select2-selection--single .select2-selection__placeholder {
+	color: inherit;
+}
+.acf-input .select2-container--default .select2-selection--multiple .select2-selection__choice {
+	border: 1px solid rgba(0, 0, 0, 0.05);
+    background-color: #eeeeee;
+    border-right: 2px;
+    padding: 2px 6px;
+    margin: 3px 3px 0px 0px;
+}
+.acf-input .select2-container--default .select2-selection--multiple,
+.acf-input .select2-container--default .select2-selection--single,
+.acf-field input[type="text"], 
+.acf-field input[type="url"], 
+.acf-field input[type="email"], 
+.acf-field input[type="number"] {
 	height: 32px;
 	border-radius: 3px;
 	border-color: rgba(0, 0, 0, 0.16);
+	margin: 3px 0px;
 }
+.select2-container--default .select2-selection--single:hover,
 .acf-field input:hover, 
 .acf-field textarea:hover,
 .acf-field select:hover, 
 .acf-field form:hover {
 	border-color: rgba(0, 0, 0, 0.26);
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.06);
 }
 .acf-field textarea:focus,
 .acf-field textarea:select {
-	border-color: #0073aa;
+	border-color: #0a6cbe;
 
 }
 .wp-picker-input-wrap input[type="text"] {
@@ -1329,19 +1377,21 @@ input[type=week]:focus, input[type=password]:focus, input[type=checkbox]:focus,
 input[type=color]:focus, input[type=date]:focus, input[type=datetime]:focus, 
 input[type=datetime-local]:focus, input[type=email]:focus, 
 input[type=month]:focus, input[type=number]:focus, select:focus, textarea:focus {
-	border-color: #0073aa;
+	border-color: #0a6cbe;
 	box-shadow: none;
 }
 
 input[type="text"].acf-is-prepended, input[type="text"].acf-is-appended {
 	height: 32px;
 }
-.acf-input-prepend, .acf-input-append {
+.acf-input-prepend, 
+.acf-input-append {
 	height: 30px;
 	line-height: 30px;
-	background-color: #f3f3f3;
+	background-color: #eeeeee;
 	padding: 0px 12px;
-	border-color: #d6d6d6;
+	border-color: rgba(0, 0, 0, 0.05);
+	margin: 3px 0px;
 }
 .acf-input-prepend {
 	border-radius: 3px 0px 0px 3px;
@@ -1432,16 +1482,20 @@ input[type="text"].acf-is-prepended, input[type="text"].acf-is-appended {
 }
 .acf-field p.description {
 	font-size: 13px;
-	line-height: 16px;
+	line-height: 18px;
 	padding: 2px 0;
 }
 .acf-field p.description span {
 	margin-left: -12px;
 	margin-right: 6px;
 }
-
+.acf-field p.description em {
+	font-style: normal;
+	font-weight: 500;
+	color: #666;
+}
 .acf-fields.-left > .acf-field {
-	padding: 1px 0;
+	padding: 0px;
 }
 .acf-image-uploader .image-wrap img[src$=".svg"] {
     max-height: 50px;
@@ -1452,34 +1506,40 @@ input[type="text"].acf-is-prepended, input[type="text"].acf-is-appended {
     border-left: 3px solid rgba(0, 0, 0, 0.1);
     background-color: #f3f3f3;
 }
-
-.acf-fields.-left > .acf-field > .acf-label, .acf-fields.-left > .acf-field > .acf-input {
-	padding: 16px 20px 10px;
+.acf-fields.-left > .acf-field > .acf-label, 
+.acf-fields.-left > .acf-field > .acf-input {
+	padding: 12px 18px;
+}
+.acf-fields.-left > .acf-field > .acf-label {
+	padding-left: 12px;
 }
 .acf-tab-group {
 	margin-bottom: -1px;
 }
+.acf-tab-group li {
+    margin: 0 4px 0 0;
+}
 .acf-fields > .acf-tab-wrap .acf-tab-group li a {
 	border-radius: 2px 2px 0px 0px;
-	border: 1px solid rgba(0, 0, 0, 0.03);
+	border-color: rgba(0, 0, 0, 0.01);
 	border-bottom: 1px solid transparent;
-	background-color: rgba(0, 0, 0, 0.04);
-	padding: 0px 15px;
+	background-color: rgba(0, 0, 0, 0.06);
+	padding: 0px 11px;
 	font-weight: 400;
-	height: 40px;
-	line-height: 40px;
+	height: 38px;
+	line-height: 38px;
+}
+#adminmenu .wp-has-current-submenu ul>li>a, .folded #adminmenu li.menu-top .wp-submenu>li>a {
+    padding: 6px 12px;
 }
 .acf-fields > .acf-tab-wrap .acf-tab-group li.active a,
 .acf-fields > .acf-tab-wrap .acf-tab-group li.active a:hover {
-	border: 1px solid rgba(0, 0, 0, 0.1);
 	background: #fff;
-	border-top: none;
 	padding-top: 0px;
 	padding-bottom: 0px;
+	border-color: rgba(0, 0, 0, 0.1);
 	border-bottom: 1px solid #fff;
-	height: 42px;
-	line-height: 41px;
-	box-shadow: 0px 2px 0px 0px #0073aa inset;
+	height: 39px;
 	font-weight: 500;
 	color: #23282d;
 }
@@ -1512,7 +1572,7 @@ input[type="text"].acf-is-prepended, input[type="text"].acf-is-appended {
 	padding: 0px 10px;
 	border-color: rgba(0, 0, 0, 0.16);
 	border-radius: 3px;
-	margin-bottom: 6px;
+	margin: 3px 0px;
 }
 .acf-field .acf-button:hover,
 .acf-field .wp-color-result:hover {
@@ -1522,7 +1582,7 @@ input[type="text"].acf-is-prepended, input[type="text"].acf-is-appended {
 }
 .acf-field .acf-button:focus,
 .acf-field .wp-color-result:focus {
-	border-color: #0073aa;
+	border-color: #0a6cbe;
 	box-shadow: none;
 }
 input[type=text], input[type=search], input[type=radio], input[type=tel], input[type=time], input[type=url], input[type=week], input[type=password], input[type=checkbox], input[type=color], input[type=date], input[type=datetime], input[type=datetime-local], input[type=email], input[type=month], input[type=number], select, textarea {
@@ -1554,15 +1614,15 @@ input[type=text], input[type=search], input[type=radio], input[type=tel], input[
 	padding: 0px 10px;
 	font-size: 13px;
 }
+.wp-picker-input-wrap {
+	margin: 3px 0px;
+}
 .acf-switch .acf-switch-on {
 	text-shadow: none;
 }
 .acf-table > tbody > tr > th, .acf-table > thead > tr > th, 
 .acf-table > tbody > tr > td, .acf-table > thead > tr > td {
 	padding: 6px 8px;
-}
-.acf-input-wrap {
-	margin-bottom: 6px;
 }
 .acf-table {
 	border-radius: 3px;
@@ -1572,19 +1632,21 @@ input[type=text], input[type=search], input[type=radio], input[type=tel], input[
 	border-color: rgba(0, 0, 0, 0.16);
 }
 .acf-switch {
-	border: 1px solid rgba(0, 0, 0, 0.10);
+	border: 1px solid rgba(0, 0, 0, 0.05);
 	box-shadow: none;
-	background-color: #f3f3f3;
+	background-color: #eeeeee;
 	height: auto;
 	vertical-align: middle;
 	padding: 0px 5px;
-	margin-bottom: 6px;
+	margin: 5px 0px;
 }
 .acf-switch span {
 	line-height: 1;
 	padding: 0px 3px;
 	height: 26px;
 	line-height: 24px;
+	font-size: 13px;
+	font-weight: 500;
 }
 .acf-switch .acf-switch-slider {
 	border: none;
@@ -1592,8 +1654,8 @@ input[type=text], input[type=search], input[type=radio], input[type=tel], input[
 	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.08);
 }
 .acf-switch.-on {
-	background-color: #0073aa;
-	border-color: #0073aa;
+	background-color: #0a6cbe;
+	border-color: #0a6cbe;
 }
 .acf-switch.-on:hover {
 	background-color: #0286c5;
@@ -1604,7 +1666,7 @@ input[type=text], input[type=search], input[type=radio], input[type=tel], input[
 	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.12);
 }
 input[type=radio]:checked:before {
-	background: #0073aa;
+	background: #0a6cbe;
 }
 input[type=radio], input[type=checkbox] {
 	border: 1px solid rgba(0, 0, 0, 0.1);
@@ -1787,12 +1849,12 @@ input[type=radio], input[type=checkbox] {
 /* New norebro notifications */
 .norebro-admin-notif {
 	background-color: #ffffff;
-	border-left: 4px solid #0073aa;
+	border-left: 4px solid #0a6cbe;
 	box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
 }
 .norebro-admin-notif a.button-primary {
-	background-color: #0073aa;
-	border-color: #0073aa;
+	background-color: #0a6cbe;
+	border-color: #0a6cbe;
 	color: #efefef;
 	box-shadow: 0 1px 0 rgba(0,0,0,.14);
 	text-shadow: 0 1px 2px rgba(0,0,0,.4);
@@ -1815,7 +1877,7 @@ input[type=radio], input[type=checkbox] {
 .norebro-admin-notif p.links {
 	margin: 12px 0 10px 0;
 }
-#adminmenu .wp-not-current-submenu li > a span[class^="ion-"] {
+#adminmenu .wp-not-current-submenu li > a i[class^="ion-"] {
 	color: #ffffff;
 	width: 14px;
 	margin-right: 2px;
@@ -1823,13 +1885,20 @@ input[type=radio], input[type=checkbox] {
 	margin-left: -2px;
 	text-align: center;
 }
-#adminmenu .wp-has-current-submenu ul > li > a span[class^="ion-"] {
-	color: #ffffff;
+#adminmenu .wp-submenu a {
+	font-size: 14px;
+}
+#adminmenu .wp-has-current-submenu ul > li > a i[class^="ion-"] {
+	color: #a7a9ab;
 	width: 14px;
-	margin-right: 2px;
 	display: inline-block;
-	margin-left: -2px;
 	text-align: center;
+	font-size: 16px;
+	margin: -3px 8px 0px -2px;
+	vertical-align: middle;
+}
+#adminmenu .wp-has-current-submenu ul > li.current > a i[class^="ion-"] {
+	color: #fff;
 }
 /* ACF Support section */
 .norebro-theme-support-block {
@@ -1864,7 +1933,7 @@ input[type=radio], input[type=checkbox] {
     text-align: center;
     font-size: 14px;
     line-height: 24px;
-    background: #0073aa;
+    background: #0a6cbe;
     border-radius: 26px;
     letter-spacing: 1px;
     border-radius: 4px;
@@ -1879,7 +1948,7 @@ input[type=radio], input[type=checkbox] {
     width: 140px;
     height: 28px;
     padding: 5px 10px 7px 10px;
-    color: #0073aa;
+    color: #0a6cbe;
     text-decoration: none;
     text-align: center;
     font-size: 14px;
@@ -1887,7 +1956,7 @@ input[type=radio], input[type=checkbox] {
     line-height: 14px;
     letter-spacing: 1px;
     background: transparent;
-    border: 1px solid #0073aa;
+    border: 1px solid #0a6cbe;
     border-radius: 5px;
     box-shadow: 0 1px 1px 0 #fff;
     text-shadow: 0 1px 0 #fff;
@@ -1896,7 +1965,7 @@ input[type=radio], input[type=checkbox] {
 
 .norebro-theme-support-rate-us a:hover {
 	color: #fff;
-	background: #0073aa;
+	background: #0a6cbe;
 	text-shadow: none;
 }
 .vc_edit_form_elements .textarea_raw_html {
@@ -1913,8 +1982,13 @@ input[type=radio], input[type=checkbox] {
 	background: none;
 }
 
-.norebro-acf-columns-field-content label {
+.acf-input .col-3 label,
+.acf-input .col-4 label {
 	display: inline-block;
 	margin-bottom: 5px;
 	font-weight: 500;
+}
+
+.norebro-acf-code-field-content .CodeMirror {
+	border: 1px solid #ddd;
 }

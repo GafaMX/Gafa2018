@@ -5,7 +5,7 @@
     "fields": [
         {
             "key": "field_592fdb59946d8",
-            "label": "General",
+            "label": "General Settings",
             "name": "",
             "type": "tab",
             "instructions": "",
@@ -20,7 +20,7 @@
             "endpoint": 0
         },
         {
-            "key": "field_5937e0a52b48cexmod60",
+            "key": "field_5937e0a52b488cexmod60",
             "label": "",
             "name": "",
             "type": "message",
@@ -32,7 +32,7 @@
                 "class": "",
                 "id": ""
             },
-            "message": "<p><span class=\"icon ion-information-circled\"></span> <b>Note:</b> these settings apply to all footer elements of your website.</p>",
+            "message": "<p class=\"message\"><span class=\"icon ion-information-circled\"></span> <b>Note:</b> these settings apply to all footer elements of your website.</p>",
             "new_lines": "",
             "esc_html": 0
         },
@@ -56,6 +56,40 @@
             "ui_off_text": "No"
         },
         {
+            "key": "field_592fd8901ea9a",
+            "label": "Content wrapper",
+            "name": "global_footer_is_wrapped",
+            "type": "true_false",
+            "instructions": "Add footer content wrapper to all pages",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 1,
+            "ui": 1,
+            "ui_on_text": "Yes",
+            "ui_off_text": "No"
+        },
+        {
+            "key": "field_5940ebca457f2",
+            "label": "Content text color",
+            "name": "global_footer_text_color",
+            "type": "norebro_color",
+            "instructions": "Choose content text color",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": ""
+        },
+        {
             "key": "field_592fd8901ca70",
             "label": "Background color",
             "name": "global_footer_background_color",
@@ -75,7 +109,7 @@
             "label": "Background image",
             "name": "global_footer_background_image",
             "type": "image",
-            "instructions": "Upload background image for footer. We recommend to use of transparent image.",
+            "instructions": "Upload background image for footer",
             "required": 0,
             "conditional_logic": 0,
             "wrapper": {
@@ -213,45 +247,11 @@
             "placeholder": ""
         },
         {
-            "key": "field_5940ebca457f2",
-            "label": "Content text color",
-            "name": "global_footer_text_color",
-            "type": "norebro_color",
-            "instructions": "Choose content text color",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "default_value": ""
-        },
-        {
-            "key": "field_592fd8901ea9a",
-            "label": "Content wrapper",
-            "name": "global_footer_is_wrapped",
-            "type": "true_false",
-            "instructions": "Add footer content wrapper?",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "message": "",
-            "default_value": 1,
-            "ui": 1,
-            "ui_on_text": "Yes",
-            "ui_off_text": "No"
-        },
-        {
             "key": "field_593916111579e",
             "label": "Sticky footer",
             "name": "global_footer_is_sticky",
             "type": "true_false",
-            "instructions": "Set sticky (fixed) footer on all pages?",
+            "instructions": "Set sticky (fixed) footer on all pages",
             "required": 0,
             "conditional_logic": 0,
             "wrapper": {
@@ -302,10 +302,10 @@
         },
         {
             "key": "field_592fd8901d6a1",
-            "label": "Copyright alignment",
+            "label": "Copyright content position",
             "name": "global_footer_copyright_alignment",
             "type": "select",
-            "instructions": "Copryright alignment",
+            "instructions": "Choose copyright content position",
             "required": 0,
             "conditional_logic": 0,
             "wrapper": {
@@ -356,10 +356,10 @@
         },
         {
             "key": "field_592fd8901f24baes",
-            "label": "Content items (left side)",
+            "label": "Left content item",
             "name": "global_footer_copyright_left",
             "type": "text",
-            "instructions": "Add some content to copyright section. You can use HTML tags",
+            "instructions": "Add some content to copyright section <em>| Use HTML tags</em>",
             "required": 0,
             "conditional_logic": [
                 [
@@ -378,10 +378,10 @@
         },
         {
             "key": "field_592fd8901f24bfee",
-            "label": "Content items (right side)",
+            "label": "Right content item</em>",
             "name": "global_footer_copyright_right",
             "type": "text",
-            "instructions": "Add some content to copyright section. You can use HTML tags",
+            "instructions": "Add some content to copyright section <em>| Use HTML tags</em>",
             "required": 0,
             "conditional_logic": [
                 [
@@ -438,7 +438,7 @@
             "label": "Copyright background",
             "name": "global_footer_copyright_background_color",
             "type": "norebro_color",
-            "instructions": "Choose copyright section background color",
+            "instructions": "Choose section background color",
             "required": 0,
             "conditional_logic": 0,
             "wrapper": {
@@ -450,7 +450,7 @@
         },
         {
             "key": "field_592fdb17946d7",
-            "label": "Logo Widget",
+            "label": "Other Settings",
             "name": "",
             "type": "tab",
             "instructions": "",
@@ -465,8 +465,25 @@
             "endpoint": 0
         },
         {
+            "key": "field_5937a7a521f8sebmod23",
+            "label": "",
+            "name": "",
+            "type": "message",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "<h9>Logo Widget</h9>",
+            "new_lines": "",
+            "esc_html": 0
+        },
+        {
             "key": "field_592fd8901ba9e",
-            "label": "Footer logo type",
+            "label": "Brand logo",
             "name": "global_footer_logo_type",
             "type": "select",
             "instructions": "Choose footer logo type",
@@ -480,7 +497,7 @@
             "choices": {
                 "light_variant": "Light variant logo",
                 "dark_variant": "Dark variant logo",
-                "sitename": "Site name",
+                "sitename": "Text logo",
                 "custom": "Custom loaded image"
             },
             "default_value": [
@@ -495,7 +512,7 @@
         },
         {
             "key": "field_592fd8901beb6",
-            "label": "Logo font settings",
+            "label": "Text logo settings",
             "name": "global_footer_logo_font_typo",
             "type": "norebro_typo",
             "instructions": "Custom typography settings for site name",
@@ -518,7 +535,7 @@
         },
         {
             "key": "field_592fd8901c689",
-            "label": "Footer logo image",
+            "label": "Logo image",
             "name": "global_footer_logo_image",
             "type": "image",
             "instructions": "Upload custom image for footer logo",

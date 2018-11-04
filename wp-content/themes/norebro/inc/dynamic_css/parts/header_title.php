@@ -1,7 +1,7 @@
 <?php
 /*
 	Header title custom style
-	
+
 	Table of contents: (you can use search)
 	# 1. Variables
 	# 2. Background color
@@ -22,29 +22,29 @@
 $header_title_height 	= false;
 $background_color 		= false;
 $background_image 		= false;
-$background_size 		= false;
+$background_size 		   = false;
 $background_position 	= false;
 $background_repeat 		= false;
-$title_typo				= false;
+$title_typo				   = false;
 $subtitle_typo 			= false;
 $overlay_color 			= false;
 
-$background_color_css 	= '';
-$background_image_css 	= '';
-$background_size_css 	= '';
+$background_color_css 	 = '';
+$background_image_css 	 = '';
+$background_size_css 	 = '';
 $background_position_css = '';
-$background_repeat_css 	= '';
-$title_typo_css 		= '';
-$subtitle_typo_css 		= '';
-$overlay_color_css 		= '';
+$background_repeat_css 	 = '';
+$title_typo_css 		    = '';
+$subtitle_typo_css 		 = '';
+$overlay_color_css 		 = '';
 $header_title_height_css = '';
 
 
 # 2. Background color
-  
+
 if ( NorebroSettings::page_is( 'single' ) ) {
 	$background_color = NorebroSettings::get( 'post_title_background_color' );
-	if ( ! $background_color && in_array( NorebroSettings::get( 'post_title_background' ), array( 'inherit', NULL ) ) ) { 
+	if ( ! $background_color && in_array( NorebroSettings::get( 'post_title_background' ), array( 'inherit', NULL ) ) ) {
 		$background_color = NorebroSettings::get( 'post_title_background_color', 'global' );
 		if ( ! $background_color && in_array( NorebroSettings::get( 'post_title_background_type', 'global' ), array( 'inherit', NULL ) ) ) {
 			$background_color = NorebroSettings::get( 'header_background_color', 'global' );
@@ -54,7 +54,7 @@ if ( NorebroSettings::page_is( 'single' ) ) {
 	$background_color = NorebroSettings::get( 'header_background_color' );
 	if ( ! $background_color && in_array( NorebroSettings::get( 'header_background_type' ), array( 'inherit', NULL ) ) ) {
 		$background_color = NorebroSettings::get( 'woocommerce_header_background_color', 'global' );
-		if ( ! $background_color && in_array( NorebroSettings::get( 'woocommerce_header_title_background_type', 'global' ), array( 'inherit', NULL ) ) ) { 
+		if ( ! $background_color && in_array( NorebroSettings::get( 'woocommerce_header_title_background_type', 'global' ), array( 'inherit', NULL ) ) ) {
 			$background_color = NorebroSettings::get( 'header_background_color', 'global' );
 		}
 	}
@@ -110,6 +110,9 @@ if ( NorebroSettings::page_is( 'single' ) ) {
 				case 'color':
 					$background_image = false;
 					break;
+                case 'custom':
+                    $background_image = NorebroSettings::get( 'post_title_background_image', 'global' );
+                    break;
 				default:
 					if ( NorebroSettings::get( 'header_title_background_type', 'global' ) == 'image' ) {
 						$background_image = NorebroSettings::get( 'header_title_background_image', 'global' );
@@ -145,10 +148,10 @@ if ( NorebroSettings::page_is( 'single' ) ) {
 } elseif ( NorebroSettings::page_is( 'project' ) ) {
 	if ( NorebroSettings::get( 'header_background_type' ) == 'image' ) {
 		$background_image = NorebroSettings::get( 'header_background_image' );
-	} elseif ( in_array( NorebroSettings::get( 'header_background_type' ), array( 'inherit', NULL ) ) ) { 
+	} elseif ( in_array( NorebroSettings::get( 'header_background_type' ), array( 'inherit', NULL ) ) ) {
 		if ( NorebroSettings::get( 'portfolio_header_title_type', 'global' ) == 'custom' ) {
 			$background_image = NorebroSettings::get( 'portfolio_title_background_image', 'global' );
-		} elseif ( in_array( NorebroSettings::get( 'portfolio_header_title_type', 'global' ), array( 'inherit', NULL ) ) ) { 
+		} elseif ( in_array( NorebroSettings::get( 'portfolio_header_title_type', 'global' ), array( 'inherit', NULL ) ) ) {
 			if ( NorebroSettings::get( 'header_title_background_type', 'global' ) == 'image' ) {
 			 	$background_image = NorebroSettings::get( 'header_title_background_image', 'global' );
 			}
@@ -157,7 +160,7 @@ if ( NorebroSettings::page_is( 'single' ) ) {
 } else {
 	if ( NorebroSettings::get( 'header_background_type' ) == 'image' ) {
 		$background_image = NorebroSettings::get( 'header_background_image' );
-	} elseif ( NorebroSettings::get( 'header_background_type' ) == 'inherit' 
+	} elseif ( NorebroSettings::get( 'header_background_type' ) == 'inherit'
 				|| NorebroSettings::get( 'header_background_type' ) === NULL ) {
 		if ( NorebroSettings::get( 'header_title_background_type', 'global' ) == 'image' ) {
 			$background_image = NorebroSettings::get( 'header_title_background_image', 'global' );
@@ -442,7 +445,7 @@ if ( NorebroSettings::page_is( 'single' ) ) {
 		if ( NorebroSettings::get( 'post_header_title_typo' ) ) {
 			$title_typo = json_decode( NorebroSettings::get( 'post_header_title_typo' ) );
 		}
-	} elseif ( NorebroSettings::get( 'post_typography_settings' ) == 'inherit' 
+	} elseif ( NorebroSettings::get( 'post_typography_settings' ) == 'inherit'
 				|| NorebroSettings::get( 'post_typography_settings' ) === NULL ) {
 		if ( NorebroSettings::get( 'post_typography_settings', 'global' ) == 'custom' ) {
 			if ( NorebroSettings::get( 'post_header_title_typo', 'global' ) ) {
@@ -460,7 +463,7 @@ if ( NorebroSettings::page_is( 'single' ) ) {
 		if ( NorebroSettings::get( 'page_header_title_typo' ) ) {
 			$title_typo = json_decode( NorebroSettings::get( 'page_header_title_typo' ) );
 		}
-	} elseif ( NorebroSettings::get( 'page_typography_settings' ) == 'inherit' 
+	} elseif ( NorebroSettings::get( 'page_typography_settings' ) == 'inherit'
 				|| NorebroSettings::get( 'page_typography_settings' ) === NULL ) {
 		if ( NorebroSettings::get( 'woocommerce_page_typography_settings', 'global' ) == 'custom' ) {
 			if ( NorebroSettings::get( 'woocommerce_header_title_typo', 'global' ) ) {
@@ -478,7 +481,7 @@ if ( NorebroSettings::page_is( 'single' ) ) {
 		if ( NorebroSettings::get( 'page_header_title_typo' ) ) {
 			$title_typo = json_decode( NorebroSettings::get( 'page_header_title_typo' ) );
 		}
-	} elseif ( in_array( NorebroSettings::get( 'page_typography_settings' ), array( 'inherit', NULL ) ) ) { 
+	} elseif ( in_array( NorebroSettings::get( 'page_typography_settings' ), array( 'inherit', NULL ) ) ) {
 		if ( NorebroSettings::get( 'portfolio_typography_settings', 'global' ) == 'custom' ) {
 			if ( NorebroSettings::get( 'project_header_title_typo', 'global' ) ) {
 				$title_typo = json_decode( NorebroSettings::get( 'project_header_title_typo', 'global' ) );
@@ -494,7 +497,7 @@ if ( NorebroSettings::page_is( 'single' ) ) {
 		if ( NorebroSettings::get( 'page_header_title_typo' ) ) {
 			$title_typo = json_decode( NorebroSettings::get( 'page_header_title_typo' ) );
 		}
-	} elseif ( NorebroSettings::get( 'page_typography_settings' ) == 'inherit' 
+	} elseif ( NorebroSettings::get( 'page_typography_settings' ) == 'inherit'
 				|| NorebroSettings::get( 'page_typography_settings' ) === NULL ) {
 		if ( NorebroSettings::get( 'header_tilte_typo', 'global' ) ) {
 			$title_typo = json_decode( NorebroSettings::get( 'header_tilte_typo', 'global' ) );
@@ -512,7 +515,7 @@ if ( NorebroSettings::page_is( 'single' ) ) {
 		if ( NorebroSettings::get( 'post_header_subtitle_typo' ) ) {
 			$subtitle_typo = json_decode( NorebroSettings::get( 'post_header_subtitle_typo' ) );
 		}
-	} elseif ( NorebroSettings::get( 'post_typography_settings' ) == 'inherit' 
+	} elseif ( NorebroSettings::get( 'post_typography_settings' ) == 'inherit'
 				|| NorebroSettings::get( 'post_typography_settings' ) === NULL ) {
 		if ( NorebroSettings::get( 'post_typography_settings', 'global' ) == 'custom' ) {
 			if ( NorebroSettings::get( 'post_header_subtitle_typo', 'global' ) ) {
@@ -530,7 +533,7 @@ if ( NorebroSettings::page_is( 'single' ) ) {
 		if ( NorebroSettings::get( 'page_header_subtitle_typo' ) ) {
 			$subtitle_typo = json_decode( NorebroSettings::get( 'page_header_subtitle_typo' ) );
 		}
-	} elseif ( NorebroSettings::get( 'page_typography_settings' ) == 'inherit' 
+	} elseif ( NorebroSettings::get( 'page_typography_settings' ) == 'inherit'
 				|| NorebroSettings::get( 'page_typography_settings' ) === NULL ) {
 		if ( NorebroSettings::get( 'woocommerce_page_typography_settings', 'global' ) == 'custom' ) {
 			if ( NorebroSettings::get( 'woocommerce_header_subtitle_typo', 'global' ) ) {
@@ -548,7 +551,7 @@ if ( NorebroSettings::page_is( 'single' ) ) {
 		if ( NorebroSettings::get( 'page_header_subtitle_typo' ) ) {
 			$subtitle_typo = json_decode( NorebroSettings::get( 'page_header_subtitle_typo' ) );
 		}
-	} elseif ( in_array( NorebroSettings::get( 'page_typography_settings' ), array( 'inherit', NULL ) ) ) { 
+	} elseif ( in_array( NorebroSettings::get( 'page_typography_settings' ), array( 'inherit', NULL ) ) ) {
 		if ( NorebroSettings::get( 'portfolio_typography_settings', 'global' ) == 'custom' ) {
 			if ( NorebroSettings::get( 'project_header_subtitle_typo', 'global' ) ) {
 				$subtitle_typo = json_decode( NorebroSettings::get( 'project_header_subtitle_typo', 'global' ) );
@@ -564,7 +567,7 @@ if ( NorebroSettings::page_is( 'single' ) ) {
 		if ( NorebroSettings::get( 'page_header_subtitle_typo' ) ) {
 			$subtitle_typo = json_decode( NorebroSettings::get( 'page_header_subtitle_typo' ) );
 		}
-	} elseif ( NorebroSettings::get( 'page_typography_settings' ) == 'inherit' 
+	} elseif ( NorebroSettings::get( 'page_typography_settings' ) == 'inherit'
 				|| NorebroSettings::get( 'page_typography_settings' ) === NULL ) {
 		if ( NorebroSettings::get( 'header_subtilte_typo', 'global' ) ) {
 			$subtitle_typo = json_decode( NorebroSettings::get( 'header_subtilte_typo', 'global' ) );
@@ -629,12 +632,12 @@ if ( NorebroSettings::page_is( 'single' ) ) {
 	if ( NorebroSettings::get( 'header_background_type' ) == 'image' ) {
 		if ( NorebroSettings::get( 'header_use_overlay' ) == 'yes' ) {
 			$overlay_color = NorebroSettings::get( 'header_overlay_color' );
-		} elseif ( NorebroSettings::get( 'header_use_overlay' ) == 'inherit' 
+		} elseif ( NorebroSettings::get( 'header_use_overlay' ) == 'inherit'
 					|| NorebroSettings::get( 'header_use_overlay' ) === NULL ) {
 			if ( NorebroSettings::get( 'woocommerce_header_title_background_type', 'global' ) == 'custom' ) {
 				if ( NorebroSettings::get( 'woocommerce_header_use_overlay', 'global' ) == 'yes' ) {
 					$overlay_color = NorebroSettings::get( 'woocommerce_header_overlay_color', 'global' );
-				} elseif ( NorebroSettings::get( 'woocommerce_header_use_overlay', 'global' ) == 'inherit' 
+				} elseif ( NorebroSettings::get( 'woocommerce_header_use_overlay', 'global' ) == 'inherit'
 							|| NorebroSettings::get( 'woocommerce_header_use_overlay', 'global' ) === NULL ) {
 					if ( NorebroSettings::get( 'header_use_overlay', 'global' )
 						&& NorebroSettings::get( 'header_title_background_type', 'global' ) == 'image' ) {
@@ -653,7 +656,7 @@ if ( NorebroSettings::page_is( 'single' ) ) {
 				|| NorebroSettings::get( 'header_background_type' ) === NULL ) {
 		if ( NorebroSettings::get( 'woocommerce_header_use_overlay', 'global' ) == 'yes' ) {
 			$overlay_color = NorebroSettings::get( 'woocommerce_header_overlay_color', 'global' );
-		} elseif ( NorebroSettings::get( 'woocommerce_header_use_overlay', 'global' ) == 'inherit' 
+		} elseif ( NorebroSettings::get( 'woocommerce_header_use_overlay', 'global' ) == 'inherit'
 					|| NorebroSettings::get( 'woocommerce_header_use_overlay', 'global' ) === NULL ) {
 			if ( NorebroSettings::get( 'header_use_overlay', 'global' )
 				&& NorebroSettings::get( 'header_title_background_type', 'global' ) == 'image' ) {
@@ -683,11 +686,11 @@ if ( NorebroSettings::page_is( 'single' ) ) {
 			}
 		}
 	} elseif ( in_array( NorebroSettings::get( 'header_background_type' ), array( 'inherit', NULL ) ) ) {
-		if ( NorebroSettings::get( 'portfolio_header_title_type', 'global' ) == 'custom' 
+		if ( NorebroSettings::get( 'portfolio_header_title_type', 'global' ) == 'custom'
 				&& NorebroSettings::get( 'portfolio_use_title_overlay', 'global' ) ) {
 			$overlay_color = NorebroSettings::get( 'portfolio_title_background_overlay_color', 'global' );
-		} elseif ( in_array( NorebroSettings::get( 'portfolio_header_title_type', 'global' ), array( 'inherit', NULL ) ) ) { 
-			if ( NorebroSettings::get( 'header_use_overlay', 'global' ) 
+		} elseif ( in_array( NorebroSettings::get( 'portfolio_header_title_type', 'global' ), array( 'inherit', NULL ) ) ) {
+			if ( NorebroSettings::get( 'header_use_overlay', 'global' )
 					&& NorebroSettings::get( 'header_title_background_type', 'global' ) == 'image' ) {
 				$overlay_color = NorebroSettings::get( 'header_overlay_color', 'global' );
 			}
@@ -697,7 +700,7 @@ if ( NorebroSettings::page_is( 'single' ) ) {
 	if ( NorebroSettings::get( 'header_background_type' ) == 'image' ) {
 		if ( NorebroSettings::get( 'header_use_overlay' ) == 'yes' ) {
 			$overlay_color = NorebroSettings::get( 'header_overlay_color' );
-		} elseif ( in_array( NorebroSettings::get( 'header_use_overlay' ), array( 'inherit', NULL ) ) ) { 
+		} elseif ( in_array( NorebroSettings::get( 'header_use_overlay' ), array( 'inherit', NULL ) ) ) {
 			if ( NorebroSettings::get( 'header_use_overlay', 'global' )
 				&& NorebroSettings::get( 'header_title_background_type', 'global' ) == 'image' ) {
 				$overlay_color = NorebroSettings::get( 'header_overlay_color', 'global' );
@@ -764,15 +767,17 @@ if ( NorebroSettings::header_title_is_full_height() ) {
 }
 
 if ( $header_title_height ) {
-	$header_title_height_css = 'height:' . $header_title_height . ';';
-	$header_title_height_css .= 'min-height:' . $header_title_height . ';';
+	$header_title_height_css .= 'height:${height}px;';
+	$header_title_height_css .= 'min-height:${height}px;';
+
+	$header_title_height_css = NorebroHelper::parse_responsive_height_to_css( $header_title_height, $header_title_height_css );
 }
 
 
 # 8. View
 
-if ( $background_color_css || $background_image_css || $background_image_css || $background_size_css 
-	|| $background_position_css || $background_repeat_css || $header_title_height_css ) {
+if ( $background_color_css || $background_image_css || $background_image_css || $background_size_css
+	|| $background_position_css || $background_repeat_css ) {
 	// --- start of CSS ---
 	$_style_block = '.header-title .bg-image{';
 	$_style_block .= $background_color_css;
@@ -781,11 +786,25 @@ if ( $background_color_css || $background_image_css || $background_image_css || 
 	$_style_block .= $background_position_css;
 	$_style_block .= $background_repeat_css;
 	$_style_block .= '}';
-	$_style_block .= '.header-title{';
-	$_style_block .= $header_title_height_css;
-	$_style_block .= '}';
 	// --- end of CSS ---
 	NorebroLayout::append_to_dynamic_css_buffer( $_style_block );
+}
+
+if ( $header_title_height_css ) {
+	$header_title_height_classes = '.header-title';
+
+	if ( $header_title_height_css['desktop'] ) {
+		$_style_block = $header_title_height_classes . '{' . $header_title_height_css['desktop'] . '}';
+		NorebroLayout::append_to_dynamic_css_buffer( $_style_block, 'desktop' );
+	}
+	if ( $header_title_height_css['tablet'] ) {
+		$_style_block = $header_title_height_classes . '{' . $header_title_height_css['tablet'] . '}';
+		NorebroLayout::append_to_dynamic_css_buffer( $_style_block, 'tablet' );
+	}
+	if ( $header_title_height_css['mobile'] ) {
+		$_style_block = $header_title_height_classes . '{' . $header_title_height_css['mobile'] . '}';
+		NorebroLayout::append_to_dynamic_css_buffer( $_style_block, 'mobile' );
+	}
 }
 
 if ( $overlay_color_css ) {

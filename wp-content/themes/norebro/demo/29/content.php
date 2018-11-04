@@ -24,6 +24,7 @@
 	    'options_global_header_menu_social_links_2_social_network' => 'dribbble',
 	    'options_global_header_menu_social_links_2_url' => 'https://dribbble.com/',
 	    'options_global_header_menu_use_wrapper' => '0',
+	    'options_global_page_is_wrapped' => '1',
 	    'options_global_header_title_align' => 'left',
 	    'options_global_header_title_background_type' => 'image',
 	    'options_global_logo_type' => 'sitename',

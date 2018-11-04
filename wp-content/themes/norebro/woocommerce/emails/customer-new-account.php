@@ -28,7 +28,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 <?php if ( 'yes' === get_option( 'woocommerce_registration_generate_password' ) && $password_generated ) : ?>
 
-	<p><?php printf( esc_html__( 'Your password has been automatically generated: %s', 'norebro' ), 'default' ), '<strong>' . esc_html( $user_pass ) . '</strong>' ); ?></p>
+	<p><?php printf( esc_html__( 'Your password has been automatically generated: %s', 'norebro' ), 'default' . '<strong>' . esc_html( $user_pass ) . '</strong>' ); ?></p>
 
 <?php endif; ?>
 

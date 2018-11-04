@@ -17,6 +17,7 @@
         '_options_global_header_menu_contacts_bar_social_links' => 'field_59229bda366f4',
         'options_global_header_title_background_type' => 'image',
         'options_global_header_height' => '460px',
+        'options_global_page_is_wrapped' => '1',
         'options_global_page_background_size' => 'auto',
         'options_global_page_background_repeat' => 'repeat',
         'options_global_page_smooth_scroll' => '1',

@@ -1,6 +1,8 @@
 <?php
 	$links = NorebroSettings::get( 'side_panel_social', 'global' );
+	$social_enable = NorebroSettings::get( 'side_panel_social_enable', 'global' );
 	$show_share_on_mobile = NorebroSettings::get( 'side_panel_show_share_on_mobile', 'global' );
+
 	switch ( NorebroSettings::get( 'side_panel_position', 'global' ) ) {
 		case 'hide':
 			$panel_position = 'hide';
@@ -52,14 +54,13 @@
 <?php if ( $panel_position != 'hide' ) : ?>
 
 <div class="bar-hamburger">
-	<?php 
+	<?php
 		if ( NorebroSettings::hamburger_in_panel() ) {
 			get_template_part( 'parts/elements/header-menu-hamburger' );
 		}
 	?>
 </div>
 <div class="norebro-bar bar <?php if ( $panel_position == 'right' ) { echo ' right'; } ?>">
-
 
 	<?php if ( $panel_text ) : ?>
 	<div class="content font-titles uppercase">
@@ -68,7 +69,7 @@
 	</div>
 	<?php endif; ?>
 
-	<?php if ( is_array( $links ) ) : ?>
+	<?php if ( is_array( $links ) && $social_enable ) : ?>
 	<div class="share">
 		<div class="title">
 			<div class="icon ion-android-add"></div>
@@ -79,7 +80,7 @@
 		</div>
 	</div>
 	<?php endif; ?>
-	
+
 </div>
 <?php endif; ?>
 

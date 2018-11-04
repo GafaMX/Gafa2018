@@ -112,7 +112,7 @@ header#masthead.site-header .header-wrap .right {
 .widget.widget_categories ul li,
 .widget.widget_meta ul li,
 .widget.widget_recent_comments ul li {
-  padding: 13px 20px 13px 0; }
+  padding: 13px 0px 13px 0; }
 
 .widget.widget_categories ul li:after,
 .widget.widget_meta ul li:after,
@@ -121,7 +121,7 @@ header#masthead.site-header .header-wrap .right {
   right: 2px; }
 
 .widget.widget_recent_comments ul li {
-  padding-right: 40px; }
+  padding-right: 0px; }
 
 .widget.widget_argenta_widget_subscribe .subscribe-widget table tr td input {
   border-left-width: 0;
@@ -252,3 +252,142 @@ header#masthead.site-header .header-wrap .right {
 .page-error form.search button {
   right: auto;
   left: 15px; }
+
+.text-left, p.text-left {
+  text-align: right; }
+
+.content-wrap {
+  width: 100%; }
+
+.blog-grid header .tags {
+  padding: 15px 0px 0px 0; }
+
+a.tag {
+  margin-right: 0; }
+
+.blog-grid header .tags:nth-child(2) {
+  left: 100%;
+  padding: 15px 20px 0px 0; }
+
+.woocommerce .product div.summary h2.product_title,
+.woocommerce-add-to-cart,
+.woocommerce .woocommerce-noreviews,
+.woocommerce .comment-form,
+.woocommerce .comment-reply-title,
+ul.woo-products h3,
+.woocommerce .related h3.title,
+.woocommerce .up-sells h3.title,
+.woocommerce ul {
+  text-align: right; }
+
+.woocommerce .price ins,
+.woocommerce .price del,
+.woo-quantity,
+.woocommerce .product div.summary .yith-wcwl-add-to-wishlist,
+.woocommerce .product div.summary .single_add_to_cart_button,
+#masthead .menu-other {
+  float: right; }
+
+.woocommerce .product div.summary .single_add_to_cart_button {
+  margin-left: 10px; }
+
+.woocommerce .product div.summary .stock, .woocommerce .product div.summary .woo-quantity {
+  margin-right: 0; }
+
+.woocommerce .product div.summary .price-percent {
+  margin-right: 20px; }
+
+.woocommerce .product .product_meta .tagged_as {
+  padding-right: 0; }
+
+.woocommerce .product .woo-summary-content > .wrap {
+  padding-left: 30px; }
+
+.accordion-box.outline .control {
+  right: 100%;
+  margin-right: -13.5px; }
+
+.woocommerce .product .product_meta > span {
+  padding-right: 8px; }
+  .woocommerce .product .product_meta > span:after {
+    left: -6px; }
+
+.fullscreen-navigation #secondary-menu li a {
+  padding-right: 0; }
+
+.fullscreen-navigation.simple ul.menu {
+  left: 0; }
+
+.fullscreen-navigation.simple .copyright {
+  right: 15%; }
+
+.hamburger-menu a {
+  margin: 0 20px 0 0; }
+
+.woocommerce .product div.summary .price ins .amount:last-child {
+  margin-right: 0; }
+
+.woocommerce .price ins {
+  margin-right: 0px; }
+
+.woocommerce .price del {
+  margin-right: 8px; }
+
+.woo-onsale {
+  left: 200px; }
+
+ul.woo-products .wc-product-title-wrap .yith-wcwl-add-to-wishlist {
+  right: 250px; }
+
+ul.woo-products .price {
+  padding: 0; }
+
+.woo-products .price del {
+  margin-right: 0; }
+
+.woo-products .price ins {
+  margin-right: 8px; }
+
+a#page-scroll-top.scroll-top {
+  right: auto;
+  left: 30px; }
+
+.fullscreen-navigation .close {
+  left: auto;
+  right: 20px; }
+
+.video-module.boxed.outline .btn-play.outline {
+  -webkit-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+          transform: rotate(180deg);
+  right: 0; }
+
+.video-module.boxed .content-center {
+  margin-right: 25px; }
+
+.norebro-button-sc .btn-outline .ion-android-arrow-forward {
+  -webkit-transform: rotate(180deg) translateY(-9px);
+      -ms-transform: rotate(180deg) translateY(-9px);
+          transform: rotate(180deg) translateY(-9px);
+  margin-right: 5px; }
+
+.wpb_single_image.vc_align_left {
+  text-align: right; }
+
+.portfolio-sorting li a.active {
+  padding-right: 0; }
+
+.portfolio-page .info-list li:first-child {
+  margin-right: 0; }
+
+.portfolio-gallery .slider .owl-nav .owl-prev,
+.portfolio-gallery .slider .owl-nav .owl-next {
+  -webkit-transform: rotate(180deg) !important;
+      -ms-transform: rotate(180deg) !important;
+          transform: rotate(180deg) !important; }
+
+.portfolio-gallery .slider .owl-stage-outer,
+.portfolio-gallery .slider .owl-stage,
+.portfolio-gallery .slider .owl-item {
+  -webkit-transform: translate3d(0px, 0px, 0px) !important;
+          transform: translate3d(0px, 0px, 0px) !important; }

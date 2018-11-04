@@ -41,16 +41,16 @@
 					$cases[] = 'front';
 				}
 				if ( ( function_exists( 'is_shop' ) && is_shop() ) ) {
-					$cases[] = 'shop';	
+					$cases[] = 'shop';
 				}
 				if ( function_exists( 'is_product_category' ) && is_product_category() ) {
-					$cases[] = 'product_category';	
+					$cases[] = 'product_category';
 				}
 				if ( function_exists( 'is_product_tag' ) && is_product_tag() ) {
-					$cases[] = 'product_tag';	
+					$cases[] = 'product_tag';
 				}
 				if ( function_exists( 'is_product' ) && is_product() ) {
-					$cases[] = 'product';	
+					$cases[] = 'product';
 				}
 				if ( function_exists( 'is_cart' ) && is_cart() ) {
 					$cases[] = 'cart';
@@ -93,6 +93,9 @@
 				}
 				if ( get_page_template_slug() == 'page-templates/page_for-builder.php' ) {
 					$cases[] = 'for_builder';
+				}
+				if ( get_page_template_slug() == 'page-templates/page_for-projects.php' ) {
+					$cases[] = 'projects_page';
 				}
 				if ( get_page_template_slug() == 'page-templates/page_for-posts.php' ) {
 					$cases[] = 'blog_template';
@@ -367,7 +370,7 @@
 					}
 				} else {
 					$add_cap = self::get( 'header_menu_add_cap', 'global' );
-				}	
+				}
 			}
 			if ( $add_cap === NULL ) {
 				$add_cap = 'no';
@@ -482,6 +485,11 @@
 			return ( ( $position ) ? $position : 'right' );
 		}
 
+		static function get_woocommerce_sidebar_position() {
+			$position = self::get( 'woocommerce_sidebar', 'global' );
+			return ( ( $position ) ? $position : 'right' );
+		}
+
 		static function get_archive_sidebar_position() {
 			$position = self::get( 'blog_sidebar', 'global' );
 			return ( ( $position ) ? $position : 'right' );
@@ -493,6 +501,14 @@
 				$position = self::get( 'page_sidebar', 'global' );
 			}
 			return ( ( $position ) ? $position : 'without' );
+		}
+
+		static function page_sidebar_layout() {
+			$layout = self::get( 'page_sidebar_layout' );
+			if ( in_array( $layout, array( 'inherit', NULL ) ) ) {
+				$layout = self::get( 'page_sidebar_layout', 'global' );
+			}
+			return $layout;
 		}
 
 
@@ -508,7 +524,7 @@
 			$logo_type = self::get( 'footer_logo_widget_type' );
 			if ( in_array( $logo_type, array( 'inherit', NULL ) ) ) {
 				if ( self::page_is( 'ecommerce' ) ) {
-					$logo_type = self::get( 'woocommerce_header_logo_style', 'global' );
+					$logo_type = self::get( 'woocommerce_footer_widget_logo_type', 'global' );
 					if ( in_array( $logo_type, array( 'inherit', NULL ) ) ) {
 						$logo_type = self::get( 'footer_logo_type', 'global' );
 						if ( ! $logo_type ) { $logo_type = 'sitename'; }
@@ -578,7 +594,7 @@
 						}
 					} elseif ( in_array( $logo_type, array( 'inherit', NULL ) ) ) {
 						if ( self::page_is( 'ecommerce' ) ) {
-							$logo_type = self::get( 'woocommerce_header_logo_style', 'global' );
+							$logo_type = self::get( 'woocommerce_footer_widget_logo_type', 'global' );
 							if ( $logo_type == 'custom' ) {
 								$_logo = self::get( 'woocommerce_footer_custom_logo', 'global' );
 								if ( $_logo ) {
@@ -702,10 +718,8 @@
 					}
 				}
 			} elseif ( self::page_is( 'project' ) ) {
-				
-
 				$show_breadcrumbs = self::get( 'page_show_breadcrumbs' );
-				
+
 				if ( in_array( $show_breadcrumbs, array( 'inherit', NULL ) ) ) {
 					$show_breadcrumbs = self::get( 'project_hide_breadcrumbs', 'global' );
 
@@ -716,6 +730,30 @@
 						if( $show_breadcrumbs == 'yes' ){
 							$show_breadcrumbs = 'no';
 						} else {
+							$show_breadcrumbs = 'yes';
+						}
+					}
+				}
+			} elseif ( self::page_is( 'home' ) || self::page_is( 'archive' ) ) {
+				$show_breadcrumbs = self::get( 'blog_page_breadcrumbs_visibility', 'global' );
+
+				if ( in_array( $show_breadcrumbs, array( 'inherit', NULL ) ) ) {
+					$hide_breadcrumbs = self::get( 'page_show_breadcrumbs', 'global' );
+
+					if( $hide_breadcrumbs ){
+						$show_breadcrumbs = 'yes';
+					}
+				}
+			} elseif ( self::page_is( 'blog_template' ) ) {
+				$show_breadcrumbs = self::get( 'page_show_breadcrumbs' );
+
+				if ( in_array( $show_breadcrumbs, array( 'inherit', NULL ) ) ) {
+					$show_breadcrumbs = self::get( 'blog_page_breadcrumbs_visibility', 'global' );
+
+					if ( in_array( $show_breadcrumbs, array( 'inherit', NULL ) ) ) {
+						$hide_breadcrumbs = self::get( 'page_show_breadcrumbs', 'global' );
+
+						if( $hide_breadcrumbs ){
 							$show_breadcrumbs = 'yes';
 						}
 					}
@@ -809,6 +847,18 @@
 						}
 					}
 				}
+			} elseif ( self::page_is( 'project' ) ) {
+				$page_wrapped = self::get( 'page_is_wrapped' );
+				if ( in_array( $page_wrapped, array( 'inherit', NULL ) ) ) {
+					$page_wrapped = self::get( 'project_page_is_wrapped', 'global' );
+					if ( in_array( $page_wrapped, array( 'inherit', NULL ) ) ) {
+						if ( self::get( 'page_is_wrapped', 'global' ) === NULL ) {
+							$page_wrapped = 'yes';
+						} else {
+							$page_wrapped = ( self::get( 'page_is_wrapped', 'global' ) ) ? 'yes' : 'no';
+						}
+					}
+				}
 			} else {
 				$page_wrapped = self::get( 'page_is_wrapped' );
 				if ( in_array( $page_wrapped, array( 'inherit', NULL ) ) ) {
@@ -825,11 +875,21 @@
 
 		/* Return slug for home page */
 		static function breadcrumbs_home_slug() {
-			$home_slug = self::get( 'page_home_breadcrumb_slug', 'global' );
+			$home_slug = esc_html__( self::get( 'page_home_breadcrumb_slug', 'global' ) );
 			if ( ! $home_slug ) {
 				$home_slug = esc_html__( 'Home', 'norebro' );
 			}
 			return $home_slug;
+		}
+
+
+		/* Return slug for woocommerce shop */
+		static function breadcrumbs_woocommerce_slug() {
+			$woo_slug = esc_html__( self::get( 'woocommerce_breadcrumbs_slug', 'global' ) );
+			if ( ! $woo_slug ) {
+				$woo_slug = get_the_title( get_option( 'woocommerce_shop_page_id' ) );
+			}
+			return $woo_slug;
 		}
 
 
@@ -886,7 +946,7 @@
 				} elseif ( in_array( self::get( 'header_use_overlay' ), array( 'inherit', NULL ) ) ) {
 					if ( self::get( 'woocommerce_header_use_overlay', 'global' ) == 'yes' ) {
 						$use_overlay = true;
-					} elseif ( in_array( self::get( 'woocommerce_header_use_overlay', 'global' ), array( 'inherit', NULL ) ) ) { 
+					} elseif ( in_array( self::get( 'woocommerce_header_use_overlay', 'global' ), array( 'inherit', NULL ) ) ) {
 						if ( self::get( 'header_use_overlay', 'global' ) ) {
 							$use_overlay = true;
 						} elseif ( self::get( 'header_use_overlay', 'global' ) === NULL ) {
@@ -911,7 +971,7 @@
 			} else {
 				if ( self::get( 'header_use_overlay' ) == 'yes' ) {
 					$use_overlay = true;
-				} elseif ( in_array( self::get( 'header_use_overlay' ), array( 'inherit', NULL ) ) ) { 
+				} elseif ( in_array( self::get( 'header_use_overlay' ), array( 'inherit', NULL ) ) ) {
 					if ( self::get( 'header_use_overlay', 'global' ) ) {
 						$use_overlay = true;
 					} elseif ( self::get( 'header_use_overlay', 'global' ) === NULL ) {
@@ -954,7 +1014,7 @@
 				} else {
 					$use_wrapper = self::get( 'header_menu_use_wrapper', 'global' );
 					$use_wrapper = ( $use_wrapper ) ? 'yes' : 'no';
-				}	
+				}
 			}
 			return ( bool ) ( $use_wrapper == 'yes' );
 		}
@@ -973,7 +1033,7 @@
 				} else {
 					$is_fixed = self::get( 'header_menu_fixed', 'global' );
 					$is_fixed = ( $is_fixed ) ? 'yes' : 'no';
-				}	
+				}
 			}
 			if ( self::page_is( 'project' ) ) {
 				$project_layout_type = self::get( 'project_layout_type' );
@@ -992,13 +1052,30 @@
 
 		/* Add vertical paddings for this page? */
 		static function page_add_top_padding() {
-			$add_content_padding = self::get( 'page_add_top_padding' );
-			if ( in_array( $add_content_padding, array( 'inherit', NULL ) ) ) {
-				$add_content_padding = self::get( 'page_add_top_padding', 'global' );
-				if ( is_null( $add_content_padding ) ){
-					$add_content_padding = 'yes';
+			if ( self::page_is( 'project' ) ) {
+				# Porject page
+				$add_content_padding = self::get( 'page_add_top_padding' );
+				if ( in_array( $add_content_padding, array( 'inherit', NULL ) ) ) {
+					# Global project page
+					$add_content_padding = self::get( 'project_page_add_top_padding', 'global' );
+					if ( in_array( $add_content_padding, array( 'inherit', NULL ) ) ) {
+						# Global page
+						$add_content_padding = self::get( 'page_add_top_padding', 'global' );
+						if ( is_null( $add_content_padding ) ) {
+							$add_content_padding = 'yes';
+						}
+						$add_content_padding = ( $add_content_padding ) ? 'yes' : 'no';
+					}
 				}
-				$add_content_padding = ( $add_content_padding ) ? 'yes' : 'no';
+			} else {
+				$add_content_padding = self::get( 'page_add_top_padding' );
+				if ( in_array( $add_content_padding, array( 'inherit', NULL ) ) ) {
+					$add_content_padding = self::get( 'page_add_top_padding', 'global' );
+					if ( is_null( $add_content_padding ) ){
+						$add_content_padding = 'yes';
+					}
+					$add_content_padding = ( $add_content_padding ) ? 'yes' : 'no';
+				}
 			}
 			return (bool) ( $add_content_padding == 'yes' );
 		}
@@ -1125,6 +1202,15 @@
 						$is_boxed = ( self::get( 'page_use_boxed_wrapper', 'global' ) ) ? 'yes' : 'no';
 					}
 				}
+			}
+			if ( self::page_is( 'project' ) ) {
+				$is_boxed = self::get( 'page_use_boxed_wrapper' );
+				if ( in_array( $is_boxed, array( 'inherit', NULL ) ) ) {
+					$is_boxed = self::get( 'project_page_use_boxed_wrapper', 'global' );
+					if ( in_array( $is_boxed, array( 'inherit', NULL ) ) ) {
+						$is_boxed = ( self::get( 'page_use_boxed_wrapper', 'global' ) ) ? 'yes' : 'no';
+					}
+				}
 			} else {
 				$is_boxed = self::get( 'page_use_boxed_wrapper' );
 				if ( in_array( $is_boxed, array( 'inherit', NULL ) ) ) {
@@ -1206,7 +1292,19 @@
 
 		/* Return true when hamburger renders in side panel */
 		static function hamburger_in_panel() {
-			return (bool) ( self::get( 'menu_hamburger_align', 'global' ) == 'inside_panel' );
+			$hamburger_location = self::get( 'menu_hamburger_align' );
+			if (in_array( $hamburger_location, array('inherit', NULL) ) ) {
+				$hamburger_location = self::get( 'menu_hamburger_align', 'global' );
+			}
+			return (bool) ( $hamburger_location == 'inside_panel' );
+		}
+
+		static function get_menu_style() {
+			$menu_style = NorebroSettings::get( 'fullscreen_menu_style' );
+			if (in_array( $menu_style, array('inherit', NULL) ) ) {
+				$menu_style = NorebroSettings::get( 'fullscreen_menu_style', 'global' );
+			}
+			return $menu_style;
 		}
 
 	}

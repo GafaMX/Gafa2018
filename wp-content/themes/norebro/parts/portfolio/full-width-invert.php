@@ -1,31 +1,53 @@
 <?php
+	global $post;
+
+	# Project settings
 	$project = NorebroObjectParser::parse_to_project_object( $post );
+
 	if ( is_array( $project['images_full'] ) && count( $project['images_full'] ) > 0 ) {
 		$project['images'] = $project['images_full'];
 	}
 
-	if ( !$project['hide_breadcrumbs'] ) {
-		get_template_part( 'parts/elements/breadcrumbs' );
-	}
-
-	if ( $project['show_navigation'] == 'prev_n_next' && ( $project['prev'] || $project['next'] ) 
+	if ( $project['show_navigation'] == 'prev_n_next' && ( $project['prev'] || $project['next'] )
 			&& $project['navigation_position'] == 'top' ) {
 		get_template_part( 'parts/elements/next-n-prev-projects' );
 	}
 
-	global $post;
+
+	# Page container settings
+	$show_breadcrumbs = NorebroSettings::breadcrumbs_is_displayed();
+	$page_wrapped = NorebroSettings::page_is_wrapped();
+	$add_content_padding = NorebroSettings::page_add_top_padding();
+
+	$page_container_class = '';
+	$custom_page_container_class = '';
+	if ( !$show_breadcrumbs && $add_content_padding ) {
+		$page_container_class .= ' without-breadcrumbs';
+	}
+	if ( ! $page_wrapped ) {
+		$page_container_class .= ' full';
+		$custom_page_container_class .= ' full';
+	}
+	if ( $add_content_padding ) {
+		$page_container_class .= ' bottom-offset';
+	}
+
+	if ( $show_breadcrumbs ) {
+		get_template_part( 'parts/elements/breadcrumbs' );
+	}
+
 ?>
 
 <?php if ( $project['custom_content_position'] == 'top' ) : ?>
-	<div class="page-container full">
+	<div class="page-container <?php echo $custom_page_container_class; ?>">
 		<div class="portfolio-page-custom-content">
 		<?php echo do_shortcode( get_post_field( 'post_content', $post->ID ) ); ?>
 		</div>
 	</div>
 <?php endif; ?>
 
-<div class="page-container full portfolio-page fullwidth content-invert" id="scroll-portfolio">
-	<div id="scroll-portfolio" class="vc_col-sm-6">
+<div class="page-container portfolio-page fullwidth content-invert<?php echo $page_container_class; ?>" id="scroll-portfolio">
+	<div id="scroll-portfolio" class="vc_col-sm-6 portfolio-content-wrap">
 		<div class="portfolio-content" data-norebro-content-scroll="#scroll-portfolio">
 			<div class="vc_row">
 				<div class="vc_col-sm-12">
@@ -39,7 +61,7 @@
 				</div>
 				<div class="vc_col-sm-12">
 					<?php echo wp_kses_post( $project['description'] ); ?>
-					<?php 
+					<?php
 						if ( $project['custom_content_position'] == 'after_description' ) {
 							echo do_shortcode( get_post_field( 'post_content', $post->ID ) );
 						}
@@ -73,6 +95,26 @@
 						</li>
 						<?php endif; ?>
 
+						<?php
+						$tags = wp_get_post_terms($post->ID, 'norebro_portfolio_tags');
+						if (!empty($tags)) {
+							?>
+							<li>
+								<div class="title"><?php esc_html_e( 'Tags', 'norebro' ); ?></div>
+								<p>
+									<?php $i = 0; foreach ($tags as $tag):
+										if ($i == 0):
+											echo $tag->name;
+										else:
+											echo ', ' . $tag->name;
+										endif;
+										$i++; endforeach; ?>
+								</p>
+							</li>
+							<?php
+						}
+						?>
+
 						<?php if ( $project['custom_fields'] ) : ?>
 							<?php foreach ( $project['custom_fields'] as $custom_field ) : ?>
 							<li>
@@ -98,7 +140,7 @@
 						<span class="icon ion-android-arrow-forward"></span>
 					</a>
 					<?php endif; ?>
-					
+
 				</div>
 			</div>
 		</div>
@@ -116,22 +158,22 @@
 </div><!--.portfolio-page-->
 
 <?php if ( $project['custom_content_position'] == 'bottom' ) : ?>
-	<div class="page-container full">
+	<div class="page-container <?php echo $custom_page_container_class; ?>">
 		<div class="portfolio-page-custom-content">
 		<?php echo do_shortcode( get_post_field( 'post_content', $post->ID ) ); ?>
 		</div>
 	</div>
 <?php endif; ?>
 
-<?php 
-	if ( $project['show_navigation'] == 'prev_n_next' && ( $project['prev'] || $project['next'] ) 
+<?php
+	if ( $project['show_navigation'] == 'prev_n_next' && ( $project['prev'] || $project['next'] )
 			&& $project['navigation_position'] == 'bottom' ) {
 		get_template_part( 'parts/elements/next-n-prev-projects' );
 	}
 ?>
 
 <?php if ( comments_open() || get_comments_number() ) : ?>
-	<div class="portfolio-comments">	
+	<div class="portfolio-comments">
 		<?php comments_template(); ?>
 	</div>
 <?php endif; ?>

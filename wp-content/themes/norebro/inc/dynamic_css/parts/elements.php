@@ -50,7 +50,7 @@ if ( $go_top_border ) {
 $preloader_color = NorebroSettings::get( 'preloader_shapes_color', 'global' );
 
 if ( $preloader_color ) {
-	$preloader_color_css = 'border-color:' . $preloader_color . ';'; // ?
+	$preloader_color_css = 'color:' . $preloader_color . ';'; // ?
 }
 
 
@@ -66,6 +66,9 @@ if ( $preloader_background ) {
 # 4. Portfolio filter text color
 
 $portfolio_page_text = NorebroSettings::get( 'project_filter_text_color' );
+if ( ! $portfolio_page_text ) {
+	$portfolio_page_text = NorebroSettings::get( 'project_filter_text_color', 'global' );
+}
 
 if ( $portfolio_page_text ) {
 	$portfolio_page_text_css = 'color:' . $portfolio_page_text  .';';
@@ -75,6 +78,9 @@ if ( $portfolio_page_text ) {
 # 4.1. Accent color
 
 $portfolio_page_accent = NorebroSettings::get( 'project_filter_accent_color' );
+if ( ! $portfolio_page_accent ) {
+	$portfolio_page_accent = NorebroSettings::get( 'project_filter_accent_color', 'global' );
+}
 
 if ( $portfolio_page_accent ) {
 	$portfolio_page_accent_css = 'color:' . $portfolio_page_accent  .';border-color:' . $portfolio_page_accent . ';';
@@ -108,7 +114,7 @@ if ( $fullscreen_links_typo ) {
 
 if ( $preloader_color_css ) {
 	// --- start of CSS ---
-	$_style_block = '.page-preloader .loader::before,.page-preloader .loader::after{';
+	$_style_block = '.page-preloader .loader .la-dark {';
 	$_style_block .= $preloader_color_css;
 	$_style_block .= '}';
 	// --- end of CSS ---
@@ -140,7 +146,8 @@ if ( $go_top_border_css ) {
 
 if ( $portfolio_page_text_css ) {
 	// --- start of CSS ---
-	$_style_block  = '.portfolio-sorting ul.unstyled li a,';
+	$_style_block  = '.portfolio-sorting ul.unstyled,';
+	$_style_block  .= '.portfolio-sorting ul.unstyled li a,';
 	$_style_block .= '.portfolio-sorting ul.unstyled li a:hover{';
 	$_style_block .= $portfolio_page_text_css;
 	$_style_block .= '}';

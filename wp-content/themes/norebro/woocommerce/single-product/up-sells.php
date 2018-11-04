@@ -42,25 +42,23 @@ $woocommerce_loop['name']    = 'up-sells';
 $woocommerce_loop['columns'] = apply_filters( 'woocommerce_up_sells_columns', $columns );
 
 if ( $products->have_posts() ) : ?>
+	<div class="clear"></div>
+	<div class="page-container">
+		<div class="up-sells upsells products vc_col-md-12">
+			<h3 class="title text-left"><?php _e( 'You may also like&hellip;', 'norebro' ) ?></h3>
+			<div class="columns-4">
+				<?php woocommerce_product_loop_start(); ?>
 
-	<div class="up-sells upsells products vc_col-md-12">
+					<?php while ( $products->have_posts() ) : $products->the_post(); ?>
 
-		<h3 class="title text-left"><?php _e( 'You may also like&hellip;', 'norebro' ) ?></h3>
-		<div class="columns-4">
-			<?php woocommerce_product_loop_start(); ?>
+						<?php wc_get_template_part( 'content', 'product' ); ?>
 
-				<?php while ( $products->have_posts() ) : $products->the_post(); ?>
+					<?php endwhile; // end of the loop. ?>
 
-					<?php wc_get_template_part( 'content', 'product' ); ?>
-
-				<?php endwhile; // end of the loop. ?>
-
-			<?php woocommerce_product_loop_end(); ?>
+				<?php woocommerce_product_loop_end(); ?>
+			</div>
 		</div>
-
 	</div>
-
 <?php endif;
-
 wp_reset_postdata();
 ?>

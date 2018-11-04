@@ -36,6 +36,7 @@
 	  'options_global_logo_type' => 'sitename',
 	  'options_global_menu_hamburger_align' => 'inside_panel',
 	  'options_global_menu_type' => 'hamburger',
+	  'options_global_page_is_wrapped' => '1',
 	  'options_global_page_background_repeat' => 'repeat',
 	  'options_global_page_background_size' => 'auto',
 	  'options_global_page_brand_color' => '#4c58ff',
