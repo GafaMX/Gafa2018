@@ -1,0 +1,6751 @@
+{
+"AAInfo": "This is a CodeKit 3 project config file. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. Doing so will cause CodeKit to crash and/or corrupt your project. I know it looks like JSON, but it is *not*. Many numbers in this file are 64-bit long long bitFlags, which JSON does not support. These numbers *cannot* be treated as discrete values and if you attempt to parse this file as standard JSON with any public JSON parser, these values will be corrupted. This file is not backwards-compatible with CodeKit 1 or 2. For more information, see https://codekitapp.com/",
+"buildSteps": [
+	{
+		"name": "Process All Remaining Files and Folders",
+		"stepType": 1,
+		"uuidString": "2F2F3840-04A3-47B1-907F-9AF6B9D4285E"
+		}
+	],
+"creatorBuild": "28905",
+"files": {
+	"/index.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/index.php",
+		"oF": 0
+		},
+	"/norebro-child/assets/css/app.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/norebro-child/assets/css/app-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/norebro-child/assets/js/init.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/norebro-child/assets/js/init-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/norebro-child/assets/js/lib.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/norebro-child/assets/js/lib-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/norebro-child/assets/webfonts/fa-brands-400.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro-child/assets/webfonts/fa-brands-400.eot",
+		"oF": 0
+		},
+	"/norebro-child/assets/webfonts/fa-brands-400.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/norebro-child/assets/webfonts/fa-brands-400.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/norebro-child/assets/webfonts/fa-brands-400.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro-child/assets/webfonts/fa-brands-400.ttf",
+		"oF": 0
+		},
+	"/norebro-child/assets/webfonts/fa-brands-400.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro-child/assets/webfonts/fa-brands-400.woff",
+		"oF": 0
+		},
+	"/norebro-child/assets/webfonts/fa-brands-400.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro-child/assets/webfonts/fa-brands-400.woff2",
+		"oF": 0
+		},
+	"/norebro-child/assets/webfonts/fa-light-300.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro-child/assets/webfonts/fa-light-300.eot",
+		"oF": 0
+		},
+	"/norebro-child/assets/webfonts/fa-light-300.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/norebro-child/assets/webfonts/fa-light-300.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/norebro-child/assets/webfonts/fa-light-300.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro-child/assets/webfonts/fa-light-300.ttf",
+		"oF": 0
+		},
+	"/norebro-child/assets/webfonts/fa-light-300.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro-child/assets/webfonts/fa-light-300.woff",
+		"oF": 0
+		},
+	"/norebro-child/assets/webfonts/fa-light-300.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro-child/assets/webfonts/fa-light-300.woff2",
+		"oF": 0
+		},
+	"/norebro-child/assets/webfonts/fa-regular-400.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro-child/assets/webfonts/fa-regular-400.eot",
+		"oF": 0
+		},
+	"/norebro-child/assets/webfonts/fa-regular-400.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/norebro-child/assets/webfonts/fa-regular-400.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/norebro-child/assets/webfonts/fa-regular-400.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro-child/assets/webfonts/fa-regular-400.ttf",
+		"oF": 0
+		},
+	"/norebro-child/assets/webfonts/fa-regular-400.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro-child/assets/webfonts/fa-regular-400.woff",
+		"oF": 0
+		},
+	"/norebro-child/assets/webfonts/fa-regular-400.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro-child/assets/webfonts/fa-regular-400.woff2",
+		"oF": 0
+		},
+	"/norebro-child/assets/webfonts/fa-solid-900.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro-child/assets/webfonts/fa-solid-900.eot",
+		"oF": 0
+		},
+	"/norebro-child/assets/webfonts/fa-solid-900.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/norebro-child/assets/webfonts/fa-solid-900.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/norebro-child/assets/webfonts/fa-solid-900.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro-child/assets/webfonts/fa-solid-900.ttf",
+		"oF": 0
+		},
+	"/norebro-child/assets/webfonts/fa-solid-900.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro-child/assets/webfonts/fa-solid-900.woff",
+		"oF": 0
+		},
+	"/norebro-child/assets/webfonts/fa-solid-900.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro-child/assets/webfonts/fa-solid-900.woff2",
+		"oF": 0
+		},
+	"/norebro-child/assets/webfonts/lg.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro-child/assets/webfonts/lg.eot",
+		"oF": 0
+		},
+	"/norebro-child/assets/webfonts/lg.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/norebro-child/assets/webfonts/lg.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/norebro-child/assets/webfonts/lg.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro-child/assets/webfonts/lg.ttf",
+		"oF": 0
+		},
+	"/norebro-child/assets/webfonts/lg.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro-child/assets/webfonts/lg.woff",
+		"oF": 0
+		},
+	"/norebro-child/functions.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro-child/functions.php",
+		"oF": 0
+		},
+	"/norebro-child/module-banner.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro-child/module-banner.php",
+		"oF": 0
+		},
+	"/norebro-child/module-clients.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro-child/module-clients.php",
+		"oF": 0
+		},
+	"/norebro-child/module-services.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro-child/module-services.php",
+		"oF": 0
+		},
+	"/norebro-child/sass/_svg.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/norebro-child/assets/css/_svg.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/norebro-child/sass/_variables.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/norebro-child/assets/css/_variables.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/norebro-child/sass/app.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/norebro-child/assets/css/app.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/norebro-child/sass/components/_general.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/norebro-child/sass/assets/css/_general.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/norebro-child/sass/lib.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/norebro-child/assets/css/lib.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/norebro-child/sass/plugins/_animate.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/norebro-child/sass/assets/css/_animate.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/norebro-child/sass/plugins/_bootstrap.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/norebro-child/sass/assets/css/_bootstrap.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/norebro-child/sass/plugins/_fontawesome.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/norebro-child/sass/assets/css/_fontawesome.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/norebro-child/sass/plugins/_owlcarousel copy.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/norebro-child/sass/assets/css/_owlcarousel copy.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/norebro-child/sass/plugins/_owlcarousel.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/norebro-child/sass/assets/css/_owlcarousel.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/norebro-child/sass/plugins/_photoswipe.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/norebro-child/sass/assets/css/_photoswipe.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/norebro-child/screenshot.png": {
+		"ft": 32768,
+		"iS": 246103,
+		"oA": 0,
+		"oAP": "/norebro-child/screenshot.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/norebro-child/style.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/norebro-child/style-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/norebro/404.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/404.php",
+		"oF": 0
+		},
+	"/norebro/archive.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/archive.php",
+		"oF": 0
+		},
+	"/norebro/comments.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/comments.php",
+		"oF": 0
+		},
+	"/norebro/css/admin_section.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/norebro/css/admin_section-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/norebro/css/aos.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/norebro/css/aos-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/norebro/css/grid.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/norebro/css/grid.min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/norebro/css/ionicons.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/norebro/css/ionicons.min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/norebro/css/js_composer.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/norebro/css/js_composer.min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/norebro/css/tinymce-styles.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/norebro/css/tinymce-styles-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/norebro/demo/01/content.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/demo/01/content.php",
+		"oF": 0
+		},
+	"/norebro/demo/01/content.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/demo/01/content.xml",
+		"oF": 0
+		},
+	"/norebro/demo/01/preview.jpg": {
+		"ft": 16384,
+		"iS": 28226,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/norebro/demo/01/preview.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/norebro/demo/01/widgets.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/norebro/demo/01/widgets-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/norebro/demo/02/content.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/demo/02/content.php",
+		"oF": 0
+		},
+	"/norebro/demo/02/content.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/demo/02/content.xml",
+		"oF": 0
+		},
+	"/norebro/demo/02/home.zip": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/demo/02/home.zip",
+		"oF": 0
+		},
+	"/norebro/demo/02/preview.jpg": {
+		"ft": 16384,
+		"iS": 19595,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/norebro/demo/02/preview.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/norebro/demo/02/widgets.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/norebro/demo/02/widgets-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/norebro/demo/03/content.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/demo/03/content.php",
+		"oF": 0
+		},
+	"/norebro/demo/03/content.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/demo/03/content.xml",
+		"oF": 0
+		},
+	"/norebro/demo/03/preview.jpg": {
+		"ft": 16384,
+		"iS": 12755,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/norebro/demo/03/preview.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/norebro/demo/03/widgets.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/norebro/demo/03/widgets-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/norebro/demo/04/content.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/demo/04/content.php",
+		"oF": 0
+		},
+	"/norebro/demo/04/content.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/demo/04/content.xml",
+		"oF": 0
+		},
+	"/norebro/demo/04/home_slider.zip": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/demo/04/home_slider.zip",
+		"oF": 0
+		},
+	"/norebro/demo/04/preview.jpg": {
+		"ft": 16384,
+		"iS": 24114,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/norebro/demo/04/preview.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/norebro/demo/04/widgets.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/norebro/demo/04/widgets-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/norebro/demo/05/content.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/demo/05/content.php",
+		"oF": 0
+		},
+	"/norebro/demo/05/content.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/demo/05/content.xml",
+		"oF": 0
+		},
+	"/norebro/demo/05/preview.jpg": {
+		"ft": 16384,
+		"iS": 18864,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/norebro/demo/05/preview.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/norebro/demo/05/widgets.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/norebro/demo/05/widgets-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/norebro/demo/06/content.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/demo/06/content.php",
+		"oF": 0
+		},
+	"/norebro/demo/06/content.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/demo/06/content.xml",
+		"oF": 0
+		},
+	"/norebro/demo/06/preview.jpg": {
+		"ft": 16384,
+		"iS": 13243,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/norebro/demo/06/preview.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/norebro/demo/06/widgets.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/norebro/demo/06/widgets-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/norebro/demo/07/content.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/demo/07/content.php",
+		"oF": 0
+		},
+	"/norebro/demo/07/content.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/demo/07/content.xml",
+		"oF": 0
+		},
+	"/norebro/demo/07/preview.jpg": {
+		"ft": 16384,
+		"iS": 37105,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/norebro/demo/07/preview.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/norebro/demo/07/widgets.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/norebro/demo/07/widgets-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/norebro/demo/08/content.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/demo/08/content.php",
+		"oF": 0
+		},
+	"/norebro/demo/08/content.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/demo/08/content.xml",
+		"oF": 0
+		},
+	"/norebro/demo/08/preview.jpg": {
+		"ft": 16384,
+		"iS": 33984,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/norebro/demo/08/preview.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/norebro/demo/08/widgets.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/norebro/demo/08/widgets-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/norebro/demo/09/content.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/demo/09/content.php",
+		"oF": 0
+		},
+	"/norebro/demo/09/content.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/demo/09/content.xml",
+		"oF": 0
+		},
+	"/norebro/demo/09/preview.jpg": {
+		"ft": 16384,
+		"iS": 36329,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/norebro/demo/09/preview.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/norebro/demo/09/widgets.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/norebro/demo/09/widgets-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/norebro/demo/10/content.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/demo/10/content.php",
+		"oF": 0
+		},
+	"/norebro/demo/10/content.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/demo/10/content.xml",
+		"oF": 0
+		},
+	"/norebro/demo/10/preview.jpg": {
+		"ft": 16384,
+		"iS": 13640,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/norebro/demo/10/preview.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/norebro/demo/10/widgets.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/norebro/demo/10/widgets-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/norebro/demo/11/content.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/demo/11/content.php",
+		"oF": 0
+		},
+	"/norebro/demo/11/content.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/demo/11/content.xml",
+		"oF": 0
+		},
+	"/norebro/demo/11/preview.jpg": {
+		"ft": 16384,
+		"iS": 35740,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/norebro/demo/11/preview.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/norebro/demo/11/widgets.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/norebro/demo/11/widgets-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/norebro/demo/12/content.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/demo/12/content.php",
+		"oF": 0
+		},
+	"/norebro/demo/12/content.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/demo/12/content.xml",
+		"oF": 0
+		},
+	"/norebro/demo/12/preview.jpg": {
+		"ft": 16384,
+		"iS": 21247,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/norebro/demo/12/preview.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/norebro/demo/12/widgets.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/norebro/demo/12/widgets-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/norebro/demo/13/content.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/demo/13/content.php",
+		"oF": 0
+		},
+	"/norebro/demo/13/content.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/demo/13/content.xml",
+		"oF": 0
+		},
+	"/norebro/demo/13/preview.jpg": {
+		"ft": 16384,
+		"iS": 11698,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/norebro/demo/13/preview.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/norebro/demo/13/widgets.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/norebro/demo/13/widgets-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/norebro/demo/14/content.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/demo/14/content.php",
+		"oF": 0
+		},
+	"/norebro/demo/14/content.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/demo/14/content.xml",
+		"oF": 0
+		},
+	"/norebro/demo/14/preview.jpg": {
+		"ft": 16384,
+		"iS": 27454,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/norebro/demo/14/preview.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/norebro/demo/14/widgets.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/norebro/demo/14/widgets-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/norebro/demo/15/content.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/demo/15/content.php",
+		"oF": 0
+		},
+	"/norebro/demo/15/content.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/demo/15/content.xml",
+		"oF": 0
+		},
+	"/norebro/demo/15/home.zip": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/demo/15/home.zip",
+		"oF": 0
+		},
+	"/norebro/demo/15/preview.jpg": {
+		"ft": 16384,
+		"iS": 14958,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/norebro/demo/15/preview.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/norebro/demo/15/widgets.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/norebro/demo/15/widgets-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/norebro/demo/16/content.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/demo/16/content.php",
+		"oF": 0
+		},
+	"/norebro/demo/16/content.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/demo/16/content.xml",
+		"oF": 0
+		},
+	"/norebro/demo/16/preview.jpg": {
+		"ft": 16384,
+		"iS": 28267,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/norebro/demo/16/preview.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/norebro/demo/16/widget.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/norebro/demo/16/widget-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/norebro/demo/17/content.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/demo/17/content.php",
+		"oF": 0
+		},
+	"/norebro/demo/17/content.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/demo/17/content.xml",
+		"oF": 0
+		},
+	"/norebro/demo/17/preview.jpg": {
+		"ft": 16384,
+		"iS": 21019,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/norebro/demo/17/preview.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/norebro/demo/17/widgets.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/norebro/demo/17/widgets-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/norebro/demo/18/content.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/demo/18/content.php",
+		"oF": 0
+		},
+	"/norebro/demo/18/content.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/demo/18/content.xml",
+		"oF": 0
+		},
+	"/norebro/demo/18/preview.jpg": {
+		"ft": 16384,
+		"iS": 14795,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/norebro/demo/18/preview.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/norebro/demo/18/widgets.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/norebro/demo/18/widgets-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/norebro/demo/19/content.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/demo/19/content.php",
+		"oF": 0
+		},
+	"/norebro/demo/19/content.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/demo/19/content.xml",
+		"oF": 0
+		},
+	"/norebro/demo/19/home_slider.zip": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/demo/19/home_slider.zip",
+		"oF": 0
+		},
+	"/norebro/demo/19/preview.jpg": {
+		"ft": 16384,
+		"iS": 21937,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/norebro/demo/19/preview.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/norebro/demo/19/widgets.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/norebro/demo/19/widgets-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/norebro/demo/20/content.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/demo/20/content.php",
+		"oF": 0
+		},
+	"/norebro/demo/20/content.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/demo/20/content.xml",
+		"oF": 0
+		},
+	"/norebro/demo/20/home.zip": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/demo/20/home.zip",
+		"oF": 0
+		},
+	"/norebro/demo/20/preview.jpg": {
+		"ft": 16384,
+		"iS": 33586,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/norebro/demo/20/preview.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/norebro/demo/20/widgets.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/norebro/demo/20/widgets-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/norebro/demo/21/content.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/demo/21/content.php",
+		"oF": 0
+		},
+	"/norebro/demo/21/content.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/demo/21/content.xml",
+		"oF": 0
+		},
+	"/norebro/demo/21/home_slider.zip": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/demo/21/home_slider.zip",
+		"oF": 0
+		},
+	"/norebro/demo/21/preview.jpg": {
+		"ft": 16384,
+		"iS": 16941,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/norebro/demo/21/preview.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/norebro/demo/21/widgets.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/norebro/demo/21/widgets-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/norebro/demo/22/content.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/demo/22/content.php",
+		"oF": 0
+		},
+	"/norebro/demo/22/content.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/demo/22/content.xml",
+		"oF": 0
+		},
+	"/norebro/demo/22/home.zip": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/demo/22/home.zip",
+		"oF": 0
+		},
+	"/norebro/demo/22/preview.jpg": {
+		"ft": 16384,
+		"iS": 53690,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/norebro/demo/22/preview.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/norebro/demo/22/widgets.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/norebro/demo/22/widgets-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/norebro/demo/23/content.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/demo/23/content.php",
+		"oF": 0
+		},
+	"/norebro/demo/23/content.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/demo/23/content.xml",
+		"oF": 0
+		},
+	"/norebro/demo/23/preview.jpg": {
+		"ft": 16384,
+		"iS": 30917,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/norebro/demo/23/preview.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/norebro/demo/23/widgets.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/norebro/demo/23/widgets-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/norebro/demo/24/content.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/demo/24/content.php",
+		"oF": 0
+		},
+	"/norebro/demo/24/content.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/demo/24/content.xml",
+		"oF": 0
+		},
+	"/norebro/demo/24/preview.jpg": {
+		"ft": 16384,
+		"iS": 22089,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/norebro/demo/24/preview.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/norebro/demo/25/content.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/demo/25/content.php",
+		"oF": 0
+		},
+	"/norebro/demo/25/content.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/demo/25/content.xml",
+		"oF": 0
+		},
+	"/norebro/demo/25/home_slider.zip": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/demo/25/home_slider.zip",
+		"oF": 0
+		},
+	"/norebro/demo/25/preview.jpg": {
+		"ft": 16384,
+		"iS": 16751,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/norebro/demo/25/preview.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/norebro/demo/26/content.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/demo/26/content.php",
+		"oF": 0
+		},
+	"/norebro/demo/26/content.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/demo/26/content.xml",
+		"oF": 0
+		},
+	"/norebro/demo/26/hime_slider.zip": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/demo/26/hime_slider.zip",
+		"oF": 0
+		},
+	"/norebro/demo/26/preview.jpg": {
+		"ft": 16384,
+		"iS": 19392,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/norebro/demo/26/preview.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/norebro/demo/26/widgets.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/norebro/demo/26/widgets-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/norebro/demo/27/content.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/demo/27/content.php",
+		"oF": 0
+		},
+	"/norebro/demo/27/content.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/demo/27/content.xml",
+		"oF": 0
+		},
+	"/norebro/demo/27/home.zip": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/demo/27/home.zip",
+		"oF": 0
+		},
+	"/norebro/demo/27/preview.jpg": {
+		"ft": 16384,
+		"iS": 16477,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/norebro/demo/27/preview.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/norebro/demo/27/widgets.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/norebro/demo/27/widgets-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/norebro/demo/28/content.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/demo/28/content.php",
+		"oF": 0
+		},
+	"/norebro/demo/28/content.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/demo/28/content.xml",
+		"oF": 0
+		},
+	"/norebro/demo/28/preview.jpg": {
+		"ft": 16384,
+		"iS": 30898,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/norebro/demo/28/preview.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/norebro/demo/29/content.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/demo/29/content.php",
+		"oF": 0
+		},
+	"/norebro/demo/29/content.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/demo/29/content.xml",
+		"oF": 0
+		},
+	"/norebro/demo/29/preview.jpg": {
+		"ft": 16384,
+		"iS": 30305,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/norebro/demo/29/preview.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/norebro/demo/30/content.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/demo/30/content.php",
+		"oF": 0
+		},
+	"/norebro/demo/30/content.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/demo/30/content.xml",
+		"oF": 0
+		},
+	"/norebro/demo/30/preview.jpg": {
+		"ft": 16384,
+		"iS": 26439,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/norebro/demo/30/preview.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/norebro/demo/30/widgets.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/norebro/demo/30/widgets-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/norebro/demo/about-agency/content.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/demo/about-agency/content.php",
+		"oF": 0
+		},
+	"/norebro/demo/about-agency/content.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/demo/about-agency/content.xml",
+		"oF": 0
+		},
+	"/norebro/demo/about-agency/preview.jpg": {
+		"ft": 16384,
+		"iS": 103558,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/norebro/demo/about-agency/preview.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/norebro/demo/about-corporate/content.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/demo/about-corporate/content.php",
+		"oF": 0
+		},
+	"/norebro/demo/about-corporate/content.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/demo/about-corporate/content.xml",
+		"oF": 0
+		},
+	"/norebro/demo/about-corporate/preview.jpg": {
+		"ft": 16384,
+		"iS": 118505,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/norebro/demo/about-corporate/preview.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/norebro/demo/about-creative/content.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/demo/about-creative/content.php",
+		"oF": 0
+		},
+	"/norebro/demo/about-creative/content.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/demo/about-creative/content.xml",
+		"oF": 0
+		},
+	"/norebro/demo/about-creative/preview.jpg": {
+		"ft": 16384,
+		"iS": 65006,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/norebro/demo/about-creative/preview.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/norebro/demo/about-personal/content.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/demo/about-personal/content.php",
+		"oF": 0
+		},
+	"/norebro/demo/about-personal/content.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/demo/about-personal/content.xml",
+		"oF": 0
+		},
+	"/norebro/demo/about-personal/preview.jpg": {
+		"ft": 16384,
+		"iS": 86845,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/norebro/demo/about-personal/preview.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/norebro/demo/about-split-screen/content.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/demo/about-split-screen/content.php",
+		"oF": 0
+		},
+	"/norebro/demo/about-split-screen/content.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/demo/about-split-screen/content.xml",
+		"oF": 0
+		},
+	"/norebro/demo/about-split-screen/preview.jpg": {
+		"ft": 16384,
+		"iS": 107944,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/norebro/demo/about-split-screen/preview.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/norebro/demo/contact-agency/content.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/demo/contact-agency/content.php",
+		"oF": 0
+		},
+	"/norebro/demo/contact-agency/content.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/demo/contact-agency/content.xml",
+		"oF": 0
+		},
+	"/norebro/demo/contact-agency/preview.jpg": {
+		"ft": 16384,
+		"iS": 797511,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/norebro/demo/contact-agency/preview.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/norebro/demo/contact-corporate/content.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/demo/contact-corporate/content.php",
+		"oF": 0
+		},
+	"/norebro/demo/contact-corporate/content.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/demo/contact-corporate/content.xml",
+		"oF": 0
+		},
+	"/norebro/demo/contact-corporate/preview.jpg": {
+		"ft": 16384,
+		"iS": 66695,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/norebro/demo/contact-corporate/preview.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/norebro/demo/contact-extended/content.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/demo/contact-extended/content.php",
+		"oF": 0
+		},
+	"/norebro/demo/contact-extended/content.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/demo/contact-extended/content.xml",
+		"oF": 0
+		},
+	"/norebro/demo/contact-extended/preview.jpg": {
+		"ft": 16384,
+		"iS": 101475,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/norebro/demo/contact-extended/preview.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/norebro/demo/contact-forms/content.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/demo/contact-forms/content.php",
+		"oF": 0
+		},
+	"/norebro/demo/contact-forms/content.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/demo/contact-forms/content.xml",
+		"oF": 0
+		},
+	"/norebro/demo/contact-forms/preview.jpg": {
+		"ft": 16384,
+		"iS": 61221,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/norebro/demo/contact-forms/preview.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/norebro/demo/contact-simple/content.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/demo/contact-simple/content.php",
+		"oF": 0
+		},
+	"/norebro/demo/contact-simple/content.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/demo/contact-simple/content.xml",
+		"oF": 0
+		},
+	"/norebro/demo/contact-simple/preview.jpg": {
+		"ft": 16384,
+		"iS": 66355,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/norebro/demo/contact-simple/preview.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/norebro/demo/contact-split-page/content.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/demo/contact-split-page/content.php",
+		"oF": 0
+		},
+	"/norebro/demo/contact-split-page/content.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/demo/contact-split-page/content.xml",
+		"oF": 0
+		},
+	"/norebro/demo/contact-split-page/preview.jpg": {
+		"ft": 16384,
+		"iS": 66903,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/norebro/demo/contact-split-page/preview.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/norebro/demo/contact-split-screen/content.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/demo/contact-split-screen/content.php",
+		"oF": 0
+		},
+	"/norebro/demo/contact-split-screen/content.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/demo/contact-split-screen/content.xml",
+		"oF": 0
+		},
+	"/norebro/demo/contact-split-screen/preview.jpg": {
+		"ft": 16384,
+		"iS": 75396,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/norebro/demo/contact-split-screen/preview.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/norebro/demo/services-agency/content.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/demo/services-agency/content.php",
+		"oF": 0
+		},
+	"/norebro/demo/services-agency/content.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/demo/services-agency/content.xml",
+		"oF": 0
+		},
+	"/norebro/demo/services-agency/preview.jpg": {
+		"ft": 16384,
+		"iS": 77336,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/norebro/demo/services-agency/preview.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/norebro/demo/services-corporate/content.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/demo/services-corporate/content.php",
+		"oF": 0
+		},
+	"/norebro/demo/services-corporate/content.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/demo/services-corporate/content.xml",
+		"oF": 0
+		},
+	"/norebro/demo/services-corporate/preview.jpg": {
+		"ft": 16384,
+		"iS": 90609,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/norebro/demo/services-corporate/preview.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/norebro/demo/services-personal/content.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/demo/services-personal/content.php",
+		"oF": 0
+		},
+	"/norebro/demo/services-personal/content.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/demo/services-personal/content.xml",
+		"oF": 0
+		},
+	"/norebro/demo/services-personal/preview.jpg": {
+		"ft": 16384,
+		"iS": 150287,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/norebro/demo/services-personal/preview.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/norebro/demo/team-agency/content.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/demo/team-agency/content.php",
+		"oF": 0
+		},
+	"/norebro/demo/team-agency/content.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/demo/team-agency/content.xml",
+		"oF": 0
+		},
+	"/norebro/demo/team-agency/preview.jpg": {
+		"ft": 16384,
+		"iS": 108537,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/norebro/demo/team-agency/preview.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/norebro/demo/team-corporate/content.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/demo/team-corporate/content.php",
+		"oF": 0
+		},
+	"/norebro/demo/team-corporate/content.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/demo/team-corporate/content.xml",
+		"oF": 0
+		},
+	"/norebro/demo/team-corporate/preview.jpg": {
+		"ft": 16384,
+		"iS": 87824,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/norebro/demo/team-corporate/preview.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/norebro/demo/team-split-page/content.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/demo/team-split-page/content.php",
+		"oF": 0
+		},
+	"/norebro/demo/team-split-page/content.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/demo/team-split-page/content.xml",
+		"oF": 0
+		},
+	"/norebro/demo/team-split-page/preview.jpg": {
+		"ft": 16384,
+		"iS": 97335,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/norebro/demo/team-split-page/preview.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/norebro/fonts/FontAwesome/fonts/fontawesome-webfont.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/fonts/FontAwesome/fonts/fontawesome-webfont.eot",
+		"oF": 0
+		},
+	"/norebro/fonts/FontAwesome/fonts/fontawesome-webfont.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/norebro/fonts/FontAwesome/fonts/fontawesome-webfont.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/norebro/fonts/FontAwesome/fonts/fontawesome-webfont.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/fonts/FontAwesome/fonts/fontawesome-webfont.ttf",
+		"oF": 0
+		},
+	"/norebro/fonts/FontAwesome/fonts/fontawesome-webfont.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/fonts/FontAwesome/fonts/fontawesome-webfont.woff",
+		"oF": 0
+		},
+	"/norebro/fonts/FontAwesome/fonts/fontawesome-webfont.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/fonts/FontAwesome/fonts/fontawesome-webfont.woff2",
+		"oF": 0
+		},
+	"/norebro/fonts/FontAwesome/fonts/FontAwesome.otf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/fonts/FontAwesome/fonts/FontAwesome.otf",
+		"oF": 0
+		},
+	"/norebro/fonts/FontAwesome/style.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/norebro/fonts/FontAwesome/style-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/norebro/fonts/ionicons/ionicons.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/fonts/ionicons/ionicons.eot",
+		"oF": 0
+		},
+	"/norebro/fonts/ionicons/ionicons.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/norebro/fonts/ionicons/ionicons.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/norebro/fonts/ionicons/ionicons.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/fonts/ionicons/ionicons.ttf",
+		"oF": 0
+		},
+	"/norebro/fonts/ionicons/ionicons.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/fonts/ionicons/ionicons.woff",
+		"oF": 0
+		},
+	"/norebro/fonts/linea/arrows/linea-arrows-10.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/fonts/linea/arrows/linea-arrows-10.eot",
+		"oF": 0
+		},
+	"/norebro/fonts/linea/arrows/linea-arrows-10.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/norebro/fonts/linea/arrows/linea-arrows-10.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/norebro/fonts/linea/arrows/linea-arrows-10.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/fonts/linea/arrows/linea-arrows-10.ttf",
+		"oF": 0
+		},
+	"/norebro/fonts/linea/arrows/linea-arrows-10.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/fonts/linea/arrows/linea-arrows-10.woff",
+		"oF": 0
+		},
+	"/norebro/fonts/linea/arrows/style.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/norebro/fonts/linea/arrows/style-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/norebro/fonts/linea/basic/linea-basic-10.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/fonts/linea/basic/linea-basic-10.eot",
+		"oF": 0
+		},
+	"/norebro/fonts/linea/basic/linea-basic-10.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/norebro/fonts/linea/basic/linea-basic-10.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/norebro/fonts/linea/basic/linea-basic-10.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/fonts/linea/basic/linea-basic-10.ttf",
+		"oF": 0
+		},
+	"/norebro/fonts/linea/basic/linea-basic-10.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/fonts/linea/basic/linea-basic-10.woff",
+		"oF": 0
+		},
+	"/norebro/fonts/linea/basic/style.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/norebro/fonts/linea/basic/style-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/norebro/fonts/linea/basic_ela/linea-basic-elaboration-10.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/fonts/linea/basic_ela/linea-basic-elaboration-10.eot",
+		"oF": 0
+		},
+	"/norebro/fonts/linea/basic_ela/linea-basic-elaboration-10.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/norebro/fonts/linea/basic_ela/linea-basic-elaboration-10.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/norebro/fonts/linea/basic_ela/linea-basic-elaboration-10.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/fonts/linea/basic_ela/linea-basic-elaboration-10.ttf",
+		"oF": 0
+		},
+	"/norebro/fonts/linea/basic_ela/linea-basic-elaboration-10.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/fonts/linea/basic_ela/linea-basic-elaboration-10.woff",
+		"oF": 0
+		},
+	"/norebro/fonts/linea/basic_ela/style.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/norebro/fonts/linea/basic_ela/style-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/norebro/fonts/linea/ecommerce/linea-ecommerce-10.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/fonts/linea/ecommerce/linea-ecommerce-10.eot",
+		"oF": 0
+		},
+	"/norebro/fonts/linea/ecommerce/linea-ecommerce-10.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/norebro/fonts/linea/ecommerce/linea-ecommerce-10.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/norebro/fonts/linea/ecommerce/linea-ecommerce-10.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/fonts/linea/ecommerce/linea-ecommerce-10.ttf",
+		"oF": 0
+		},
+	"/norebro/fonts/linea/ecommerce/linea-ecommerce-10.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/fonts/linea/ecommerce/linea-ecommerce-10.woff",
+		"oF": 0
+		},
+	"/norebro/fonts/linea/ecommerce/style.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/norebro/fonts/linea/ecommerce/style-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/norebro/fonts/linea/music/linea-music-10.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/fonts/linea/music/linea-music-10.eot",
+		"oF": 0
+		},
+	"/norebro/fonts/linea/music/linea-music-10.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/norebro/fonts/linea/music/linea-music-10.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/norebro/fonts/linea/music/linea-music-10.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/fonts/linea/music/linea-music-10.ttf",
+		"oF": 0
+		},
+	"/norebro/fonts/linea/music/linea-music-10.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/fonts/linea/music/linea-music-10.woff",
+		"oF": 0
+		},
+	"/norebro/fonts/linea/music/style.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/norebro/fonts/linea/music/style-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/norebro/fonts/linea/software/linea-software-10.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/fonts/linea/software/linea-software-10.eot",
+		"oF": 0
+		},
+	"/norebro/fonts/linea/software/linea-software-10.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/norebro/fonts/linea/software/linea-software-10.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/norebro/fonts/linea/software/linea-software-10.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/fonts/linea/software/linea-software-10.ttf",
+		"oF": 0
+		},
+	"/norebro/fonts/linea/software/linea-software-10.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/fonts/linea/software/linea-software-10.woff",
+		"oF": 0
+		},
+	"/norebro/fonts/linea/software/style.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/norebro/fonts/linea/software/style-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/norebro/fonts/linea/weather/linea-weather-10.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/fonts/linea/weather/linea-weather-10.eot",
+		"oF": 0
+		},
+	"/norebro/fonts/linea/weather/linea-weather-10.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/norebro/fonts/linea/weather/linea-weather-10.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/norebro/fonts/linea/weather/linea-weather-10.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/fonts/linea/weather/linea-weather-10.ttf",
+		"oF": 0
+		},
+	"/norebro/fonts/linea/weather/linea-weather-10.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/fonts/linea/weather/linea-weather-10.woff",
+		"oF": 0
+		},
+	"/norebro/fonts/linea/weather/style.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/norebro/fonts/linea/weather/style-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/norebro/footer.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/footer.php",
+		"oF": 0
+		},
+	"/norebro/functions.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/functions.php",
+		"oF": 0
+		},
+	"/norebro/header.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/header.php",
+		"oF": 0
+		},
+	"/norebro/images/arr-out.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/norebro/images/arr-out.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/norebro/images/basket.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/norebro/images/basket.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/norebro/images/form_load.png": {
+		"ft": 32768,
+		"iS": 3452,
+		"oA": 0,
+		"oAP": "/norebro/images/form_load.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/norebro/images/google-maps-marker.png": {
+		"ft": 32768,
+		"iS": 760,
+		"oA": 0,
+		"oAP": "/norebro/images/google-maps-marker.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/norebro/images/migrate_notifi_1_1.jpg": {
+		"ft": 16384,
+		"iS": 9743,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/norebro/images/migrate_notifi_1_1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/norebro/images/paypal-logo.png": {
+		"ft": 32768,
+		"iS": 89551,
+		"oA": 0,
+		"oAP": "/norebro/images/paypal-logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/norebro/images/portfolio-9-bg.png": {
+		"ft": 32768,
+		"iS": 77953,
+		"oA": 0,
+		"oAP": "/norebro/images/portfolio-9-bg.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/norebro/images/portfolio-bg.png": {
+		"ft": 32768,
+		"iS": 254,
+		"oA": 0,
+		"oAP": "/norebro/images/portfolio-bg.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/norebro/images/progress-bar-pattern.png": {
+		"ft": 32768,
+		"iS": 95817,
+		"oA": 0,
+		"oAP": "/norebro/images/progress-bar-pattern.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/norebro/images/scroll-top.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/norebro/images/scroll-top.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/norebro/images/user.png": {
+		"ft": 32768,
+		"iS": 119163,
+		"oA": 0,
+		"oAP": "/norebro/images/user.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/norebro/inc/demo_debug.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/inc/demo_debug.php",
+		"oF": 0
+		},
+	"/norebro/inc/dynamic_css/index.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/inc/dynamic_css/index.php",
+		"oF": 0
+		},
+	"/norebro/inc/dynamic_css/parts/brand.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/inc/dynamic_css/parts/brand.php",
+		"oF": 0
+		},
+	"/norebro/inc/dynamic_css/parts/breadcrumbs.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/inc/dynamic_css/parts/breadcrumbs.php",
+		"oF": 0
+		},
+	"/norebro/inc/dynamic_css/parts/elements.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/inc/dynamic_css/parts/elements.php",
+		"oF": 0
+		},
+	"/norebro/inc/dynamic_css/parts/footer.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/inc/dynamic_css/parts/footer.php",
+		"oF": 0
+		},
+	"/norebro/inc/dynamic_css/parts/header_navigation.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/inc/dynamic_css/parts/header_navigation.php",
+		"oF": 0
+		},
+	"/norebro/inc/dynamic_css/parts/header_title.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/inc/dynamic_css/parts/header_title.php",
+		"oF": 0
+		},
+	"/norebro/inc/dynamic_css/parts/page.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/inc/dynamic_css/parts/page.php",
+		"oF": 0
+		},
+	"/norebro/inc/dynamic_css/parts/panel.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/inc/dynamic_css/parts/panel.php",
+		"oF": 0
+		},
+	"/norebro/inc/dynamic_css/parts/portfolio-page.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/inc/dynamic_css/parts/portfolio-page.php",
+		"oF": 0
+		},
+	"/norebro/inc/dynamic_css/parts/subheader.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/inc/dynamic_css/parts/subheader.php",
+		"oF": 0
+		},
+	"/norebro/inc/dynamic_css/parts/typography.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/inc/dynamic_css/parts/typography.php",
+		"oF": 0
+		},
+	"/norebro/inc/dynamic_css/parts/user_css.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/inc/dynamic_css/parts/user_css.php",
+		"oF": 0
+		},
+	"/norebro/inc/dynamic_css/parts/widgets.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/inc/dynamic_css/parts/widgets.php",
+		"oF": 0
+		},
+	"/norebro/inc/enqueue.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/inc/enqueue.php",
+		"oF": 0
+		},
+	"/norebro/inc/framework/bootstrap.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/inc/framework/bootstrap.php",
+		"oF": 0
+		},
+	"/norebro/inc/framework/Components/Helper.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/inc/framework/Components/Helper.php",
+		"oF": 0
+		},
+	"/norebro/inc/framework/Components/Layout.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/inc/framework/Components/Layout.php",
+		"oF": 0
+		},
+	"/norebro/inc/framework/Components/ObjectParser.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/inc/framework/Components/ObjectParser.php",
+		"oF": 0
+		},
+	"/norebro/inc/framework/Components/Settings.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/inc/framework/Components/Settings.php",
+		"oF": 0
+		},
+	"/norebro/inc/init/custom-header.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/inc/init/custom-header.php",
+		"oF": 0
+		},
+	"/norebro/inc/init/customizer.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/inc/init/customizer.php",
+		"oF": 0
+		},
+	"/norebro/inc/init/extras.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/inc/init/extras.php",
+		"oF": 0
+		},
+	"/norebro/inc/init/theme.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/inc/init/theme.php",
+		"oF": 0
+		},
+	"/norebro/inc/menu.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/inc/menu.php",
+		"oF": 0
+		},
+	"/norebro/inc/menu/edit_mega_menu_walker.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/inc/menu/edit_mega_menu_walker.php",
+		"oF": 0
+		},
+	"/norebro/inc/menu/front_mega_menu_walker.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/inc/menu/front_mega_menu_walker.php",
+		"oF": 0
+		},
+	"/norebro/inc/menu/js/image-upload.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/norebro/inc/menu/js/image-upload-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/norebro/inc/menu/mega_menu.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/inc/menu/mega_menu.php",
+		"oF": 0
+		},
+	"/norebro/inc/sidebars.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/inc/sidebars.php",
+		"oF": 0
+		},
+	"/norebro/inc/template-tags.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/inc/template-tags.php",
+		"oF": 0
+		},
+	"/norebro/inc/tgmpa/acf-json/global_blog.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/norebro/inc/tgmpa/acf-json/global_blog-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/norebro/inc/tgmpa/acf-json/global_branding.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/norebro/inc/tgmpa/acf-json/global_branding-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/norebro/inc/tgmpa/acf-json/global_custom_css.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/norebro/inc/tgmpa/acf-json/global_custom_css-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/norebro/inc/tgmpa/acf-json/global_ecommerce.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/norebro/inc/tgmpa/acf-json/global_ecommerce-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/norebro/inc/tgmpa/acf-json/global_footer.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/norebro/inc/tgmpa/acf-json/global_footer-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/norebro/inc/tgmpa/acf-json/global_header.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/norebro/inc/tgmpa/acf-json/global_header-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/norebro/inc/tgmpa/acf-json/global_other.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/norebro/inc/tgmpa/acf-json/global_other-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/norebro/inc/tgmpa/acf-json/global_page.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/norebro/inc/tgmpa/acf-json/global_page-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/norebro/inc/tgmpa/acf-json/global_panels.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/norebro/inc/tgmpa/acf-json/global_panels-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/norebro/inc/tgmpa/acf-json/global_portfolio.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/norebro/inc/tgmpa/acf-json/global_portfolio-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/norebro/inc/tgmpa/acf-json/global_support.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/norebro/inc/tgmpa/acf-json/global_support-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/norebro/inc/tgmpa/acf-json/global_theme_styling.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/norebro/inc/tgmpa/acf-json/global_theme_styling-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/norebro/inc/tgmpa/acf-json/global_typography.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/norebro/inc/tgmpa/acf-json/global_typography-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/norebro/inc/tgmpa/acf-json/index.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/inc/tgmpa/acf-json/index.php",
+		"oF": 0
+		},
+	"/norebro/inc/tgmpa/acf-json/logo_hidden_group.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/norebro/inc/tgmpa/acf-json/logo_hidden_group-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/norebro/inc/tgmpa/acf-json/page.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/norebro/inc/tgmpa/acf-json/page-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/norebro/inc/tgmpa/acf-json/post.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/norebro/inc/tgmpa/acf-json/post-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/norebro/inc/tgmpa/acf-json/product.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/norebro/inc/tgmpa/acf-json/product-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/norebro/inc/tgmpa/acf-json/project_info.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/norebro/inc/tgmpa/acf-json/project_info-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/norebro/inc/tgmpa/acf-json/project_settings.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/norebro/inc/tgmpa/acf-json/project_settings-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/norebro/inc/tgmpa/acf-json/template_blog.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/norebro/inc/tgmpa/acf-json/template_blog-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/norebro/inc/tgmpa/acf-json/template_portfolio.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/norebro/inc/tgmpa/acf-json/template_portfolio-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/norebro/inc/tgmpa/acf_setup.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/inc/tgmpa/acf_setup.php",
+		"oF": 0
+		},
+	"/norebro/inc/tgmpa/class-tgm-plugin-activation.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/inc/tgmpa/class-tgm-plugin-activation.php",
+		"oF": 0
+		},
+	"/norebro/inc/tgmpa/ocdi_setup.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/inc/tgmpa/ocdi_setup.php",
+		"oF": 0
+		},
+	"/norebro/inc/tgmpa/register_plugins.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/inc/tgmpa/register_plugins.php",
+		"oF": 0
+		},
+	"/norebro/inc/tgmpa/theme_settings.png": {
+		"ft": 32768,
+		"iS": 15402,
+		"oA": 0,
+		"oAP": "/norebro/inc/tgmpa/theme_settings.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/norebro/inc/tgmpa/vc_setup.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/inc/tgmpa/vc_setup.php",
+		"oF": 0
+		},
+	"/norebro/inc/tgmpa/woocommerce_setup.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/inc/tgmpa/woocommerce_setup.php",
+		"oF": 0
+		},
+	"/norebro/inc/wp_overrides.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/inc/wp_overrides.php",
+		"oF": 0
+		},
+	"/norebro/index.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/index.php",
+		"oF": 0
+		},
+	"/norebro/js/admin.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/norebro/js/admin-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/norebro/js/aos.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/norebro/js/aos-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/norebro/js/hide-how-to-notification.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/norebro/js/hide-how-to-notification-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/norebro/js/isotope.pkgd.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/norebro/js/isotope.pkgd.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/norebro/js/jquery.countdown.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/norebro/js/jquery.countdown.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/norebro/js/jquery.easypiechart.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/norebro/js/jquery.easypiechart.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/norebro/js/jquery.mega-menu.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/norebro/js/jquery.mega-menu.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/norebro/js/jquery.multiscroll.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/norebro/js/jquery.multiscroll.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/norebro/js/jquery.onepage-scroll.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/norebro/js/jquery.onepage-scroll.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/norebro/js/jquery.placeholder.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/norebro/js/jquery.placeholder.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/norebro/js/main.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/norebro/js/main-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/norebro/js/navigation.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/norebro/js/navigation-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/norebro/js/norebro-login.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/norebro/js/norebro-login-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/norebro/js/norebro-tinymce.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/norebro/js/norebro-tinymce-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/norebro/js/owl.carousel.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/norebro/js/owl.carousel.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/norebro/js/scroll-smooth.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/norebro/js/scroll-smooth.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/norebro/js/skip-link-focus-fix.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/norebro/js/skip-link-focus-fix-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/norebro/js/typed.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/norebro/js/typed.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/norebro/js/woocommerce-hack.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/norebro/js/woocommerce-hack-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/norebro/languages/norebro.pot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/languages/norebro.pot",
+		"oF": 0
+		},
+	"/norebro/layouts/content-sidebar.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/norebro/layouts/content-sidebar-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/norebro/layouts/sidebar-content.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/norebro/layouts/sidebar-content-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/norebro/page-templates/page_for-builder.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/page-templates/page_for-builder.php",
+		"oF": 0
+		},
+	"/norebro/page-templates/page_for-posts.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/page-templates/page_for-posts.php",
+		"oF": 0
+		},
+	"/norebro/page-templates/page_for-projects.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/page-templates/page_for-projects.php",
+		"oF": 0
+		},
+	"/norebro/page.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/page.php",
+		"oF": 0
+		},
+	"/norebro/parts/blog-cards/classic.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/parts/blog-cards/classic.php",
+		"oF": 0
+		},
+	"/norebro/parts/blog-cards/overlay.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/parts/blog-cards/overlay.php",
+		"oF": 0
+		},
+	"/norebro/parts/blog-cards/side_image.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/parts/blog-cards/side_image.php",
+		"oF": 0
+		},
+	"/norebro/parts/blog-cards/simple.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/parts/blog-cards/simple.php",
+		"oF": 0
+		},
+	"/norebro/parts/blog-cards/striped.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/parts/blog-cards/striped.php",
+		"oF": 0
+		},
+	"/norebro/parts/content-none.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/parts/content-none.php",
+		"oF": 0
+		},
+	"/norebro/parts/content-page.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/parts/content-page.php",
+		"oF": 0
+		},
+	"/norebro/parts/content-search.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/parts/content-search.php",
+		"oF": 0
+		},
+	"/norebro/parts/content.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/parts/content.php",
+		"oF": 0
+		},
+	"/norebro/parts/elements/breadcrumbs.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/parts/elements/breadcrumbs.php",
+		"oF": 0
+		},
+	"/norebro/parts/elements/footer.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/parts/elements/footer.php",
+		"oF": 0
+		},
+	"/norebro/parts/elements/header-menu-fullscreen-nav.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/parts/elements/header-menu-fullscreen-nav.php",
+		"oF": 0
+		},
+	"/norebro/parts/elements/header-menu-hamburger.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/parts/elements/header-menu-hamburger.php",
+		"oF": 0
+		},
+	"/norebro/parts/elements/header-menu-logo.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/parts/elements/header-menu-logo.php",
+		"oF": 0
+		},
+	"/norebro/parts/elements/header-menu-nav.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/parts/elements/header-menu-nav.php",
+		"oF": 0
+		},
+	"/norebro/parts/elements/header-menu-optional-nav.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/parts/elements/header-menu-optional-nav.php",
+		"oF": 0
+		},
+	"/norebro/parts/elements/header-title.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/parts/elements/header-title.php",
+		"oF": 0
+		},
+	"/norebro/parts/elements/next-n-prev-posts.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/parts/elements/next-n-prev-posts.php",
+		"oF": 0
+		},
+	"/norebro/parts/elements/next-n-prev-projects.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/parts/elements/next-n-prev-projects.php",
+		"oF": 0
+		},
+	"/norebro/parts/elements/panel.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/parts/elements/panel.php",
+		"oF": 0
+		},
+	"/norebro/parts/elements/preloader.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/parts/elements/preloader.php",
+		"oF": 0
+		},
+	"/norebro/parts/elements/related-posts.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/parts/elements/related-posts.php",
+		"oF": 0
+		},
+	"/norebro/parts/elements/scroll-top.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/parts/elements/scroll-top.php",
+		"oF": 0
+		},
+	"/norebro/parts/headers/header-style-1.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/parts/headers/header-style-1.php",
+		"oF": 0
+		},
+	"/norebro/parts/headers/header-style-2.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/parts/headers/header-style-2.php",
+		"oF": 0
+		},
+	"/norebro/parts/headers/header-style-3.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/parts/headers/header-style-3.php",
+		"oF": 0
+		},
+	"/norebro/parts/headers/header-style-4.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/parts/headers/header-style-4.php",
+		"oF": 0
+		},
+	"/norebro/parts/headers/header-style-5.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/parts/headers/header-style-5.php",
+		"oF": 0
+		},
+	"/norebro/parts/headers/header-style-6.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/parts/headers/header-style-6.php",
+		"oF": 0
+		},
+	"/norebro/parts/headers/subheader.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/parts/headers/subheader.php",
+		"oF": 0
+		},
+	"/norebro/parts/portfolio-cards/_popup.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "/norebro/parts/portfolio-cards/_popup.php",
+		"oF": 0
+		},
+	"/norebro/parts/portfolio-cards/grid_1_hover_1.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/parts/portfolio-cards/grid_1_hover_1.php",
+		"oF": 0
+		},
+	"/norebro/parts/portfolio-cards/grid_1_hover_2.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/parts/portfolio-cards/grid_1_hover_2.php",
+		"oF": 0
+		},
+	"/norebro/parts/portfolio-cards/grid_1_hover_3.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/parts/portfolio-cards/grid_1_hover_3.php",
+		"oF": 0
+		},
+	"/norebro/parts/portfolio-cards/grid_2_hover_1.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/parts/portfolio-cards/grid_2_hover_1.php",
+		"oF": 0
+		},
+	"/norebro/parts/portfolio-cards/grid_2_hover_2.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/parts/portfolio-cards/grid_2_hover_2.php",
+		"oF": 0
+		},
+	"/norebro/parts/portfolio-cards/grid_2_hover_3.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/parts/portfolio-cards/grid_2_hover_3.php",
+		"oF": 0
+		},
+	"/norebro/parts/portfolio-cards/grid_4.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/parts/portfolio-cards/grid_4.php",
+		"oF": 0
+		},
+	"/norebro/parts/portfolio-cards/grid_5_left.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/parts/portfolio-cards/grid_5_left.php",
+		"oF": 0
+		},
+	"/norebro/parts/portfolio-cards/grid_5_right.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/parts/portfolio-cards/grid_5_right.php",
+		"oF": 0
+		},
+	"/norebro/parts/portfolio-cards/grid_6.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/parts/portfolio-cards/grid_6.php",
+		"oF": 0
+		},
+	"/norebro/parts/portfolio-cards/grid_7.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/parts/portfolio-cards/grid_7.php",
+		"oF": 0
+		},
+	"/norebro/parts/portfolio-cards/grid_8.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/parts/portfolio-cards/grid_8.php",
+		"oF": 0
+		},
+	"/norebro/parts/portfolio/boxed-invert.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/parts/portfolio/boxed-invert.php",
+		"oF": 0
+		},
+	"/norebro/parts/portfolio/boxed.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/parts/portfolio/boxed.php",
+		"oF": 0
+		},
+	"/norebro/parts/portfolio/full-width-invert.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/parts/portfolio/full-width-invert.php",
+		"oF": 0
+		},
+	"/norebro/parts/portfolio/full-width.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/parts/portfolio/full-width.php",
+		"oF": 0
+		},
+	"/norebro/parts/portfolio/fullscreen.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/parts/portfolio/fullscreen.php",
+		"oF": 0
+		},
+	"/norebro/parts/portfolio/header-full.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/parts/portfolio/header-full.php",
+		"oF": 0
+		},
+	"/norebro/parts/portfolio/header-title-invert.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/parts/portfolio/header-title-invert.php",
+		"oF": 0
+		},
+	"/norebro/parts/portfolio/header-title.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/parts/portfolio/header-title.php",
+		"oF": 0
+		},
+	"/norebro/parts/portfolio/slider.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/parts/portfolio/slider.php",
+		"oF": 0
+		},
+	"/norebro/plugins/acf_pro.zip": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/plugins/acf_pro.zip",
+		"oF": 0
+		},
+	"/norebro/plugins/js_composer.zip": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/plugins/js_composer.zip",
+		"oF": 0
+		},
+	"/norebro/plugins/revslider.zip": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/plugins/revslider.zip",
+		"oF": 0
+		},
+	"/norebro/readme.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/readme.txt",
+		"oF": 0
+		},
+	"/norebro/rtl.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/norebro/rtl-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/norebro/screenshot.jpg": {
+		"ft": 16384,
+		"iS": 536970,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/norebro/screenshot.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/norebro/search.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/search.php",
+		"oF": 0
+		},
+	"/norebro/searchform.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/searchform.php",
+		"oF": 0
+		},
+	"/norebro/sidebar.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/sidebar.php",
+		"oF": 0
+		},
+	"/norebro/single-norebro_portfolio.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/single-norebro_portfolio.php",
+		"oF": 0
+		},
+	"/norebro/single.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/single.php",
+		"oF": 0
+		},
+	"/norebro/style.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/norebro/style-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/norebro/woocommerce-swatches/single-product/variable.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce-swatches/single-product/variable.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/add-to-wishlist-button.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/add-to-wishlist-button.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/add-to-wishlist.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/add-to-wishlist.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/archive-product.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/archive-product.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/auth/footer.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/auth/footer.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/auth/form-grant-access.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/auth/form-grant-access.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/auth/form-login.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/auth/form-login.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/cart/cart-empty.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/cart/cart-empty.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/cart/cart-item-data.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/cart/cart-item-data.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/cart/cart-shipping.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/cart/cart-shipping.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/cart/cart-totals.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/cart/cart-totals.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/cart/cart.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/cart/cart.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/cart/cross-sells.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/cart/cross-sells.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/cart/proceed-to-checkout-button.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/cart/proceed-to-checkout-button.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/cart/shipping-calculator.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/cart/shipping-calculator.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/checkout/cart-errors.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/checkout/cart-errors.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/checkout/form-billing.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/checkout/form-billing.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/checkout/form-checkout.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/checkout/form-checkout.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/checkout/form-coupon.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/checkout/form-coupon.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/checkout/form-login.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/checkout/form-login.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/checkout/form-pay.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/checkout/form-pay.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/checkout/form-shipping.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/checkout/form-shipping.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/checkout/payment-method.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/checkout/payment-method.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/checkout/payment.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/checkout/payment.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/checkout/review-order.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/checkout/review-order.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/checkout/terms.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/checkout/terms.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/checkout/thankyou.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/checkout/thankyou.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/content-product.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/content-product.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/content-product_cat.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/content-product_cat.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/content-single-product.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/content-single-product.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/content-widget-product.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/content-widget-product.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/emails/admin-cancelled-order.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/emails/admin-cancelled-order.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/emails/admin-failed-order.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/emails/admin-failed-order.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/emails/admin-new-order.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/emails/admin-new-order.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/emails/customer-completed-order.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/emails/customer-completed-order.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/emails/customer-new-account.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/emails/customer-new-account.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/emails/customer-note.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/emails/customer-note.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/emails/customer-on-hold-order.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/emails/customer-on-hold-order.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/emails/customer-processing-order.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/emails/customer-processing-order.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/emails/customer-refunded-order.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/emails/customer-refunded-order.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/emails/customer-reset-password.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/emails/customer-reset-password.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/global/breadcrumb.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/global/breadcrumb.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/global/form-login.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/global/form-login.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/global/quantity-input.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/global/quantity-input.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/global/sidebar.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/global/sidebar.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/global/wrapper-end.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/global/wrapper-end.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/global/wrapper-start.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/global/wrapper-start.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/loop/add-to-cart.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/loop/add-to-cart.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/loop/loop-end.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/loop/loop-end.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/loop/loop-start.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/loop/loop-start.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/loop/no-products-found.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/loop/no-products-found.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/loop/orderby.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/loop/orderby.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/loop/pagination.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/loop/pagination.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/loop/sale-flash.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/loop/sale-flash.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/myaccount/dashboard.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/myaccount/dashboard.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/myaccount/downloads.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/myaccount/downloads.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/myaccount/form-add-payment-method.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/myaccount/form-add-payment-method.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/myaccount/form-edit-account.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/myaccount/form-edit-account.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/myaccount/form-edit-address.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/myaccount/form-edit-address.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/myaccount/form-login.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/myaccount/form-login.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/myaccount/form-lost-password.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/myaccount/form-lost-password.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/myaccount/form-reset-password.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/myaccount/form-reset-password.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/myaccount/lost-password-confirmation.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/myaccount/lost-password-confirmation.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/myaccount/my-account.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/myaccount/my-account.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/myaccount/my-address.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/myaccount/my-address.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/myaccount/my-downloads.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/myaccount/my-downloads.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/myaccount/my-orders.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/myaccount/my-orders.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/myaccount/navigation.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/myaccount/navigation.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/myaccount/orders.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/myaccount/orders.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/myaccount/payment-methods.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/myaccount/payment-methods.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/myaccount/view-order.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/myaccount/view-order.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/notices/error.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/notices/error.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/notices/notice.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/notices/notice.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/notices/success.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/notices/success.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/order/form-tracking.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/order/form-tracking.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/order/order-again.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/order/order-again.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/order/order-details-customer.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/order/order-details-customer.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/order/order-details-item.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/order/order-details-item.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/order/order-details.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/order/order-details.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/order/order-downloads.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/order/order-downloads.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/order/tracking.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/order/tracking.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/product-searchform.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/product-searchform.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/share.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/share.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/sidebar.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/sidebar.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/single-product-reviews.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/single-product-reviews.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/single-product.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/single-product.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/single-product/add-to-cart/external.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/single-product/add-to-cart/external.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/single-product/add-to-cart/grouped.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/single-product/add-to-cart/grouped.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/single-product/add-to-cart/simple.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/single-product/add-to-cart/simple.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/single-product/add-to-cart/variable.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/single-product/add-to-cart/variable.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/single-product/add-to-cart/variation-add-to-cart-button.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/single-product/add-to-cart/variation-add-to-cart-button.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/single-product/add-to-cart/variation.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/single-product/add-to-cart/variation.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/single-product/meta.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/single-product/meta.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/single-product/product-attributes.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/single-product/product-attributes.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/single-product/product-image.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/single-product/product-image.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/single-product/product-thumbnails.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/single-product/product-thumbnails.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/single-product/rating.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/single-product/rating.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/single-product/related.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/single-product/related.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/single-product/review-meta.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/single-product/review-meta.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/single-product/review-rating.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/single-product/review-rating.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/single-product/review.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/single-product/review.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/single-product/sale-flash.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/single-product/sale-flash.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/single-product/share.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/single-product/share.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/single-product/short-description.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/single-product/short-description.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/single-product/tabs/additional-information.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/single-product/tabs/additional-information.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/single-product/tabs/description.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/single-product/tabs/description.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/single-product/tabs/tabs.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/single-product/tabs/tabs.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/single-product/title.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/single-product/title.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/single-product/up-sells.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/single-product/up-sells.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/taxonomy-product_cat.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/taxonomy-product_cat.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/taxonomy-product_tag.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/taxonomy-product_tag.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/wishlist-view.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/wishlist-view.php",
+		"oF": 0
+		},
+	"/norebro/woocommerce/wishlist.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro/woocommerce/wishlist.php",
+		"oF": 0
+		}
+	},
+"hooks": [
+	],
+"manualImportLinks": {
+	},
+"projectAttributes": {
+	"creationDate": 569193752.66731799,
+	"displayValue": "themes",
+	"displayValueWasSetByUser": 0,
+	"iconImageName": "brackets_green",
+	"iconImageWasSetByUser": 0
+	},
+"projectSettings": {
+	"abortBuildOnError": 1,
+	"alwaysUseExternalServer": 1,
+	"animateCSSInjections": 1,
+	"autoBuildNewItems": 1,
+	"autoprefixerEnableIEGrid": 0,
+	"babel7PresetType": 1,
+	"babelAllowRCFiles": 0,
+	"babelAuxiliaryCommentAfter": "",
+	"babelAuxiliaryCommentBefore": "",
+	"babelConfigType": 0,
+	"babelCustomPluginsList": "",
+	"babelCustomPresetsList": "",
+	"babelInsertModuleIDs": 0,
+	"babelModuleID": "",
+	"babelNoComments": 0,
+	"babelPlugins": {
+		"arrow-functions": {
+			"active": 0
+			},
+		"async-generator-functions": {
+			"active": 0
+			},
+		"async-to-generator": {
+			"active": 0
+			},
+		"block-scoped-functions": {
+			"active": 0
+			},
+		"block-scoping": {
+			"active": 0
+			},
+		"class-properties": {
+			"active": 0
+			},
+		"classes": {
+			"active": 0
+			},
+		"computed-properties": {
+			"active": 0
+			},
+		"decorators": {
+			"active": 0
+			},
+		"destructuring": {
+			"active": 0
+			},
+		"do-expressions": {
+			"active": 0
+			},
+		"dotall-regex": {
+			"active": 0
+			},
+		"duplicate-keys": {
+			"active": 0
+			},
+		"exponentiation-operator": {
+			"active": 0
+			},
+		"export-default-from": {
+			"active": 0
+			},
+		"export-namespace-from": {
+			"active": 0
+			},
+		"external-helpers": {
+			"active": 0
+			},
+		"flow-strip-types": {
+			"active": 0
+			},
+		"for-of": {
+			"active": 0
+			},
+		"function-bind": {
+			"active": 0
+			},
+		"function-name": {
+			"active": 0
+			},
+		"function-sent": {
+			"active": 0
+			},
+		"instanceof": {
+			"active": 0
+			},
+		"jscript": {
+			"active": 0
+			},
+		"literals": {
+			"active": 0
+			},
+		"logical-assignment-operators": {
+			"active": 0
+			},
+		"member-expression-literals": {
+			"active": 0
+			},
+		"merge-sibling-variables": {
+			"active": 0
+			},
+		"minify-booleans": {
+			"active": 0
+			},
+		"modules-amd": {
+			"active": 0
+			},
+		"modules-commonjs": {
+			"active": 0
+			},
+		"modules-systemjs": {
+			"active": 0
+			},
+		"modules-umd": {
+			"active": 0
+			},
+		"new-target": {
+			"active": 0
+			},
+		"node-env-inline": {
+			"active": 0
+			},
+		"nullish-coalescing-operator": {
+			"active": 0
+			},
+		"numeric-separator": {
+			"active": 0
+			},
+		"object-assign": {
+			"active": 0
+			},
+		"object-rest-spread": {
+			"active": 0
+			},
+		"object-set-prototype-of-to-assign": {
+			"active": 0
+			},
+		"object-super": {
+			"active": 0
+			},
+		"optional-catch-binding": {
+			"active": 0
+			},
+		"optional-chaining": {
+			"active": 0
+			},
+		"parameters": {
+			"active": 0
+			},
+		"pipeline-operator": {
+			"active": 0
+			},
+		"property-literals": {
+			"active": 0
+			},
+		"property-mutators": {
+			"active": 0
+			},
+		"proto-to-assign": {
+			"active": 0
+			},
+		"react-constant-elements": {
+			"active": 0
+			},
+		"react-display-name": {
+			"active": 0
+			},
+		"react-inline-elements": {
+			"active": 0
+			},
+		"react-jsx": {
+			"active": 0
+			},
+		"react-jsx-compat": {
+			"active": 0
+			},
+		"react-jsx-self": {
+			"active": 0
+			},
+		"react-jsx-source": {
+			"active": 0
+			},
+		"regenerator": {
+			"active": 0
+			},
+		"remove-console": {
+			"active": 0
+			},
+		"remove-debugger": {
+			"active": 0
+			},
+		"reserved-words": {
+			"active": 0
+			},
+		"runtime": {
+			"active": 0
+			},
+		"shorthand-properties": {
+			"active": 0
+			},
+		"simplify-comparison-operators": {
+			"active": 0
+			},
+		"spread": {
+			"active": 0
+			},
+		"sticky-regex": {
+			"active": 0
+			},
+		"strict-mode": {
+			"active": 0
+			},
+		"template-literals": {
+			"active": 0
+			},
+		"throw-expressions": {
+			"active": 0
+			},
+		"typeof-symbol": {
+			"active": 0
+			},
+		"undefined-to-void": {
+			"active": 0
+			},
+		"unicode-property-regex": {
+			"active": 0
+			},
+		"unicode-regex": {
+			"active": 0
+			}
+		},
+	"babelRetainLines": 0,
+	"bowerAbbreviatedPath": "bower_components",
+	"bowerAutoCreateInfoFile": 1,
+	"bowerInstallDevDependencies": 0,
+	"bowerSaveDependencies": 1,
+	"bowerSaveDevDependencies": 0,
+	"bowerUseExactVersion": 0,
+	"browserRefreshDelay": 0,
+	"browserslistString": ">0.2%, last 2 versions, Firefox ESR, not dead",
+	"buildFolderActive": 0,
+	"buildFolderName": "build",
+	"cleanBuild": 1,
+	"coffeeLintFlags2": {
+		"arrow_spacing": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"camel_case_classes": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"colon_assignment_spacing": {
+			"active": 0,
+			"flagValue": 1
+			},
+		"cyclomatic_complexity": {
+			"active": 0,
+			"flagValue": 10
+			},
+		"duplicate_key": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"empty_constructor_needs_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"ensure_comprehensions": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"indentation": {
+			"active": 1,
+			"flagValue": 2
+			},
+		"line_endings": {
+			"active": 0,
+			"flagValue": 0
+			},
+		"max_line_length": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"missing_fat_arrows": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"newlines_after_classes": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"no_backticks": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_debugger": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_empty_functions": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_empty_param_list": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_implicit_braces": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_implicit_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_interpolation_in_single_quotes": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_nested_string_interpolation": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_plusplus": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_private_function_fat_arrows": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_stand_alone_at": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_tabs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_this": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_throwing_strings": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_trailing_semicolons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_trailing_whitespace": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_unnecessary_double_quotes": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_unnecessary_fat_arrows": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"non_empty_constructor_needs_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"prefer_english_operator": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"space_operators": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"spacing_after_comma": {
+			"active": 1,
+			"flagValue": -1
+			}
+		},
+	"esLintConfigFileHandlingType": 0,
+	"esLintECMAVersion": 7,
+	"esLintEnvironmentsMask": 1,
+	"esLintRules": {
+		"accessor-pairs": {
+			"active": 0,
+			"optionString": "{'setWithoutGet': true, 'getWithoutSet': false}"
+			},
+		"array-bracket-newline": {
+			"active": 0,
+			"optionString": "{'multiline': true, 'minItems': null}"
+			},
+		"array-bracket-spacing": {
+			"active": 0,
+			"optionString": "'never', {'singleValue': false, 'objectsInArrays': false, 'arraysInArrays': false}"
+			},
+		"array-callback-return": {
+			"active": 0,
+			"optionString": "{'allowImplicit': false}"
+			},
+		"array-element-newline": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"arrow-body-style": {
+			"active": 0,
+			"optionString": "'as-needed', {'requireReturnForObjectLiteral': false}"
+			},
+		"arrow-parens": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"arrow-spacing": {
+			"active": 0,
+			"optionString": "{'before': true, 'after': true}"
+			},
+		"block-scoped-var": {
+			"active": 0,
+			"optionString": ""
+			},
+		"block-spacing": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"brace-style": {
+			"active": 0,
+			"optionString": "'1tbs', {'allowSingleLine': true}"
+			},
+		"callback-return": {
+			"active": 0,
+			"optionString": "['callback', 'cb', 'next']"
+			},
+		"camelcase": {
+			"active": 0,
+			"optionString": "{'properties': 'always', 'ignoreDestructuring': false}"
+			},
+		"capitalized-comments": {
+			"active": 0,
+			"optionString": "'always', {'ignoreInlineComments': false, 'ignoreConsecutiveComments': false}"
+			},
+		"class-methods-use-this": {
+			"active": 0,
+			"optionString": "{'exceptMethods': []}"
+			},
+		"comma-dangle": {
+			"active": 1,
+			"optionString": "'never'"
+			},
+		"comma-spacing": {
+			"active": 0,
+			"optionString": "{'before': false, 'after': true}"
+			},
+		"comma-style": {
+			"active": 0,
+			"optionString": "'last'"
+			},
+		"complexity": {
+			"active": 0,
+			"optionString": "20"
+			},
+		"computed-property-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"consistent-return": {
+			"active": 0,
+			"optionString": "{'treatUndefinedAsUnspecified': false}"
+			},
+		"consistent-this": {
+			"active": 0,
+			"optionString": "'that'"
+			},
+		"constructor-super": {
+			"active": 1,
+			"optionString": ""
+			},
+		"curly": {
+			"active": 0,
+			"optionString": "'all'"
+			},
+		"default-case": {
+			"active": 0,
+			"optionString": ""
+			},
+		"dot-location": {
+			"active": 0,
+			"optionString": "'object'"
+			},
+		"dot-notation": {
+			"active": 0,
+			"optionString": "{'allowKeywords': false}"
+			},
+		"eol-last": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"eqeqeq": {
+			"active": 0,
+			"optionString": "'always', {'null': 'always'}"
+			},
+		"for-direction": {
+			"active": 0,
+			"optionString": ""
+			},
+		"func-call-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"func-name-matching": {
+			"active": 0,
+			"optionString": "'always', {'considerPropertyDescriptor': false, 'includeCommonJSModuleExports': false}"
+			},
+		"func-names": {
+			"active": 0,
+			"optionString": "'always', {'generators': 'always'}"
+			},
+		"func-style": {
+			"active": 0,
+			"optionString": "'expression'"
+			},
+		"function-paren-newline": {
+			"active": 0,
+			"optionString": "'multiline'"
+			},
+		"generator-star-spacing": {
+			"active": 0,
+			"optionString": "{'before': true, 'after': false}"
+			},
+		"getter-return": {
+			"active": 0,
+			"optionString": "{'allowImplicit': false}"
+			},
+		"global-require": {
+			"active": 0,
+			"optionString": ""
+			},
+		"guard-for-in": {
+			"active": 0,
+			"optionString": ""
+			},
+		"handle-callback-err": {
+			"active": 0,
+			"optionString": "'err'"
+			},
+		"id-blacklist": {
+			"active": 0,
+			"optionString": "'data', 'err', 'e', 'cb', 'callback'"
+			},
+		"id-length": {
+			"active": 0,
+			"optionString": "{'min': 2, 'max': 1000, 'properties': 'always', 'exceptions': ['x', 'i', 'y']}"
+			},
+		"id-match": {
+			"active": 0,
+			"optionString": "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true}"
+			},
+		"implicit-arrow-linebreak": {
+			"active": 0,
+			"optionString": "'beside'"
+			},
+		"indent": {
+			"active": 0,
+			"optionString": "4, {'SwitchCase': 0, 'VariableDeclarator': 1, 'outerIIFEBody': 1 }"
+			},
+		"init-declarations": {
+			"active": 0,
+			"optionString": "'always',  {'ignoreForLoopInit': true}"
+			},
+		"jsx-quotes": {
+			"active": 0,
+			"optionString": "'prefer-double'"
+			},
+		"key-spacing": {
+			"active": 0,
+			"optionString": "{'singleLine': {'beforeColon': false, 'afterColon': true, 'mode':'strict'}, 'multiLine': {'beforeColon': false, 'afterColon': true, 'align': 'value', 'mode':'minimum'}}"
+			},
+		"keyword-spacing": {
+			"active": 0,
+			"optionString": "{'before': true, 'after': true, 'overrides': {}}"
+			},
+		"line-comment-position": {
+			"active": 0,
+			"optionString": "{'position': 'above'}"
+			},
+		"linebreak-style": {
+			"active": 0,
+			"optionString": "'unix'"
+			},
+		"lines-around-comment": {
+			"active": 0,
+			"optionString": "{'beforeBlockComment': true}"
+			},
+		"lines-between-class-members": {
+			"active": 0,
+			"optionString": "'always', {exceptAfterSingleLine: false}"
+			},
+		"max-classes-per-file": {
+			"active": 0,
+			"optionString": "1"
+			},
+		"max-depth": {
+			"active": 0,
+			"optionString": "{'max': 4}"
+			},
+		"max-len": {
+			"active": 0,
+			"optionString": "{'code': 80, 'comments': 80, 'tabWidth': 4, 'ignoreUrls': true, 'ignoreStrings': true, 'ignoreTemplateLiterals': true, 'ignoreRegExpLiterals': true}"
+			},
+		"max-lines": {
+			"active": 0,
+			"optionString": "{'max': 300, 'skipBlankLines': true, 'skipComments': true}"
+			},
+		"max-lines-per-function": {
+			"active": 0,
+			"optionString": "{'max': 50, 'skipBlankLines': true, 'skipComments': true, 'IIFEs': false}"
+			},
+		"max-nested-callbacks": {
+			"active": 0,
+			"optionString": "{'max': 10}"
+			},
+		"max-params": {
+			"active": 0,
+			"optionString": "{'max': 4}"
+			},
+		"max-statements": {
+			"active": 0,
+			"optionString": "{'max': 10}, {'ignoreTopLevelFunctions': true}"
+			},
+		"max-statements-per-line": {
+			"active": 0,
+			"optionString": "{'max': 1}"
+			},
+		"multiline-comment-style": {
+			"active": 0,
+			"optionString": "'starred-block'"
+			},
+		"multiline-ternary": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"new-cap": {
+			"active": 0,
+			"optionString": "{'newIsCap': true, 'capIsNew': true, 'newIsCapExceptions': [], 'capIsNewExceptions': ['Array', 'Boolean', 'Date', 'Error', 'Function', 'Number', 'Object', 'RegExp', 'String', 'Symbol'], 'properties': true}"
+			},
+		"new-parens": {
+			"active": 0,
+			"optionString": ""
+			},
+		"newline-per-chained-call": {
+			"active": 0,
+			"optionString": "{'ignoreChainWithDepth': 2}"
+			},
+		"no-alert": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-array-constructor": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-async-promise-executor": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-await-in-loop": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-bitwise": {
+			"active": 0,
+			"optionString": "{'allow': ['~'], 'int32Hint': true}"
+			},
+		"no-buffer-constructor": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-caller": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-case-declarations": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-class-assign": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-compare-neg-zero": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-cond-assign": {
+			"active": 1,
+			"optionString": "'except-parens'"
+			},
+		"no-confusing-arrow": {
+			"active": 0,
+			"optionString": "{'allowParens': false}"
+			},
+		"no-console": {
+			"active": 1,
+			"optionString": "{'allow': ['warn', 'error']}"
+			},
+		"no-const-assign": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-constant-condition": {
+			"active": 1,
+			"optionString": "{'checkLoops': true}"
+			},
+		"no-continue": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-control-regex": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-debugger": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-delete-var": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-div-regex": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-dupe-args": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-dupe-class-members": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-dupe-keys": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-duplicate-imports": {
+			"active": 0,
+			"optionString": "{'includeExports': false}"
+			},
+		"no-else-return": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-empty": {
+			"active": 1,
+			"optionString": "{'allowEmptyCatch': false}"
+			},
+		"no-empty-character-class": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-empty-function": {
+			"active": 0,
+			"optionString": "{'allow': []}"
+			},
+		"no-empty-pattern": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-eq-null": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-eval": {
+			"active": 0,
+			"optionString": "{'allowIndirect': false}"
+			},
+		"no-ex-assign": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-extend-native": {
+			"active": 0,
+			"optionString": "{'exceptions': []}"
+			},
+		"no-extra-bind": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-extra-boolean-cast": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-extra-labels": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-extra-parens": {
+			"active": 0,
+			"optionString": "'all', {'conditionalAssign': false, 'returnAssign': false, 'nestedBinaryExpressions': false, 'ignoreJSX': 'none', 'enforceForArrowConditionals': false}"
+			},
+		"no-extra-semi": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-fallthrough": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-floating-decimal": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-func-assign": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-global-assign": {
+			"active": 1,
+			"optionString": "{'exceptions': []}"
+			},
+		"no-implicit-coercion": {
+			"active": 0,
+			"optionString": "{'boolean': true, 'number': true, 'string': true, 'allow': []}"
+			},
+		"no-implicit-globals": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-implied-eval": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-inline-comments": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-inner-declarations": {
+			"active": 1,
+			"optionString": "'functions'"
+			},
+		"no-invalid-regexp": {
+			"active": 1,
+			"optionString": "{'allowConstructorFlags': ['u', 'y']}"
+			},
+		"no-invalid-this": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-irregular-whitespace": {
+			"active": 1,
+			"optionString": "{'skipStrings': true, 'skipComments': false, 'skipRegExps': true, 'skipTemplates': true}"
+			},
+		"no-iterator": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-label-var": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-labels": {
+			"active": 0,
+			"optionString": "{'allowLoop': false, 'allowSwitch': false}"
+			},
+		"no-lone-blocks": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-lonely-if": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-loop-func": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-magic-numbers": {
+			"active": 0,
+			"optionString": "{'ignore': [], 'ignoreArrayIndexes': true, 'enforceConst': false, 'detectObjects': false}"
+			},
+		"no-misleading-character-class": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-mixed-operators": {
+			"active": 0,
+			"optionString": "{'groups': [['+', '-', '*', '/', '%', '**'], ['&', '|', '^', '~', '<<', '>>', '>>>'], ['==', '!=', '===', '!==', '>', '>=', '<', '<='], ['&&', '||'], ['in', 'instanceof']], 'allowSamePrecedence': true}"
+			},
+		"no-mixed-requires": {
+			"active": 0,
+			"optionString": "{'grouping': false, 'allowCall': false }"
+			},
+		"no-mixed-spaces-and-tabs": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-multi-assign": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-multi-spaces": {
+			"active": 0,
+			"optionString": "{'exceptions': {'Property': true, 'BinaryExpression': false, 'VariableDeclarator': false, 'ImportDeclaration': false}}"
+			},
+		"no-multi-str": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-multiple-empty-lines": {
+			"active": 0,
+			"optionString": "{'max': 2, 'maxBOF': 2, 'maxEOF': 2}"
+			},
+		"no-negated-condition": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-nested-ternary": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new-func": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new-object": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new-require": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new-symbol": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-new-wrappers": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-obj-calls": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-octal": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-octal-escape": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-param-reassign": {
+			"active": 0,
+			"optionString": "{'props': false}"
+			},
+		"no-path-concat": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-plusplus": {
+			"active": 0,
+			"optionString": "{'allowForLoopAfterthoughts': false}"
+			},
+		"no-process-env": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-process-exit": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-proto": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-prototype-builtins": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-redeclare": {
+			"active": 1,
+			"optionString": "{'builtinGlobals': false}"
+			},
+		"no-regex-spaces": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-restricted-globals": {
+			"active": 0,
+			"optionString": "'event', 'fdescribe'"
+			},
+		"no-restricted-imports": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-restricted-modules": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-restricted-properties": {
+			"active": 0,
+			"optionString": "[{'object': 'disallowedObjectName', 'property': 'disallowedPropertyName'}, {'object': 'disallowedObjectName', 'property': 'anotherDisallowedPropertyName', 'message': 'Please use allowedObjectName.allowedPropertyName.'}]"
+			},
+		"no-restricted-syntax": {
+			"active": 0,
+			"optionString": "'FunctionExpression', 'WithStatement'"
+			},
+		"no-return-assign": {
+			"active": 0,
+			"optionString": "'except-parens'"
+			},
+		"no-return-await": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-script-url": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-self-assign": {
+			"active": 1,
+			"optionString": "{'props': true}"
+			},
+		"no-self-compare": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-sequences": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-shadow": {
+			"active": 0,
+			"optionString": "{'builtinGlobals': false, 'hoist': 'functions', 'allow': []}"
+			},
+		"no-shadow-restricted-names": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-sparse-arrays": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-sync": {
+			"active": 0,
+			"optionString": "{'allowAtRootLevel': false}"
+			},
+		"no-tabs": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-template-curly-in-string": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-ternary": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-this-before-super": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-throw-literal": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-trailing-spaces": {
+			"active": 0,
+			"optionString": "{'skipBlankLines': false, 'ignoreComments': false}"
+			},
+		"no-undef": {
+			"active": 1,
+			"optionString": "{'typeof': false}"
+			},
+		"no-undef-init": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-undefined": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-underscore-dangle": {
+			"active": 0,
+			"optionString": "{'allow': [], 'allowAfterThis': false, 'allowAfterSuper': false, 'enforceInMethodNames': false}"
+			},
+		"no-unexpected-multiline": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-unmodified-loop-condition": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-unneeded-ternary": {
+			"active": 0,
+			"optionString": "{'defaultAssignment': true}"
+			},
+		"no-unreachable": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-unsafe-finally": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-unsafe-negation": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-unused-expressions": {
+			"active": 0,
+			"optionString": "{'allowShortCircuit': false, 'allowTernary': false, 'allowTaggedTemplates': false}"
+			},
+		"no-unused-labels": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-unused-vars": {
+			"active": 1,
+			"optionString": "{'vars': 'all', 'args': 'after-used', 'caughtErrors': 'none', 'ignoreRestSiblings': false}"
+			},
+		"no-use-before-define": {
+			"active": 0,
+			"optionString": "{'functions': true, 'classes': true, 'variables': true}"
+			},
+		"no-useless-call": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-useless-computed-key": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-useless-concat": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-useless-constructor": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-useless-escape": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-useless-rename": {
+			"active": 0,
+			"optionString": "{'ignoreDestructuring': false, 'ignoreImport': false, 'ignoreExport': false}"
+			},
+		"no-useless-return": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-var": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-void": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-warning-comments": {
+			"active": 0,
+			"optionString": "{'terms': ['todo', 'fixme', 'xxx'], 'location': 'start'}"
+			},
+		"no-whitespace-before-property": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-with": {
+			"active": 0,
+			"optionString": ""
+			},
+		"nonblock-statement-body-position": {
+			"active": 0,
+			"optionString": "'beside'"
+			},
+		"object-curly-newline": {
+			"active": 0,
+			"optionString": "{'ObjectExpression': {'multiline': true, 'consistent': true}, 'ObjectPattern': {'multiline': true, 'consistent': true}}"
+			},
+		"object-curly-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"object-property-newline": {
+			"active": 0,
+			"optionString": "{'allowAllPropertiesOnSameLine': true}"
+			},
+		"object-shorthand": {
+			"active": 0,
+			"optionString": "'always', {'avoidQuotes': false, 'ignoreConstructors': false}"
+			},
+		"one-var": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"one-var-declaration-per-line": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"operator-assignment": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"operator-linebreak": {
+			"active": 0,
+			"optionString": "'after', {'overrides': {'?': 'after', '+=': 'none'}}"
+			},
+		"padded-blocks": {
+			"active": 0,
+			"optionString": "{'blocks': 'always', 'switches': 'always', 'classes': 'always'}"
+			},
+		"padding-line-between-statements": {
+			"active": 0,
+			"optionString": "{blankLine: 'always', prev:'*', next:'return'}"
+			},
+		"prefer-arrow-callback": {
+			"active": 0,
+			"optionString": ""
+			},
+		"prefer-const": {
+			"active": 0,
+			"optionString": "{'destructuring': 'any', 'ignoreReadBeforeAssign': false}"
+			},
+		"prefer-destructuring": {
+			"active": 0,
+			"optionString": "{'array': true, 'object': true}, {'enforceForRenamedProperties': false}"
+			},
+		"prefer-numeric-literals": {
+			"active": 0,
+			"optionString": ""
+			},
+		"prefer-object-spread": {
+			"active": 0,
+			"optionString": ""
+			},
+		"prefer-promise-reject-errors": {
+			"active": 0,
+			"optionString": "{'allowEmptyReject': false}"
+			},
+		"prefer-rest-params": {
+			"active": 0,
+			"optionString": ""
+			},
+		"prefer-spread": {
+			"active": 0,
+			"optionString": ""
+			},
+		"prefer-template": {
+			"active": 0,
+			"optionString": ""
+			},
+		"quote-props": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"quotes": {
+			"active": 0,
+			"optionString": "'double', {'avoidEscape': true, 'allowTemplateLiterals': true}"
+			},
+		"radix": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"require-atomic-updates": {
+			"active": 0,
+			"optionString": ""
+			},
+		"require-await": {
+			"active": 0,
+			"optionString": ""
+			},
+		"require-jsdoc": {
+			"active": 0,
+			"optionString": "{'require': {'FunctionDeclaration': true, 'MethodDefinition': false, 'ClassDeclaration': false, 'ArrowFunctionExpression': false}}"
+			},
+		"require-unicode-regexp": {
+			"active": 0,
+			"optionString": ""
+			},
+		"require-yield": {
+			"active": 1,
+			"optionString": ""
+			},
+		"rest-spread-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"semi": {
+			"active": 0,
+			"optionString": "'always', {'omitLastInOneLineBlock': false}"
+			},
+		"semi-spacing": {
+			"active": 0,
+			"optionString": "{'before': false, 'after': true}"
+			},
+		"semi-style": {
+			"active": 0,
+			"optionString": "'last'"
+			},
+		"sort-imports": {
+			"active": 0,
+			"optionString": "{'ignoreCase': false, 'ignoreMemberSort': true, 'memberSyntaxSortOrder': ['none', 'all', 'multiple', 'single']}"
+			},
+		"sort-keys": {
+			"active": 0,
+			"optionString": "'asc', {'caseSensitive': true, 'natural': false}"
+			},
+		"sort-vars": {
+			"active": 0,
+			"optionString": "{'ignoreCase': false}"
+			},
+		"space-before-blocks": {
+			"active": 0,
+			"optionString": "{'functions': 'always', 'keywords': 'always', 'classes': 'always'}"
+			},
+		"space-before-function-paren": {
+			"active": 0,
+			"optionString": "{'anonymous': 'always', 'named': 'never'}"
+			},
+		"space-in-parens": {
+			"active": 0,
+			"optionString": "'never', {'exceptions': []}"
+			},
+		"space-infix-ops": {
+			"active": 0,
+			"optionString": "{'int32Hint': false}"
+			},
+		"space-unary-ops": {
+			"active": 0,
+			"optionString": "{'words': true, 'nonwords': false, 'overrides': {}}"
+			},
+		"spaced-comment": {
+			"active": 0,
+			"optionString": "'always', {'line': {'markers': ['/'], 'exceptions': ['-', '+']}, 'block': {'markers': ['!'], 'exceptions': ['*'], 'balanced': false}}"
+			},
+		"strict": {
+			"active": 0,
+			"optionString": "'safe'"
+			},
+		"switch-colon-spacing": {
+			"active": 0,
+			"optionString": "{'after': true, 'before': false}"
+			},
+		"symbol-description": {
+			"active": 0,
+			"optionString": ""
+			},
+		"template-curly-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"template-tag-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"unicode-bom": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"use-isnan": {
+			"active": 1,
+			"optionString": ""
+			},
+		"valid-jsdoc": {
+			"active": 0,
+			"optionString": "{'prefer': {'return': 'returns'}, 'requireReturn': true, 'requireReturnDescription': true, 'requireReturnType': true, 'requireParamDescription': true}"
+			},
+		"valid-typeof": {
+			"active": 1,
+			"optionString": "{'requireStringLiterals': true}"
+			},
+		"vars-on-top": {
+			"active": 0,
+			"optionString": ""
+			},
+		"wrap-iife": {
+			"active": 0,
+			"optionString": "'outside'"
+			},
+		"wrap-regex": {
+			"active": 0,
+			"optionString": ""
+			},
+		"yield-star-spacing": {
+			"active": 0,
+			"optionString": "{'before': false, 'after': true}"
+			},
+		"yoda": {
+			"active": 0,
+			"optionString": "'never', {'exceptRange': false, 'onlyEquality': false}"
+			}
+		},
+	"esLintSourceType": 0,
+	"externalServerAddress": "http://localhost",
+	"gitIgnoreBuildFolder": 1,
+	"hideConfigFile": 0,
+	"jsCheckerReservedNamesString": "",
+	"jsHintFlags2": {
+		"asi": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"bitwise": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"boss": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"browser": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"browserify": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"camelcase": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"couch": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"curly": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"debug": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"devel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"dojo": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"elision": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eqeqeq": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eqnull": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"es3": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"esnext": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"evil": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"expr": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"forin": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"freeze": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"funcscope": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"futurehostile": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"globalstrict": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"immed": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"indent": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"iterator": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"jasmine": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"jquery": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"lastsemic": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"latedef": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"laxbreak": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"laxcomma": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"loopfunc": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"maxcomplexity": {
+			"active": 0,
+			"flagValue": 10
+			},
+		"maxdepth": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"maxlen": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"maxparams": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"maxstatements": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"mocha": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"mootools": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"moz": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"multistr": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"newcap": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"noarg": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"nocomma": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"node": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"noempty": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"nonbsp": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"nonew": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"nonstandard": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"notypeof": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"noyield": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"onecase": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"phantom": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"plusplus": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"proto": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"prototypejs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"qunit": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"regexp": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"rhino": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"scripturl": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"shadow": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"shelljs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"singleGroups": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"strict": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"sub": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"supernew": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"typed": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"undef": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"unused": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"varstmt": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"withstmt": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"worker": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"wsh": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"yui": {
+			"active": 0,
+			"flagValue": -1
+			}
+		},
+	"jsLintFlags2": {
+		"bitwise": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"browser": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"couch": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"devel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"es6": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"eval": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"for": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"maxlen": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"node": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"this": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"white": {
+			"active": 0,
+			"flagValue": -1
+			}
+		},
+	"languageDefaultsCOFFEE": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.js",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"createSourceMap": 0,
+		"minifyOutput": 1,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1,
+		"transpilerStyle": 1
+		},
+	"languageDefaultsCSS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*-min.css",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"createSourceMap": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0
+		},
+	"languageDefaultsGIF": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.gif",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0
+		},
+	"languageDefaultsHAML": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"escapeHTMLCharacters": 0,
+		"noEscapeInAttributes": 0,
+		"outputFormat": 2,
+		"shouldRunCacheBuster": 0,
+		"useCDATA": 0,
+		"useDoubleQuotes": 0,
+		"useUnixNewlines": 0
+		},
+	"languageDefaultsJPG": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.jpg",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"outputFormat": 0,
+		"quality": 100
+		},
+	"languageDefaultsJS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*-min.js",
+		"autoOutputPathRelativePath": "/min",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"createSourceMap": 0,
+		"minifyOutput": 1,
+		"syntaxCheckerStyle": 3,
+		"transpilerStyle": 0
+		},
+	"languageDefaultsJSON": {
+		"autoOutputAction": 1,
+		"autoOutputPathFilenamePattern": "*-min.json",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"orderOutput": 0,
+		"outputStyle": 1
+		},
+	"languageDefaultsKIT": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "kit",
+		"autoOutputPathReplace2": "html",
+		"autoOutputPathStyle": 0,
+		"shouldRunCacheBuster": 0
+		},
+	"languageDefaultsLESS": {
+		"allowInsecureImports": 0,
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.css",
+		"autoOutputPathRelativePath": "../css",
+		"autoOutputPathReplace1": "less",
+		"autoOutputPathReplace2": "css",
+		"autoOutputPathStyle": 0,
+		"createSourceMap": 1,
+		"enableJavascript": 0,
+		"ieCompatibility": 0,
+		"mathStyle": 0,
+		"outputStyle": 0,
+		"rewriteURLStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictUnits": 0
+		},
+	"languageDefaultsMARKDOWN": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"criticStyle": 0,
+		"enableFootnotes": 1,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"maskEmailAddresses": 1,
+		"outputFormat": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"shouldRunCacheBuster": 0,
+		"useCompatibilityMode": 0
+		},
+	"languageDefaultsOTHER": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.*",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"shouldRunCacheBuster": 0
+		},
+	"languageDefaultsPNG": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.png",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"optimizerType": 1,
+		"quality": 100
+		},
+	"languageDefaultsPUG": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"compileDebug": 1,
+		"outputStyle": 0,
+		"shouldRunCacheBuster": 0
+		},
+	"languageDefaultsSASS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.css",
+		"autoOutputPathRelativePath": "../assets/css",
+		"autoOutputPathReplace1": "sass",
+		"autoOutputPathReplace2": "css",
+		"autoOutputPathStyle": 2,
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 1
+		},
+	"languageDefaultsSLIM": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"compileOnly": 0,
+		"logicless": 0,
+		"outputFormat": 0,
+		"outputStyle": 1,
+		"railsCompatible": 0,
+		"shouldRunCacheBuster": 0
+		},
+	"languageDefaultsSTYLUS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.css",
+		"autoOutputPathRelativePath": "../css",
+		"autoOutputPathReplace1": "stylus",
+		"autoOutputPathReplace2": "css",
+		"autoOutputPathStyle": 0,
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"importCSS": 0,
+		"outputStyle": 0,
+		"resolveRelativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0
+		},
+	"languageDefaultsSVG": {
+		"autoOutputAction": 2,
+		"autoOutputPathFilenamePattern": "*.svg",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"pluginMask": 3758088159
+		},
+	"languageDefaultsTS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.js",
+		"autoOutputPathRelativePath": "/js",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"createDeclarationFile": 0,
+		"createSourceMap": 0,
+		"minifyOutput": 0,
+		"moduleResolutionType": 0,
+		"moduleType": 2,
+		"removeComments": 0,
+		"targetECMAVersion": 0
+		},
+	"languageDefaultsUserDefined": [
+		],
+	"overrideExternalServerCSS": 0,
+	"previewPathAddition": "",
+	"skippedFoldersString": "log, _logs, logs, _cache, cache, .idea, /storage/framework/sessions, node_modules",
+	"sourceFolderName": "source",
+	"susyVersion": 3,
+	"tsAllowSyntheticDefaultImports": 0,
+	"tsAllowUnreachableCode": 0,
+	"tsAllowUnusedLabels": 0,
+	"tsAlwaysStrict": 0,
+	"tsDownlevelIteration": 0,
+	"tsEmitBOM": 0,
+	"tsEmitDecoratorMetadata": 0,
+	"tsESModuleInterop": 0,
+	"tsForceConsistentCasingInFileNames": 0,
+	"tsImportHelpers": 0,
+	"tsIsolatedModules": 0,
+	"tsJSXFactory": "React.createElement",
+	"tsKeyofStringsOnly": 0,
+	"tsNoEmitHelpers": 0,
+	"tsNoFallthroughCasesInSwitch": 0,
+	"tsNoImplicitAny": 0,
+	"tsNoImplicitReturns": 0,
+	"tsNoImplicitThis": 0,
+	"tsNoImplicitUseStrict": 0,
+	"tsNoLib": 0,
+	"tsNoResolve": 0,
+	"tsNoStrictGenericChecks": 0,
+	"tsNoUnusedLocals": 0,
+	"tsNoUnusedParameters": 0,
+	"tsPreserveConstEnums": 0,
+	"tsPreserveSymlinks": 0,
+	"tsResolveJsonModule": 0,
+	"tsSkipLibCheck": 0,
+	"tsStrictFunctionTypes": 0,
+	"tsStrictNullChecks": 0,
+	"tsStrictPropertyInitialization": 0,
+	"tsStripInternal": 0,
+	"tsSuppressExcessPropertyErrors": 0,
+	"tsSuppressImplicitAnyIndexErrors": 0,
+	"uglifyDefinesString": "",
+	"uglifyFlags2": {
+		"arguments": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"ascii_only": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"bare_returns": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"booleans": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"braces": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"collapse_vars": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"comments": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"comparisons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"compress": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"conditionals": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"dead_code": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"directives": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"drop_console": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"drop_debugger": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eval": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"evaluate": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"expression": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"hoist_funs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"hoist_props": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"hoist_vars": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"html5_comments": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"ie8": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"if_return": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"indent-start": {
+			"active": 0,
+			"flagValue": 0
+			},
+		"indent_level": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"inline": {
+			"active": 1,
+			"flagValue": 3
+			},
+		"inline_script": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"join_vars": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"keep_fargs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"keep_fnames": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"keep_infinity": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"keep_quoted_props": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"loops": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"mangle": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"max_line_len": {
+			"active": 1,
+			"flagValue": 32000
+			},
+		"negate_iife": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"passes": {
+			"active": 1,
+			"flagValue": 1
+			},
+		"preserve_line": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"properties": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"pure_getters": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"quote_keys": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"quote_style": {
+			"active": 1,
+			"flagValue": 0
+			},
+		"reduce_funcs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"reduce_vars": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"semicolons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"sequences": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"shebang": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"side_effects": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"switches": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"toplevel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"typeofs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"unsafe": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_comps": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_Function": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_math": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_proto": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_regexp": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_undefined": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unused": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"warnings": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"webkit": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"width": {
+			"active": 1,
+			"flagValue": 80
+			},
+		"wrap_iife": {
+			"active": 0,
+			"flagValue": -1
+			}
+		},
+	"uglifyReservedNamesString": "$,exports,require",
+	"websiteRelativeRoot": ""
+	},
+"settingsFileVersion": "3"
+}

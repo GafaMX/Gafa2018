@@ -1,0 +1,109 @@
+$mainfont: 'Roboto', Helvetica Neue, Helvetica, Arial, sans-serif;
+$pre: pb !default;
+$bgcolor: #fff;
+$red: #0E3333;
+$color1: #0E3333;
+$color2: #99C77B;
+
+@mixin hide {
+	text-align: center;
+	display:inline-block;
+	border: 0;
+	font: 0/0 a;
+	text-shadow: none;
+	color: transparent;
+	background:transparent;
+	clip: auto;
+	height:0;
+	width: 0;
+	clip: rect(1px, 1px, 1px, 1px);
+	position: absolute !important;
+	height: 0px;
+	width: 0px;
+	overflow: hidden;
+}
+
+@mixin diagonal{
+	&::after{
+		content:"/";
+		padding-left:30px;
+		color:$color1;
+		@media only screen and (max-width: 992px) {
+			padding-left:10px;
+		}
+	}
+}
+
+@mixin before {
+	content:"";
+	padding:0;
+	margin:0;
+	position: absolute;
+}
+
+@mixin trans-a {
+	transition: .3s linear;
+}
+
+@mixin trans-hover {
+	transition: .01s linear;
+}
+
+@mixin font-smoothing($value: on) {
+	@if $value==on {
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	}
+	@else {
+		-webkit-font-smoothing: subpixel-antialiased;
+		-moz-osx-font-smoothing: auto;
+	}
+}
+
+@mixin font-ellipsis($value: on) {
+	@if $value==on {
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+}
+
+@mixin clearfix {
+	*zoom: 1;
+	&:before, &:after {
+		content: ' ';
+		display: table;
+	}
+	&:after {
+		clear: both;
+	}
+}
+
+/*
+ * 	Default theme - Owl Carousel CSS File
+ */
+
+$owl-color-base:			#fff !default;
+$owl-color-white:			#FFF !default;
+$owl-color-gray:			#fff !default;
+
+//nav
+
+$owl-nav-color: 			$owl-color-white !default;
+$owl-nav-color-hover:		$owl-color-white !default;
+$owl-nav-font-size: 		14px !default;
+$owl-nav-rounded: 			3px !default;
+$owl-nav-margin: 			5px !default;
+$owl-nav-padding: 			4px 7px !default;
+$owl-nav-background: 		$owl-color-gray !default;
+$owl-nav-background-hover:	$owl-color-base !default;
+$owl-nav-disabled-opacity: 	0.5 !default;
+
+//dots
+
+$owl-dot-width:				10px !default;
+$owl-dot-height:			10px !default;
+$owl-dot-rounded:			30px !default;
+$owl-dot-margin: 			5px 7px !default;
+$owl-dot-background:		$owl-color-gray !default;
+$owl-dot-background-active:	$owl-color-base !default;

@@ -1,0 +1,234 @@
+/* General
+=============================================================================
+============================================================================= */
+	body {
+		background: $bgcolor;
+		font-family: $mainfont;
+		@include font-smoothing(on);
+		color:#000;
+		line-height:1.7;
+	}
+	.#{$pre}__nm{
+		@include hide;
+	}
+	div{
+		position: relative;
+	}
+	ul{
+		margin:0;
+		padding:0;
+		li{
+			margin:0;
+			padding:0;
+			list-style: none;
+		}
+	}
+
+	a, a:link {
+		color: $color1;
+		text-decoration: none;
+		@include trans-a;
+	}
+
+	a:hover {
+		color: $color1 + #111111;
+		text-decoration: none;
+		@include trans-hover;
+	}
+
+	a:focus{outline:0;}
+
+	.cell {
+		overflow: hidden;
+		display: table-cell;
+		zoom: 1;
+	}
+
+	.alignleft {
+		display: inline;
+		float: left;
+		margin-right: 1.5em;
+	}
+
+	.alignright {
+		display: inline;
+		float: right;
+		margin-left: 1.5em;
+	}
+
+	.aligncenter {
+		clear: both;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.clearfix, .wave {
+		*zoom: 1;
+	}
+
+	.clearfix:before, .clearfix:after, .wave:before, .wave:after {
+		display: inline-block;
+		content: "";
+		line-height: 0;
+	}
+
+	.clearfix:after, .wave:after {
+		clear: both;
+	}
+
+	h1, h2, h3, h4, h5, h6 {
+		font-weight: normal;
+		margin-top: 0;
+	}
+
+	.gafa__main .taxonomy-description{
+		position:relative;
+		z-index:99;
+		background:#fff;
+		color:#999;
+		margin-bottom:15px;
+		max-width: 340px;
+		overflow: hidden;
+	}
+	a.btn, a.btn:link {color: #fff;}
+	a.btn-default, a.btn-default:link  {color:#333;}
+	.panel-title{margin:5px 0 !important}
+	.tooltip.top .tooltip-arrow {border-top-color: #111;}
+	.tooltip-inner {background-color: #222;}
+
+
+	.loading {background:none;}
+
+	.bnr-section {
+		padding:0;
+		overflow:hidden;
+		text-align:center;
+		margin:0 auto;
+	}
+
+	.bnr-section ins{
+		display:block;
+		margin:0 auto 0;
+		padding:0;
+	}
+
+	.bnr-section .img-responsive {
+		margin: 0 auto;
+		text-align:center;
+	}
+
+	/* Text meant only for screen readers. */
+	.screen-reader-text {
+		clip: rect(1px, 1px, 1px, 1px);
+		position: absolute !important;
+		height: 1px;
+		width: 1px;
+		overflow: hidden;
+	}
+
+	.screen-reader-text:focus {
+		background-color: #f1f1f1;
+		border-radius: 3px;
+		box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+		clip: auto !important;
+		color: #21759b;
+		display: block;
+		font-size: 14px;
+		font-size: 0.875rem;
+		font-weight: bold;
+		height: auto;
+		left: 5px;
+		line-height: normal;
+		padding: 15px 23px 14px;
+		text-decoration: none;
+		top: 5px;
+		width: auto;
+		z-index: 100000; /* Above WP toolbar. */
+	}
+
+	hr.sep-sec{
+		border:0;
+		border-bottom:1px solid #eee;
+		margin-top:0px;
+		margin-bottom:35px;
+	}
+
+	.alert-noresults{
+		background:transparent;
+		color:#999;
+		border-color:#eee;
+	}
+
+	.inputlabel{display:none !important;}
+
+	.post-password-form{
+		input {
+			margin-bottom: 10px;
+			background:#fff;
+			border: 1px solid #ddd;
+			font-size: 14px;
+			color: #aaa;
+			padding: 10px 10px;
+		}
+		input[type=submit]{
+			background:#000;
+			color:#fff;
+			padding:11px 15px;
+			border:0;
+		}
+		input[type=password]{
+
+		}
+	}
+
+	@media (min-width:992px) {
+		::selection { background:#999; color:#fff; }
+
+		::-webkit-scrollbar{
+			width:5px;
+			height:2px;
+		}
+
+		::-webkit-scrollbar-thumb{
+			background-color: #333;
+		}
+		.pb__somos-top-item{
+			&::-webkit-scrollbar{
+				width:0px;
+				height:0px;
+			}
+			::-webkit-scrollbar-thumb{
+				background-color: #fff;
+			}
+		}
+	}
+
+.#{$pre}__social{
+	position: fixed;
+	top:40%;
+	right:60px;
+	z-index: 999000;
+	color:#fff;
+	li{
+		margin:0 0 40px;
+		a{
+			color:#9BC581;
+		}
+	}
+}
+
+
+.gafa__chroma{
+	position: absolute;
+	z-index: 1;
+	bottom: 0;
+	left: 0;
+	background: #000;
+	opacity: .2;
+	filter: alpha(opacity=30);
+	width: 100%;
+	height: 100%;
+	-webkit-transition: .3s linear;
+	transition: .3s linear;
+}
