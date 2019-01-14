@@ -43,11 +43,6 @@
 				// Registers the shortcode in WordPress
 				add_shortcode( 'gafa__scbanner', array( 'gafa__scbanner_Shortcode', 'output' ) );
 
-				// Banner shortcode to Visual Composer
-				if ( function_exists( 'vc_lean_map' ) ) {
-					vc_lean_map( 'gafa__scbanner', array( 'gafa__scbanner_Shortcode', 'map' ) );
-				}
-
 			}
 
 			/**
@@ -60,11 +55,7 @@
 				// Extract shortcode attributes (based on the vc_lean_map function - see next function)
 				extract( vc_map_get_attributes( 'gafa__scbanner', $atts ) );
 
-				var_dump();
-
-				// Define output
 				$output = get_template_part( 'module', 'banner' );
-
 
 				// Return output
 				return $output;
@@ -91,8 +82,8 @@
 							'heading'    => esc_html__( 'Banner', 'locale' ),
 							'param_name' => 'show_panel',
 							'value'      => array(
-								esc_html__( 'true', 'locale' )  => 'Sí',
-								esc_html__( 'false', 'locale' ) => 'No',
+								esc_html__( 'Sí', 'locale' )  => 'true',
+								esc_html__( 'No', 'locale' ) => 'false',
 							),
 						),
 					),
@@ -128,11 +119,6 @@
 				// Registers the shortcode in WordPress
 				add_shortcode( 'gafa__scservicios', array( 'gafa__scservicios_Shortcode', 'output' ) );
 
-				// Servicios shortcode to Visual Composer
-				if ( function_exists( 'vc_lean_map' ) ) {
-					vc_lean_map( 'gafa__scservicios', array( 'gafa__scservicios_Shortcode', 'map' ) );
-				}
-
 			}
 
 			/**
@@ -144,8 +130,6 @@
 
 				// Extract shortcode attributes (based on the vc_lean_map function - see next function)
 				extract( vc_map_get_attributes( 'gafa__scservicios', $atts ) );
-
-				var_dump();
 
 				// Define output
 				$output = get_template_part( 'module', 'services' );
@@ -176,8 +160,8 @@
 							'heading'    => esc_html__( 'Servicios', 'locale' ),
 							'param_name' => 'show_panel',
 							'value'      => array(
-								esc_html__( 'true', 'locale' )  => 'Sí',
-								esc_html__( 'false', 'locale' ) => 'No',
+								esc_html__( 'Sí', 'locale' )  => 'true',
+								esc_html__( 'No', 'locale' ) => 'false',
 							),
 						),
 					),
@@ -212,11 +196,6 @@
 				// Registers the shortcode in WordPress
 				add_shortcode( 'gafa__scclientes', array( 'gafa__scclientes_Shortcode', 'output' ) );
 
-				// Clientes shortcode to Visual Composer
-				if ( function_exists( 'vc_lean_map' ) ) {
-					vc_lean_map( 'gafa__scclientes', array( 'gafa__scclientes_Shortcode', 'map' ) );
-				}
-
 			}
 
 			/**
@@ -228,8 +207,6 @@
 
 				// Extract shortcode attributes (based on the vc_lean_map function - see next function)
 				extract( vc_map_get_attributes( 'gafa__scclientes', $atts ) );
-
-				var_dump();
 
 				// Define output
 				$output = get_template_part( 'module', 'clients' );
@@ -260,8 +237,8 @@
 							'heading'    => esc_html__( 'Clientes', 'locale' ),
 							'param_name' => 'show_panel',
 							'value'      => array(
-								esc_html__( 'true', 'locale' )  => 'Sí',
-								esc_html__( 'false', 'locale' ) => 'No',
+								esc_html__( 'Sí', 'locale' )  => 'true',
+								esc_html__( 'No', 'locale' ) => 'false',
 							),
 						),
 					),
