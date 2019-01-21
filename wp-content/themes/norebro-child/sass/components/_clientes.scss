@@ -1,0 +1,39 @@
+.#{$pre}__clientes{
+	position: relative;
+	margin-top:80px;
+
+	&--item{
+		width:100%;
+		max-width: 100%;
+		height:auto;
+		text-align: center;
+		margin-bottom:80px;
+		position: relative;
+		min-height:140px;
+		cursor: pointer;
+		@include imgGlitch("gafa__effects--glitch", 15, 150, 150, 0, 50);
+		img{
+			display: inline-block;
+			width:100%;
+			max-width: 150px;
+			height:auto;
+			filter:grayscale(100%);
+			transition: filter 0.5s ease;
+			top: 50%;
+    		transform: translateY(-50%);
+			&:nth-child(2),&:nth-child(3){
+				opacity: 0;
+			}
+		}
+		&:hover{
+			> img{
+				filter: grayscale(0);
+				opacity: 1 !important;
+			}
+		}
+	}
+}
+
+.gafa__effects--glitch{
+
+}
