@@ -1,0 +1,62 @@
+.#{$pre}__hero{
+	position: relative;
+	background-image:url('../img/hero--bg.jpg');
+	background-position: center center;
+	background-size: cover;
+	height:100vh;
+	width:100%;
+
+	&--canvas{
+		position: relative;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		position: absolute;
+		width:700px;
+		height:500px;
+		top:50%;
+		left:100px;
+		&--teaser{
+			position: absolute;
+			top:90px;
+			left:20px;
+			h3{
+				color:#fff;
+				font-size:13px;
+				letter-spacing:16px;
+				font-weight: 300;
+				@include textGlitch("gafa__effects--glitch-text", 100, white, black, red, blue, 550, 115);
+			}
+		}
+	}
+}
+
+#particle-slider {
+	width:100%;
+	height:100%;
+  .slides{
+	  display: none !important;
+  }
+  .draw{
+  }
+}
+html .slides,
+#particle-slider .slides,
+html > .dg,
+#particle-slider > .dg {
+  display: none;
+}
+@media (min-width: 1000px) {
+  #particle-slider {
+    background-repeat: no-repeat;
+  }
+  #particle-slider > .dg {
+    display: block;
+  }
+}
+
+.header-wrap{
+	.site-branding,.menu-other{
+		display: none;
+	}
+}

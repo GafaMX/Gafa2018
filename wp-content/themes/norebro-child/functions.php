@@ -42,6 +42,16 @@
 
 				// Registers the shortcode in WordPress
 				add_shortcode( 'gafa__scbanner', array( 'gafa__scbanner_Shortcode', 'output' ) );
+				// Banner shortcode to Visual Composer
+
+
+				// Banner shortcode to Visual Composer
+
+				if ( function_exists( 'vc_lean_map' ) ) {
+				  vc_lean_map( 'gafa__scbanner', array( 'gafa__scbanner_Shortcode', 'map' ) );
+				}
+
+
 
 			}
 
@@ -119,6 +129,10 @@
 				// Registers the shortcode in WordPress
 				add_shortcode( 'gafa__scservicios', array( 'gafa__scservicios_Shortcode', 'output' ) );
 
+				if ( function_exists( 'vc_lean_map' ) ) {
+				  vc_lean_map( 'gafa__scservicios', array( 'gafa__scservicios_Shortcode', 'map' ) );
+				}
+
 			}
 
 			/**
@@ -195,6 +209,10 @@
 
 				// Registers the shortcode in WordPress
 				add_shortcode( 'gafa__scclientes', array( 'gafa__scclientes_Shortcode', 'output' ) );
+
+				if ( function_exists( 'vc_lean_map' ) ) {
+				  vc_lean_map( 'gafa__scclientes', array( 'gafa__scclientes_Shortcode', 'map' ) );
+				}
 
 			}
 
