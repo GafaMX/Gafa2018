@@ -4,5 +4,9 @@
 /*
 	[Table of contents] =============================================================
 	- General
-*/
-@import "components/general";
+	*/
+	@import "plugins/swiper";
+	@import "plugins/glitch";
+	@import "plugins/fontawesome";
+	@import "components/general";
+	@import "components/servicios";
