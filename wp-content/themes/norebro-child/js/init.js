@@ -12,11 +12,12 @@ $(document).ready(function(){
             top: e.clientY + 'px',
 			}).html("<h4>" + dataToolip + "</h4><span>" + tooltipDesc + "</span>");
         });
-        $('.tooltip').mouseleave(function(){
-          $('.tooltip-window').fadeOut(100);
-        });
-        $(window).scroll(function(){
-          $('.tooltip-window').fadeOut(100);
-        });
+      $('.tooltip').mouseleave(function(){
+        $('.tooltip-window').fadeOut(100);
       });
+      $(window).scroll(function(){
+        $('.tooltip-window').fadeOut(100);
+      });
+      
+    });
 });

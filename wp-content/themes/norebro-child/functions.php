@@ -14,7 +14,7 @@
 			$gafa_ver = date('his');
 
 			wp_enqueue_style('gafa_select_child_style', get_stylesheet_directory_uri() . '/assets/css/app.css', array($parent_style), esc_attr( $gafa_ver ));
-			wp_enqueue_script('gafa_select_modules_init', get_stylesheet_directory_uri() . '/assets/js/init.js', array('jquery'), esc_attr( $gafa_ver ), false, true);
+			wp_enqueue_script('gafa_select_modules_init', get_stylesheet_directory_uri() . '/assets/js/init.js', array('jquery'), esc_attr( $gafa_ver ), true, true);
 			wp_enqueue_script('gafa_select_modules_lib', get_stylesheet_directory_uri() . '/assets/js/lib.js', array('jquery'), esc_attr( $gafa_ver ), false, true);
 		}
 

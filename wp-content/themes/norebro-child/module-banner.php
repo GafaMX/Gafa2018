@@ -24,8 +24,6 @@
 
 				  // Terms of usage: http://particleslider.com/legal/license
 
-				  console.log('qeusss');
-
 				  var init = function(){
 					 var isMobile = navigator.userAgent &&
 						navigator.userAgent.toLowerCase().indexOf('mobile') >= 0;

@@ -71,7 +71,7 @@
                     </div>
                 </div>
             </div>
-            <div class="swiper-slide" data-back="dark" id="creative">
+            <div class="swiper-slide" data-back="light" id="creative">
                 <div class="container services__interior">
                     <div class="animation chroma"></div>
                     <div class="content">
@@ -107,7 +107,7 @@
 
             <div class="swiper-slide" data-back="dark" id="content">
                 <div class="container services__interior">
-                    <div class="animation">B</div>
+                    <div class="animation courtain"></div>
                     <div class="content">
                         <div class="description">Foto, video / animación, medios digitales, pauta</div>
                         <div class="link" id="tecnology-slide">Content marketing</div>
@@ -143,41 +143,56 @@
 </div>
 
 <script>
+function angleBetweenPointsInDegrees(x1, y1, x2, y2) {
+    var angle = Math.atan2(y2 - y1, x2 - x1) * 180.0 / Math.PI;
+    angle = 180 + angle;
+    return angle;
+}
+
+function distanceBetweenPoints(x1, y1, x2, y2) {
+    var a = x1 - x2;
+    var b = y1 - y2;
+    return Math.sqrt((a * a) + (b * b));
+}
 
 (function($) {
-
     var swiper = new Swiper('.swiper-container', {
         effect: 'fade',
         slidesPerView: 'auto',
         noSwipingClass: 'swiper-no-swiping',
         noSwiping: true,
     });
-    
-    $('#tecnology-slide').on('click', function (e) {
-        e.preventDefault();
-        $('.return').show();        
-        swiper.slideTo(1, 0);
-    });
-    
-    $('#creative-slide').on('click', function (e) {
-        e.preventDefault();
-        $('.return').show();        
-        swiper.slideTo(2, 0);
-    });
-    
-    $('#content-slide').on('click', function (e) {
-        e.preventDefault();
-        $('.return').show();        
-        swiper.slideTo(3, 0);
-    });
 
-    $('.return').on('click', function (e) {
-        e.preventDefault();
-        $(this).hide();        
-        swiper.slideTo(0, 0 );
-    });
+    function creativeText(){
+            var chroma = new Blotter.Text("Imagination", {
+            family : "serif",
+            size : 200,
+            fill : "#171717",
+        });
+        
+        var material = new Blotter.ChannelSplitMaterial();
+        var blotter = new Blotter(material, { 
+            texts : chroma,
+        });
+        
+        material.uniforms.uApplyBlur.value = 1;
+        material.uniforms.uAnimateNoise.value = 0;
 
-    //text blotter
+        var scope = blotter.forText(chroma);
+        var thisChroma = $('.chroma');
+
+        blotter.on("ready", function () {
+            scope.appendTo(thisChroma);
+        });
+
+        scope.on("mousemove", function (mousePosition) {
+            var angle = angleBetweenPointsInDegrees(0.5, 0.5, mousePosition.x, mousePosition.y);
+            var blur = Math.min(0.3, distanceBetweenPoints(0.5, 0.5, mousePosition.x, mousePosition.y));
+            
+            scope.material.uniforms.uRotation.value = angle;
+            scope.material.uniforms.uOffset.value = blur;
+        });
+    }
 
     function techText(){
         var ants = new Blotter.Text("Innovation", {
@@ -201,40 +216,63 @@
         scope.appendTo(thisAnts);
     }
 
-    function createText(){
-        var chroma = new Blotter.Text("Imagination", {
-            family : "Oswald",
+    function contentText(){
+        var courtain = new Blotter.Text("Storytelling", {
+            family : "serif",
             size : 280,
-            fill : "#171717",
+            fill : "white"
         });
     
-        var material = new Blotter.ChannelSplitMaterial();
+        var material = new Blotter.SlidingDoorMaterial();
         var blotter = new Blotter(material, { 
-            texts : chroma,
+            texts : courtain,
         });
         
-        var scope = blotter.forText(chroma);
-        var thisChroma = document.querySelector('.chroma');
+        var scope = blotter.forText(courtain);
+        var thisCourtain = document.querySelector('.courtain');
     
-        material.uniforms.uOffset.value = 0.034;
-        material.uniforms.uRotation.value = 118;
-        material.uniforms.uApplyBlur.value = 0;
-        material.uniforms.uAnimateNoise.value = 0;
-        
-        scope.appendTo(thisChroma);
-
-        scope.on("mousemove", function (mousePosition) {
-          var angle = angleBetweenPointsInDegrees(0.5, 0.5, mousePosition.x, mousePosition.y);
-          var blur = Math.min(0.3, distanceBetweenPoints(0.5, 0.5, mousePosition.x, mousePosition.y));
-
-          scope.material.uniforms.uRotation.value = angle;
-          scope.material.uniforms.uOffset.value = blur;
-        });
+        material.uniforms.uDivisions.value = 11;
+        material.uniforms.uDivisionWidth.value = 0.25;
+        material.uniforms.uAnimateHorizontal.value = 1;
+        material.uniforms.uFlipAnimationDirection.value = 0;
+        material.uniforms.uSpeed.value = 0.08;
+    
+        scope.appendTo(thisCourtain);
     }
-
-    techText();
-    createText();
-
     
+    $('#tecnology-slide').on('click', function (e) {
+        e.preventDefault();
+        $('.return').show();        
+        swiper.slideTo(1, 0);
+
+        $('.chroma, .courtain').empty();
+        techText();
+    });
+    
+    $('#creative-slide').on('click', function (e) {
+        e.preventDefault();
+        $('.return').show();        
+        swiper.slideTo(2, 0);
+        
+        $('.ants, .courtain').empty();
+        creativeText();
+    });
+    
+    $('#content-slide').on('click', function (e) {
+        e.preventDefault();
+        $('.return').show();        
+        swiper.slideTo(3, 0);
+
+        $('.ants, .chroma').empty();
+        contentText();
+    });
+
+    $('.return').on('click', function (e) {
+        e.preventDefault();
+        $(this).hide();        
+        swiper.slideTo(0, 0 );
+
+        $('.ants, .courtain').empty();
+    });
 })(jQuery);
 </script>
