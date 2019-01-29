@@ -1,3 +1,6 @@
+.dg.ac,.settings{
+	display: none !important;
+}
 .#{$pre}__hero{
 	position: relative;
 	background-image:url('../img/hero--bg.jpg');
@@ -5,39 +8,68 @@
 	background-size: cover;
 	height:100vh;
 	width:100%;
-
+	overflow: visible !important;
+	@media only screen and (max-width: 776px) {
+		height:50vh;
+	}
 	&--canvas{
-		position: relative;
-		margin: 0;
-		padding: 0;
-		overflow: hidden;
 		position: absolute;
-		width:700px;
-		height:500px;
 		top:50%;
 		left:100px;
+		right:0;
+		bottom:0;
+		width:800px;
+		z-index: 999999999;
+		@media only screen and (max-width: 776px) {
+			left:0;
+			width:355px;
+			top:10%;
+		}
+
+		#particleWrapper{
+			width:100%;
+			height:300px;
+			position: relative;
+			top:100px;
+			left:-110px;
+			@media only screen and (max-width: 992px) {
+				width:90%;
+				left:10px;
+			}
+		}
+
 		&--teaser{
 			position: absolute;
 			top:90px;
 			left:20px;
+			@media only screen and (max-width: 992px) {
+				top:140px;
+			}
 			h3{
 				color:#fff;
 				font-size:13px;
 				letter-spacing:16px;
 				font-weight: 300;
 				@include textGlitch("gafa__effects--glitch-text", 100, white, black, red, blue, 550, 115);
+				@media only screen and (max-width: 992px) {
+					letter-spacing: 6px;
+				}
 			}
 		}
 	}
 }
 
 #particle-slider {
-	width:100%;
+	width:100% !important;
+	max-width: 100% !important;
 	height:100%;
+	overflow: visible !important;
   .slides{
 	  display: none !important;
+	  overflow: visible !important;
   }
   .draw{
+	  overflow: visible !important;
   }
 }
 html .slides,
@@ -59,4 +91,314 @@ html > .dg,
 	.site-branding,.menu-other{
 		display: none;
 	}
+}
+
+
+
+
+
+
+
+.button--full, .input {
+  width: 100%;
+}
+
+.page-end, .page-login .signin h2, .price-box, h2 {
+  text-align: center;
+}
+
+
+
+.inner {
+  position: relative;
+  max-width:100%;
+  position: absolute;
+  top:0;
+  left:0;
+  bottom:0;
+  right:0;
+}
+
+
+.button, .menu li a {
+  font-weight: 700;
+  text-decoration: none;
+  transition: all .2s ease;
+}
+
+.button {
+  display: inline-block;
+  padding: 12px 24px;
+  border: 0;
+  border-radius: 2px;
+  background: #eee;
+  font-size: 16px;
+  font-family: inherit;
+  color: #fff;
+  cursor: pointer;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.button--xs {
+  padding: 10px 20px;
+  font-size: 14px;
+}
+
+.button--lg {
+  font-size: 20px;
+  padding: 16px 72px;
+}
+
+.button--primary {
+  background-color: #ffab9d;
+  color: #191b1f;
+}
+
+.input {
+  -webkit-appearance: none;
+  border: 0;
+  background: rgba(126, 138, 154, 0.06);
+  padding: 12px 5px;
+  border-radius: 0;
+  font-size: 16px;
+  color: #7e8a9a;
+  &:focus {
+    outline: 0;
+  }
+  &[type=color] {
+    -webkit-appearance: none;
+    background: 0 0;
+    border: 0;
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    &::-webkit-color-swatch-wrapper {
+      -webkit-appearance: none;
+      border: 0;
+      padding: 0;
+      margin: 0;
+    }
+    &::-webkit-color-swatch {
+      -webkit-appearance: none;
+      border: 0;
+      border-radius: 100px;
+    }
+  }
+  &[type=range] {
+    -webkit-appearance: none;
+    height: 2px;
+    border-radius: 2px;
+    background: #9da1ac;
+    padding: 0;
+    &::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      box-shadow: none;
+      border: 0;
+      height: 16px;
+      width: 16px;
+      border-radius: 50%;
+      background: #fff !important;
+      cursor: pointer;
+    }
+    &:focus {
+      background: #ffab9d;
+      &::-webkit-slider-thumb {
+        box-shadow: 0 0 0 2px rgba(255, 171, 157, 0.5);
+        background: #ffab9d !important;
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+.settings__value--range {
+  output, span {
+    float: right;
+  }
+}
+
+.settings__value--toggle .toggle {
+  float: right;
+}
+
+.price-box--light {
+  margin-right: 20px;
+  color: #ffab9d;
+  .price-box__buy {
+    background: #ffab9d;
+  }
+}
+
+
+.settings__toggle {
+  position: absolute;
+  right: 20px;
+  bottom: 0;
+  cursor: pointer;
+  border: 1px solid rgba(255, 171, 157, 0.5);
+  border-radius: 20px;
+  height: 36px;
+  svg {
+    position: absolute;
+    top: 9px;
+    left: 8px;
+    fill: #ffab9d;
+  }
+  span {
+    font-weight: 700;
+    color: #ffab9d;
+    padding: 0 10px 0 32px;
+    line-height: 34px;
+  }
+  .icon__setting {
+    opacity: 1;
+    transform: rotate(0);
+    transition: all .2s ease;
+  }
+  .icon__close {
+    opacity: 0;
+    transform: rotate(90deg);
+    position: absolute;
+    left: 0;
+    margin: 21px 0 0 21px;
+    transition: all .2s ease;
+  }
+  &.open {
+    .icon__setting {
+      opacity: 0;
+      transform: rotate(-90deg);
+    }
+    .icon__close {
+      opacity: 1;
+      transform: rotate(0);
+    }
+  }
+}
+
+.settings__menu {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  max-width: 300px;
+  padding: 25px 20px;
+  background: #33343a;
+  color: #9ca1ad;
+  overflow-y: scroll;
+  transform: translateX(100%);
+  transition: all .3s ease;
+  visibility: hidden;
+  font-size: 14px;
+  font-weight: 500;
+  &.open {
+    transform: translateX(0);
+    visibility: visible;
+  }
+  h3 {
+    margin-bottom: 30px;
+    font-size: 16px;
+  }
+}
+
+.settings__close {
+  position: relative;
+  top: -3px;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.settings__value {
+  position: relative;
+  width: 100%;
+  margin-bottom: 20px;
+  &:last-child {
+    margin-bottom: 0;
+  }
+  output {
+    color: #fff;
+  }
+}
+
+.settings__value--toggle {
+  span {
+    display: inline-block;
+    padding-top: 2px;
+    user-select: none;
+  }
+  input {
+    float: right;
+    margin-left: 10px;
+  }
+}
+
+.settings__value--range input[type=range] {
+  margin: 14px 0 7px;
+}
+
+.settings__value--hidden {
+  display: none;
+}
+
+.toggle {
+  position: relative;
+  right: 0;
+  height: 20px;
+  width: 36px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.2);
+  &:after {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #fff;
+    transform: translateX(0);
+    transition: all .2s ease;
+  }
+}
+
+.toggle--checked {
+  background: #26cfa2;
+  cursor: pointer;
+  &:after {
+    transform: translateX(16px);
+  }
+}
+
+.page-buy {
+  background: #006;
+}
+
+.page-home {
+
+  #image {
+    display: none;
+  }
+  #particleWrapper {
+    height: 100%;
+  }
+}
+
+
+.high-res #particleWrapper canvas {
+  transform: translateZ(0) scale(0.8);
+  transform-origin: 0 0;
+}
+
+.retina #particleWrapper canvas {
+  transform: translateZ(0) scale(0.666);
+  transform-origin: 0 0;
 }
