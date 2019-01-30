@@ -11,7 +11,17 @@
 		position: relative;
 		min-height:140px;
 		cursor: pointer;
+		@media only screen and (min-width: 776px) {
 		@include imgGlitch("gafa__effects--glitch", 15, 150, 150, 0, 50);
+		}
+		@media only screen and (max-width: 776px) {
+			min-height:0;
+			img{
+				&:nth-child(2),&:nth-child(3){
+					display: none;
+				}
+			}
+		}
 		img{
 			display: inline-block;
 			width:100%;

@@ -181,9 +181,9 @@ jQuery(document).ready(function($) {
     //   }
     // });
 
-    particlesJS.load('particlesLight', '/wp-content/themes/norebro-child/assets/js/particlesjs-config-black.json');
-    particlesJS.load('particlesDark', '/wp-content/themes/norebro-child/assets/js/particlesjs-config-white.json');
-    particlesJS.load('particlesCreative', '/wp-content/themes/norebro-child/assets/js/particlesjs-config-white.json');
+    // particlesJS.load('particlesLight', '/wp-content/themes/norebro-child/assets/js/particlesjs-config-black.json');
+    // particlesJS.load('particlesDark', '/wp-content/themes/norebro-child/assets/js/particlesjs-config-white.json');
+    // particlesJS.load('particlesCreative', '/wp-content/themes/norebro-child/assets/js/particlesjs-config-white.json');
 
   });
 });
