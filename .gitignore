@@ -23,3 +23,4 @@ wp-config-sample\.php
 /.idea
 
 wp-content/plugins/charitable/i18n/
+.htaccess
