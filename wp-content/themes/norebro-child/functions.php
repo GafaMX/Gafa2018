@@ -268,3 +268,86 @@
 
 	}
 new gafa__scclientes_Shortcode;
+
+
+/* Service template shortcode
+	 =================================================================================================== */
+
+	/**
+	 *  Service template shortcode -- GAFA
+	 */
+
+	if ( ! class_exists( 'gafa__serviceTemp_Shortcode' ) ) {
+
+		class gafa__serviceTemp_Shortcode {
+
+			/**
+			 * Main constructor
+			 *
+			 * @since 1.0.0
+			 */
+			public function __construct() {
+
+				// Registers the shortcode in WordPress
+				add_shortcode( 'gafa__serviceTemp', array( 'gafa__serviceTemp_Shortcode', 'output' ) );
+				// Banner shortcode to Visual Composer
+
+
+				// Banner shortcode to Visual Composer
+
+				if ( function_exists( 'vc_lean_map' ) ) {
+				  vc_lean_map( 'gafa__serviceTemp', array( 'gafa__serviceTemp_Shortcode', 'map' ) );
+				}
+
+
+
+			}
+
+			/**
+			 * Shortcode output
+			 *
+			 * @since 1.0.0
+			 */
+			public static function output( $atts, $content = null ) {
+
+				// Extract shortcode attributes (based on the vc_lean_map function - see next function)
+				extract( vc_map_get_attributes( 'gafa__serviceTemp', $atts ) );
+
+				$output = get_template_part( 'module', 'serviceint' );
+
+				// Return output
+				return $output;
+
+			}
+
+			/**
+			 * Banner shortcode -- GAFA
+			 *
+			 * This is an array of all your settings which become the shortcode attributes ($atts)
+			 * for the output. See the link below for a description of all available parameters.
+			 *
+			 * @since 1.0.0
+			 * @link  https://wpbakery.atlassian.net/wiki/pages/viewpage.action?pageId=38993922
+			 */
+			public static function map() {
+				return array(
+					'name'        => esc_html__( 'GAFA - Service template', 'locale' ),
+					'description' => esc_html__( 'Shortcode outputs service template', 'locale' ),
+					'base'        => 'serviceTemp',
+					'params'      => array(
+						array(
+							'type'       => 'dropdown',
+							'heading'    => esc_html__( 'Service Template', 'locale' ),
+							'param_name' => 'show_panel',
+							'value'      => array(
+								esc_html__( 'Sí', 'locale' )  => 'true',
+								esc_html__( 'No', 'locale' ) => 'false',
+							),
+						),
+					),
+				);
+			}
+		}
+	}
+	new gafa__serviceTemp_Shortcode;
+
