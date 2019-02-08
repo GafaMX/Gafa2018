@@ -8,7 +8,14 @@
 		<div class="row">
 
 
+			<div class="gafa__hero--somero">
+				<canvas id="casiss"></canvas>
+			</div>
+
+
 			<div class="gafa__hero--canvas">
+
+
 				<div class="gafa__hero--canvas--logo">
 					<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/logo--gafa-w.svg" />
 				</div>
