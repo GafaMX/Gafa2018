@@ -109,7 +109,7 @@
 <div class="header-title<?php if ( ! $show_header_cap ) { echo ' without-cap'; } echo esc_attr( $full_height_class ) . esc_attr( $title_align_class ); ?>">
 	<div class="bg-image"></div>
 	<div class="title-wrap">
-		<div class="content">
+		<div class="content" id="particles-title">
 		
 			<div class="page-container<?php if ( !$page_wrapped ) { echo ' full'; } ?>">
 				<div class="wrap-container">

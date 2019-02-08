@@ -1,0 +1,15 @@
+#particles-title{
+    
+    .page-container{
+        z-index:3;
+        display:inline-block;
+    }
+
+    canvas{
+        height:100%;
+        width:100%;
+        position: absolute;
+        top:0;
+        left:0;
+    }
+}
