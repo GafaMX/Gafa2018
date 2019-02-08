@@ -21,7 +21,7 @@
     //     margin:0 0 60px;
     //     margin-left:60px;
     //     margin-right:auto;
-        
+
     //     canvas{
     //         position:absolute;
     //         top:50%;
@@ -36,21 +36,21 @@
     //     width:30%;
     //     top:0;
     //     right:0;
-        
+
     //     &__container{
     //         position:relative;
     //         height: 100%;
     //         width: 100%;
     //     }
-        
+
     //     &__row{
     //         position:relative;
     //         display: flex;
     //         width:100%;
     //         box-sizing: border-box;
-    //         padding: 10px 0; 
+    //         padding: 10px 0;
     //         opacity: 0;
-            
+
     //         .letter{
     //             display:block;
     //             position:relative;
@@ -60,8 +60,8 @@
     //         }
     //     }
     // }
-    
-    
+
+
     // .return{
     //     position: absolute;
     //     top:20px;
@@ -69,7 +69,7 @@
     //     z-index:9;
     //     display: none;
     //     cursor: pointer;
-        
+
     //     i{
     //         font-size: 20px;
     //     }
@@ -84,7 +84,7 @@
     //     z-index:-1;
     //     opacity:0.8;
     // }
-    
+
     // &__interior{
     //     .content{
     //         margin-bottom: 60px;
@@ -114,13 +114,13 @@
     //             }
 
     //             ul{
-                    
+
     //                 li {
-                        
+
     //                     display:block;
     //                     margin-bottom:8px;
     //                 }
-    //             } 
+    //             }
     //         }
     //     }
     // }
@@ -130,7 +130,7 @@
         flex-flow: column nowrap;
         justify-content: center;
         position: relative;
-        
+
         background-color: #ffffff;
         height: 100vh;
         padding:0;
@@ -139,9 +139,9 @@
         color:black;
 
         @media screen and (max-width:776px) {
-            height:initial; 
+            height:initial;
         }
-        
+
         p{
             color:black;
         }
@@ -153,35 +153,35 @@
         @media screen and (max-width:992px) {
             padding-left:0px;
         }
-        
+
         [class*='title']{
             background-color: black;
             display: inline-block;
             margin-bottom: 50px;
             padding:5px;
-            
+
             color:white;
             font-size: 12px;
             font-weight:400;
             letter-spacing: 2px;
             text-transform: uppercase;
-            
+
             @media screen and (max-width:1280px) {
                 margin-bottom:25px;
             }
         }
-        
+
         p{
             font-size:24px;
             font-weight:300;
             letter-spacing:3px;
             line-height: 1.4;
-            
+
             @media screen and (max-width:1280px) {
-                font-size:120%; 
+                font-size:120%;
             }
         }
-        
+
         hr{
             border-radius:50%;
             background-color:black;
@@ -189,21 +189,21 @@
             height:10px;
             width:10px;
         }
-        
+
         [class*='indexList']{
             margin-top:60px;
-            
+
             .services__indexList__item{
                 position:relative;
                 transition: opacity .3s ease;
                 opacity:0.6;
                 list-style: none;
-                
+
                 &:hover{
                     opacity:1;
-                    
+
                     .content{
-                        
+
                         .description{
                             &:after, &:before{
                                 opacity:1;
@@ -222,10 +222,10 @@
                     .description{
                         display: flex;
                         align-items: flex-end;
-                        
+
                         margin-right:80px;
                         width:260px;
-                        
+
                         font-size:14px;
                         font-weight: 400;
                         letter-spacing: 2px;
@@ -245,16 +245,19 @@
                         -webkit-background-clip: text;
                         position: relative;
                         filter: grayscale(1);
-                        
+
                         margin-bottom:-20px;
                         padding:10px 0;
                         z-index:2;
-                        
+
                         cursor: pointer;
                         font-size:45px;
-                        font-weight:bold;
+                        font-weight:500;
                         line-height: 0.8;
+								letter-spacing: 3px;
                         -webkit-text-fill-color: transparent;
+
+								font-family: $mainfont2;
 
                         @media screen and (max-width:1280px) {
                             font-size:260%;
@@ -263,19 +266,19 @@
                         @media screen and (max-width:992px) {
                             font-size:180%;
                         }
-                        
+
                         @media screen and (max-width:480px) {
                             margin-top: 20px;
-                            
+
                             font-size:140%;
                             line-height: 1;
-                        
+
                         }
-    
+
                     }
 
                 }
-                
+
                 .divider{
                     position:absolute;
                     bottom:1px;
@@ -283,9 +286,9 @@
                     height:1px;
                     width:100%;
                 }
-                
+
             }
-            
+
         }
     }
 }
