@@ -1,6 +1,6 @@
 jQuery(document).ready(function($) {
 	'use strict';
-
+if ($(".home").length) {
 
 	const STAR_COUNT = ( window.innerWidth + window.innerHeight ) / 8,
 	      STAR_SIZE = 3,
@@ -224,7 +224,7 @@ jQuery(document).ready(function($) {
 	}
 
 
-
+}
 
 
 
