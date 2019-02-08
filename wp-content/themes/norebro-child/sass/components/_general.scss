@@ -1,0 +1,89 @@
+body, .font-main, .font-main a, p{
+	font-family: $mainfont !important;
+}
+
+.gafa__title--1{
+	h3{
+		text-transform: lowercase;
+		font-family: $mainfont2;
+		letter-spacing: 10px;
+		font-size:42px !important;
+		font-weight:400 !important;
+	}
+	p{
+		text-transform: uppercase;
+		letter-spacing: 4px;
+		color:#000 !important;
+		font-size:12px !important;
+		margin-top:10px !important;
+		font-weight: 500 !important;
+	}
+}
+
+.gafa__title--2{
+	h3{
+		text-transform: uppercase;
+		font-family: $mainfont2;
+		letter-spacing: 20px;
+		font-size:14px !important;
+		font-weight:400 !important;
+	}
+	p{
+		margin-top:15px !important;
+		letter-spacing: 2.4px;
+		color:#fff !important;
+		font-size:11px !important;
+		font-weight: 300 !important;
+	}
+}
+
+.portfolio-item{
+	h4{
+		letter-spacing: 3px !important;
+	}
+}
+
+.norebro-subscribe-sc.subscribe {
+	input[type="text"]{
+		letter-spacing: 4px;
+		color:#fff !important;
+		font-size:12px !important;
+		font-weight: 500 !important;
+		&::placeholder{
+			color:#999 !important;
+		}
+	}
+}
+
+.btn-outline.btn-brand, input[type="submit"].btn-outline.btn-brand, a.btn-outline.btn-brand{
+	border-color:#999;
+}
+input[type="submit"].btn-outline.btn-brand{
+	font-size:10px;
+	letter-spacing: 2px;
+	padding: 12px 35px 11px;
+	height:45px;
+}
+
+#hamburger-menu{
+	border-color:#fff !important;
+	.hamburger{
+		border-color:#fff !important;
+		&::after{
+			top:6px !important;
+		}
+	}
+}
+
+#site-navigation{
+	z-index: 99999999999 !important;
+	background: #000 !important;
+	#mega-menu-wrap{
+		li{
+			margin-bottom:20px;
+			a{
+				color:#fff !important;
+			}
+		}
+	}
+}

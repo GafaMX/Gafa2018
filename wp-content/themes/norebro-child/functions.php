@@ -6,6 +6,26 @@
 		wp_enqueue_style( 'parent-style', get_template_directory_uri() . '/style.css' );
 	}
 
+
+
+	function gafa_fonts_url() {
+		$fonts_url = '';
+		$fonts = array();
+		$subsets = 'latin,latin-ext';
+		$fonts[] = 'Roboto:100,300,400,500,700';
+		$fonts[] = 'Roboto Mono:100,300,400,500,700';
+
+		if ( $fonts ) {
+			$fonts_url = add_query_arg( array(
+				'family' => urlencode( implode( '|', $fonts ) ),
+				'subset' => urlencode( $subsets ),
+			), 'https://fonts.googleapis.com/css' );
+		}
+
+		return esc_url( $fonts_url );
+	}
+
+
 	if (! function_exists('gafa_select_child_theme_enqueue_scripts')) {
 		function gafa_select_child_theme_enqueue_scripts() {
 
@@ -14,6 +34,7 @@
 			$gafa_ver = date('his');
 
 			wp_enqueue_style('gafa_select_child_style', get_stylesheet_directory_uri() . '/assets/css/app.css', array($parent_style), esc_attr( $gafa_ver ));
+			wp_enqueue_style( 'gafa-fonts', esc_url( gafa_fonts_url() ), array() );
 			wp_enqueue_script('gafa_select_modules_gafa', get_stylesheet_directory_uri() . '/assets/js/gafa.js', array('jquery'), esc_attr( $gafa_ver ), false, true);
 			wp_enqueue_script('gafa_select_modules_lib', get_stylesheet_directory_uri() . '/assets/js/lib.js', array('jquery'), esc_attr( $gafa_ver ), true, true);
 			wp_enqueue_script('gafa_select_modules_init', get_stylesheet_directory_uri() . '/assets/js/init.js', array('jquery'), esc_attr( $gafa_ver ), true, true);

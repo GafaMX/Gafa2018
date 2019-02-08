@@ -9,16 +9,19 @@
 
 
 			<div class="gafa__hero--canvas">
+				<div class="gafa__hero--canvas--logo">
+					<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/logo--gafa-w.svg" />
+				</div>
 				<div class="gafa__hero--canvas--teaser">
 					<h3 class="gafa__effects--glitch" data-text="La única constante es el">La única constante es el</h3>
 				</div>
 			            <div class="inner">
-			                <div id="particleWrapper"><img id="image" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/cambio.png"></div>
+			                <div id="particleWrapper"><img id="image" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/cambio--slice.svg"></div>
 								 <br /><br /><br /><br /><br /><br /><br /><br />
 			                <div class="settings">
-			                    <div id="settings" class="settings__toggle"><svg width="16px" height="16px" viewBox="0 0 16 16"><path d="M13.5333333,9.46666667 C13.4,9.93333333 13.2,10.4 13,10.8 L14.3333333,12.9333333 L13,14.2666667 L10.8666667,12.9333333 C10.4666667,13.2 10,13.3333333 9.53333333,13.4666667 L8.93333333,16 L7,16 L6.46666667,13.5333333 C6,13.4 5.53333333,13.2 5.13333333,13 L3,14.3333333 L1.66666667,13 L3,10.8666667 C2.73333333,10.4666667 2.6,10 2.46666667,9.53333333 L0,8.93333333 L0,7 L2.46666667,6.46666667 C2.6,6 2.8,5.53333333 3,5.13333333 L1.66666667,3 L3,1.66666667 L5.13333333,3 C5.53333333,2.73333333 6,2.6 6.46666667,2.46666667 L7,0 L8.93333333,0 L9.46666667,2.46666667 C9.93333333,2.6 10.4,2.8 10.8,3 L12.9333333,1.66666667 L14.2666667,3 L12.9333333,5.13333333 C13.2,5.53333333 13.3333333,6 13.4666667,6.46666667 L15.9333333,7 L15.9333333,8.93333333 L13.5333333,9.46666667 Z M8,11.5333333 C9.95140612,11.5333333 11.5333333,9.95140612 11.5333333,8 C11.5333333,6.04859388 9.95140612,4.46666667 8,4.46666667 C6.04859388,4.46666667 4.46666667,6.04859388 4.46666667,8 C4.46666667,9.95140612 6.04859388,11.5333333 8,11.5333333 Z"></path></svg><span>Settings</span></div>
+			                    <div id="settings" class="settings__toggle open"><svg width="16px" height="16px" viewBox="0 0 16 16"><path d="M13.5333333,9.46666667 C13.4,9.93333333 13.2,10.4 13,10.8 L14.3333333,12.9333333 L13,14.2666667 L10.8666667,12.9333333 C10.4666667,13.2 10,13.3333333 9.53333333,13.4666667 L8.93333333,16 L7,16 L6.46666667,13.5333333 C6,13.4 5.53333333,13.2 5.13333333,13 L3,14.3333333 L1.66666667,13 L3,10.8666667 C2.73333333,10.4666667 2.6,10 2.46666667,9.53333333 L0,8.93333333 L0,7 L2.46666667,6.46666667 C2.6,6 2.8,5.53333333 3,5.13333333 L1.66666667,3 L3,1.66666667 L5.13333333,3 C5.53333333,2.73333333 6,2.6 6.46666667,2.46666667 L7,0 L8.93333333,0 L9.46666667,2.46666667 C9.93333333,2.6 10.4,2.8 10.8,3 L12.9333333,1.66666667 L14.2666667,3 L12.9333333,5.13333333 C13.2,5.53333333 13.3333333,6 13.4666667,6.46666667 L15.9333333,7 L15.9333333,8.93333333 L13.5333333,9.46666667 Z M8,11.5333333 C9.95140612,11.5333333 11.5333333,9.95140612 11.5333333,8 C11.5333333,6.04859388 9.95140612,4.46666667 8,4.46666667 C6.04859388,4.46666667 4.46666667,6.04859388 4.46666667,8 C4.46666667,9.95140612 6.04859388,11.5333333 8,11.5333333 Z"></path></svg><span>Settings</span></div>
 			                    <div
-			                        id="sidebar" class="settings__menu"><span id="close" class="settings__close"></span>
+			                        id="sidebar" class="settings__menu open"><span id="close" class="settings__close"></span>
 			                        <h3>Settings</h3>
 			                        <ul>
 			                            <li class="settings__value settings__value--toggle"><span>Color</span><input id="color" type="color" value="#7f99f8" class="input">
@@ -26,9 +29,9 @@
 			                            </li>
 			                            <li class="settings__value settings__value--range"><output id="particleGapOutput">1</output>Gap <input id="particleGap" type="range" step="1" min="1" max="10" value="1" class="input"></li>
 			                            <li class="settings__value settings__value--range"><output id="gravityOutput">0.08</output>Gravity <input id="gravity" type="range" step="0.01" min="0.01" max="1" value="0.08" class="input"></li>
-			                            <li class="settings__value settings__value--range"><output id="noiseOutput">10</output>Noise <input id="noise" type="range" step="1" min="0" max="100" value="10" class="input"></li>
-			                            <li class="settings__value settings__value--range"><output id="sizeOutput">550</output>Logo Size <input id="size" type="range" step="10" min="50" max="600" value="550" class="input"></li>
-			                            <li class="settings__value settings__value--range"><output id="mouseForceOutput">60</output>Mouse Force <input id="mouseForce" type="range" step="10" min="-200" max="200" value="60" class="input"></li>
+			                            <li class="settings__value settings__value--range"><output id="noiseOutput">10</output>Noise <input id="noise" type="range" step="1" min="0" max="100" value="30" class="input"></li>
+			                            <li class="settings__value settings__value--range"><output id="sizeOutput">550</output>Logo Size <input id="size" type="range" step="10" min="50" max="1600" value="900" class="input"></li>
+			                            <li class="settings__value settings__value--range"><output id="mouseForceOutput">60</output>Mouse Force <input id="mouseForce" type="range" step="10" min="-200" max="200" value="30" class="input"></li>
 			                            <li class="settings__value settings__value--toggle"><span>WebGL</span>
 			                                <div id="webgl" class="toggle"></div>
 			                            </li>

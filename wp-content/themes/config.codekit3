@@ -36,11 +36,21 @@
 		"oF": 0,
 		"oS": 3
 		},
-	"/norebro-child/assets/img/cambio.png": {
+	"/norebro-child/assets/img/cambio--slice.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/norebro-child/assets/img/cambio--slice.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/norebro-child/assets/img/cambio3.png": {
 		"ft": 32768,
-		"iS": 13485,
+		"iS": 159792,
 		"oA": 0,
-		"oAP": "/norebro-child/assets/img/cambio.png",
+		"oAP": "/norebro-child/assets/img/cambio3.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -58,6 +68,26 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/norebro-child/assets/img/logo--gafa-w.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/norebro-child/assets/img/logo--gafa-w.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/norebro-child/assets/img/logo--gafa.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/norebro-child/assets/img/logo--gafa.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"/norebro-child/assets/img/logo-01.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -67,6 +97,16 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"/norebro-child/assets/js/gafa.js": {
+		"ft": 64,
+		"ma": 1,
+		"mi": 0,
+		"oA": 0,
+		"oAP": "/norebro-child/assets/assets/js/gafa.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
 		},
 	"/norebro-child/assets/js/init.js": {
 		"ft": 64,
@@ -87,6 +127,22 @@
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
+		},
+	"/norebro-child/assets/js/particlesjs-config-black.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/norebro-child/assets/js/particlesjs-config-black-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/norebro-child/assets/js/particlesjs-config-white.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/norebro-child/assets/js/particlesjs-config-white-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
 		},
 	"/norebro-child/assets/js/ps-0.9.js": {
 		"ft": 64,
@@ -338,6 +394,26 @@
 		"sC": 0,
 		"tS": 0
 		},
+	"/norebro-child/js/gafa.js": {
+		"ft": 64,
+		"ma": 1,
+		"mi": 0,
+		"oA": 0,
+		"oAP": "/norebro-child/assets/js/gafa.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"/norebro-child/js/glitchMarginalia.js": {
+		"ft": 64,
+		"ma": 1,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "/norebro-child/assets/js/glitchMarginalia.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
 	"/norebro-child/js/index.js": {
 		"ft": 64,
 		"ma": 1,
@@ -368,12 +444,22 @@
 		"sC": 0,
 		"tS": 0
 		},
-	"/norebro-child/js/particles.js": {
+	"/norebro-child/js/lodash.js": {
 		"ft": 64,
 		"ma": 1,
 		"mi": 0,
 		"oA": 1,
-		"oAP": "/norebro-child/assets/js/particles.js",
+		"oAP": "/norebro-child/assets/js/lodash.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"/norebro-child/js/particles.min.js": {
+		"ft": 64,
+		"ma": 1,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "/norebro-child/assets/js/particles.min.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
@@ -394,6 +480,16 @@
 		"mi": 0,
 		"oA": 1,
 		"oAP": "/norebro-child/assets/js/swiper.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"/norebro-child/js/three.min.js": {
+		"ft": 64,
+		"ma": 1,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "/norebro-child/assets/js/three.min.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
