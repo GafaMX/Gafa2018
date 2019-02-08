@@ -597,6 +597,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/norebro-child/sass/components/_header-title.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/norebro-child/sass/assets/css/_header-title.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/norebro-child/sass/components/_hero.scss": {
 		"aP": 0,
 		"bl": 0,
