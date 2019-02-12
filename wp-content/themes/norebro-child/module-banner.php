@@ -34,11 +34,11 @@
 			                            <li class="settings__value settings__value--toggle"><span>Color</span><input id="color" type="color" value="#7f99f8" class="input">
 			                                <div id="tint" class="toggle"></div>
 			                            </li>
-			                            <li class="settings__value settings__value--range"><output id="particleGapOutput">1</output>Gap <input id="particleGap" type="range" step="1" min="1" max="10" value="1" class="input"></li>
+			                            <li class="settings__value settings__value--range"><output id="particleGapOutput">3</output>Gap <input id="particleGap" type="range" step="1" min="1" max="10" value="3" class="input"></li>
 			                            <li class="settings__value settings__value--range"><output id="gravityOutput">0.08</output>Gravity <input id="gravity" type="range" step="0.01" min="0.01" max="1" value="0.08" class="input"></li>
-			                            <li class="settings__value settings__value--range"><output id="noiseOutput">10</output>Noise <input id="noise" type="range" step="1" min="0" max="100" value="30" class="input"></li>
+			                            <li class="settings__value settings__value--range"><output id="noiseOutput">10</output>Noise <input id="noise" type="range" step="1" min="0" max="100" value="12" class="input"></li>
 			                            <li class="settings__value settings__value--range"><output id="sizeOutput">550</output>Logo Size <input id="size" type="range" step="10" min="50" max="1600" value="900" class="input"></li>
-			                            <li class="settings__value settings__value--range"><output id="mouseForceOutput">60</output>Mouse Force <input id="mouseForce" type="range" step="10" min="-200" max="200" value="30" class="input"></li>
+			                            <li class="settings__value settings__value--range"><output id="mouseForceOutput">150</output>Mouse Force <input id="mouseForce" type="range" step="10" min="-200" max="200" value="150" class="input"></li>
 			                            <li class="settings__value settings__value--toggle"><span>WebGL</span>
 			                                <div id="webgl" class="toggle"></div>
 			                            </li>

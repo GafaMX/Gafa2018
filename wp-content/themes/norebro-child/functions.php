@@ -13,7 +13,7 @@
 		$fonts = array();
 		$subsets = 'latin,latin-ext';
 		$fonts[] = 'Roboto:100,300,400,500,700';
-		$fonts[] = 'Roboto Mono:100,300,400,500,700';
+		$fonts[] = 'Share Tech Mono:100,300,400,500,700';
 
 		if ( $fonts ) {
 			$fonts_url = add_query_arg( array(
