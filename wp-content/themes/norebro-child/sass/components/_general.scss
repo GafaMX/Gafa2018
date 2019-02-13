@@ -199,3 +199,22 @@ input[type="submit"].btn-outline.btn-brand{
 	letter-spacing:3px;
 	text-transform: uppercase;
 }
+
+.gafa__logo-side{
+	width:100%;
+	width:100%;
+	height:auto;
+	overflow: hidden;
+	text-align: center;
+	margin-top:18px;
+	img{
+		max-width: 40px;
+		width:100%;
+		height:auto;
+		position: relative;
+		display: inline-block;
+	}
+	@media only screen and (max-width: 992px) {
+		display: none;
+	}
+}

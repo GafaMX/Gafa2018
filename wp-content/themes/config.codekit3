@@ -347,6 +347,16 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/norebro-child/css/components/_header-title.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/norebro-child/css/components/_header-title-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"/norebro-child/functions.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -434,16 +444,6 @@
 		"sC": 0,
 		"tS": 0
 		},
-	"/norebro-child/js/lib.js": {
-		"ft": 64,
-		"ma": 1,
-		"mi": 0,
-		"oA": 0,
-		"oAP": "/norebro-child/assets/js/lib.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
-		},
 	"/norebro-child/js/lodash.js": {
 		"ft": 64,
 		"ma": 1,
@@ -516,6 +516,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "/norebro-child/module-clients.php",
+		"oF": 0
+		},
+	"/norebro-child/module-serviceint.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/norebro-child/module-serviceint.php",
 		"oF": 0
 		},
 	"/norebro-child/module-services.php": {
