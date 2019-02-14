@@ -15,11 +15,11 @@ jQuery(document).ready(function($) {
 		 var tomi = $(window).scrollTop()/20;
 
 
-		 if(tomi >= 10){
+		 if(tomi >= 20){
 			 $('.gafa__logo-side').addClass('movehide');
 
 		 }
-		 if(tomi <= 10){
+		 if(tomi <= 20){
 			 $('.gafa__logo-side').removeClass('movehide');
 		 }
 
