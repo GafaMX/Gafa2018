@@ -11,7 +11,20 @@ jQuery(document).ready(function($) {
 
 
 
+	$(window).scroll(function(){
+		 var tomi = $(window).scrollTop()/20;
 
+
+		 if(tomi >= 10){
+			 $('.gafa__logo-side').addClass('movehide');
+
+		 }
+		 if(tomi <= 10){
+			 $('.gafa__logo-side').removeClass('movehide');
+		 }
+
+
+	});
 
 
 

@@ -434,3 +434,13 @@ html > .dg,
   transform: translateZ(0) scale(0.666);
   transform-origin: 0 0;
 }
+
+
+.gafa__logo-side{
+	transition:.3s all linear;
+	transform: translateY(-200%);
+	&.movehide{
+		transition:.3s all linear;
+		transform: translateY(-0%);
+	}
+}
