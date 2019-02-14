@@ -9,7 +9,7 @@
 
 
 			<div class="gafa__hero--somero">
-				<canvas id="casiss"></canvas>
+				<div id="particles-js"></div>
 			</div>
 
 
@@ -17,7 +17,7 @@
 
 
 				<div class="gafa__hero--canvas--logo">
-					<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/logo--gafa-w.svg" />
+					<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/logo--gafa.svg" />
 				</div>
 				<div class="gafa__hero--canvas--teaser">
 					<h3 class="gafa__effects--glitch" data-text="La única constante es el">La única constante es el</h3>
@@ -31,10 +31,10 @@
 			                        id="sidebar" class="settings__menu open"><span id="close" class="settings__close"></span>
 			                        <h3>Settings</h3>
 			                        <ul>
-			                            <li class="settings__value settings__value--toggle"><span>Color</span><input id="color" type="color" value="#7f99f8" class="input">
-			                                <div id="tint" class="toggle"></div>
+			                            <li class="settings__value settings__value--toggle"><span>Color</span><input id="color" type="color" value="#000" class="input">
+			                                <div id="tint" class="toggle toggle--checked"></div>
 			                            </li>
-			                            <li class="settings__value settings__value--range"><output id="particleGapOutput">3</output>Gap <input id="particleGap" type="range" step="1" min="1" max="10" value="3" class="input"></li>
+			                            <li class="settings__value settings__value--range"><output id="particleGapOutput">2</output>Gap <input id="particleGap" type="range" step="1" min="1" max="10" value="2" class="input"></li>
 			                            <li class="settings__value settings__value--range"><output id="gravityOutput">0.08</output>Gravity <input id="gravity" type="range" step="0.01" min="0.01" max="1" value="0.08" class="input"></li>
 			                            <li class="settings__value settings__value--range"><output id="noiseOutput">10</output>Noise <input id="noise" type="range" step="1" min="0" max="100" value="12" class="input"></li>
 			                            <li class="settings__value settings__value--range"><output id="sizeOutput">550</output>Logo Size <input id="size" type="range" step="10" min="50" max="1600" value="900" class="input"></li>
