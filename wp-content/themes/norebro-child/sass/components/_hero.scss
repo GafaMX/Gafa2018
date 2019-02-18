@@ -8,26 +8,69 @@
 }
 .#{$pre}__hero{
 	position: relative;
-	background-image:url('../img/hero--bg.jpg');
-	background-position: center center;
-	background-size: cover;
+	background: #fff;
 	height:100vh;
 	width:100%;
 	overflow: visible !important;
-	@media only screen and (max-width: 776px) {
+	@media only screen and (max-width: 992px) {
 		height:50vh;
 	}
+
+
+	&--fixed{
+		position: absolute;
+		top:500px;
+		left:14%;
+		pointer-events: none;
+		@media only screen and (max-width: 992px) {
+			left:13px;
+		}
+		&-logo{
+			top:300px;
+			@media only screen and (max-width: 992px) {
+				top:100px;
+			}
+			img{
+				width:70px;
+				height:auto;
+				@media only screen and (max-width: 992px) {
+					width:50px;
+				}
+			}
+		}
+		&-teaser{
+			top:550px;
+			@media only screen and (max-width: 992px) {
+				top:190px;
+				width:100%;
+			}
+			h3{
+				color:#000;
+				font-size:13px;
+				letter-spacing:16px;
+				font-weight: 400;
+				text-transform: uppercase;
+				@include textGlitch("gafa__effects--glitch-text", 100, black, white, red, blue, 550, 115);
+				@media only screen and (max-width: 992px) {
+					letter-spacing: 6px;
+				}
+			}
+		}
+	}
+
+
 	&--canvas{
 		position: absolute;
-		top:25%;
-		left:100px;
+		top:550px;
+		left:12.5%;
 		right:0;
 		bottom:0;
 		width:1000px;
 		z-index: 9;
-		@media only screen and (max-width: 776px) {
-			left:0;
-			width:355px;
+		height:300px;
+		@media only screen and (max-width: 992px) {
+			left:0px;
+			width:385px;
 			top:10%;
 		}
 
@@ -35,7 +78,7 @@
 			width:100%;
 			height:300px;
 			position: relative;
-			top:330px;
+			top:0px;
 			left:-30px;
 			@media only screen and (max-width: 992px) {
 				top:120px;
@@ -43,36 +86,20 @@
 				left:10px;
 			}
 		}
-		&--logo{
-			position: absolute;
-			top:0px;
-			left:10px;
-			img{
-				width:100px;
-				height:auto;
-				@media only screen and (max-width: 992px) {
-					width:50px;
-				}
-			}
-		}
 
-		&--teaser{
-			position: absolute;
-			top:320px;
-			left:20px;
-			@media only screen and (max-width: 992px) {
-				top:140px;
-			}
-			h3{
-				color:#fff;
-				font-size:13px;
-				letter-spacing:16px;
-				font-weight: 300;
-				@include textGlitch("gafa__effects--glitch-text", 100, white, black, red, blue, 550, 115);
-				@media only screen and (max-width: 992px) {
-					letter-spacing: 6px;
-				}
-			}
+
+	}
+	&--somero{
+		content:"";
+		position: absolute;
+		top:0;
+		bottom:0;
+		left:0;
+		right:0;
+		width:100%;
+		height:100%;
+		#particles-js{
+			height:100%;
 		}
 	}
 }
@@ -419,4 +446,16 @@ html > .dg,
 .retina #particleWrapper canvas {
   transform: translateZ(0) scale(0.666);
   transform-origin: 0 0;
+}
+
+
+.gafa__logo-side{
+	transition:.3s all linear;
+	transform: translateY(-200%);
+	opacity: 0;
+	&.movehide{
+		transition:.3s all linear;
+		transform: translateY(-0%);
+		opacity: 1;
+	}
 }

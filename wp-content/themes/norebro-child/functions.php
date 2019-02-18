@@ -13,7 +13,7 @@
 		$fonts = array();
 		$subsets = 'latin,latin-ext';
 		$fonts[] = 'Roboto:100,300,400,500,700';
-		$fonts[] = 'Roboto Mono:100,300,400,500,700';
+		$fonts[] = 'Share Tech Mono:100,300,400,500,700';
 
 		if ( $fonts ) {
 			$fonts_url = add_query_arg( array(
@@ -289,3 +289,18 @@
 
 	}
 new gafa__scclientes_Shortcode;
+
+
+/* SVG upload
+ =================================================================================================== */
+
+function ui_mime_types( $mimes = array() ) {
+	if ( current_user_can( 'administrator' ) ) {
+		$mimes['svg'] = 'image/svg+xml';
+		$mimes['svgz'] = 'image/svg+xml';
+		return $mimes;
+	} else {
+		return $mimes;
+	}
+}
+add_filter( 'upload_mimes', 'ui_mime_types' );

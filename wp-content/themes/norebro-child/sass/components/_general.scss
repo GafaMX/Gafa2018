@@ -66,9 +66,9 @@ input[type="submit"].btn-outline.btn-brand{
 }
 
 #hamburger-menu{
-	border-color:#fff !important;
+	border-color:#000 !important;
 	.hamburger{
-		border-color:#fff !important;
+		border-color:#000 !important;
 		&::after{
 			top:6px !important;
 		}
@@ -86,4 +86,139 @@ input[type="submit"].btn-outline.btn-brand{
 			}
 		}
 	}
+}
+
+
+.portfolio-item h4, .portfolio-item h4.title{
+	font-family: $mainfont2 !important;
+}
+
+.vc_col-sm-8{
+	.norebro-heading-sc.heading.text-left{
+		p{
+			background-color: black;
+			display: inline-block;
+			margin-bottom: 50px;
+			padding: 5px;
+			color: white !important;
+			font-size: 11px !important;
+			font-weight: 400;
+			letter-spacing: 2px;
+			text-transform: uppercase;
+			width:auto;
+		}
+	}
+}
+
+.wpb_column.vc_column_container.vc_col-sm-6.vc_col-has-fill{
+.heading{
+	.subtitle{
+		font-family: $mainfont2 !important;
+		color:#000 !important;
+		font-size:18px !important;
+	}
+	.title{
+		font-family: $mainfont2 !important;
+		font-size:32px !important;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+		font-weight: 300 !important;
+	}
+	.title.subtitle-top{
+		font-family: $mainfont2 !important;
+		color:#000 !important;
+		font-size:32px !important;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+		font-weight: 300 !important;
+	}
+}
+}
+.testimonials{
+	blockquote{
+		font-weight: 300;
+	}
+}
+.norebro-cta-sc.call-to-action{
+	h3{
+		font-family: $mainfont2 !important;
+		text-transform: uppercase;
+	}
+	.subtitle{
+		font-weight: 300;
+	}
+}
+
+.norebro-text-sc {
+	p{
+		font-weight:300;
+	}
+}
+
+.content-center.with-full{
+	h3{
+		font-family: $mainfont2 !important;
+		text-transform: uppercase;
+	}
+	.subtitle{
+		font-family: $mainfont2 !important;
+		text-transform: lowercase;
+	}
+}
+
+
+.portfolio-item.grid-2 .category{
+	font-size:8px;
+	letter-spacing: 4px !important;
+}
+
+.header-title{
+	h1{
+		font-family: $mainfont2;
+		font-size:42px !important;
+	}
+}
+
+.btn.btn-outline,
+input[type="submit"].btn-outline.btn-brand{
+	text-transform: uppercase;
+	font-size:8px;
+	letter-spacing: 4px;
+	font-weight: 500;
+	.icon{
+		display: none;
+	}
+}
+.btn.btn-outline.btn-brand{
+	text-transform: uppercase;
+	font-size:8px;
+	letter-spacing: 4px;
+}
+
+.header-title h1.page-title{
+	letter-spacing:3px;
+	text-transform: uppercase;
+}
+
+.gafa__logo-side{
+	width:100%;
+	width:100%;
+	height:auto;
+	overflow: hidden;
+	text-align: center;
+	margin-top:18px;
+	img{
+		max-width: 40px;
+		width:100%;
+		height:auto;
+		position: relative;
+		display: inline-block;
+	}
+	@media only screen and (max-width: 992px) {
+		display: none;
+	}
+}
+
+.fullscreen-navigation .close{
+	color:#fff;
 }
