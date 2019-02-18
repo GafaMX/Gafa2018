@@ -66,9 +66,9 @@ input[type="submit"].btn-outline.btn-brand{
 }
 
 #hamburger-menu{
-	border-color:#fff !important;
+	border-color:#000 !important;
 	.hamburger{
-		border-color:#fff !important;
+		border-color:#000 !important;
 		&::after{
 			top:6px !important;
 		}
@@ -217,4 +217,8 @@ input[type="submit"].btn-outline.btn-brand{
 	@media only screen and (max-width: 992px) {
 		display: none;
 	}
+}
+
+.fullscreen-navigation .close{
+	color:#fff;
 }

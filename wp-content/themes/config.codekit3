@@ -128,10 +128,10 @@
 		"sC": 0,
 		"tS": 0
 		},
-	"/norebro-child/assets/js/particlesjs-config-black copy.json": {
+	"/norebro-child/assets/js/particles.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "/norebro-child/assets/js/particlesjs-config-black copy-min.json",
+		"oAP": "/norebro-child/assets/js/particles-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1

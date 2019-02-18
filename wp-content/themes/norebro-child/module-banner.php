@@ -12,16 +12,16 @@
 				<div id="particles-js"></div>
 			</div>
 
+			<div class="gafa__hero--fixed gafa__hero--fixed-logo">
+				<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/logo--gafa.svg" />
+			</div>
+			<div class="gafa__hero--fixed gafa__hero--fixed-teaser">
+				<h3 class="gafa__effects--glitch" data-text="La única constante es el">La única constante es el</h3>
+			</div>
+
 
 			<div class="gafa__hero--canvas">
 
-
-				<div class="gafa__hero--canvas--logo">
-					<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/logo--gafa.svg" />
-				</div>
-				<div class="gafa__hero--canvas--teaser">
-					<h3 class="gafa__effects--glitch" data-text="La única constante es el">La única constante es el</h3>
-				</div>
 			            <div class="inner">
 			                <div id="particleWrapper"><img id="image" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/cambio--slice.svg"></div>
 								 <br /><br /><br /><br /><br /><br /><br /><br />
