@@ -8,13 +8,12 @@ jQuery(document).ready(function($) {
 	  console.log('callback - particles.js config loaded');
 	});
 
-
-
-
+	if (!$(".home").length) {
+		$('.gafa__logo-side').addClass('movehide');
+	}
 	$(window).scroll(function(){
 		 var tomi = $(window).scrollTop()/20;
-
-
+		 if ($(".home").length) {
 		 if(tomi >= 20){
 			 $('.gafa__logo-side').addClass('movehide');
 
@@ -22,8 +21,7 @@ jQuery(document).ready(function($) {
 		 if(tomi <= 20){
 			 $('.gafa__logo-side').removeClass('movehide');
 		 }
-
-
+	 	}
 	});
 
 
