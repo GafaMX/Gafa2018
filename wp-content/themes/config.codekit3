@@ -452,6 +452,16 @@
 		"sC": 0,
 		"tS": 0
 		},
+	"/norebro-child/js/lib.js": {
+		"ft": 64,
+		"ma": 1,
+		"mi": 0,
+		"oA": 0,
+		"oAP": "/norebro-child/assets/js/lib.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
 	"/norebro-child/js/lodash.js": {
 		"ft": 64,
 		"ma": 1,
@@ -498,6 +508,16 @@
 		"mi": 0,
 		"oA": 1,
 		"oAP": "/norebro-child/assets/js/three.min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"/norebro-child/js/trails.js": {
+		"ft": 64,
+		"ma": 1,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "/norebro-child/assets/js/trails.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 0

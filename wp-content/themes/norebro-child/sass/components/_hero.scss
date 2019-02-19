@@ -96,10 +96,27 @@
 		bottom:0;
 		left:0;
 		right:0;
-		width:100%;
+		width:400%;
 		height:100%;
 		#particles-js{
 			height:100%;
+		}
+		canvas{
+			transform: rotate(0deg) translate(0vw,0vw);
+			position: relative;
+			left:-0%;
+		}
+		&::before{
+			content:"";
+			position: absolute;
+			left:0;
+			right:0;
+			bottom:-100px;
+			height:300px;
+			width:100%;
+			z-index: 99;
+			background: linear-gradient(to top, rgba(255,255,255,1) 30%,rgba(255,255,255,0) 100%);
+
 		}
 	}
 }
