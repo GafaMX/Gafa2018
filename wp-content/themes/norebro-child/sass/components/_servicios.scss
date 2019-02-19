@@ -239,13 +239,9 @@
                     }
 
                     .link{
+							  color:#000 ;
                         display: inline-block;
-                        background-image: url("http://education.abc.net.au/splash-image-servlet/mvcservlet/imageServlet/profile1/parent-2541848");
-                        background-attachment: fixed;
-                        -webkit-background-clip: text;
                         position: relative;
-                        filter: grayscale(1);
-
                         margin-bottom:-20px;
                         padding:10px 0;
                         z-index:2;
@@ -255,7 +251,6 @@
                         font-weight:500;
                         line-height: 0.8;
 								letter-spacing: 3px;
-                        -webkit-text-fill-color: transparent;
 
 								font-family: $mainfont2;
 
