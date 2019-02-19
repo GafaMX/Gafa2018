@@ -9,7 +9,6 @@
 
 
 			<div class="gafa__hero--somero">
-				<div id="particles-js"></div>
 			</div>
 
 			<div class="gafa__hero--fixed gafa__hero--fixed-logo">
