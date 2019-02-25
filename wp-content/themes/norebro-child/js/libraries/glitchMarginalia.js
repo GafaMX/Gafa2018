@@ -418,8 +418,6 @@ BlotterSite.GlitchMarginaliaCanvasGenerator.prototype = (function () {
       this.width = container.width();
       this.height = container.height();
 
-      console.log(this.container);
-
       this.padding = 100;
 
       this.sizes = [

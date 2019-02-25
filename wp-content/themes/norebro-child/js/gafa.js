@@ -1,2 +1,2 @@
-// @codekit-append "dat-gui.js"
-// @codekit-append "swiper.js"
+// @codekit-append "libraries/dat-gui.js"
+// @codekit-append "libraries/swiper.js"
