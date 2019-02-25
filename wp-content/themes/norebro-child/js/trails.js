@@ -1,116 +1,192 @@
-/**/ /* ---- CORE ---- */
-/**/ const canvas = document.createElement('canvas');
-/**/ const context = canvas.getContext('2d');
-/**/ let windowWidth = canvas.width = window.innerWidth;
-/**/ let windowHeight = canvas.height = window.innerHeight;
-/**/ canvas.id = 'canvas';
-/**/ jQuery( ".gafa__hero--somero" ).append( canvas );
-/**/ /* ---- CORE END ---- */
-/* ---- CREATING ZONE ---- */
-
-/* ---- SETTINGS ---- */
-const numberParticlesStart = 100;
-const particleSpeed = 0.3;
-const velocity = 0.9;
-const circleWidth = 50;
-
-/* ---- INIT ---- */
-let particles = [];
-
-const getRandomFloat = (min, max) => (Math.random() * (max - min) + min);
 
 
-/* ---- Particle ---- */
-function Particle (x, y) {
-  this.x = x;
-  this.y = y;
+new p5();
 
-  this.vel = {
-	  x : getRandomFloat(-20, 20)/100,
-     y : getRandomFloat(-20, 20)/100,
-     min : getRandomFloat(2, 10),
-     max : getRandomFloat(10, 100)/10
+var canvas = document.createElement("canvas"),
+  c = canvas.getContext("2d"),
+  canvas2 = document.createElement("canvas2"),
+  c2 = canvas.getContext("2d"),
+  w = (canvas.width = canvas2.width = window.innerWidth),
+  h = (canvas.height = canvas2.height = window.innerHeight);
+
+jQuery( ".gafa__hero--somero" ).append( canvas );
+
+class particle {
+  constructor(res, mx, my) {
+    this.opacity = 1;
+    this.area = 100;
+    this.ang = Math.random() * 2 * Math.PI;
+    if (
+      mx < w - this.area / 2 ||
+      mx < this.area / 2 ||
+      my < h - this.area / 2 ||
+      my < this.area / 2
+    ) {
+      this.pos = {
+        x: mx + Math.random() * this.area / 2 * Math.cos(this.ang),
+        y: my + Math.random() * this.area / 2 * Math.sin(this.ang)
+      };
+    } else {
+      this.pos = {
+        x: Math.random() * w,
+        y: Math.random() * h
+      };
+    }
+    this.vx = 0;
+    this.vy = 0;
+    this.cache = [];
+    this.i = Math.round(this.pos.x / res);
+    this.j = Math.round(this.pos.y / res);
+    this.l = Math.random() * 100;
+    this.f = this.l / 10;
+    this.os = Math.random()*0.02+0.01;
   }
+  move(ff, mx, my) {
+    this.opacity -= this.os;
 
-  this.color = 'rgba(200, 200, 200, 0.1)';
+    this.i = Math.abs(Math.round(this.pos.x / res) - 1);
+    this.j = Math.abs(Math.round(this.pos.y / res) - 1);
+
+    this.ang = ff[this.i][this.j];
+
+    this.vx = this.f * Math.cos(this.ang);
+    this.vy = this.f * Math.sin(this.ang);
+
+    this.pos.x += this.vx;
+    this.pos.y += this.vy;
+
+    if (this.cache.length > this.l) {
+      this.cache.splice(0, 1);
+    }
+
+    if (
+      this.pos.x <= 0 ||
+      this.pos.x >= w ||
+      this.pos.y <= 0 ||
+      this.pos.y >= h ||
+      this.opacity <= 0 ||
+      isNaN(this.pos.x) ||
+      isNaN(this.pos.y) ||
+      this.pos.x == undefined ||
+      this.pos.y == undefined
+    ) {
+      this.opacity = 1;
+      this.ang = Math.random() * 2 * Math.PI;
+      if (
+        mx < w - this.area / 2 ||
+        mx < this.area / 2 ||
+        my < h - this.area / 2 ||
+        my < this.area / 2
+      ) {
+        this.pos = {
+          x: mx + Math.random() * this.area / 2 * Math.cos(this.ang),
+          y: my + Math.random() * this.area / 2 * Math.sin(this.ang)
+        };
+      } else {
+        this.pos = {
+          x: Math.random() * w,
+          y: Math.random() * h
+        };
+      }
+      this.vx = 0;
+      this.vy = 0;
+      this.cache = [];
+      this.i = Math.round(this.pos.x / res);
+      this.j = Math.round(this.pos.y / res);
+    }
+    this.cache.push({ x: this.pos.x, y: this.pos.y });
+  }
+  show() {
+    // c.beginPath();
+    // for(var i = 0; i < this.cache.length; i++){
+    // c.lineTo(this.cache[i].x,this.cache[i].y);
+    // }
+    // c.strokeStyle="rgba(255,255,255," + this.opacity + ")";
+    // c.lineWidth="0.1";
+    // c.stroke();
+
+    c.fillStyle = "rgba(0,0,0," + this.opacity + ")";
+    c.fillRect(this.pos.x, this.pos.y, 0.5, 0.5);
+  }
 }
-Particle.prototype.render = function() {
-  context.beginPath();
-  context.fillStyle = this.color;
-  context.arc(this.x, this.y, 1, 0, Math.PI * 12);
-  context.fill();
-};
-Particle.prototype.update = function() {
 
-  const forceDirection = {
-    x: getRandomFloat(-1, 1),
-    y: getRandomFloat(-1, 1),
-  };
+var t = 0,
+  res = 10,
+  p = [],
+  FF = [],
+  ct = 0;
 
-  if (Math.abs(this.vel.x + forceDirection.x) < this.vel.max) {
-    this.vel.x += forceDirection.x;
-  }
-  if (Math.abs(this.vel.y + forceDirection.y) < this.vel.max) {
-    this.vel.y += forceDirection.y;
+function draw1() {
+  if (p.length < 6000) {
+    for (var k = 0; k < 100; k++) {
+      p.push(new particle(res, mouse.x, mouse.y));
+    }
   }
 
-  this.x += this.vel.x * particleSpeed;
-  this.y += this.vel.y * particleSpeed;
-
-  if (Math.abs(this.vel.x) > this.vel.min) {
-    this.vel.x *= velocity;
-  }
-  if (Math.abs(this.vel.y) > this.vel.min) {
-    this.vel.y *= velocity;
-  }
-
-  this.testBorder();
-};
-Particle.prototype.testBorder = function() {
-  if (this.x > windowWidth) {
-    this.setPosition(1, 'x');
- } else if (this.x < -110) {
-    this.setPosition(1, 'x');
-  }
-  if (this.y > windowHeight) {
-    this.setPosition(1, 'y');
- } else if (this.y < -110) {
-    this.setPosition(1, 'y');
-  }
-};
-Particle.prototype.setPosition = function(pos, coor) {
-  if (coor === 'x') {
-    this.x = 100;
-  } else if (coor === 'y') {
-    this.y = 0;
-  }
-};
-
-/* ---- Functions ----*/
-function loop() {
-  let i;
-  const length = particles.length;
-  for (i = 30; i < length; i++) {
-    particles[i].update();
-    particles[i].render();
-  }
-  requestAnimationFrame(loop);
-}
-
-/* ---- START ---- */
-function init() {
-  let i;
-  for (i = 0; i < numberParticlesStart; i++) {
-    const angle = Math.random() * 960;
-    particles.push(new Particle(
-      windowWidth * .9 + (Math.cos(angle) * circleWidth),
-      windowHeight * .20 - (Math.sin(angle) * circleWidth),
-  ));
+  FF = genFF(Math.floor(w / res) + 1, Math.floor(h / res) + 1, res, 0.5, ct, 0, 0);
+  //showFF(FF,res,c2,5);
+  t += 0.01;
+  ct = noise(t)*5;
+  for (var l = 0; l < p.length; l++) {
+    p[l].move(FF, mouse.x, mouse.y);
+    p[l].show();
   }
 }
-init();
 
+var mouse = {
+  x: w / 2,
+  y: h / 2
+};
+var last_mouse = {
+  x: 0,
+  y: 0
+};
 
+canvas.addEventListener(
+  "mousemove",
+  function(e) {
+    last_mouse.x = mouse.x;
+    last_mouse.y = mouse.y;
 
+    mouse.x = e.pageX - this.offsetLeft;
+    mouse.y = e.pageY - this.offsetTop;
+  },
+  false
+);
 
-loop();
+canvas.addEventListener("mouseleave", function(e) {
+  mouse.x = w / 2;
+  mouse.y = h / 2;
+});
+
+window.requestAnimFrame = (function() {
+  return (
+    window.requestAnimationFrame ||
+    window.webkitRequestAnimationFrame ||
+    window.mozRequestAnimationFrame ||
+    window.oRequestAnimationFrame ||
+    window.msRequestAnimationFrame ||
+    function(callback) {
+      window.setTimeout(callback, 1000 / 60);
+    }
+  );
+})();
+
+function loop1() {
+  setTimeout(function() {
+    window.requestAnimFrame(loop1);
+    for (var k = 0; k < 1; k++) {
+      c.clearRect(0, 0, w, h);
+      draw1();
+    }
+  }, 1000 / 60);
+}
+
+window.addEventListener("resize", function() {
+  (w = canvas.width = window.innerWidth),
+    (h = canvas.height = window.innerHeight);
+  c.clearRect(0, 0, w, h);
+  draw1();
+});
+
+loop1();

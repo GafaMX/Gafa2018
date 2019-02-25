@@ -98,6 +98,7 @@
 		right:0;
 		width:400%;
 		height:100%;
+		pointer-events: none;8
 		#particles-js{
 			height:100%;
 		}
@@ -116,7 +117,6 @@
 			width:100%;
 			z-index: 99;
 			background: linear-gradient(to top, rgba(255,255,255,1) 30%,rgba(255,255,255,0) 100%);
-
 		}
 	}
 }

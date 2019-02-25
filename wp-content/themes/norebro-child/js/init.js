@@ -3,10 +3,6 @@ jQuery(document).ready(function($) {
 
 
 
-	/* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
-	particlesJS.load('particles-js', 'wp-content/themes/norebro-child/assets/js/particles.json', function() {
-	  console.log('callback - particles.js config loaded');
-	});
 
 	if (!$(".home").length) {
 		$('.gafa__logo-side').addClass('movehide');
