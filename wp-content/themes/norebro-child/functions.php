@@ -45,7 +45,11 @@
 
 
 	add_action( 'wp_footer', function () { ?>
-		<div class="back-element"></div>
+		<div class="back-element">
+			<div class="back-element__logo">
+				<img src="<?php echo get_stylesheet_directory_uri() ?>/assets/img/logo--gafa-w.svg" alt="Logo Gafa"/>
+			</div>
+		</div>
 
 		<script type="x-shader/x-vertex" id="vertexshader">
 
