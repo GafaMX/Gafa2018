@@ -32585,7 +32585,6 @@ var canvas = document.createElement("canvas"),
 var w = canvas.width = window.innerWidth,
     h = canvas.height = window.innerHeight;
 
-document.body.appendChild(canvas);
 
 c.fillStyle = "rgba(30,30,30,1)";
 c.fillRect(0, 0, w, h);
