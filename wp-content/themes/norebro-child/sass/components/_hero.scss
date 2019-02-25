@@ -12,8 +12,10 @@
 	height:100vh;
 	width:100%;
 	overflow: visible !important;
+	margin-bottom:-150px;
 	@media only screen and (max-width: 992px) {
 		height:50vh;
+		margin-bottom:0;
 	}
 
 
@@ -108,6 +110,7 @@
 			left:-0%;
 		}
 		&::before{
+			display: none;
 			content:"";
 			position: absolute;
 			left:0;
@@ -117,7 +120,6 @@
 			width:100%;
 			z-index: 99;
 			background: linear-gradient(to top, rgba(255,255,255,1) 30%,rgba(255,255,255,0) 100%);
-
 		}
 	}
 }

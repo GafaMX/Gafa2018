@@ -472,12 +472,32 @@
 		"sC": 0,
 		"tS": 0
 		},
+	"/norebro-child/js/p5.js": {
+		"ft": 64,
+		"ma": 1,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "/norebro-child/assets/js/p5.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
 	"/norebro-child/js/particles.min.js": {
 		"ft": 64,
 		"ma": 1,
 		"mi": 0,
 		"oA": 1,
 		"oAP": "/norebro-child/assets/js/particles.min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"/norebro-child/js/rand.js": {
+		"ft": 64,
+		"ma": 1,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "/norebro-child/assets/js/rand.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 0

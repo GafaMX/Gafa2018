@@ -9,3 +9,5 @@
 // @codekit-append "libraries/WebGL.js"
 // @codekit-append "libraries/tween.min.js"
 // @codekit-append "libraries/trails.js"
+// @codekit-append "libraries/p5.js"
+// @codekit-append "libraries/rand.js"
