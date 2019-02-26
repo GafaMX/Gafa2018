@@ -33,11 +33,11 @@ jQuery(document).ready(function($) {
     $('.tooltip-window').fadeOut(100);
   });
 
-  if ( WEBGL.isWebGLAvailable() === false ) {
+  // if ( WEBGL.isWebGLAvailable() === false ) {
 
-    document.body.appendChild( WEBGL.getWebGLErrorMessage() );
+  //   document.body.appendChild( WEBGL.getWebGLErrorMessage() );
 
-  }
+  // }
 
   var SEPARATION = 100, AMOUNTX = 80, AMOUNTY = 80;
 
@@ -189,8 +189,6 @@ jQuery(document).ready(function($) {
     render();
     TWEEN.update();    
   }
-
-
 
   function render() {
     camera.lookAt( scene.position );
