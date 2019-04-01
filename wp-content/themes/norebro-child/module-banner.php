@@ -8,8 +8,6 @@
 		<div class="row">
 
 
-			<div class="gafa__hero--somero">
-			</div>
 
 			<div class="gafa__hero--fixed gafa__hero--fixed-logo">
 				<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/logo--gafa.svg" />
